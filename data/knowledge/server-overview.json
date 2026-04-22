@@ -1,0 +1,45 @@
+{
+  "title": "Przegląd serwera",
+  "entries": [
+    {
+      "id": "overview-intro",
+      "title": "Czym jest Monastyr2",
+      "questions": [
+        "Czym jest Monastyr2?",
+        "Jaki to serwer?",
+        "O czym jest ten serwer?"
+      ],
+      "keywords": [
+        "monastyr2",
+        "serwer",
+        "typ",
+        "medium",
+        "hard",
+        "klasyczny"
+      ],
+      "answer": "Monastyr2 to klasyczny serwer medium/hard oparty na dobrze znanej formule gry. Projekt stawia na klimat starego Metina, ale z wybranymi udogodnieniami dopasowanymi do współczesnej rozgrywki."
+    },
+    {
+      "id": "overview-core-facts",
+      "title": "Podstawowe informacje",
+      "questions": [
+        "Jakie są podstawowe informacje o serwerze?",
+        "Jaki jest maksymalny poziom?",
+        "Ile jest kanałów?"
+      ],
+      "keywords": [
+        "maksymalny",
+        "poziom",
+        "kanaly",
+        "królestwa",
+        "punkty",
+        "statusu",
+        "alchemia",
+        "szarfy",
+        "bonus",
+        "max"
+      ],
+      "answer": "Maksymalny poziom to 105. Serwer ma 5 kanałów, 3 królestwa, 4 klasy postaci, 90 punktów statusu, aktywną alchemię, brak bonusu 6/7 i brak szarf."
+    }
+  ]
+}

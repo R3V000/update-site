@@ -1,0 +1,22 @@
+{
+  "title": "Zasady",
+  "entries": [
+    {
+      "id": "rules-farmblock-pve",
+      "title": "Zakres limitu PvE",
+      "questions": [
+        "Jakie aktywności liczą się do limitu PvE?",
+        "Co obejmuje limit farm block?"
+      ],
+      "keywords": [
+        "limit",
+        "pve",
+        "farmblock",
+        "obrazenia",
+        "rudy",
+        "ryby"
+      ],
+      "answer": "Według obecnej bazy wiedzy do limitu PvE zaliczają się obrażenia zadawane potworom, metinom i bossom, zdobywanie doświadczenia, wydobywanie rud oraz łowienie ryb."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "title": "Systemy",
+  "entries": [
+    {
+      "id": "system-farmblock",
+      "title": "Farm-Block",
+      "questions": [
+        "Jak działa farm block?",
+        "Co robi Farm-Block?",
+        "Na ile kont mogę robić PvE?"
+      ],
+      "keywords": [
+        "farmblock",
+        "farm",
+        "pve",
+        "konta",
+        "limity"
+      ],
+      "answer": "Farm-Block ogranicza aktywność PvE do maksymalnie 2 kont. W obecnej bazie wiedzy do PvE zalicza się zadawanie obrażeń potworom, metinom i bossom, zdobywanie expa, wydobywanie rud oraz łowienie ryb."
+    },
+    {
+      "id": "system-offline-shop",
+      "title": "Sklepy offline",
+      "questions": [
+        "Czy są sklepy offline?",
+        "Jakie funkcje ma sklep offline?"
+      ],
+      "keywords": [
+        "sklep",
+        "offline",
+        "shop",
+        "nazwa",
+        "czas"
+      ],
+      "answer": "Tak, w prezentacji znajduje się sekcja sklepów offline z panelem zarządzania. Szczegółowe zasady działania i pełna lista funkcji nie są jeszcze opisane w obecnej bazie wiedzy."
+    }
+  ]
+}

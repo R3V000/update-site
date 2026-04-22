@@ -1,0 +1,38 @@
+{
+  "title": "Progres i roadmapa",
+  "entries": [
+    {
+      "id": "roadmap-polls",
+      "title": "Ankiety i dalszy rozwój",
+      "questions": [
+        "Jak będzie rozwijany serwer?",
+        "Czy będą ankiety?",
+        "Jak wygląda roadmapa?"
+      ],
+      "keywords": [
+        "roadmapa",
+        "rozwoj",
+        "ankiety",
+        "discord",
+        "beta",
+        "aktualizacje"
+      ],
+      "answer": "Obecna baza wiedzy podaje, że prezentacja będzie rozwijana na bieżąco. Po starcie beta testów mają pojawić się ankiety na Discordzie, aby gracze mogli opiniować systemy i kierunek zmian."
+    },
+    {
+      "id": "roadmap-character-chests",
+      "title": "Skrzynie postaci",
+      "questions": [
+        "Czy będą skrzynie postaci?",
+        "Czy planowane są skrzynie postaci?"
+      ],
+      "keywords": [
+        "skrzynie",
+        "postaci",
+        "przyszlosc",
+        "plan"
+      ],
+      "answer": "Tak, ale tylko jako plan na przyszłość. Obecna baza wiedzy nie zawiera jeszcze terminu wdrożenia."
+    }
+  ]
+}

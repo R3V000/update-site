@@ -1,0 +1,94 @@
+{
+  "title": "FAQ",
+  "entries": [
+    {
+      "id": "faq-low-end-pc",
+      "title": "Wydajność na słabszym sprzęcie",
+      "questions": [
+        "Czy gra działa na słabszym komputerze?",
+        "Czy klient działa płynnie na starszym sprzęcie?",
+        "Czy gra działa płynnie na słabszych komputerach?"
+      ],
+      "keywords": [
+        "wydajność",
+        "sprzet",
+        "komputer",
+        "slabszy",
+        "klient",
+        "optymalizacja"
+      ],
+      "answer": "Tak. Według obecnej bazy wiedzy klient 64-bitowy i optymalizacje mają zapewnić stabilną grę także na starszym sprzęcie."
+    },
+    {
+      "id": "faq-macos",
+      "title": "Obsługa macOS",
+      "questions": [
+        "Czy klient działa na macu?",
+        "Czy odpalę grę na macOS?",
+        "Czy włączę klienta na systemie mac?"
+      ],
+      "keywords": [
+        "mac",
+        "macos",
+        "apple",
+        "system"
+      ],
+      "answer": "Nie. Obecna baza wiedzy podaje, że klient nie obsługuje środowiska macOS."
+    },
+    {
+      "id": "faq-exp-block",
+      "title": "Blokada doświadczenia",
+      "questions": [
+        "Jak zablokować exp?",
+        "Jak zablokować zdobywanie doświadczenia?",
+        "Czy mogę zatrzymać exp?"
+      ],
+      "keywords": [
+        "exp",
+        "doswiadczenie",
+        "blokada",
+        "pierscien",
+        "anty"
+      ],
+      "answer": "Zdobywanie doświadczenia można zablokować Pierścieniem Anty-Expa dostępnym u Handlarki Różności. Obecna baza wiedzy nie wskazuje innej metody blokady."
+    },
+    {
+      "id": "faq-drop-share",
+      "title": "Podział dropu",
+      "questions": [
+        "Jak działa podział dropu?",
+        "Ile obrażeń trzeba zadać na metina?",
+        "Czy ksucie daje część dropu?"
+      ],
+      "keywords": [
+        "drop",
+        "obrazenia",
+        "metin",
+        "boss",
+        "20",
+        "procent"
+      ],
+      "answer": "Aby dostać swoją część łupów z metina lub bossa, trzeba zadać co najmniej 20% całkowitych obrażeń. Jeśli ten próg nie zostanie osiągnięty, drop nie przysługuje."
+    },
+    {
+      "id": "faq-server-technician",
+      "title": "Technik serwera",
+      "questions": [
+        "Kto jest technikiem serwera?",
+        "Kto jest technikiem?",
+        "Kto odpowiada za technikę serwera?",
+        "Kto ogarnia technikę serwera?"
+      ],
+      "keywords": [
+        "technik",
+        "technikiem",
+        "technika",
+        "techniczny",
+        "developer",
+        "dev",
+        "muchomor"
+      ],
+      "answer": "Technikiem serwera jest Muchomor."
+    }
+  ]
+}

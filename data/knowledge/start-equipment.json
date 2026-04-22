@@ -1,0 +1,23 @@
+{
+  "title": "Ekwipunek startowy",
+  "entries": [
+    {
+      "id": "start-student-chest",
+      "title": "Skrzynia Ucznia I",
+      "questions": [
+        "Co dostaję na start?",
+        "Jaki jest startowy ekwipunek?",
+        "Czym jest Skrzynia Ucznia I?"
+      ],
+      "keywords": [
+        "start",
+        "ekwipunek",
+        "skrzynia",
+        "ucznia",
+        "prezent",
+        "powitalny"
+      ],
+      "answer": "Na starcie pokazana jest Skrzynia Ucznia I jako prezent powitalny z podstawowym wyposażeniem na rozpoczęcie gry. Szczegółowa lista przedmiotów nie została jeszcze uzupełniona w obecnej bazie wiedzy."
+    }
+  ]
+}

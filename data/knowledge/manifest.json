@@ -1,0 +1,41 @@
+{
+  "locale": "pl",
+  "fallbackMessage": "Ta informacja nie jest dostępna w obecnej bazie wiedzy serwera.",
+  "sources": [
+    {
+      "id": "server-overview",
+      "title": "Przegląd serwera",
+      "path": "server-overview.json"
+    },
+    {
+      "id": "faq",
+      "title": "FAQ",
+      "path": "faq.json"
+    },
+    {
+      "id": "start-equipment",
+      "title": "Ekwipunek startowy",
+      "path": "start-equipment.json"
+    },
+    {
+      "id": "progression-roadmap",
+      "title": "Progres i roadmapa",
+      "path": "progression-roadmap.json"
+    },
+    {
+      "id": "systems",
+      "title": "Systemy",
+      "path": "systems.json"
+    },
+    {
+      "id": "rules",
+      "title": "Zasady",
+      "path": "rules.json"
+    },
+    {
+      "id": "events",
+      "title": "Eventy",
+      "path": "events.json"
+    }
+  ]
+}

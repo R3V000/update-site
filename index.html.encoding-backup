@@ -1,0 +1,3904 @@
+<!doctype html>
+<html lang="pl">
+<head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-N6P0XPX74V"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-N6P0XPX74V');
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-57JZJB4Q');</script>
+<!-- End Google Tag Manager -->
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Monastyr2.pl | Prezentacja</title>
+<meta name="description" content="Prezentacja serwera Monastyr2 z opisem systemĂłw, startu, PvE, PvP i najwaĹĽniejszych udogodnieĹ„.">
+<link rel="stylesheet" href="style_fixed.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-57JZJB4Q"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div class='page-loader'>
+<div class='page-loader-container'>
+    <div class="spinner"></div>
+<span>Trwa Ĺadowanie prezentacji..</span>
+<div class="page-loader-dots-container"><span id="loadingText">0%</span></div>
+</div>
+</div>
+<div id='mobile'>
+	<div id='hamburger'><span></span><span class="animated-item"></span><span></span></div>
+	</div>
+<main class='main'>
+<div class='main__menu'>
+<div class='main__menu_box'>
+<div class='main__menu_box--nav'>
+<ul>
+<li class='nav--item active'>
+<ul class='nav--list' id="item-1">
+<li class='section_2'><a href="#section_2" class='item-content active'><span>Wprowadzenie</span></a></li>
+<li class='section_3'><a href="#section_3" class='item-content'><span>Start Serwera</span></a></li>
+<li class='section_4'><a href="#section_4" class='item-content'><span>Informacje</span></a></li>
+<li class='section_5'><a href="#section_5" class='item-content'><span>Administracja</span></a></li>
+<li class='section_6'><a href="#section_6" class='item-content'><span>Optymalizacja</span></a></li>
+<li class='section_30'><a href="#section_30" class='item-content'><span>System Farm-Block</span></a></li>
+<li class='section_7'><a href="#section_7" class='item-content'><span>Panel Boczny</span></a></li>
+<li class='section_31'><a href="#section_31" class='item-content'><span>Mapa Teleportacji</span></a></li>
+<li class='section_32'><a href="#section_32" class='item-content'><span>Bonus Switcher</span></a></li>
+<li class='section_33'><a href="#section_33" class='item-content'><span>PodglÄ…d dropu</span></a></li>
+<li class='section_41'><a href="#section_41" class='item-content'><span>Shopy Offline</span></a></li>
+<li class='section_8'><a href="#section_8" class='item-content'><span>Wikipedia</span></a></li>
+<li class='section_40'><a href="#section_40" class='item-content'><span>Quality Of Life</span></a></li>
+<li class='section_19'><a href="#section_19" class='item-content'><span>System Gildii</span></a></li>
+<li class='section_9'><a href="#section_9" class='item-content'><span>System Rang</span></a></li>
+<li class='section_10'><a href="#section_10" class='item-content'><span>Alchemia</span></a></li>
+<li class='section_11'><a href="#section_11" class='item-content'><span>Bonusy Alchemii</span></a></li>
+<li class='section_12'><a href="#section_12" class='item-content'><span>System Konny</span></a></li>
+<li class='section_14'><a href="#section_14" class='item-content'><span>UmiejÄ™tnoĹ›ci Pasywne</span></a></li>
+<li class='section_13'><a href="#section_13" class='item-content'><span>UmiejÄ™tnoĹ›ci Postaci</span></a></li>
+<li class='section_15'><a href="#section_15" class='item-content'><span>Lokacje</span></a></li>
+<li class='section_34'><a href="#section_34" class='item-content'><span>Dungeony</span></a></li>
+<li class='section_16'><a href="#section_16" class='item-content'><span>Legendy</span></a></li>
+<li class='section_17'><a href="#section_17" class='item-content'><span>Maksymalny Poziom</span></a></li>
+<li class='section_18'><a href="#section_18" class='item-content'><span>MaĹ‚ĹĽeĹ„stwo</span></a></li>
+<li class='section_20'><a href="#section_20" class='item-content'><span>Recykling PrzedmiotĂłw</span></a></li>
+<li class='section_22'><a href="#section_22" class='item-content'><span>Wzmocnienia - OseĹ‚ki</span></a></li>
+<li class='section_24'><a href="#section_24" class='item-content'><span>Wytwarzanie</span></a></li>
+<li class='section_35'><a href="#section_35" class='item-content'><span>Misje</span></a></li>
+<li class='section_21'><a href="#section_21" class='item-content'><span>Sety ItemĂłw</span></a></li>
+<li class='section_42'><a href="#section_42" class='item-content'><span>Ankiety</span></a></li>
+<li class='section_43'><a href="#section_43" class='item-content'><span>Aktualizacje</span></a></li>
+<li class='section_44'><a href="#section_44" class='item-content'><span>Item-Shop</span></a></li>
+<li class='section_36'><a href="#section_36" class='item-content'><span>FAQ</span></a></li>
+<li class='section_37'><a href="#section_37" class='item-content'><span>SĹ‚owa KoĹ„cowe</span></a></li>
+
+
+</ul>
+</li>
+</ul>
+</div>
+      <div class="socials">
+				<a href="https://discord.gg/KfDWEKQe86" class="btn-discord" target="_blank"></a>
+				<a href="https://www.facebook.com/profile.php?id=61575980351665" class="btn-fb" target="_blank"></a>
+				<a href="https://monastyr2.pl" class="btn-web" target="_blank"></a>
+			</div>
+
+</div>
+</div>
+<div class='main__content'>
+<br>
+  <!-- Sekcja 1 - Logo -->
+  <div class="section section-break">
+    <!-- LOGO MONASTYR2 -->
+    <img src="prez/opener.png" alt="Logo Monastyr2" >
+  </div>
+
+  <!--  SĹ‚owem wstÄ™pu -->
+  <div class="section" id="section_2">
+    <img src="prez/wprowadzenie.png">
+    <p>
+      Monastyr2 to klasyczny serwer w formie medium/hard, oparty na dobrze znanej wszystkim formule gry. 
+      Naszym celem jest zachowanie klimatu starego, dobrego Metina, a jednoczeĹ›nie wprowadzenie Ĺ›wieĹĽych rozwiÄ…zaĹ„, 
+      ktĂłre odpowiadajÄ… wspĂłĹ‚czesnym oczekiwaniom graczy.
+    </p>
+
+    <p>
+      Od samego poczÄ…tku stawiamy na stabilnoĹ›Ä‡ i dĹ‚ugoterminowy rozwĂłj projektu. 
+      Monastyr2 zostaĹ‚ zaprojektowany tak, aby zapewniaÄ‡ nie tylko pĹ‚ynnÄ… i niezawodnÄ… rozgrywkÄ™, 
+      ale takĹĽe realnÄ… perspektywÄ™ na wiele lat funkcjonowania. 
+      Nie interesujÄ… nas serwery chwilowe czy nastawione na szybki zysk â€“ 
+      chcemy byÄ‡ miejscem, do ktĂłrego gracze chÄ™tnie wracajÄ…, 
+      majÄ…c pewnoĹ›Ä‡, ĹĽe ich czas i wysiĹ‚ek nigdy nie pĂłjdÄ… na marne.
+    </p>
+
+    <p>
+      WaĹĽnym fundamentem naszego projektu jest bliski i szczery kontakt z graczami. 
+      Wierzymy, ĹĽe to wĹ‚aĹ›nie Wy tworzycie serwer i nadajecie mu charakteru. 
+      Dlatego Monastyr2 to serwer â€žod polskiego chĹ‚opa, dla polskiego chĹ‚opaâ€ť â€“ 
+      budowany przez ludzi, ktĂłrzy sami od lat grajÄ… w Metina i wiedzÄ…, 
+      jak istotne jest sprawiedliwe podejĹ›cie, otwarta komunikacja oraz rozwĂłj, w oparciu o feedback i rosnÄ…cÄ… spoĹ‚ecznoĹ›Ä‡.
+      Naszym celem jest wspĂłlna zabawa i rozwĂłj â€“ razem jako spoĹ‚ecznoĹ›Ä‡, opierajÄ…c siÄ™ na autentycznoĹ›ci, a nie na pozorach.
+    </p>
+
+  </div>
+  <!-- Start serwera -->
+  <div class="section" id="section_3">
+    <h1><img src="prez/start.png" alt="start" ></h1>
+    <h3 class="req-title">6 grudzieĹ„ 2025 - 18:00</h3>
+  </div>
+
+  <!--  Informacje -->
+  <div class="section" id="section_4">
+    <h1><img src="prez/informacje.png" alt="informacje" ></h1>
+    <ul class="list-reset">
+      <li>Maksymalny poziom: <strong>105</strong></li>
+      <li>Typ serwera: <strong>hard/medium</strong></li>
+      <li>KrĂłlestwa: 
+        <span class="jinno"><img src="prez/flaga_jinno.png" alt=""> Jinno</span> 
+        oraz 
+        <span class="chunjo"><img src="prez/flaga_chunjo.png" alt=""> Chunjo</span> 
+        oraz 
+        <span class="shinsoo"><img src="prez/flaga_shinsoo.png" alt=""> Shinsoo</span>
+      </li>
+      <li>Bonus 6/7: <strong>Nie</strong></li>
+      <li>Punkty statusu: <strong>90</strong></li>
+      <li>Klasy postaci: <strong>4</strong></li>
+      <li>Alchemia: <strong>Tak</strong></li>
+      <li>Szarfy: <strong>Nie</strong></li>
+      <li>DostÄ™pne kanaĹ‚y: <strong>5</strong></li>
+    </ul>
+
+  </div>
+
+  <!--  Administracja -->
+  <div class="section" id="section_5">
+    <h1><img src="prez/zespol.png" alt="Zespol Monastyr2" ></h1>
+
+    <!-- Screen z 4 postaciami w Hwang -->
+    <img src="prez/17.png" alt="ZespĂłĹ‚ Monastyr2">
+    <p>
+      Role w <strong>Administracji</strong> sÄ… jasne i wiÄ™kszoĹ›Ä‡ z Was doskonale je zna. Dlatego zamiast pisaÄ‡ dĹ‚ugie opisy dotyczÄ…ce funkcji, 
+      wolimy, by o naszej pracy Ĺ›wiadczyĹ‚o to, co sami zobaczycie i doĹ›wiadczycie w grze.
+    </p>
+
+  </div>
+
+  <!--  Optymalizacja -->
+  <div class="section" id="section_6">
+    <h1><img src="prez/optymalizacja.png" alt="optymalizacja" ></h1>
+    <p class="optymalizacja-en">
+      Jako nieliczni w Polsce wprowadzamy zmianÄ™ klienta z <strong>32-bitowego</strong> na <strong>64-bitowy</strong>, 
+      co gwarantuje wiÄ™kszÄ… stabilnoĹ›Ä‡ oraz pĹ‚ynniejszÄ… rozgrywkÄ™.
+    </p>
+
+    <p>
+      DziÄ™ki licznym usprawnieniom technicznym gra dziaĹ‚a wydajniej, 
+      zuĹĽywa mniej pamiÄ™ci i zasobĂłw, 
+      co przekĹ‚ada siÄ™ na brak nagĹ‚ych crashy czy lagĂłw, 
+      nawet podczas dĹ‚ugich sesji.
+    </p>
+
+    <p>
+      PoprawiliĹ›my rĂłwnieĹĽ jakoĹ›Ä‡ grafiki â€“ cienie, mgĹ‚a oraz efekty  
+      prezentujÄ… siÄ™ lepiej i bardziej nowoczeĹ›nie.
+    </p>
+
+    <p>
+      Dodatkowo zoptymalizowaliĹ›my dziaĹ‚anie w walkach masowych, 
+      aby nawet przy duĹĽej liczbie graczy na ekranie rozgrywka pozostaĹ‚a pĹ‚ynna.
+    </p>
+
+    <p>
+      Wszystkie te zmiany sprawiajÄ…, ĹĽe gra staĹ‚a siÄ™ bardziej stabilna, szybsza i przyjemniejsza, 
+      a Ty moĹĽesz cieszyÄ‡ siÄ™ rozgrywkÄ… na najwyĹĽszym poziomie.
+    </p>
+
+    <h1></h1>
+      <details>
+        <summary class="details-summary">
+          â–¶ RozwiĹ„, aby zobaczyÄ‡ wideo
+        </summary>
+        <video controls preload="none" class="video-embed">
+          <source src="https://pub-87b7ce98277d41f298ced742dab42b8c.r2.dev/optym.mp4" type="video/mp4">
+        </video>
+      </details>
+    <h1></h1>
+  </div>
+
+  <div class="section section-break">
+    <h1><img src="prez/udogodnienia.png" alt="udogodnienia"></h1>
+  </div>
+
+
+  <!--  Farmblock -->
+  <div class="section" id="section_30">
+    <img src="prez/h-sysfarm.png">
+    <p>
+      Zgodnie z przeprowadzonÄ… ankietÄ… na naszym discordzie <br> zdecydowaliĹ›my siÄ™ dodaÄ‡ <strong>system Farm-Block</strong>.
+    </p>
+    <!-- SCREEN Z PANELEM I OPISY FUNKCJI -->
+    <img src="prez/33.png" alt="Farm Block">
+    <p>
+      System <strong>Farm-Block</strong> zostaĹ‚ wprowadzony, aby ograniczyÄ‡ naduĹĽycia 
+      zwiÄ…zane z masowym korzystaniem z wielu kont jednoczeĹ›nie. <br>
+      KaĹĽdy gracz moĹĽe aktywnie farmiÄ‡ maksymalnie <span>2 kontami</span>. 
+      Po przekroczeniu tego limitu, system automatycznie blokuje moĹĽliwoĹ›Ä‡ dalszej gry 
+      na kolejnych postaciach.
+    </p>
+    <p>
+      Liczba kont jest osteteczna - jest wynikiem ankiety oraz dyskusji prowadzonej na<br> <a href="https://discord.gg/KfDWEKQe86">discordzie serwerowym</a>.
+    </p>
+    <h1></h1>
+    <h3 class="req-title">DziaĹ‚anie systemu Farm-Block</h3>
+    <div class="section-box">
+      <p>
+        Od teraz moĹĽecie korzystaÄ‡ maksymalnie z <strong>2 kont</strong> do aktywnoĹ›ci PvE.
+      </p>
+
+      <p>Pod tym pojÄ™ciem rozumiemy:</p>
+      <ul>
+        <li>zadawanie obraĹĽeĹ„ potworom, metinom i bossom,</li>
+        <li>wydobywanie rud,</li>
+        <li>Ĺ‚owienie ryb.</li>
+      </ul>
+
+      <p>
+        Konta powyĹĽej tego limitu nie bÄ™dÄ… mogĹ‚y wykonywaÄ‡ tych czynnoĹ›ci,
+        ale nadal mogÄ… sĹ‚uĹĽyÄ‡ do <strong>buffowania</strong>, <strong>handlu</strong> i <strong>PvP</strong> â€” te obszary pozostajÄ… w peĹ‚ni dostÄ™pne. 
+        Blokada tyczy siÄ™ tylko wyĹĽej wymienionych <span>aktywnoĹ›ci PvE</span>. Dodatkowo - nie mamy zamiaru ograniczaÄ‡ liczby otwartych klientĂłw - pozostanie to <strong>nieograniczone</strong>.
+      </p>
+    </div>
+
+
+  </div>
+
+  
+
+  <!--  Panel boczny -->
+  <div class="section" id="section_7">
+    <img src="prez/h-panel.png">
+    <table class="sidebar">
+      <tr><td><img src="prez/p1.png" alt="Shop Offline"></td><td>Shop Offline</td></tr>
+      <tr><td><img src="prez/p2.png" alt="Bonus Switcher"></td><td>Bonus Switcher</td></tr>
+      <tr><td><img src="prez/p3.png" alt="Kosz"></td><td>Kosz</td></tr>
+      <tr><td><img src="prez/p4.png" alt="Wikipedia"></td><td>Wikipedia</td></tr>
+      <tr><td><img src="prez/p5.png" alt="Polimorfia"></td><td>UsuniÄ™cie Polimorfii</td></tr>
+      <tr><td><img src="prez/p6.png" alt="Magazyn"></td><td>Magazyn</td></tr>
+      <tr><td><img src="prez/p7.png" alt="Dopalacze"></td><td>Dopalacze</td></tr>
+    </table>
+    <h1></h1>
+    <p class="paragraf">
+      DodaliĹ›my moĹĽliwoĹ›Ä‡ zwiniÄ™cia <strong>paska bocznego</strong>, aby kaĹĽdy mĂłgĹ‚ sam zdecydowaÄ‡, czy chce go widzieÄ‡, czy nie.
+    </p>
+  </div>
+
+  <!--  Mapa Teleportacji -->
+  <div class="section" id="section_31">
+    <img src="prez/h-mtp.png">
+    <p class="paragraf">
+      W grze bÄ™dziemy mieÄ‡ moĹĽliwoĹ›Ä‡ uĹĽywania mapy teleportacji pod <br>przyciskiem <strong>TAB</strong>.
+    </p>
+    <!-- SCREEN Z PANELEM I OPISY FUNKCJI -->
+    <img src="prez/34.png" alt="Mapa Teleportacji">
+  </div>
+
+  <!--  Zapis pozycji -->
+  <div class="section" id="section_38">
+    <img src="prez/zapis-poz.png">
+    <p class="paragraf">
+      DodaliĹ›my takĹĽe opcje zapisu pozycji w formie okienka.<br>Znajduje siÄ™ on pod przyciskiem <strong>P</strong>.
+    </p>
+    <!-- SCREEN Z PANELEM I OPISY FUNKCJI -->
+    <img src="prez/zapis_pozycji.png" alt="Zapis Pozycji">
+  </div>
+
+  <!--  BS -->
+  <div class="section" id="section_32">
+    <img src="prez/h-bonusw.png">
+    <p class="paragraf">
+      W grze, w <strong>panelu bocznym</strong> znajdziemy bonus switcher. <br>
+      <span>ZaczarowaĹ„ PrzedmiotĂłw</span> na serwerze bÄ™dzie duĹĽa iloĹ›Ä‡, wiÄ™c umoĹĽliwi to wam Ĺ‚atwiejsze miksowanie potrzebnych bonusĂłw.
+    </p>
+    <!-- SCREEN Z PANELEM I OPISY FUNKCJI -->
+    <img src="prez/25.png" alt="Bonus Switcher">
+  </div>
+
+  <!--  PodglÄ…d -->
+  <div class="section" id="section_33">
+    <img src="prez/h-podglad.png">
+    <p class="paragraf">
+      Na serwerze bÄ™dziecie mieli moĹĽliwoĹ›Ä‡ <strong>sprawdzenia</strong> jakie przedmioty jesteĹ›cie w stanie zdobyÄ‡.
+      Robimy to naciskajÄ…c przycisk<span> obok paska zdrowia </span> danego potwora, kamienia, bossa.
+    </p>
+    <!-- SCREEN Z PANELEM I OPISY FUNKCJI -->
+    <img src="prez/35.png" alt="PodglÄ…d Dropu">
+  </div>
+
+
+  <!--  Shop Offline -->
+  <div class="section" id="section_41">
+    <img src="prez/shopy.png">
+    <p class="paragraf">
+      Na naszym serwerze postawiliĹ›my na <strong>jakoĹ›Ä‡</strong> i 
+      <strong>stabilnoĹ›Ä‡</strong> systemu sklepĂłw offline. RozwiÄ…zanie zostaĹ‚o dopracowane w taki sposĂłb, 
+      aby <strong>zminimalizowaÄ‡ ryzyko bĹ‚Ä™dĂłw</strong> i zapewniÄ‡ 
+      <strong>komfortowe korzystanie</strong> z systemu.
+    </p>
+
+    <img src="prez/shop23.png" class="shop-edit">
+    <div class="shop-offline-panel">
+      <h3 class="req-title">Opis Funkcji ShopĂłw Offline</h3>
+      <ul>
+        <li>PrzedĹ‚uĹĽanie czasu dziaĹ‚ania sklepu jednym klikniÄ™ciem</li>
+        <li>PodglÄ…d historii sprzedaĹĽy</li>
+        <li>MoĹĽliwoĹ›Ä‡ zmiany nazwy sklepu</li>
+        <li>ZamkniÄ™cie sklepu w dowolnym momencie</li>
+        <li>OdbiĂłr przedmiotĂłw po wygaĹ›niÄ™ciu sklepu</li>
+        <li>Trzy strony przeznaczone na sprzedaĹĽ ekwipunku</li>
+        <li>Dodawanie przedmiotĂłw do sklepu za pomocÄ… PPM</li>
+        <li>Automatyczne przeliczanie cen wzglÄ™dem iloĹ›ci w stacku</li>
+        <li>ObsĹ‚uga skrĂłtĂłw przy cenach (k, kk) zamiast dĹ‚ugich liczb</li>
+      </ul>
+    </div>
+  </div>
+
+
+  <!--  Wikipedia -->
+  <div class="section" id="section_8">
+    <img src="prez/h-wiki.png">
+    <p class="paragraf">Z myĹ›lÄ… o wygodzie graczy przygotowaliĹ›my peĹ‚noprawnÄ… <strong>WikipediÄ™</strong> dostÄ™pnÄ… bezpoĹ›rednio w grze. Funkcja ta zostaĹ‚a
+    umieszczona w bocznym pasku interfejsu, z moĹĽliwoĹ›ciÄ… jego zwiniÄ™cia dla osĂłb preferujÄ…cych bardziej klasyczny wyglÄ…d.</p>
+    <p class="paragraf">KaĹĽdy przedmiot w grze <span>posiada peĹ‚ny opis</span> â€“ od materiaĹ‚Ăłw wymaganych do ulepszenia, aĹĽ po ĹşrĂłdĹ‚a dropu z bossĂłw
+    i metinĂłw. CaĹ‚oĹ›Ä‡ jest czytelna, aby szybko znaleĹşÄ‡ potrzebne informacje.</p>
+    <!-- grafiki / gif wikipedii -->
+    <img src="prez/41.png" alt="Wikipedia - podglÄ…d">
+  </div>
+
+  <!--  Qol -->
+  <div class="section" id="section_40">
+    <img src="prez/qol.png">
+    <p>
+        KaĹĽdy z nas zna te <strong>maĹ‚e udogodnienia</strong>, ktĂłre po prostu 
+        <strong>"muszÄ… byÄ‡"</strong> â€“ wĹ‚aĹ›nie one znalazĹ‚y siÄ™ tutaj.  
+        To sprawdzone i <strong>lubiane rozwiÄ…zania</strong>, ktĂłre 
+        na staĹ‚e wpisaĹ‚y siÄ™ w <strong>klimat</strong> i realnie 
+        <strong>poprawiajÄ… komfort gry</strong>.
+    </p>
+
+    <ul class="guild-req" >
+      <li>PodĹ›wietlanie maksymalnych bonusĂłw na zĹ‚oto</li>
+      <li>PrzynaleĹĽnoĹ›Ä‡ dropu na ziemi wyrĂłĹĽniona kolorami</li>
+      <li>Zbiorcze wyĹ›wietlanie iloĹ›ci dropu na ziemi</li>
+      <li>Przycisk do stackowania przedmiotĂłw w ekwipunku</li>
+      <li>Dynamiczne przekĹ‚adanie ekwipunku (PPM)</li>
+      <li>Masowa sprzedaĹĽ przedmiotĂłw</li>
+      <li>Automatyczne rozdzielanie przedmiotĂłw</li>
+      <li>Masowe ulepszanie alchemii</li>
+      <li>KoĹ‚czan zamiast strzaĹ‚</li>
+      <li>Okno do zmiany bonusĂłw</li>
+      <li>Okno z podsumowaniem bonusĂłw</li>
+      <li>WyĹ›wietlanie pozostaĹ‚ego czasu dopalaczy</li>
+      <li>Buff grupowy</li>
+      <li>MoĹĽliwoĹ›Ä‡ wyĹ‚Ä…czenia efektĂłw</li>
+      <li>Ukrywanie kostiumĂłw / nakĹ‚adek / petĂłw</li>
+      <li>Rozszerzony zoom kamery</li>
+      <li>Szybka zmiana kanaĹ‚u</li>
+      <li>Debugowanie postaci</li>
+      <li>Brak limitu yang w handlu</li>
+      <li>MoĹĽliwoĹ›Ä‡ wpisywania kwot yang w formacie â€ž1kkâ€ť zamiast â€ž1.000.000â€ť</li>
+      <li>Automatyczne wysyĹ‚anie wiadomoĹ›ci na czacie</li>
+      <li>Filtr dropu</li>
+    </ul>
+
+  </div>
+
+  <!--  System Gildii -->
+  <div class="section" id="section_19">
+    <h1><img src="prez/GILDIE.png"></h1>
+    <img src="prez/gildiebg.png">
+    <p>System Gildii na naszym serwerze pozwoli wzmacniaÄ‡ postacie poprzez dodatkowe bonusy.<br>
+        RozwĂłj gildii nie bÄ™dzie jednak Ĺ‚atwy â€“ wymagaÄ‡ bÄ™dzie zaangaĹĽowania wszystkich jej czĹ‚onkĂłw.
+    </p>
+    <ul class="guild-req">
+      <li><strong>ZaĹ‚oĹĽenie gildii:</strong> 50 poziom</li>
+      <li><strong>Maksymalny poziom gildii:</strong> 20</li>
+      <li><strong>Maksymalna liczba czĹ‚onkĂłw:</strong> 40</li>
+    </ul>
+    <h1></h1>
+    <h3 class="req-title">DoĹ›wiadczenie Gildii</h3>
+    <p>Awans gildii wymaga eliksirĂłw gildii. <br> MoĹĽemy je zdobyÄ‡ z legend, bossĂłw mapowych, eventĂłw oraz z maĹ‚Ä… szansÄ… z dungeonĂłw.
+    DostÄ™pny jest takĹĽe crafting.</p>
+
+    <h1></h1>
+    <h3 class="req-title">Poziomy gildii â€“ wymagane butelki</h3>
+    <img src="prez/66.png">
+    
+    <h1></h1>
+    <h3 class="req-title">Bonusy pasywne gildii</h3>
+    <img src="prez/39.png">
+  </div>
+
+  <!-- System rang -->
+<div class="section" id="section_9">
+  <h1><img src="prez/RANGI.png" alt="Rangi"></h1>
+  <img src="prez/rangi-bg.png">
+  <p>
+    ZmodyfikowaliĹ›my system rang dzielÄ…c go na 
+    <span class="pozytywne">pozytywne</span> 
+    i 
+    <span class="negatywne">negatywne</span>.
+  </p>
+  <p>
+    W ten sposĂłb chcemy zachÄ™ciÄ‡ graczy do wyboru poszczegĂłlnych aktywnoĹ›ci
+  </p>
+
+  <h1 class="section-title">Negatywne Rangi</h1>
+  <table class="drop-table">
+    <thead>
+      <tr>
+        <th>PrzedziaĹ‚</th>
+        <th>Nazwa</th>
+        <th>Bonusy</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>-1 do -10 000</td>
+        <td class="rank-tone-yellow">Agresywny</td>
+        <td>Silny przeciwko ludziom +2%</td>
+      </tr>
+      <tr>
+        <td>-10 001 do -25 000</td>
+        <td class="rank-tone-orange">Nieuczciwy</td>
+        <td>Silny przeciwko ludziom +4%</td>
+      </tr>
+      <tr>
+        <td>-25 001 do -45 000</td>
+        <td class="rank-tone-orangered">ZĹ‚oĹ›liwy</td>
+        <td>Silny przeciwko ludziom +8%</td>
+      </tr>
+      <tr>
+        <td>-45 001 do -99 999</td>
+        <td class="rank-tone-red-soft">Okrutny</td>
+        <td>Silny przeciwko ludziom +13%</td>
+      </tr>
+      <tr>
+        <td>-100 000</td>
+        <td class="rank--krwawy rank-tone-red">Krwawy</td>
+        <td>
+          Silny przeciwko ludziom +18%<br> OdpornoĹ›Ä‡ na ludzi +3%<br>
+          Szansa na cios krytyczny +5%<br> SzybkoĹ›Ä‡ zaklÄ™Ä‡ +10%
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h1 class="section-title">Pozytywne Rangi</h1>
+  <table class="drop-table">
+    <thead>
+      <tr>
+        <th>PrzedziaĹ‚</th>
+        <th>Nazwa</th>
+        <th>Bonusy</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>+1 do +10 000</td>
+        <td class="rank-tone-blue-light">Przyjazny</td>
+        <td>Silny przeciwko potworom +1%</td>
+      </tr>
+      <tr>
+        <td>+10 001 do +25 000</td>
+        <td class="rank-tone-blue">Dobry</td>
+        <td>Silny przeciwko potworom +3%</td>
+      </tr>
+      <tr>
+        <td>+25 001 do +45 000</td>
+        <td class="rank-tone-blue-dark" >Szlachetny</td>
+        <td>Silny przeciwko potworom +6%</td>
+      </tr>
+      <tr>
+        <td>+45 001 do +99 999</td>
+        <td class="rank-tone-cyan" >Rycerski</td>
+        <td>Silny przeciwko potworom +10%</td>
+      </tr>
+      <tr>
+        <td>+100 000</td>
+        <td class="rank--wladca rank-tone-orange">WĹ‚adca</td>
+        <td>
+          Silny przeciwko potworom +15%<br> Szansa na przeszywajÄ…cy cios +5%<br>
+          Szansa na bonus DOĹš +10%<br> PodwĂłjny drop yang +5%
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h1></h1>
+  <h3 class="req-title">Punkty dodatnie</h3>
+  <p>
+    Punkty dodatnie otrzymujemy uĹĽywajÄ…c:
+  </p>
+
+    <div class="ranks-container">
+    <div class="rank-icon">
+      <img src="https://img.m2icondb.com/70102.png" alt="Ranga Szlachetna">
+      <div class="rank-tooltip">
+        <strong>Fasolka Zen</strong><br>
+        <p>
+          ZwiÄ™ksza Punkty Rangi o <strong>500</strong> punktĂłw.<br>
+          <em>(Czas regeneracji: brak)</em>
+        </p>
+      </div>
+    </div>
+    <div class="rank-icon">
+      <img src="https://img.m2icondb.com/71107.png" alt="Ranga Krwawa">
+      <div class="rank-tooltip">
+        <strong>Owoc Ĺ»ycia</strong><br>
+        <p>
+          ZwiÄ™ksza Punkty Rangi o <strong>1000</strong> punktĂłw.<br>
+          <em>(Czas regeneracji: brak)</em>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <h1></h1>
+  <h3 class="req-title">Dodatkowe informacje:</h3>
+  <ul class="guild-req">
+    <li><strong>Kamienie Duchowe</strong> â€“ nie zabierajÄ… punktĂłw rangi.</li>
+    <li><strong>ZabĂłjstwa graczy</strong> â€“ kaĹĽde odejmuje <strong>100 punktĂłw</strong>,<br> z limitem do <strong>â€“1000 pkt na godzinÄ™</strong>.</li>
+    <li><strong>Grupa</strong> â€“ czĹ‚onkowie grupy nie bÄ™dÄ… otrzymywaÄ‡ punktĂłw negatywnych za zabĂłjstwa innego gracza wewnÄ…trz PT. Punkty naliczane sÄ… tylko osobie ktĂłra zadaĹ‚a Ĺ›miertelny cios.</li>
+    <li><strong>Potwory</strong> â€“ ich pokonywanie nie zwiÄ™ksza punktĂłw rangi.</li>
+  </ul>
+
+
+</div>
+
+  <!--  Alchemia -->
+  <div class="section" id="section_10">
+    <h1><img src="prez/alchemia.png"></h1>
+    <p>Alchemia to jeden z gĹ‚Ăłwnych systemĂłw progresji. Wymaga czasu, zaangaĹĽowania i sporych iloĹ›ci yang,
+    ale oferuje potÄ™ĹĽne bonusy. Wyborna alchemia bÄ™dzie trudna do zrobienia â€“ i wartoĹ›ciowa.</p>
+
+    <img src="prez/24.png">
+    <p>Uszlachetnianie Smoczych Kamieni odbywa siÄ™ u <strong>Alchemika</strong>.</p> 
+    <p>Maksymalna klasa kamieni to: <strong>Legendarny</strong> <br>Maksymalna klasa jakoĹ›ci to: <strong>Wyborny</strong>.</p>
+    <h1></h1>
+    <h3 class="req-title">WystÄ™pujÄ… dwie odmiany Cor Draconis:</h3>
+    <div class="cor-list">
+      <p><img src="https://img.m2icondb.com/50255.png" alt=""> Cor Draconis (surowy)</p>
+      <p><img src="https://img.m2icondb.com/51569.png" alt=""> Cor Draconis (rzadki)</p>
+    </div>
+    <h3 class="req-title">Poziom Smoczego Kamienia zwiÄ™kszamy:</h3>
+    <div class="cor-list">
+      <p><img src="https://img.m2icondb.com/100300.png" alt=""> Zielona Smocza Fasola</p>
+      <p><img src="https://img.m2icondb.com/100500.png" alt=""> RĂłĹĽowa Smocza Fasola (+10%)</p>
+    </div>
+  </div>
+
+  <!--  Bonus alchemii -->
+<div class="section" id="section_11">
+  <h1 class="section-title">Bonusy Alchemii</h1>
+
+  <div class="kamienie" data-slider>
+    <button class="kamienie__arrow kamienie__arrow--prev" type="button" aria-label="Poprzedni kamieďż˝">
+      <span class="kamienie__arrow-icon" aria-hidden="true">&#8249;</span>
+    </button>
+    <div class="kamienie__viewport">
+      <img src="prez/18.png" alt="Kamieďż˝ 1" class="kamienie__slide is-active">
+      <img src="prez/19.png" alt="Kamieďż˝ 2" class="kamienie__slide">
+      <img src="prez/20.png" alt="Kamieďż˝ 3" class="kamienie__slide">
+      <img src="prez/21.png" alt="Kamieďż˝ 4" class="kamienie__slide">
+      <img src="prez/22.png" alt="Kamieďż˝ 5" class="kamienie__slide">
+      <img src="prez/23.png" alt="Kamieďż˝ 6" class="kamienie__slide">
+    </div>
+    <button class="kamienie__arrow kamienie__arrow--next" type="button" aria-label="Nastďż˝pny kamieďż˝">
+      <span class="kamienie__arrow-icon" aria-hidden="true">&#8250;</span>
+    </button>
+  </div>
+
+  <p>
+    <br>
+    DodaliĹ›my <strong class="text-gold">premiÄ™ +10%</strong> do bonusĂłw alchemii, jeĹ›li w kole znajdujÄ… siÄ™
+    <strong class="text-gold">wszystkie Smocze Kamienie</strong> na poziomie <strong class="text-gold">Wyborny +6</strong>.
+    Premia dziaĹ‚a wyĹ‚Ä…cznie wtedy, gdy <strong>kaĹĽdy kamieĹ„</strong> ma <strong>wybornÄ… jakoĹ›Ä‡</strong>.
+  </p>
+
+</div>
+
+  <!--  JeĹşdziectwo -->
+  <div class="section" id="section_12">
+    <h1><img src="prez/KON.png"></h1>
+    <p>
+      JeĹşdziectwo zostaĹ‚o u nas rozwiniÄ™te do <strong class="text-gold">40 poziomu</strong>.
+      <br>
+       Klasyczne misje konne zostaĹ‚y usuniÄ™te
+       <br>
+       Poziom JeĹşdziectwa rozwijamy klikajÄ…c <span>PPM</span> na przedmioty.
+    </p>
+    <h1></h1>
+    <h3 class="req-title">RozwĂłj JeĹşdziectwa</h3>
+    <div class="table-scroll">
+    <table class="drop-table">
+      <thead>
+        <tr>
+          <th>Poziom</th>
+          <th>Przedmiot</th>
+          <th>Czas</th>
+          <th>Szansa</th>
+          <th>Szansa z RadÄ…</th>
+          <th>Egzo</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>0â€“21</p></td>
+          <td><p><img src="https://img.m2icondb.com/50050.png"><br>Medal Konny</p></td>
+          <td><p>30 min</p></td>
+          <td><p>40%</p></td>
+          <td><p>100%</p></td>
+          <td><p>Tak</p></td>
+        </tr>
+        <tr>
+          <td><p>22â€“40</p></td>
+          <td><p><img src="prez/rada.png"><br>Rada Konna</p></td>
+          <td><p>Brak limitu czasu</p></td>
+          <td><p>40%</p></td>
+          <td><p>Nie dziaĹ‚a</p></td>
+          <td><p>Brak limitu czasu</p></td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+
+    <h1></h1>
+    <h3 class="req-title">
+      WYTWARZANIE RADY KONNEJ 
+    </h3>
+    <p>PoniĹĽej prezentujemy dokĹ‚adny crafting <Strong>Rady Konnej</Strong> <img src="prez/rada.png">
+    </p>
+
+    <table class="drop-table">
+    <thead>
+      <tr>
+        <th>Przedmiot</th>
+        <th>Nazwa</th>
+        <th>IloĹ›Ä‡</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><img src="https://img.m2icondb.com/50050.png" alt="Przedmiot 1"></td>
+        <td>Medal Konny</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td><img src="https://img.m2icondb.com/25040.png" alt="Przedmiot 2"></td>
+        <td>ZwĂłj BĹ‚ogosĹ‚awieĹ„stwa</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td><img src="https://img.m2icondb.com/71001.png" alt="Przedmiot 3"></td>
+        <td>ZwĂłj Egzorcyzmu</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td><img src="https://img.m2icondb.com/71094.png" alt="Przedmiot 4"></td>
+        <td>Rada Pustelnika</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td><img src="https://img.m2icondb.com/50513.png" alt="Przedmiot 5"></td>
+        <td>KamieĹ„ Duchowy</td>
+        <td>5</td>
+      </tr>
+    </tbody>
+    </table>
+    <p class="craft-info">
+      đź’° Koszt wytworzenia: <span>250 000 Yang</span><br>
+      Szansa na pomyĹ›lne wytworzenie: <span>90%</span>
+    </p>
+    <h1></h1>
+    <h3 class="req-title">Bonusy na maksymalnym poziomie</h3>
+    <ul class="list-reset">
+      <li>+1000 PĹ»</li>
+      <li>Silny przeciwko Potworom +15</li>
+      <li>+50 obrony</li>
+      <li>SiĹ‚a +12</li>
+    </ul>
+  </div>
+
+  <!--  UmiejÄ™tnoĹ›ci pasywne -->
+  <div class="section" id="section_14">
+    <h1><img src="prez/pasywne.png"></h1>
+    <p>
+      Na naszym serwerze dodaliĹ›my 3 umiejÄ™tnoĹ›ci pasywne <strong>Dominacja</strong>, <strong>Potworologia</strong>, <strong>Metinologia</strong>. 
+      Maksymalny poziom umiejÄ™tnoĹ›ci pasywnych: M1.
+    </p>
+    <h2><img src="prez/65.png"></h2>
+    <h1></h1>
+    <h3 class="req-title">Pochodzenie</h3>
+    <ul class="list-reset">
+      <li>Dominacja â€“ Bossy Mapowe oraz Legendy.</li>
+      <li>Potworologia â€“ Bossy Dungeonowe.</li>
+      <li>Metinologia â€“ Kamienie Metin.</li>
+    </ul>
+    <h1></h1>
+    <h3 class="req-title">RozwĂłj umiejÄ™tnoĹ›ci pasywnych</h3>
+        <ul class="list-reset">
+      <li>PomyĹ›lnie przeczytane: <strong>55 ksiÄ…g</strong></li>
+      <li>Szansa: <strong>40%</strong></li>
+      <li>Cooldown: <strong>24 godziny</strong></li>
+      <li>DziaĹ‚a ZwĂłj Egzorcyzmu: <strong>Tak</strong></li>
+      <li>Szansa z RadÄ… Pustelnika: <strong>100%</strong></li>
+    </ul>
+  </div>
+
+  <!--  UmiejÄ™tnoĹ›ci -->
+  <div class="section" id="section_13">
+    <h1><img src="prez/SKILLE.png"></h1>
+    <h3 class="req-title">UmiejÄ™tnoĹ›ci postaci</h3>
+    <p>
+      Od poczÄ…tku przyĹ›wieca nam idea zachowania klasycznego serwera z udogodnieniami.<br>
+      Nie dodajemy ĹĽadnych wymyĹ›lnych ulepszeĹ„ ani dodatkowych bonusĂłw do umiejÄ™tnoĹ›ci.
+      Wierzymy, ĹĽe prawdziwa siĹ‚a Metina tkwi w jego prostocie i klimacie, ktĂłry zostaĹ‚ wypracowany przez lata istnienia gry.
+    </p>
+
+    <div class="table-wrapper">
+
+      <img src="prez/trener.png">
+      <p>
+        UmiejÄ™tnoĹ›ci wybieramy u <strong>Trenera</strong> na <span>5 poziomie postaci</span>.
+        W momencie kiedy uzyskamy <strong>17</strong> pkt rozdanych przy danej umiejÄ™tnoĹ›ci mamy szansÄ™ na awans umiejÄ™tnoĹ›ci na poziom<span> m1</span>.
+        Dalej umiejÄ™tnoĹ›ci rozwijamy przy pomocy <strong>KsiÄ…g UmiejÄ™tnoĹ›ci</strong>, a nastÄ™pnie przy pomocy <span>Kamienia Duchowego</span>.
+        <br><br><br><br>
+        PoniĹĽej tabela z dokĹ‚adnym opisem rozwoju umiejÄ™tnoĹ›ci: 
+      </p>
+    </div>
+
+
+    <div class="table-scroll">
+    <table class="drop-table">
+      <thead>
+        <tr>
+          <th>Przedmiot</th>
+          <th>Poziom</th>
+          <th>IloĹ›Ä‡</th>
+          <th>Szansa</th>
+          <th>Szansa z RadÄ…</th>
+          <th>Czas</th>
+          <th>Egzo</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><img src="https://img.m2icondb.com/book_01.png"></td>
+          <td>M1-G1</td>
+          <td>55</td>
+          <td>40%</td>
+          <td>100%</td>
+          <td>24 godziny</td>
+          <td>Tak</td>
+        </tr>
+        <tr>
+          <td><img src="https://img.m2icondb.com/50513.png"></td>
+          <td>G1-P</td>
+          <td>10</td>
+          <td>25%</td>
+          <td>Nie dziaĹ‚a</td>
+          <td>24 godziny</td>
+          <td>Tak</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+    <h1></h1>
+    <h3 class="req-title">Pochodzenie przedmiotĂłw</h3>
+    <div class="opis-tabela">
+      <table class="drop-table">
+        <thead>
+          <tr>
+            <th>Przedmiot</th>
+            <th>Pochodzenie</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><img src="https://img.m2icondb.com/book_01.png" alt="KsiÄ™ga"> KsiÄ™gi umiejÄ™tnoĹ›ci</td>
+            <td>Kamienie Metin</td>
+          </tr>
+          <tr>
+            <td><img src="https://img.m2icondb.com/50513.png" alt="KamieĹ„ duchowy"> Kamienie duchowe</td>
+            <td>Kamienie Metin, Bossy Mapowe</td>
+          </tr>
+          <tr>
+            <td><img src="https://img.m2icondb.com/book_07.png" alt="Pasywki">
+              <img src="https://img.m2icondb.com/book_12.png">
+              <img src="https://img.m2icondb.com/book_15.png"> KsiÄ…ĹĽki Pasywne</td>
+            <td><img src="https://img.m2icondb.com/38050.png">
+              <strong>Skrzynia Mocy</strong> z Kamieni Metin</td>
+          </tr>
+          <tr>
+            <td><img src="https://img.m2icondb.com/71094.png" alt="Rada"> Rada Pustelnika</td>
+            <td>Bossy Mapowe oraz Dungeony</td>
+          </tr>
+          <tr>
+            <td><img src="https://img.m2icondb.com/71001.png" alt="Egzo"> ZwĂłj Egzorcyzmu</td>
+            <td>Kamienie Metin</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h1></h1>
+    <h3 class="req-title">Polimorfia</h3>
+    <p>W polimorfii zaszĹ‚y pewne zmiany wzglÄ™dem oryginaĹ‚u, przedstawiamy je poniĹĽej:
+    </p>
+    <div class="table-wrapper">
+    <table class="drop-table">
+      <thead>
+        <tr>
+          <th>Przedmiot</th>
+          <th>Poziom</th>
+          <th>IloĹ›Ä‡</th>
+          <th>Szansa</th>
+          <th>Szansa z RadÄ…</th>
+          <th>Egzo</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><img src="https://img.m2icondb.com/book_07.png"><br>KsiÄ™ga Polimorfii</td>
+          <td>0-20</td>
+          <td>20</td>
+          <td>30%</td>
+          <td>75%</td>
+          <td>Tak</td>
+        </tr>
+        <tr>
+          <td><img src="https://img.m2icondb.com/book_07.png"><br>Zaaw. KsiÄ™ga Polimorfii</td>
+          <td>M1-G1</td>
+          <td>55</td>
+          <td>30%</td>
+          <td>75%</td>
+          <td>Tak</td>
+        </tr>
+        <tr>
+          <td><img src="https://img.m2icondb.com/book_07.png"><br>Mistrz. KsiÄ™ga Polimorfii</td>
+          <td>G1-P</td>
+          <td>165</td>
+          <td>30%</td>
+          <td>75%</td>
+          <td>Tak</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+
+    <p><strong>Uwaga:</strong> Efekt skilli zanika po teleportacji na polimorfii.</p>
+    <h1></h1>
+    <h3 class="req-title">Bonusy Polimorfii</h3>
+    <p>
+      Polimorfia zostaĹ‚a przebudowana zgodnie z Waszymi gĹ‚osami w ankietach.<br>
+      DodaliĹ›my obraĹĽenia, ktĂłre rosnÄ… wraz z progresjÄ… umiejÄ™tnoĹ›ci.<br>
+      Podobnie dziaĹ‚a czas trwania â€“ na poziomie P wynosi on aĹĽ 35 minut.
+    </p>
+    <div class="table-scroll">
+    <table class="drop-table">
+      <thead>
+        <tr>
+          <th>POZIOM</th>
+          <th>
+            <span>ObraĹĽenia zwiÄ™kszone o: </span>
+          </th>
+          <th>
+            <span>Czas trwania: </span>
+          </th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <th class="tier">0</th>
+          <td>0%</td>
+          <td>10 minut</td>
+        </tr>
+        <tr>
+          <th class="tier">M1</th>
+          <td>90%</td>
+          <td>15 minut</td>
+        </tr>
+        <tr>
+          <th class="tier">G1</th>
+          <td>170%</td>
+          <td>20 minut</td>
+        </tr>
+        <tr>
+          <th class="tier">P</th>
+          <td>275%</td>
+          <td>35 minut</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+    <p><strong>Uwaga:</strong> Przeskok jest tylko na poziomach M1 / G1 / P.
+    <br>Poziomy pomiÄ™dzy nie zwiÄ™kszajÄ… dodatkowo bonusĂłw.</p>
+
+
+    <h1></h1>
+    <h3 class="req-title">Dowodzenie</h3>
+    <p>
+      RozwĂłj umiejÄ™tnoĹ›ci Dowodzenie pozwoli nam na nadanie dodatkowych bonusĂłw dla czĹ‚onkĂłw naszej grupy.
+    </p>
+    <div class="table-wrapper">
+    <table class="drop-table">
+      <thead>
+        <tr>
+          <th>Przedmiot</th>
+          <th>Poziom</th>
+          <th>IloĹ›Ä‡</th>
+          <th>Szansa</th>
+          <th>Szansa z RadÄ…</th>
+          <th>Egzo</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><img src=https://img.m2icondb.com/book_11.png><br>Sun-Zi</td>
+          <td>0-20</td>
+          <td>20</td>
+          <td>30%</td>
+          <td>75%</td>
+          <td>Tak</td>
+        </tr>
+        <tr>
+          <td><img src="https://img.m2icondb.com/book_12.png"><br>Wu-Zi</td>
+          <td>M1-G1</td>
+          <td>55</td>
+          <td>30%</td>
+          <td>75%</td>
+          <td>Tak</td>
+        </tr>
+        <tr>
+          <td><img src="https://img.m2icondb.com/book_13.png"><br>Wei-Liao-Zi</td>
+          <td>G1-P</td>
+          <td>165</td>
+          <td>30%</td>
+          <td>75%</td>
+          <td>Tak</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+
+    <h3 class="req-title">Bonusy Dowodzenia</h3>
+    <p>
+      W Dowodzeniu wprowadziliĹ›my lekkie modyfikacje. 
+      Poziom P zostaĹ‚ wzmocniony tak, by stanowiĹ‚ satysfakcjonujÄ…cy przeskok â€“ 
+      adekwatny do wysiĹ‚ku wĹ‚oĹĽonego w jego rozwĂłj.
+    </p>
+    <div class="table-scroll">
+    <table class="drop-table">
+      <thead>
+        <tr>
+          <th>POZIOM</th>
+          <th>
+            <span>WartoĹ›Ä‡ Ataku</span>
+          </th>
+          <th>
+            <span>SzybkoĹ›Ä‡ Ataku</span>
+          </th>
+          <th>
+            <span>Max PĹ»</span>
+          </th>
+          <th>
+            <span>Czas trwania</span>
+          </th>
+          <th>
+            <span>Regen<br>PĹ»</span>
+          </th>
+          <th>
+            <span>Obrona</span>
+          </th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <th class="tier">M1</th>
+          <td>+35</td>
+          <td>+2</td>
+          <td>+610</td>
+          <td>+10</td>
+          <td>+2%</td>
+          <td>+2%</td>
+        </tr>
+        <tr>
+          <th class="tier">G1</th>
+          <td>+51</td>
+          <td>+3</td>
+          <td>+968</td>
+          <td>+25</td>
+          <td>+2%</td>
+          <td>+3%</td>
+        </tr>
+        <tr>
+          <th class="tier">P</th>
+          <td>+111</td>
+          <td>+7</td>
+          <td>+2285</td>
+          <td>+60</td>
+          <td>+3%</td>
+          <td>+7%</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+  </div>
+
+  <!--  Lokacje-->
+  <div class="section" id="section_15">
+    <h1><img src="prez/lokacje.png" alt="Lokacje"></h1>
+    <p>Na serwerze dostÄ™pnych jest wiele lokacji. PoniĹĽej lista przykĹ‚adowych map.</p>
+    <h1></h1>
+
+
+    <!-- 12 -->
+    <img src="prez/h-m-r.png">
+    <img src="prez/11.png" alt="Mapa Rybacka">
+    <ul class="dungeon-info">
+      <li><strong>Wymagany Poziom:</strong> 30 </li>
+    </ul>
+
+    <!-- 1 -->
+    <img src="prez/h-pierwsze.png">
+    <img src="prez/4.png" alt="Miasta Pierwsze">
+    <ul class="dungeon-info">
+      <li><strong>Wymagany Poziom:</strong> â€”</li>
+      <li><strong>IloĹ›Ä‡ MetinĂłw:</strong> 17</li>
+      <li><strong>Czas Respu MetinĂłw:</strong> 5 - 10 minut</li>
+      <!--<li><strong>IloĹ›Ä‡ BosĂłw:</strong> â€”</li> -->
+      <!--<li><strong>Czas Respu BosĂłw:</strong> â€”</li> -->
+    </ul>
+
+    <!-- 2 -->
+    <img src="prez/h-drugie.png">
+    <img src="prez/5.png" alt="Miasta Drugie">
+    <ul class="dungeon-info">
+      <li><strong>Wymagany Poziom:</strong> â€”</li>
+      <li><strong>IloĹ›Ä‡ MetinĂłw:</strong> 12</li>
+      <li><strong>Czas Respu MetinĂłw:</strong> 10 - 15 minut</li>
+      <li><strong>IloĹ›Ä‡ BosĂłw:</strong> 2</li>
+      <li><strong>Czas Respu BosĂłw:</strong> 30 minut</li>
+    </ul>
+
+    <!-- 3 -->
+    <img src="prez/h-dolina.png">
+    <img src="prez/1.png" alt="Dolina OrkĂłw">
+    <ul class="dungeon-info">
+      <li><strong>Wymagany Poziom:</strong> â€”</li>
+      <li><strong>IloĹ›Ä‡ MetinĂłw:</strong> 11</li>
+      <li><strong>Czas Respu MetinĂłw:</strong> 15 minut</li>
+      <li><strong>IloĹ›Ä‡ BosĂłw:</strong> 2</li>
+      <li><strong>Czas Respu BosĂłw:</strong> 45 minut</li>
+    </ul>
+
+    <!-- 4 -->
+    <img src="prez/h-pustynia.png">
+    <img src="prez/7.png" alt="Pustynia Yongbi">
+    <ul class="dungeon-info">
+      <li><strong>Wymagany Poziom:</strong> â€”</li>
+      <li><strong>IloĹ›Ä‡ MetinĂłw:</strong> 12</li>
+      <li><strong>Czas Respu MetinĂłw:</strong> 15 minut</li>
+      <li><strong>IloĹ›Ä‡ BosĂłw:</strong> 1</li>
+      <li><strong>Czas Respu BosĂłw:</strong> 45 minut</li>
+    </ul>
+
+    <!-- 5 -->
+    <img src="prez/h-hwang.png">
+    <img src="prez/2.png" alt="ĹšwiÄ…tynia Hwang">
+    <ul class="dungeon-info">
+      <li><strong>Wymagany Poziom:</strong> â€”</li>
+      <li><strong>IloĹ›Ä‡ MetinĂłw:</strong> 10</li>
+      <li><strong>Czas Respu MetinĂłw:</strong> 15 minut</li>
+      <li><strong>IloĹ›Ä‡ BosĂłw:</strong><br>Reinkar. Ezot. Przyw â€” x1<br> Zjawa â€” x1</li>
+      <li><strong>Czas Respu BosĂłw:</strong><br>Reinkar. Ezot. Przyw â€” 45 minut<br> Zjawa â€” 90 minut</li>
+    </ul>
+
+    <!-- 6 -->
+    <img src="prez/h-ognista.png">
+    <img src="prez/6.png" alt="Ognista Ziemia">
+    <ul class="dungeon-info">
+      <li><strong>Wymagany Poziom:</strong> â€”</li>
+      <li><strong>IloĹ›Ä‡ MetinĂłw:</strong> 10</li>
+      <li><strong>Czas Respu MetinĂłw:</strong> 15 minut</li>
+      <li><strong>IloĹ›Ä‡ BosĂłw:</strong> 1</li>
+      <li><strong>Czas Respu BosĂłw:</strong> 80 minut</li>
+    </ul>
+
+    <!-- 7 -->
+    <img src="prez/h-sohan.png">
+    <img src="prez/9.png" alt="GĂłra Sohan">
+    <ul class="dungeon-info">
+      <li><strong>Wymagany Poziom:</strong> â€”</li>
+      <li><strong>IloĹ›Ä‡ MetinĂłw:</strong> 10</li>
+      <li><strong>Czas Respu MetinĂłw:</strong> 15 minut</li>
+      <li><strong>IloĹ›Ä‡ BosĂłw:</strong> 1</li>
+      <li><strong>Czas Respu BosĂłw:</strong> 60 minut</li>
+    </ul>
+
+    <!-- Loch -->
+    <img src="prez/h-loch.png">
+    <img src="prez/pajakiv2.png" alt="Loch">
+    <ul class="dungeon-info">
+      <li><strong>Wymagany Poziom:</strong> â€”</li>
+      <li><strong>IloĹ›Ä‡ BosĂłw:</strong><br>Loch PajÄ…kĂłw V1 â€” 1<br>Loch PajÄ…kĂłw V2 â€” 1</li>
+      <li><strong>Czas Respu BosĂłw:</strong><br> KrĂłlowa PajÄ…kĂłw ( V1 ) â€” 45 minut <br>Elit. KrĂłlowa PajÄ…kĂłw ( V2 ) â€” 60 minut</li>
+    </ul>
+
+    <!-- Wezowe -->
+    <img src="prez/h-wezowe.png">
+    <img src="prez/10.png" alt="WÄ™ĹĽowe Pole">
+    <ul class="dungeon-info">
+      <li><strong>Wymagany Poziom:</strong> 1 â€” 89</li>
+      <li><strong>IloĹ›Ä‡ MetinĂłw:</strong> 8</li>
+      <li><strong>Czas Respu MetinĂłw:</strong> 20 minut</li>
+      <!-- <li><strong>IloĹ›Ä‡ BosĂłw:</strong> â€”</li> -->
+      <!-- <li><strong>Czas Respu BosĂłw:</strong> â€”</li> -->
+    </ul>
+
+    <!-- 8 -->
+    <img src="prez/h-kraina.png">
+    <img src="prez/kraina.png" alt="Kraina GigantĂłw">
+    <ul class="dungeon-info">
+      <li><strong>Wymagany Poziom:</strong> â€”</li>
+      <li><strong>IloĹ›Ä‡ MetinĂłw:</strong> 8</li>
+      <li><strong>Czas Respu MetinĂłw:</strong> 20 minut</li>
+      <!-- <li><strong>IloĹ›Ä‡ BosĂłw:</strong> â€”</li> -->
+      <!-- <li><strong>Czas Respu BosĂłw:</strong> â€”</li> -->
+    </ul>
+
+    <!-- 9 -->
+    <img src="prez/h-las.png">
+    <img src="prez/3.png" alt="Las DuchĂłw">
+    <ul class="dungeon-info">
+      <li><strong>Wymagany Poziom:</strong> â€”</li>
+      <li><strong>IloĹ›Ä‡ MetinĂłw:</strong> 10</li>
+      <li><strong>Czas Respu MetinĂłw:</strong> 20 minut</li>
+      <!-- <li><strong>IloĹ›Ä‡ BosĂłw:</strong> â€”</li> -->
+      <!-- <li><strong>Czas Respu BosĂłw:</strong> â€”</li> -->
+    </ul>
+
+    <!-- 10 -->
+    <img src="prez/h-redlas.png">
+    <img src="prez/8.png" alt="Czerwony Las">
+    <ul class="dungeon-info">
+      <li><strong>Wymagany Poziom:</strong> â€”</li>
+      <li><strong>IloĹ›Ä‡ MetinĂłw:</strong> 10</li>
+      <li><strong>Czas Respu MetinĂłw:</strong> 20 minut</li>
+      <li><strong>IloĹ›Ä‡ BosĂłw:</strong> 2</li>
+      <li><strong>Czas Respu BosĂłw:</strong> 60 minut</li>
+    </ul>
+
+    <img src="prez/h-grota.png">
+    <img src="prez/av.png" alt="Grota">
+    <ul class="dungeon-info">
+      <li><strong>Wymagany Poziom:</strong> 75</li>
+      <li><strong>IloĹ›Ä‡ BosĂłw:</strong><br>AV1 â€” 1<br>AV2 â€” 2 </li>
+      <li><strong>Czas Respu BosĂłw:</strong><br>Silna Lodowa WiedĹşma ( AV1 ) â€” 8 godzin<br>GeneraĹ‚ Yonghan ( AV2 ) â€” 6 godzin </li>
+      <li>Drop maĹ‚ĹĽy zostaĹ‚ usuniÄ™ty z Groty WygnaĹ„cĂłw</li>
+    </ul>
+    <!-- 11 -->
+    <img src="prez/h-wawoz.png">
+    <img src="prez/12.png" alt="WÄ…wĂłz Ĺšmierci">
+    <ul class="dungeon-info">
+      <li><strong>Wymagany Poziom:</strong> 90</li>
+      <li><strong>IloĹ›Ä‡ MetinĂłw:</strong> 8</li>
+      <li><strong>Czas Respu MetinĂłw:</strong> 20 minut</li>
+      <li><strong>IloĹ›Ä‡ BosĂłw:</strong> 3</li>
+      <li><strong>Czas Respu BosĂłw:</strong><br> Polifem â€” 330 minut <br>Rakszas (2 respy) â€” 270 minut</li>
+    </ul>
+
+  </div>
+
+
+  <!--  Dungeony -->
+  <div class="section" id="section_34">
+    <h1><img src="prez/dungeon.png"></h1>
+
+    <h3 class="req-title">Pochodzenie przepustek</h3>
+    <div class="opis-tabela">
+      <table class="drop-table">
+        <thead>
+          <tr>
+            <th>Przepustka</th>
+            <th>Pochodzenie</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><img src="https://img.m2icondb.com/25042.png" alt="PrzepaOrkowy"> PieczÄ™Ä‡ OrkĂłw</td>
+            <td>Kamienie Metin (40-55)<br>
+                WĂłdz OrkĂłw<br>
+            </td>
+          </tr>
+          <tr>
+            <td><img src="https://img.m2icondb.com/70449.png" alt="PrzepaDT"> Demoniczny Klucz</td>
+            <td>Kamienie Metin (60-70)<br>
+              Reinkar. Ezot. Przyw.<br>
+            </td>
+          </tr>
+          <tr>
+            <td><img src="https://img.m2icondb.com/30324.png" alt="PrzepaBaronowka"> PajÄ™czy Klucz</td>
+            <td>KrĂłlowa PajÄ…kĂłw</td>
+          </tr>
+          <tr>
+            <td><img src="https://img.m2icondb.com/30319.png" alt="PrzepaAzrael"> Zasuszona GĹ‚owa</td>
+            <td>UmarĹ‚y Rozpruwacz</td>
+          </tr>
+          <tr>
+            <td><img src="https://img.m2icondb.com/30179.png" alt="PrzepaBeran-Setao"> KrÄ™ty Klucz</td>
+            <td>GeneraĹ‚ Yonghan</td>
+          </tr>
+          <tr>
+            <td><img src="https://img.m2icondb.com/31168.png" alt="PrzepaRazador"> Ognista PieczÄ™Ä‡</td>
+            <td>Zjawa Ĺ»ĂłĹ‚tego Tygrysa<br>
+              Ognisty KrĂłl
+            </td>
+          </tr>
+          <tr>
+            <td><img src="https://img.m2icondb.com/79602.png" alt="PrzepaHydra"> Kompas Hydry</td>
+            <td>Polifem<br>
+                Rakszas</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <img src="prez/h-w-o.png">
+    <img src="prez/31.png" alt="wieĹĽa orkĂłw">
+    <ul class="dungeon-info">
+      <li><strong>Poziom:</strong> 35â€“55</li>
+      <li><strong>Min. grupa:</strong> 2 osoby</li>
+      <li><strong>WejĹ›cie:</strong><img src="https://img.m2icondb.com/25042.png" alt="PrzepaOrkowy"> PieczÄ™Ä‡ OrkĂłw x1</li>
+      <li><strong>Limit wejĹ›Ä‡:</strong> brak</li>
+      <li><strong>Bonus:</strong> Silny przeciwko Orkom</li>
+    </ul>
+
+
+    <img src="prez/h-dt.png">
+    <img src="prez/29.png" alt="WieĹĽa DemonĂłw">
+    <ul class="dungeon-info">
+      <li><strong>Poziom:</strong> od 40 (z Ripperem od 75)</li>
+      <li><strong>Min. grupa:</strong> 2 osoby</li>
+      <li><strong>WejĹ›cie:</strong><img src="https://img.m2icondb.com/70449.png" alt="PrzepaDT"> Demoniczny Klucz x1</li>
+      <li><strong>Limit wejĹ›Ä‡:</strong> brak</li>
+      <li><strong>Bonus:</strong> Silny przeciwko NieumarĹ‚ym</li>
+    </ul>
+
+    <img src="prez/h-b.png">
+    <img src="prez/27.png" alt="Komnata BaronĂłwny">
+    <ul class="dungeon-info">
+      <li><strong>Poziom:</strong> 61â€“74</li>
+      <li><strong>Min. grupa:</strong> 2 osoby</li>
+      <li><strong>WejĹ›cie:</strong><img src="https://img.m2icondb.com/30324.png" alt="PrzepaBaronowka"> PajÄ™czy Klucz x1</li>
+      <li><strong>CD do kolejnego wejĹ›cia:</strong> 45 min</li>
+      <li><strong>Bonus:</strong> Silny przeciwko Potworom</li>
+    </ul>
+
+    <img src="prez/h-az.png">
+    <img src="prez/26.png" alt="Azrael">
+    <div class="azrael-icons">
+      <span class="az-icon" tabindex="0"
+            data-tip="Naszyjnik KrysztaĹ‚u Duszy+9
+
+            SzybkoĹ›Ä‡ ZaklÄ™cia: +28%
+            Szansa na odzyskanie PĹ»: +10%">
+        <img src="https://img.m2icondb.com/16220.png" alt="Smoczy kamieĹ„ 1">
+      </span>
+
+      <span class="az-icon" tabindex="0"
+            data-tip="Kolczyki KrysztaĹ‚u Duszy+9
+            
+            SiĹ‚a: +12
+            Max PĹ»: +1500
+            Silny Przeciwko Potworom: +5%">
+        <img src="https://img.m2icondb.com/17220.png" alt="Smoczy kamieĹ„ 2">
+      </span>
+
+      <span class="az-icon" tabindex="0"
+            data-tip="Opaska KrysztaĹ‚u Duszy+9
+            
+            SzybkoĹ›Ä‡ Ataku: +15%
+            WartoĹ›c ataku: +60">
+        <img src="https://img.m2icondb.com/14220.png" alt="Smoczy kamieĹ„ 3">
+      </span>
+
+      <span class="az-icon" tabindex="0"
+            data-tip="Cor Draconis (surowy)
+            
+            IloĹ›Ä‡ od 0 do 6 sztuk">
+        <img src="https://img.m2icondb.com/50255.png" alt="Smoczy kamieĹ„ 2">
+      </span>
+
+      <span class="az-icon" tabindex="0"
+            data-tip="Medal Bohatera
+            
+            Max PĹ»: +1500
+            Silny Przeciwko Ludziom: +15%
+            Silny Przeciwko Potworom: +10%
+            SzybkoĹ›Ä‡ ZaklÄ™Ä‡: +10%
+            
+            PozostaĹ‚y Czas: 15Minut">
+        <img src="https://img.m2icondb.com/71158.png" alt="Smoczy kamieĹ„ 4">
+      </span>
+    </div>
+
+    <ul class="dungeon-info">
+      <li><strong>Poziom:</strong> od 75</li>
+      <li><strong>Min. grupa:</strong> 2 osoby</li>
+      <li><strong>WejĹ›cie:</strong><img src="https://img.m2icondb.com/30319.png" alt="PrzepaAzrael"> Zasuszona GĹ‚owa x1</li>
+      <li><strong>CD do kolejnego wejĹ›cia:</strong> 60 min</li>
+      <li><strong>Bonus:</strong> Silny przeciwko NieumarĹ‚ym</li>
+      <!--<li class="drop-preview">
+        <strong>PodglÄ…d dropu</strong>
+        <div class="drop-tooltip">
+          <img src="prez/drop-example.png" alt="Drop dungeon">
+        </div>
+      </li>-->
+    </ul>
+
+    <img src="prez/h-beran.png">
+    <img src="prez/28.png" alt="Beran-Setao">
+    <div class="azrael-icons">
+      <span class="az-icon" tabindex="0"
+            data-tip="Buty Qilina +9
+            
+            SzybkoĹ›Ä‡ Ruchu: +25%
+            Obrona: 10
+            Szansa na blok ciosĂłw: +20%">
+        <img src="https://img.m2icondb.com/15410.png" alt="Smoczy kamieĹ„ 2">
+      </span>
+
+      <span class="az-icon" tabindex="0"
+            data-tip="Smoczy Szpon
+            
+            Ulepszacz potrzebny do przerobienia Ekwipunku">
+        <img src="https://img.m2icondb.com/71129.png" alt="Smoczy kamieĹ„ 3">
+      </span>
+
+      <span class="az-icon" tabindex="0"
+            data-tip="Smocza Ĺuska
+            
+            Ulepszacz potrzebny do przerobienia Ekwipunku">
+        <img src="https://img.m2icondb.com/71123.png" alt="Smoczy kamieĹ„ 3">
+      </span>
+
+      <span class="az-icon" tabindex="0"
+            data-tip="Cor Draconis (rzadki)
+            
+            IloĹ›Ä‡ od 0 do 9 sztuk">
+        <img src="https://img.m2icondb.com/51569.png" alt="Smoczy kamieĹ„ 2">
+      </span>
+
+      <span class="az-icon" tabindex="0"
+            data-tip="Medal Bohatera
+            
+            Max PĹ»: +1500
+            Silny Przeciwko Ludziom: +15%
+            Silny Przeciwko Potworom: +10%
+            SzybkoĹ›Ä‡ ZaklÄ™Ä‡: +10%
+            
+            PozostaĹ‚y Czas: 15Minut">
+        <img src="https://img.m2icondb.com/71158.png" alt="Smoczy kamieĹ„ 4">
+      </span>
+    </div>
+    <ul class="dungeon-info">
+      <li><strong>Poziom:</strong> od 75</li>
+      <li><strong>Min. grupa:</strong> 2 osoby</li>
+      <li><strong>WejĹ›cie:</strong><img src="https://img.m2icondb.com/30179.png" alt="PrzepaBeran-Setao"> KrÄ™ty Klucz x6 â€” na postaÄ‡</li>
+      <li><strong>CD do kolejnego wejĹ›cia:</strong> 150 min</li>
+      <li><strong>Bonus:</strong> Silny przeciwko Potworom</li>
+    </ul>
+
+    <img src="prez/h-raz.png">
+    <img src="prez/32.png" alt="Razador">
+    <div class="azrael-icons">
+      <span class="az-icon" tabindex="0"
+            data-tip="Czerwony MateriaĹ‚
+            
+            Przedmiot potrzebny do ulepszania ekwipunku 90+">
+        <img src="https://img.m2icondb.com/30511.png" alt="Smoczy kamieĹ„ 2">
+      </span>
+
+      <span class="az-icon" tabindex="0"
+            data-tip="Cor Draconis (rzadki)
+            
+            IloĹ›Ä‡ od 0 do 8 sztuk">
+        <img src="https://img.m2icondb.com/51569.png" alt="Smoczy kamieĹ„ 2">
+      </span>
+
+      <span class="az-icon" tabindex="0"
+            data-tip="Medal Bohatera
+            
+            Max PĹ»: +1500
+            Silny Przeciwko Ludziom: +15%
+            Silny Przeciwko Potworom: +10%
+            SzybkoĹ›Ä‡ ZaklÄ™Ä‡: +10%
+            
+            PozostaĹ‚y Czas: 15Minut">
+        <img src="https://img.m2icondb.com/71158.png" alt="Smoczy kamieĹ„ 4">
+      </span>
+    </div>
+    <ul class="dungeon-info">
+      <li><strong>Poziom:</strong> od 85</li>
+      <li><strong>Min. grupa:</strong> 2 osoby</li>
+      <li><strong>WejĹ›cie:</strong><img src="https://img.m2icondb.com/31168.png"> Ognista PieczÄ™Ä‡ â€” 1x na postaÄ‡</li>
+      <li><strong>CD do kolejnego wejĹ›cia:</strong> 120 min</li>
+      <li><strong>Bonus:</strong> Silny przeciwko Potworom</li>
+    </ul>
+
+    <img src="prez/h-hydra.png">
+    <img src="prez/30.png" alt="Hydra">
+    <div class="azrael-icons">
+      <span class="az-icon" tabindex="0"
+            data-tip="Czerwony MateriaĹ‚
+            
+            Przedmiot potrzebny do ulepszania ekwipunku 90+">
+        <img src="https://img.m2icondb.com/30511.png" alt="Smoczy kamieĹ„ 2">
+      </span>
+
+      <span class="az-icon" tabindex="0"
+            data-tip="Cor Draconis (rzadki)
+            
+            IloĹ›Ä‡ od 0 do 22 sztuk">
+        <img src="https://img.m2icondb.com/51569.png" alt="Smoczy kamieĹ„ 2">
+      </span>
+
+      <span class="az-icon" tabindex="0"
+            data-tip="Medal Bohatera
+            
+            Max PĹ»: +1500
+            Silny Przeciwko Ludziom: +15%
+            Silny Przeciwko Potworom: +10%
+            SzybkoĹ›Ä‡ ZaklÄ™Ä‡: +10%
+            
+            PozostaĹ‚y Czas: 15Minut">
+        <img src="https://img.m2icondb.com/71158.png" alt="Smoczy kamieĹ„ 4">
+      </span>
+    </div>
+    <ul class="dungeon-info">
+      <li><strong>Poziom:</strong> od 95</li>
+      <li><strong>Min. grupa:</strong> 2 osoby</li>
+      <li><strong>WejĹ›cie:</strong><img src="https://img.m2icondb.com/79602.png" alt="PrzepaHydra"> Kompas Hydry â€” 1x na postaÄ‡</li>
+      <li><strong>CD do kolejnego wejĹ›cia:</strong> 150 min</li>
+      <li><strong>Wymagane:</strong> <a href="#Skalisty-Golem">Tarcza TytanĂłw</a> (bez niej pokonanie Hydry niemoĹĽliwe)</li>
+      <li><strong>Bonus:</strong> Silny przeciwko DiabĹ‚om</li>
+    </ul>
+  </div>
+
+  <!-- Legendy -->
+  <div class="section" id="section_16">
+    <h1><img src="prez/legendy.png"></h1>
+    <p>
+      Na Monastyr2 wprowadziliĹ›my system legendarnych bossĂłw, ktĂłre stanowiÄ… jeden z gĹ‚Ăłwnych filarĂłw rywalizacji pomiÄ™dzy graczami i gildiami. 
+      DostÄ™pne sÄ… trzy legendy, z czego jedna wystÄ™puje w formie mini-legendy. KaĹĽda z nich zostaĹ‚a zaprojektowana tak, aby stanowiÄ‡ realne wyzwanie, 
+      a jednoczeĹ›nie nagradzaÄ‡ graczy unikatowymi przedmiotami.
+    </p>
+
+    <h1></h1>
+    <img src="prez/lodowa-wiedzm.png">
+    <img src="prez/14.png" alt="Silna Lodowa WiedĹşma">
+
+    <ul class="boss-info">
+      <li><strong>Lokalizacja:</strong> Grota WygnaĹ„cĂłw V1 <span>(respawn na wszystkich kanaĹ‚ach)</span></li>
+      <li><strong>Czas pojawienia:</strong> co 8 godzin â€“ <span>01:00, 09:00, 17:00</span></li>
+      <li><strong>Bonus:</strong> Silny na Potwory oraz Ludzi</li>
+      <li><strong>Drop unikatowy:</strong> Zbroje TytanĂłw</li>
+      <li>
+          <div class="item-slot">
+            <img src="prez/zbroja1.png">
+            <div class="item-tooltip">
+              <h4>Zbroja Tytana +9</h4>
+              <ul>
+                <li>Obrona 260</li>
+                <li>SzybkoĹ›Ä‡ Ruchu -6%</li>
+                <li>Ĺšrednie ObraĹĽenia +5%</li>
+                <li>Silny Przeciwko Potworom +20%</li>
+                <li>Maks. PĹ» +10%</li>
+              </ul>
+            </div>
+          </div>
+          <div class="item-slot">
+            <img src="prez/zbroja2.png">
+            <div class="item-tooltip">
+              <h4>Ubranie Tytana +9</h4>
+              <ul>
+                <li>Obrona 260</li>
+                <li>SzybkoĹ›Ä‡ Ruchu -6%</li>
+                <li>Ĺšrednie ObraĹĽenia +5%</li>
+                <li>Silny Przeciwko Potworom +20%</li>
+                <li>Maks. PĹ» +10%</li>
+              </ul>
+            </div>
+          </div>
+          <div class="item-slot">
+            <img src="prez/zbroja3.png">
+            <div class="item-tooltip">
+              <h4>Pancerz Tytana +9</h4>
+              <ul>
+                <li>Obrona 260</li>
+                <li>SzybkoĹ›Ä‡ Ruchu -6%</li>
+                <li>Ĺšrednie ObraĹĽenia +5%</li>
+                <li>Silny Przeciwko Potworom +20%</li>
+                <li>Maks. PĹ» +10%</li>
+              </ul>
+            </div>
+          </div>
+          <div class="item-slot">
+            <img src="prez/zbroja4.png">
+            <div class="item-tooltip">
+              <h4>Szata Tytana +9</h4>
+              <ul>
+                <li>Obrona 260</li>
+                <li>SzybkoĹ›Ä‡ Ruchu -6%</li>
+                <li>Ĺšrednie ObraĹĽenia +5%</li>
+                <li>Silny Przeciwko Potworom +20%</li>
+                <li>Maks. PĹ» +10%</li>
+              </ul>
+            </div>
+          </div>
+        </li>
+    </ul>
+
+
+    <h1></h1>
+    <img src="prez/mini-lege-malassy.png">
+    <img src="prez/15.png" alt="Malassy">
+    <ul class="boss-info">
+      <li><strong>Lokalizacja:</strong> WÄ™ĹĽowe Pole</li>
+      <li><strong>Czas pojawienia:</strong> <span>codziennie 20:00 â€“ ch5</span></li>
+      <li><strong>WejĹ›cie:</strong> do 89 poziomu</li>
+      <li><strong>Bonus:</strong> Silny na Potwory oraz Ludzi</li>
+      <li><strong>Drop unikatowy:</strong> Kupony SM</li>
+    </ul>
+
+    <h1></h1>
+    <img src="prez/lege-skalisty.png">
+    <img src="prez/13.png" id="Skalisty-Golem">
+    <ul class="boss-info">
+      <li><strong>Lokalizacja:</strong> WÄ…wĂłz Ĺšmierci</li>
+      <li><strong>Czas pojawienia:</strong> <span>codziennie 20:00 â€“ ch5</span></li>
+      <li><strong>WejĹ›cie:</strong> od 90 poziomu</li>
+      <li><strong>Bonus:</strong> Silny na Potwory oraz Ludzi</li>
+      <li><strong>Drop unikatowy:</strong> Tarcza TytanĂłw + Kupony SM</li>
+      <li>
+          <div class="item-slot">
+            <img src="prez/tytanka.png" id="Tarcza-TytanĂłw">
+            <div class="item-tooltip">
+              <h4>Tarcza TytanĂłw +9</h4>
+              <ul>
+                <li>Obrona 163</li>
+                <li>SzybkoĹ›Ä‡ Ruchu -6%</li>
+                <li>OdpornoĹ›Ä‡ na ObraĹĽenia UmiejÄ™tnoĹ›ci +12%</li>
+                <li>Silny Przeciwko DiabĹ‚om +20%</li>
+              </ul>
+            </div>
+          </div>
+        </li>
+    </ul>
+    <h1></h1>
+    <p class="info-text">
+      Na legendy bÄ™dzie dziaĹ‚aÄ‡ zarĂłwno bonus <strong>silny przeciwko potworom</strong>, jak i <strong>silny przeciwko ludziom</strong>.
+      To rozwiÄ…zanie ma na celu wzmocnienie elementu rywalizacji grupowej oraz nadanie legendom szczegĂłlnej rangi â€“ 
+      tak ĹĽeby przedmioty z nich byĹ‚y jeszcze bardziej unikalne. 
+    </p>
+  </div>
+
+  <!-- Pionierzy Monastyr2 -->
+  <div class="section" id="section_17">
+
+    <h1><img src="prez/pionierzy.png"></h1>
+    <img src="prez/16.png">
+    <p class="paragraf">
+      Pierwsi gracze, ktĂłrzy osiÄ…gnÄ… <strong>maksymalny poziom</strong>, otrzymajÄ… unikatowe 
+      <span>Zbroje Hwang</span><br> (4 sztuki â€“ po jednej dla kaĹĽdej klasy).
+      Na staĹ‚e, nigdy wiÄ™cej nie do zdobycia.<br>
+
+    </p>
+    <h1 class="section-title">Zbroje Hwang</h1>
+    <div class="bonus-box">
+      <p><strong>Max PĹ»:</strong> +1000</p>
+      <p><strong>Silny przeciwko ludziom:</strong> +15%</p>
+      <p><strong>Silny przeciwko potworom:</strong> +15%</p>
+    </div>
+
+    <h1><img src="prez/nagroda.png"></h1>
+        <img src="prez/42.png">
+  </div>
+
+  <!-- MaĹ‚ĹĽeĹ„stwo -->
+  <div class="section" id="section_18">
+    <h1><img src="prez/SLUB.png"></h1>
+    <img src="prez/starsza-pani.png">
+    <p>MaĹ‚ĹĽeĹ„stwo zawrzecie u <strong>Starszej Pani</strong>. <br>
+      UmoĹĽliwi to wam teleport miÄ™dzy swoimi postaciami za pomocÄ… <span>PierĹ›cionka ZarÄ™czynowego</span>.</p>
+    <h1></h1>
+    <h3 class="req-title">Wymagania do zawarcia maĹ‚ĹĽeĹ„stwa</h3>
+    <table class="drop-table">
+      <thead>
+        <tr>
+
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>30 Poziom postaci</td>
+
+        </tr>
+        <tr>
+          <td>PierĹ›cionek ZarÄ™czynowy (w ekwipunku obu postaci)</td>
+
+        </tr>
+        <tr>
+          <td>StrĂłj weselny (zaĹ‚oĹĽony na kaĹĽdej postaci)</td>
+
+        </tr>
+      </tbody>
+    </table>
+    <p class="marriage-note">
+      Stroje weselne moĹĽna nabyÄ‡ za opĹ‚atÄ… u <strong>DomokrÄ…ĹĽcy</strong>, 
+      natomiast <strong>PierĹ›cienie ZarÄ™czynowe</strong> zdobywa siÄ™ z misji 
+      lub moĹĽna zakupiÄ‡ w <strong>Item-Shopie</strong>.
+    </p>
+
+  </div>
+
+  <!-- Recykling przedmiotĂłw -->
+  <div class="section" id="section_20">
+    <h1><img src="prez/recykling.png"></h1>
+    <img src="prez/recykling-bg.png">
+    <p>Dodajemy system w postaci wymiany mniej wartoĹ›ciowych przedmiotĂłw.<br>
+    Opcja ta bÄ™dzie dostÄ™pna u <strong>Jae-Seon Kim</strong> â€” w pierwszych miastach.</p>
+    <h1></h1>
+    <h3 class="req-title">Wymiana przedmiotĂłw</h3>
+
+    <table class="drop-table">
+      <tbody>
+        <tr>
+          <td><img src="https://img.m2icondb.com/71085.png"></td>
+          <td>Wzmocnienie Przedmiotu x2</td>
+          <td class="arrow"><i class="fas fa-arrow-right"></i></td>
+          <td><img src="https://img.m2icondb.com/71084.png"></td>
+          <td>Zaczarowanie Przedmiotu x1 </td>
+        </tr>
+        <tr>
+          <td><img src="https://img.m2icondb.com/70024.png"></td>
+          <td>Marmur BĹ‚ogosĹ‚awieĹ„stwa x1</td>
+          <td class="arrow"><i class="fas fa-arrow-right"></i></td>
+          <td><img src="https://img.m2icondb.com/71084.png"></td>
+          <td>Zaczarowanie Przedmiotu x2</td>
+        </tr>
+
+        <tr>
+          <td><img src="https://img.m2icondb.com/71084.png"></td>
+          <td>Zaczarowanie Przedmiotu x4</td>
+          <td class="arrow"><i class="fas fa-arrow-right"></i></td>
+          <td><img src="https://img.m2icondb.com/71085.png"></td>
+          <td>Wzmocnienie Przedmiotu x1</td>
+        </tr>
+
+        <tr>
+          <td><img src="https://img.m2icondb.com/28007.png"></td>
+          <td>KamieĹ„ Duszy (dowolny) x1</td>
+          <td class="arrow"><i class="fas fa-arrow-right"></i></td>
+          <td><img src="https://img.m2icondb.com/70038.png"></td>
+          <td>Peleryna MÄ™stwa x2 - x4</td>
+        </tr>
+
+        <tr>
+          <td><img src="https://img.m2icondb.com/book_01.png"></td>
+          <td>KsiÄ™ga UmiejÄ™tnoĹ›ci (dowolna) x1</td>
+          <td class="arrow"><i class="fas fa-arrow-right"></i></td>
+          <td><img src="https://img.m2icondb.com/70038.png"></td>
+          <td>Peleryna MÄ™stwa x2 - x4</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+
+  <!-- OseĹ‚ki -->
+  <div class="section" id="section_22">
+<h1><img src="prez/oselki.png" alt="System OseĹ‚ek"></h1>
+<p>System oseĹ‚ek sĹ‚uĹĽy do podnoszenia jakoĹ›ci broni PvE.</p>
+<h1></h1>
+<div class="upgrade">
+  <h3 class="req-title">Wytwarzanie oseĹ‚ek</h3>
+  <p>OseĹ‚ki wytwarzamy u Jae-Seon Kim.</p>
+
+  <div class="stats">
+    <div class="stat">
+      <b>75 lvl</b>
+      <span>wymagana broĹ„</span>
+    </div>
+    <div class="stat">
+      <b>+4</b>
+      <span>minimalne ulepszenie</span>
+    </div>
+    <div class="stat">
+      <b>6</b>
+      <span>typĂłw broni</span>
+    </div>
+    <div class="stat">
+      <b>80%</b>
+      <span>szansa na pomyĹ›lne wytworzenie</span>
+    </div>
+  </div>
+  <p>PoniĹĽej lista przykĹ‚adowych broni uĹĽywanych do wytwarzania: </p>
+  <p class="itemy75">
+    <img src="https://img.m2icondb.com/00180.png" alt="">
+    <img src="https://img.m2icondb.com/02170.png" alt="">
+    <img src="https://img.m2icondb.com/00190.png" alt="">
+    <img src="https://img.m2icondb.com/03160.png" alt="">
+    <img src="https://img.m2icondb.com/05120.png" alt="">
+    <img src="https://img.m2icondb.com/01130.png" alt="">
+  </p>
+</div>
+
+
+  <!-- Doskonalenie ekwipunku -->
+  <div class="upgrade">
+  <h1></h1>
+  <h3 class="req-title">Doskonalenie ekwipunku</h3>
+  <p>Dodawaj oseĹ‚ki, aby zwiÄ™kszaÄ‡ wartoĹ›Ä‡ broni PvE.</p>
+
+  <div class="stats">
+        <div class="stat">
+          <b>+1%</b>
+          <span>za kaĹĽdÄ… oseĹ‚kÄ™</span>
+        </div>
+        <div class="stat">
+          <b>12%</b>
+          <span>maks. â€žSilny na potworyâ€ť</span>
+        </div>
+        <div class="stat">
+          <b>20%</b>
+          <span>szansa na pomyĹ›lne dodanie oseĹ‚ki</span>
+        </div>
+        <div class="stat">
+          <b>55 / 75</b>
+          <span>obsĹ‚ugiwane poziomy broni</span>
+        </div>
+      </div>
+    </div>
+    <img src="prez/oselki-bg.png">
+  </div>
+
+  <!-- Wytwarzanie -->
+  <div class="section" id="section_24">
+    <h1><img src="prez/wytwarzanie.png"></h1>
+    <!-- Przetopy -->
+    <img src="prez/przetop.png">
+    <h3 class="req-title">Przetopy</h3>
+    <p>
+      Przetopy moĹĽemy wytwarzaÄ‡ u <strong>Jae-Seon Kim</strong>.
+    </p>
+          <div class="crafting-przetop">
+        <!-- Lewa ikonka  -->
+        <div class="przetop-icon">
+          <img id="przetopImg" src="https://img.m2icondb.com/30195.png" alt="Przetop">
+        </div>
+
+        <!-- StrzaĹ‚ka -->
+        <div class="arrow">âžˇ</div>
+
+        <!-- MateriaĹ‚y -->
+        <div class="materials">
+          <div class="material">
+          <img id="craftImg" src="https://img.m2icondb.com/71107.png" alt="Wytworzone">
+          <span>Ă—100</span>
+          </div>
+          <div class="material">
+            <img src="https://img.m2icondb.com/71094.png" alt="rada">
+            <span>Ă—2</span>
+          </div>
+          <div class="material">
+            <img src="https://img.m2icondb.com/71001.png" alt="egzo">
+            <span>Ă—2</span>
+          </div>
+          <div class="material">
+            <img src="https://img.m2icondb.com/50513.png" alt="kamol">
+            <span>Ă—3</span>
+          </div>
+          <div class="material">
+            <img src="https://img.m2icondb.com/25040.png" alt="bodzio">
+            <span>Ă—3</span>
+          </div>
+        </div>
+      </div>
+      <h1></h1>
+    <h3 class="req-title">KAMIENIE DUSZY +5</h3>
+    <p>
+      W celu sprawdzenia bonusĂłw naleĹĽy najechaÄ‡ na KamieĹ„ Duszy po lewej stronie okienka (jest to koĹ„cowy produkt craftingu)<br><br>
+      Za kaĹĽdÄ… prĂłbÄ™ wytworzenia naleĹĽy uiĹ›ciÄ‡ opĹ‚atÄ™ w postaci: <br>
+      <img src="https://img.m2icondb.com/money.png">10.000.000 Yang <br>
+      Szansa na pomyĹ›lne wytworzenie to 80%.
+    </p>
+
+    <!-- MINI INVENTORY 6/KRATKA + TOOLTIP -->
+    <div class="inv-window inv--sm">
+      <div class="inv-slots" id="inventory"></div>
+
+      <!-- Yang -->
+      <div class="inv-mini-footer">
+        <div class="inv-mini-yang">
+          <img src="https://img.m2icondb.com/money.png">
+          <span>10.000.000</span>
+        </div>
+      </div>
+    </div>
+    <!-- lniany pas -->
+     <h1></h1>
+      <p class="craft_rady">
+        PAS LNIANY
+      </p>
+      <div class="item-slot">
+        <img src="https://img.m2icondb.com/18000.png" alt="Lniany Pas">
+        <div class="item-tooltip">
+          <h4>Lniany Pas +9</h4>
+          <p>Od poziomu: 50</p>
+          <p>Silny Przeciwko potworom: +5%</p>
+        </div>
+      </div>
+
+      <table class="drop-table">
+      <thead>
+        <tr>
+          <th>Przedmiot</th>
+          <th>Nazwa</th>
+          <th>IloĹ›Ä‡</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><img src="https://img.m2icondb.com/boss_box.png" alt="Przedmiot 1"></td>
+          <td>SzkatuĹ‚ka Wodza OrkĂłw</td>
+          <td>60</td>
+        </tr>
+        <tr>
+          <td><img src="https://img.m2icondb.com/boss_box.png" alt="Przedmiot 2"></td>
+          <td>Szkat. KrĂłlowej PajÄ…kĂłw</td>
+          <td>30</td>
+        </tr>
+        <tr>
+          <td><img src="https://img.m2icondb.com/boss_box.png" alt="Przedmiot 3"></td>
+          <td>Szkat. Pustynnego Ĺ»ĂłĹ‚wia</td>
+          <td>30</td>
+        </tr>
+        <tr>
+          <td><img src="https://img.m2icondb.com/70024.png" alt="Przedmiot 4"></td>
+          <td>Marmur BĹ‚ogosĹ‚awieĹ„stwa</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td><img src="https://img.m2icondb.com/71001.png" alt="Przedmiot 5"></td>
+          <td>ZwĂłj Egzorcyzmu</td>
+          <td>50</td>
+        </tr>
+      </tbody>
+      </table>
+      <h1></h1>
+      <p class="craft-info">
+        đź’° Koszt wytworzenia: <span>1 000 000 Yang</span><br>
+        Szansa na pomyĹ›lne wytworzenie: <span>100%</span>
+      </p>
+
+      <!-- skĂłrzany pas-->
+      <h1></h1>
+      <p class="craft_rady">
+        PAS SKĂ“RZANY
+      </p>
+      <div class="item-slot">
+        <img src="https://img.m2icondb.com/18010.png" alt="SkĂłrzany Pas">
+        <div class="item-tooltip">
+          <h4>SkĂłrzany Pas +9</h4>
+          <p>Od poziomu: 50</p>
+          <p>Silny Przeciwko ludziom: +5%</p>
+        </div>
+      </div>
+
+
+      <table class="drop-table">
+      <thead>
+        <tr>
+          <th>Przedmiot</th>
+          <th>Nazwa</th>
+          <th>IloĹ›Ä‡</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><img src="https://img.m2icondb.com/boss_box.png" alt="Przedmiot 1"></td>
+          <td>Szkat. DziewiÄ™ciu OgonĂłw</td>
+          <td>30</td>
+        </tr>
+        <tr>
+          <td><img src="https://img.m2icondb.com/boss_box.png" alt="Przedmiot 2"></td>
+          <td>Szkat. Ĺ»ĂłĹ‚tego Tygrysa</td>
+          <td>30</td>
+        </tr>
+        <tr>
+          <td><img src="https://img.m2icondb.com/boss_box.png" alt="Przedmiot 3"></td>
+          <td>Szkat. Ognistego KrĂłla</td>
+          <td>30</td>
+        </tr>
+        <tr>
+          <td><img src="https://img.m2icondb.com/70024.png" alt="Przedmiot 4"></td>
+          <td>Marmur BĹ‚ogosĹ‚awieĹ„stwa</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td><img src="https://img.m2icondb.com/71094.png" alt="Przedmiot 5"></td>
+          <td>Rada Pustelnika</td>
+          <td>50</td>
+        </tr>
+      </tbody>
+      </table>
+      <h1></h1>
+      <p class="craft-info">
+        đź’° Koszt wytworzenia: <span>1 000 000 Yang</span><br>
+        Szansa na pomyĹ›lne wytworzenie: <span>100%</span>
+      </p>
+      <h1></h1>
+      <h3 class="req-title">Ulepszanie pasĂłw</h3>
+      <!-- Ulepszanie pasow -->
+      <p class="paragraf">
+        Pasy bÄ™dziemy mogli przerobiÄ‡ na dalszy poziom.<br>
+        Z kaĹĽdym ulepszeniem wymagany poziom bÄ™dzie rĂłsĹ‚ aĹĽ do <strong>105lv</strong>.<br>
+        Ĺ»eby przerobiÄ‡ pas dalej bÄ™dziemy potrzebowali <strong>rudy z GĂłrnictwa</strong>.<br><br>
+        Progresje razem z bonusami przedstawiamy poniĹĽej:
+      </p>
+      <h1></h1>
+      <h3 class="req-title">Progresja</h3>
+          <div class="belt-upgrade">
+            <div class="belt-item">
+              <img src="https://img.m2icondb.com/18010.png" class="belt-icon">
+              <div class="tooltipdd">
+                <h4>SkĂłrzany Pas +9</h4>
+                <p>Od poziomu: 50</p>
+                <p>Silny Przeciwko ludziom: +5%</p>
+              </div>
+            </div>
+            
+            <span class="arrow">âžś</span>
+
+            <div class="belt-item">
+              <img src="https://img.m2icondb.com/18080.png" class="belt-icon">
+              <div class="tooltipdd">
+                <h4>Pas Dusz +9</h4>
+                <p>Od poziomu: 105</p>
+                <p>Silny przeciwko Ludziom: +10%</p>
+                <p>ObraĹĽenie UmiejÄ™tnoĹ›ci: +5%</p>
+                <p>Max PĹ»: +1000</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="belt-upgrade">
+            <div class="belt-item">
+              <img src="https://img.m2icondb.com/18000.png" class="belt-icon">
+              <div class="tooltipdd">
+                <h4>Lniany Pas +9</h4>
+                <p>Od poziomu: 50</p>
+                <p>Silny Przeciwko Potworom: +5%</p>
+              </div>
+            </div>
+            
+            <span class="arrow">âžś</span>
+
+            <div class="belt-item">
+              <img src="https://img.m2icondb.com/18060.png" class="belt-icon">
+              <div class="tooltipdd">
+                <h4>Pas Runiczny +9</h4>
+                <p>Od poziomu: 105</p>
+                <p>Silny przeciwko Potworom: +10%</p>
+                <p>WartoĹ›Ä‡ Ataku +40</p>
+                <p>Max PĹ»: +500</p>
+              </div>
+            </div>
+          </div>
+          <h1></h1>
+
+  </div>
+
+  <!-- Misje -->
+  <div class="section" id="section_35">
+    <h1><img src="prez/misje.png"></h1>
+    <p class="paragraf">
+      WiÄ™kszoĹ›Ä‡ misji zostaĹ‚a usuniÄ™ta <br>
+      Misje ktĂłre pozostaĹ‚y to: <br>
+      <strong>Badania (Biolog / Seon-Pyeong)</strong><br>
+      <span>Misje Fabularne - gwarantujÄ… staĹ‚e bonusy</span>
+    </p>
+    <h1></h1>
+
+
+  <table class="biolog">
+    <thead>
+      
+    </thead>
+
+    <tbody>
+      <tr>
+        <td class="lvl">30</td>
+        <td class="task">
+          <span class="title">Badania Biologa 1</span>
+        </td>
+        <td class="items">
+          <span class="itm"><img class="ico" src="https://img.m2icondb.com/30006.png" alt=""> ZÄ…b Orka Ă—10</span>
+          <span class="itm"><img class="ico" src="https://img.m2icondb.com/30220.png" alt=""> KamieĹ„ Duchowy Jinno</span>
+        </td>
+        <td class="reward">
+          <span class="bonus">SzybkoĹ›Ä‡ Ruchu: +10%</span>
+
+        </td>
+      </tr>
+
+      <tr>
+        <td class="lvl">40</td>
+        <td class="task"><span class="title">Badania Biologa 2</span></td>
+        <td class="items">
+          <span class="itm"><img class="ico" src="https://img.m2icondb.com/30047.png" alt=""> KsiÄ™ga KlÄ…tw Ă—15</span>
+          <span class="itm"><img class="ico" src="https://img.m2icondb.com/30221.png" alt=""> ĹšwiÄ…tynny KamieĹ„ Duchowy</span>
+        </td>
+        <td class="reward">
+          <span class="bonus">SzybkoĹ›Ä‡ Ataku:<br> +5</span>
+
+        </td>
+      </tr>
+
+      <tr>
+        <td class="lvl">50</td>
+        <td class="task"><span class="title">Badania Biologa 3</span></td>
+        <td class="items">
+          <span class="itm"><img class="ico" src="https://img.m2icondb.com/30015.png" alt=""> PamiÄ…tka po Demonie Ă—15</span>
+          <span class="itm"><img class="ico" src="https://img.m2icondb.com/30222.png" alt=""> KamieĹ„ Duchowy Sagyi</span>
+        </td>
+        <td class="reward">
+          <span class="bonus">Obrona: +60</span>
+
+        </td>
+      </tr>
+
+      <tr>
+        <td class="lvl">60</td>
+        <td class="task"><span class="title">Badania Biologa 4</span></td>
+        <td class="items">
+          <span class="itm"><img class="ico" src="https://img.m2icondb.com/30050.png" alt=""> Matowy LĂłd Ă—20</span>
+          <span class="itm"><img class="ico" src="https://img.m2icondb.com/30223.png" alt=""> KamieĹ„ Duchowy Aurtumryu</span>
+        </td>
+        <td class="reward">
+          <span class="bonus">WartoĹ›Ä‡ Ataku:<br>+50</span>
+
+        </td>
+      </tr>
+
+      <tr>
+        <td class="lvl">70</td>
+        <td class="task"><span class="title">Badania Biologa 5</span></td>
+        <td class="items">
+          <span class="itm"><img class="ico" src="https://img.m2icondb.com/30165.png" alt=""> Konar Zelkova Ă—25</span>
+          <span class="itm"><img class="ico" src="https://img.m2icondb.com/30224.png" alt=""> KamieĹ„ Duchowy Gyimok</span>
+        </td>
+        <td class="reward">
+          <span class="bonus">OdpornoĹ›Ä‡: +10%</span>
+
+        </td>
+      </tr>
+
+      <tr>
+        <td class="lvl">80</td>
+        <td class="task"><span class="title">Badania Biologa 6</span></td>
+        <td class="items">
+          <span class="itm"><img class="ico" src="https://img.m2icondb.com/30166.png" alt=""> Certyfikat Tugyisa Ă—30</span>
+          <span class="itm"><img class="ico" src="https://img.m2icondb.com/30225.png" alt=""> KamieĹ„ Duchowy Tugyi</span>
+        </td>
+        <td class="reward">
+          <span class="bonus">Atak fizyczny: +10%</span>
+
+        </td>
+      </tr>
+
+      <tr>
+        <td class="lvl">85</td>
+        <td class="task"><span class="title">Badania Biologa 7</span></td>
+        <td class="items">
+          <span class="itm"><img class="ico" src="https://img.m2icondb.com/30167.png" alt=""> Czerw. Konar Duchodrzewa Ă—40</span>
+          <span class="itm"><img class="ico" src="https://img.m2icondb.com/30226.png" alt=""> KamieĹ„ Duchowy Lasu</span>
+        </td>
+        <td class="reward">
+          <span class="bonus">OdpornoĹ›Ä‡ na ludzi: +10%</span>
+
+        </td>
+      </tr>
+
+      <tr>
+        <td class="lvl">90</td>
+        <td class="task"><span class="title">Badania Biologa 8</span></td>
+        <td class="items">
+          <span class="itm"><img class="ico" src="https://img.m2icondb.com/30168.png" alt=""> Notatka PrzywĂłdcy Ă—50</span>
+          <span class="itm"><img class="ico" src="https://img.m2icondb.com/30227.png" alt=""> KamieĹ„ Duchowy LiderĂłw</span>
+        </td>
+        <td class="reward">
+          <span class="bonus">Atak przeciwko graczom: +8%</span>
+
+        </td>
+      </tr>
+
+      <tr>
+        <td class="lvl">92</td>
+        <td class="task">
+          <span class="title">Badanie Seona-Pyeonga</span>
+        </td>
+        <td class="items">
+          <span class="itm"><img class="ico" src="https://img.m2icondb.com/30251.png" alt="">Klejnot ZawiĹ›ci Ă—10</span>
+        </td>
+        <td class="reward">
+          <div class="choice">
+            <div class="choice-title">Do wyboru</div>
+            <ul class="choice-list">
+              <li>+50 WartoĹ›ci Ataku</li>
+              <li>+120 Obrony</li>
+              <li>+1000 PĹ»</li>
+            </ul>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="lvl">94</td>
+        <td class="task">
+          <span class="title">Klejnoty dla Seona-Pyeonga</span>
+        </td>
+        <td class="items">
+          <span class="itm"><img class="ico" src="https://img.m2icondb.com/30252.png" alt="">Klejnot MÄ…droĹ›ci Ă—20</span>
+          <span class="itm"><img class="ico" src="https://img.m2icondb.com/30228.png" alt="">KamieĹ„ Duchowy Beran-Setaou</span>
+        </td>
+        <td class="reward">
+          <div class="choice">
+            <div class="choice-title">Do wyboru</div>
+            <ul class="choice-list">
+              <li>+60 WartoĹ›ci Ataku</li>
+              <li>+140 Obrony</li>
+              <li>+1100 PĹ»</li>
+            </ul>
+          </div>
+        </td>
+      </tr>
+
+  </tbody>
+</table>
+
+  </div>
+
+  <!-- Sety Ekwipunku -->
+  <div class="section" id="section_21">
+    <h1><img src="prez/setpve.png" alt="sety" ></h1>
+    <p>Przedmioty te zostaĹ‚y juĹĽ wymienione we wczeĹ›niejszych sekcjach razem z bonusami, ale w razie czego przypominamy sam wyglÄ…d caĹ‚ego setu PVE</p>
+    <h1></h1>
+    <img src="prez/64.png">
+    <h1></h1>
+
+
+    <h1><img src="prez/setpvp.png" alt="sety" ></h1>
+    <p>
+      Po najechaniu na obrazki ukaĹĽÄ… Wam siÄ™ bonusy koĹ„cowego ekwipunku.
+    </p>
+    <h3 class="req-title"> Tarcza PVP</h3>
+      <div class="sety-wrapper sety-cols-1">
+        <div>
+        <img src="prez/51.png" alt="">
+        <div class="tooltip">
+            <h4>KrĂłlewska Tarcza +9</h4>
+            <p>Od poziomu: 105</p>
+            <ul>
+              <li>Obrona: 173</li>
+              <li>SzybkoĹ›Ä‡ Ruchu: -5%</li>
+              <li>ObraĹĽenia umiejÄ™tnoĹ›ci: +6%</li>
+              <li>OdpornoĹ›Ä‡ na ludzi: 10%</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    <h1></h1>
+    <h3 class="req-title"> Buty PVP</h3>    
+      <div class="sety-wrapper sety-cols-1">
+        <div>
+        <img src="prez/44.png" alt="">
+          <div class="tooltip">
+            <h4>Buty Euforii +9</h4>
+            <p>Od poziomu: 105</p>
+            <ul>
+              <li>Obrona: 10</li>
+              <li>SzybkoĹ›Ä‡ Ruchu: 25%</li>
+              <li>Szansa na blok ciosĂłw: +20%</li>
+              <li>OdpornoĹ›Ä‡ na ludzi: 8%</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    <h1></h1>
+    <h3 class="req-title"> HeĹ‚my PVP</h3>
+    <div class="sety-wrapper sety-cols-2">
+      <div>
+        <img src="prez/47.png" alt="">
+        <div class="tooltip">
+            <h4>HeĹ‚m Mistrza Wojny +9</h4>
+            <p>Od poziomu: 105</p>
+            <ul>
+              <li>Obrona: 99</li>
+              <li>Szansa na blok ciosĂłw: +10%</li>
+              <li>Max PĹ»: +2000</li>
+            </ul>
+        </div>
+      </div>
+      <div>
+        <img src="prez/48.png" alt="">
+        <div class="tooltip">
+            <h4>PajÄ™czy Kaptur +9</h4>
+            <p>Od poziomu: 105</p>
+            <ul>
+              <li>Obrona: 99</li>
+              <li>Szansa na blok ciosĂłw: +10%</li>
+              <li>Max PĹ»: +2000</li>
+            </ul>
+        </div>
+      </div>
+      <div>
+        <img src="prez/49.png" alt="">
+        <div class="tooltip">
+            <h4>Magiczny HeĹ‚m +9</h4>
+            <p>Od poziomu: 105</p>
+            <ul>
+              <li>Obrona: 99</li>
+              <li>Szansa na blok ciosĂłw: +10%</li>
+              <li>Max PĹ»: +2000</li>
+            </ul>
+        </div>
+      </div>
+      <div>
+        <img src="prez/50.png" alt="">
+        <div class="tooltip">
+            <h4>Kapelusz Duszy +9</h4>
+            <p>Od poziomu: 105</p>
+            <ul>
+              <li>Obrona: 99</li>
+              <li>Szansa na blok ciosĂłw: +10%</li>
+              <li>Max PĹ»: +2000</li>
+            </ul>
+        </div>
+      </div>
+    </div>
+
+    <h1></h1>
+    <h3 class="req-title"> BiĹĽuteria PVP</h3>   
+    <div class="sety-wrapper sety-cols-3">
+      <div>
+        <img src="prez/43.png" alt="">
+        <div class="tooltip">
+            <h4>Granatowa Bransoleta +9</h4>
+            <p>Od poziomu: 105</p>
+            <ul>
+              <li>SzybkoĹ›Ä‡ Ataku: +15%</li>
+              <li>Szansa na cios krytyczny: +15%</li>
+              <li>Silny przeciwko Ludziom: +15%</li>
+            </ul>
+        </div>
+      </div>
+      <div>
+        <img src="prez/45.png" alt="">
+        <div class="tooltip">
+            <h4>Granatowa Kolczyki +9</h4>
+            <p>Od poziomu: 105</p>
+            <ul>
+              <li>Max PĹ»: +2500</li>
+              <li>Silny przeciwko Ludziom: +15%</li>
+            </ul>
+        </div>
+      </div>
+      <div>
+        <img src="prez/46.png" alt="">
+        <div class="tooltip">
+            <h4>Granatowy Naszyjnik +9</h4>
+            <p>Od poziomu: 105</p>
+            <ul>
+              <li>SzybkoĹ›Ä‡ ZaklÄ™cia: +30%</li>
+              <li>Szansa na przeszywke: +25%</li>
+              <li>OdpornoĹ›Ä‡ na ludzi: 8%</li>
+            </ul>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <h1></h1>
+    <h3 class="req-title">Uzbrojenie PVP</h3>
+    <div class="sety-wrapper sety-cols-1">
+      <div>
+      <img src="prez/54.png" alt="">
+        <div class="tooltip">
+            <h4>Pancerz Diablego Rogu +9</h4>
+            <p>Od poziomu: 105</p>
+            <ul>
+              <li>Obrona: 320</li>
+              <li>OdpornoĹ›Ä‡ na MagiÄ™: +25%</li>
+              <li>Maks. PĹ»: +10%</li>
+            </ul>
+            <p>[ Do ubrania ]</p>
+            <p>Wojownik</p>
+        </div>
+      </div>
+    </div>
+    <div class="sety-wrapper sety-cols-1">
+      <div>
+      <img src="prez/55.png" alt="">
+        <div class="tooltip">
+            <h4>Szata Smoczego JeĹşdĹşca +9</h4>
+            <p>Od poziomu: 105</p>
+            <ul>
+              <li>Obrona: 320</li>
+              <li>OdpornoĹ›Ä‡ na MagiÄ™: +25%</li>
+              <li>Maks. PĹ»: +10%</li>
+            </ul>
+            <p>[ Do ubrania ]</p>
+            <p>Ninja</p>
+        </div>
+      </div>
+    </div>
+    <div class="sety-wrapper sety-cols-1">
+      <div>
+      <img src="prez/56.png" alt="">
+        <div class="tooltip">
+            <h4>Pancerz KoĹ›ciopĹ‚ytowy +9</h4>
+            <p>Od poziomu: 105</p>
+            <ul>
+              <li>Obrona: 320</li>
+              <li>OdpornoĹ›Ä‡ na MagiÄ™: +25%</li>
+              <li>Maks. PĹ»: +10%</li>
+            </ul>
+            <p>[ Do ubrania ]</p>
+            <p>Sura</p>
+        </div>
+      </div>
+    </div>
+    <div class="sety-wrapper sety-cols-1">
+      <div>
+      <img src="prez/57.png" alt="">
+        <div class="tooltip">
+            <h4>ZĹ‚ote Ubranie +9</h4>
+            <p>Od poziomu: 105</p>
+            <ul>
+              <li>Obrona: +320</li>
+              <li>OdpornoĹ›Ä‡ na MagiÄ™: +25%</li>
+              <li>Maks. PĹ»: +10%</li>
+            </ul>
+            <p>[ Do ubrania ]</p>
+            <p>Szaman</p>
+
+        </div>
+      </div>
+    </div>
+
+
+
+    <h1></h1>
+    <h3 class="req-title">Bronie PVP</h3>
+
+
+<div class="sety-wrapper-classes">
+  <div class="hline-left"></div>
+  <div class="hline-right"></div>
+
+  <div class="class-col">
+    <h3 class="req-title">Ninja</h3>
+    <div class="img-hover-info">
+      <img src="prez/52.png" alt="Ninja item 1">
+      <div class="info">
+        <h4>Ĺuk Feniksa +9</h4>
+        <p>Od poziomu: 105</p>
+        <ul>
+          <li>WartoĹ›Ä‡ ataku: 487â€“686</li>
+          <li>SzybkoĹ›Ä‡ ataku: +15%</li>
+          <li>Silny przeciwko Ludziom: +15%</li>
+          <li>Silny przeciwko Potworom: +5%</li>
+        </ul>
+        <p>[ Do ubrania ]</p>
+        <p>Ninja</p>
+    </div>
+    </div>
+
+    <div class="img-hover-info">
+      <img src="prez/53.png" alt="Ninja item 1">
+      <div class="info">
+        <h4>Kolec PiÄ™ciu ElementĂłw +9</h4>
+        <p>Od poziomu: 105</p>
+        <ul>
+          <li>WartoĹ›Ä‡ ataku: 431â€“451</li>
+          <li>SzybkoĹ›Ä‡ ataku: +15%</li>
+          <li>Silny przeciwko Ludziom: +15%</li>
+          <li>Silny przeciwko Potworom: +5%</li>
+        </ul>
+        <p>[ Do ubrania ]</p>
+        <p>Ninja</p>
+    </div>
+    </div>
+  </div>
+
+  <div class="class-col">
+    <h3 class="req-title">Wojownik</h3>
+    <div class="img-hover-info">
+      <img src="prez/62.png" alt="Ninja item 1">
+      <div class="info">
+        <h4>Runiczny Miecz +9</h4>
+        <p>Od poziomu: 105</p>
+        <ul>
+          <li>WartoĹ›Ä‡ ataku: 403â€“457</li>
+          <li>WartoĹ›Ä‡ mag. ataku: 369â€“411</li>
+          <li>SzybkoĹ›Ä‡ ataku: +15%</li>
+          <li>Silny przeciwko Ludziom: +15%</li>
+          <li>Silny przeciwko Potworom: +5%</li>
+        </ul>
+        <p>[ Do ubrania ]</p>
+        <p>Wojownik, Ninja, Sura</p>
+    </div>
+    </div>
+    <div class="img-hover-info">
+      <img src="prez/63.png" alt="Ninja item 1">
+      <div class="info">
+        <h4>Ostrze SĹ‚oĹ„ca +9</h4>
+        <p>Od poziomu: 105</p>
+        <ul>
+          <li>WartoĹ›Ä‡ ataku: 417â€“498</li>
+          <li>SzybkoĹ›Ä‡ ataku: +15%</li>
+          <li>Silny przeciwko Ludziom: +15%</li>
+          <li>Silny przeciwko Potworom: +5%</li>
+        </ul>
+        <p>[ Do ubrania ]</p>
+        <p>Wojownik</p>
+    </div>
+    </div>
+  </div>
+
+  <div class="class-col">
+    <h3 class="req-title">Sura</h3>
+    <div class="img-hover-info">
+      <img src="prez/59.png" alt="Ninja item 1">
+      <div class="info">
+        <h4>Klinga Smoczego KĹ‚a +9</h4>
+        <p>Od poziomu: 105</p>
+        <ul>
+          <li>WartoĹ›Ä‡ ataku: 366â€“414</li>
+          <li>WartoĹ›Ä‡ mag. ataku: 399â€“461</li>
+          <li>SzybkoĹ›Ä‡ ataku: +15%</li>
+          <li>Silny przeciwko Ludziom: +15%</li>
+          <li>Silny przeciwko Potworom: +5%</li>
+        </ul>
+        <p>[ Do ubrania ]</p>
+        <p>Sura</p>
+    </div>
+    </div>
+
+    <div class="img-hover-info">
+      <img src="prez/62.png" alt="Ninja item 1">
+      <div class="info">
+        <h4>Runiczny Miecz +9</h4>
+        <p>Od poziomu: 105</p>
+        <ul>
+          <li>WartoĹ›Ä‡ ataku: 403â€“457</li>
+          <li>WartoĹ›Ä‡ mag. ataku: 369â€“411</li>
+          <li>SzybkoĹ›Ä‡ ataku: +15%</li>
+          <li>Silny przeciwko Ludziom: +15%</li>
+          <li>Silny przeciwko Potworom: +5%</li>
+        </ul>
+        <p>[ Do ubrania ]</p>
+        <p>Wojownik, Ninja, Sura</p>
+    </div>
+    </div>
+  </div>
+
+  <div class="class-col">
+    <h3 class="req-title">Szaman</h3>
+    <div class="img-hover-info">
+      <img src="prez/61.png" alt="Ninja item 1">
+      <div class="info">
+        <h4>Dzwon Smoczego Ducha +9</h4>
+        <p>Od poziomu: 105</p>
+        <ul>
+          <li>WartoĹ›Ä‡ ataku: 391â€“419</li>
+          <li>WartoĹ›Ä‡ mag. ataku: 309â€“341</li>
+          <li>SzybkoĹ›Ä‡ ataku: +15%</li>
+          <li>Silny przeciwko Ludziom: +15%</li>
+          <li>Silny przeciwko Potworom: +5%</li>
+        </ul>
+        <p>[ Do ubrania ]</p>
+        <p>Szaman</p>
+    </div>
+    </div>
+
+    <div class="img-hover-info">
+      <img src="prez/60.png" alt="Ninja item 1">
+      <div class="info">
+        <h4>Wachlarz LeĹĽÄ…cego Smoka +9</h4>
+        <p>Od poziomu: 105</p>
+        <ul>
+          <li>WartoĹ›Ä‡ ataku: 315â€“373</li>
+          <li>WartoĹ›Ä‡ mag. ataku: 360â€“440</li>
+          <li>SzybkoĹ›Ä‡ ataku: +15%</li>
+          <li>Silny przeciwko Potworom: +5%</li>
+          <li>Silny przeciwko Ludziom: +15%</li>
+        </ul>
+        <p>[ Do ubrania ]</p>
+        <p>Szaman</p>
+    </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Ankiety -->
+  <div class="section" id="section_42">
+    <h1><img src="prez/ankiety.png"></h1>
+    <img src="prez/ankieta.png" class="section-image-spaced">
+    <p>
+      Na koniec prezentacji chcielibyĹ›my poinformowaÄ‡, ĹĽe bÄ™dzie ona <strong>na bieĹĽÄ…co aktualizowana</strong> o kolejne segmenty. 
+      Obecnie wstrzymaliĹ›my siÄ™ z ich dodawaniem z jednego powodu:<br> <strong>chcemy poznaÄ‡ WaszÄ… opiniÄ™</strong>.
+    </p>
+
+    <p>
+      Zaraz po rozpoczÄ™ciu <strong>beta testĂłw</strong> serwera stworzymy specjalny wÄ…tek z ankietami na Discordzie, 
+      gdzie bÄ™dziecie mogli swobodnie wyraziÄ‡ swoje zdanie na temat poszczegĂłlnych systemĂłw i ich potencjalnych zmian.
+    </p>
+
+    <p>
+      ZachÄ™camy, abyĹ›cie byli <strong>aktywni i otwarci w komunikacji</strong>. 
+      Naszym celem jest stworzenie Ĺ›rodowiska, w ktĂłrym kaĹĽdy ma realnÄ… szansÄ™ zostaÄ‡ wysĹ‚uchany. 
+      To ambitne zadanie, ale traktujemy je jako priorytet.
+    </p>
+
+    <p>
+      Wierzymy, ĹĽe dziÄ™ki takiemu podejĹ›ciu bÄ™dziemy mogli budowaÄ‡ <strong>stabilny serwer tworzony wspĂłlnie z graczami</strong>, 
+      a jego rozwĂłj bÄ™dzie miaĹ‚ dĹ‚ugofalowy charakter.
+    </p>
+  </div>
+
+
+  <!-- Aktualizacje -->
+  <div class="section" id="section_43">
+    <h1><img src="prez/aktualizacje.png"></h1>
+
+    <p>
+      W sekcji <strong>Aktualizacje</strong> znajdziecie rozwiÄ…zania, ktĂłre spoĹ‚ecznoĹ›Ä‡ Monastyr2 
+      wspĂłlnie z nami wybraĹ‚a w drodze ankiet. 
+      Wasz feedback miaĹ‚ realny wpĹ‚yw â€” poniĹĽej prezentujemy zmiany, ktĂłre zostaĹ‚y <strong>wprowadzone do rozgrywki</strong>.
+    </p>
+
+    <h1><img src="prez/rework-eq.png" alt="Rework Ekwipunku"></h1>
+    <img src="prez/recykling-bg.png">
+
+    <h1></h1>
+    <h3 class="req-title">Ekwipunek 33</h3>
+    <h1></h1>
+    <!-- Bransolety -->
+    <div class="eq-category">
+      <h3 class="req-title">Bransolety</h3>
+      <div class="eq-items">
+        <div class="eq-item">
+          <img src="https://img.m2icondb.com/14100.png" alt="Ebonitowa Bransoleta">
+          <div class="eq-tooltip">
+            <span class="eq-title">Ebonitowa Bransoleta +9</span>
+            <div class="eq-req">Od poziomu: 33</div>
+            <ul>
+              <li>SzybkoĹ›Ä‡ ataku: +7%</li>
+              <li>Szansa na odzyskanie PĹ»: +5%</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="eq-item">
+          <img src="https://img.m2icondb.com/14120.png" alt="PerĹ‚owa Bransoleta">
+          <div class="eq-tooltip">
+            <span class="eq-title">PerĹ‚owa Bransoleta +9</span>
+            <div class="eq-req">Od poziomu: 33</div>
+            <ul>
+              <li>SzybkoĹ›Ä‡ ataku: +7%</li>
+              <li>WartoĹ›Ä‡ Ataku: +20</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="eq-item">
+          <img src="https://img.m2icondb.com/14080.png" alt="Jadeitowa Bransoleta">
+          <div class="eq-tooltip">
+            <span class="eq-title">Jadeitowa Bransoleta +9</span>
+            <div class="eq-req">Od poziomu: 33</div>
+            <ul>
+              <li>SzybkoĹ›Ä‡ ataku: +7%</li>
+              <li>Obrona: +25</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="eq-item">
+          <img src="https://img.m2icondb.com/14060.png" alt="ZĹ‚ota Bransoleta">
+          <div class="eq-tooltip">
+            <span class="eq-title">ZĹ‚ota Bransoleta +9</span>
+            <div class="eq-req">Od poziomu: 33</div>
+            <ul>
+              <li>SzybkoĹ›Ä‡ ataku: +7%</li>
+              <li>Szansa na otrucie: +5%</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <p>đź”¸ Podane wartoĹ›ci dotyczÄ… poziomu ulepszenia <strong>+9</strong>, a wymagany poziom zostaĹ‚ zmieniony na <strong>33</strong>.</p>
+    </div>
+
+    <!-- Naszyjniki -->
+    <div class="eq-category">
+      <h3 class="req-title">Naszyjniki</h3>
+      <div class="eq-items">
+        <div class="eq-item">
+          <img src="https://img.m2icondb.com/16060.png" alt="ZĹ‚oty Naszyjnik">
+          <div class="eq-tooltip">
+            <span class="eq-title">ZĹ‚oty Naszyjnik +9</span>
+            <div class="eq-req">Od poziomu: 33</div>
+            <ul>
+              <li>SzybkoĹ›Ä‡ zaklÄ™cia: +22%</li>
+              <li>Inteligencja: +6</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="eq-item">
+          <img src="https://img.m2icondb.com/16120.png" alt="PerĹ‚owy Naszyjnik">
+          <div class="eq-tooltip">
+            <span class="eq-title">PerĹ‚owy Naszyjnik +9</span>
+            <div class="eq-req">Od poziomu: 33</div>
+            <ul>
+              <li>SzybkoĹ›Ä‡ zaklÄ™cia: +22%</li>
+              <li>WartoĹ›Ä‡ Ataku: +20</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="eq-item">
+          <img src="https://img.m2icondb.com/16100.png" alt="Ebonitowy Naszyjnik">
+          <div class="eq-tooltip">
+            <span class="eq-title">Ebonitowy Naszyjnik +9</span>
+            <div class="eq-req">Od poziomu: 33</div>
+            <ul>
+              <li>SzybkoĹ›Ä‡ zaklÄ™cia: +22%</li>
+              <li>SiĹ‚a: +6</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="eq-item">
+          <img src="https://img.m2icondb.com/16080.png" alt="Jadeitowy Naszyjnik">
+          <div class="eq-tooltip">
+            <span class="eq-title">Jadeitowy Naszyjnik +9</span>
+            <div class="eq-req">Od poziomu: 33</div>
+            <ul>
+              <li>SzybkoĹ›Ä‡ zaklÄ™cia: +22%</li>
+              <li>ZrÄ™cznoĹ›Ä‡: +6</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <p>đź”¸ Podane wartoĹ›ci dotyczÄ… poziomu ulepszenia <strong>+9</strong>, a wymagany poziom zostaĹ‚ zmieniony na <strong>33</strong>.</p>
+    </div>
+
+    <!-- Kolczyki -->
+    <div class="eq-category">
+      <h3 class="req-title">Kolczyki</h3>
+      <div class="eq-items">
+        <div class="eq-item">
+          <img src="https://img.m2icondb.com/17060.png" alt="ZĹ‚ote Kolczyki">
+          <div class="eq-tooltip">
+            <span class="eq-title">ZĹ‚ote Kolczyki +9</span>
+            <div class="eq-req">Od poziomu: 33</div>
+            <ul>
+              <li>Inteligencja: +12</li>
+              <li>Max. PĹ»: +1250</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="eq-item">
+          <img src="https://img.m2icondb.com/17080.png" alt="Jadeitowe Kolczyki">
+          <div class="eq-tooltip">
+            <span class="eq-title">Jadeitowe Kolczyki +9</span>
+            <div class="eq-req">Od poziomu: 33</div>
+            <ul>
+              <li>ZrÄ™cznoĹ›Ä‡: +12</li>
+              <li>Max. PĹ»: +1250</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="eq-item">
+          <img src="https://img.m2icondb.com/17100.png" alt="Ebonitowe Kolczyki">
+          <div class="eq-tooltip">
+            <span class="eq-title">Ebonitowe Kolczyki +9</span>
+            <div class="eq-req">Od poziomu: 33</div>
+            <ul>
+              <li>SiĹ‚a: +12</li>
+              <li>Max. PĹ»: +1250</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="eq-item">
+          <img src="https://img.m2icondb.com/17120.png" alt="PerĹ‚owe Kolczyki">
+          <div class="eq-tooltip">
+            <span class="eq-title">PerĹ‚owe Kolczyki +9</span>
+            <div class="eq-req">Od poziomu: 33</div>
+            <ul>
+              <li>WartoĹ›Ä‡ Ataku: +20</li>
+              <li>Max. PĹ»: +1250</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <p>đź”¸ Podane wartoĹ›ci dotyczÄ… poziomu ulepszenia <strong>+9</strong>, a wymagany poziom zostaĹ‚ zmieniony na <strong>33</strong>.</p>
+    </div>
+
+    <!-- Buty -->
+    <div class="eq-category">
+      <h3 class="req-title">Buty</h3>
+      <div class="eq-items">
+        <div class="eq-item">
+          <img src="https://img.m2icondb.com/15060.png" alt="Buty Wyszywane ZĹ‚otem">
+          <div class="eq-tooltip">
+            <span class="eq-title">Buty Wyszywane ZĹ‚otem +9</span>
+            <div class="eq-req">Od poziomu: 33</div>
+            <ul>
+              <li>SzybkoĹ›Ä‡ ruchu: +20%</li>
+              <li>Obrona: +30</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="eq-item">
+          <img src="https://img.m2icondb.com/15080.png" alt="SkĂłrzane Kozaki">
+          <div class="eq-tooltip">
+            <span class="eq-title">SkĂłrzane Kozaki +9</span>
+            <div class="eq-req">Od poziomu: 33</div>
+            <ul>
+              <li>SzybkoĹ›Ä‡ ruchu: +20%</li>
+              <li>OdpornoĹ›Ä‡ na strzaĹ‚y: +15%</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="eq-item">
+          <img src="https://img.m2icondb.com/15100.png" alt="ZĹ‚ote Buty">
+          <div class="eq-tooltip">
+            <span class="eq-title">ZĹ‚ote Buty +9</span>
+            <div class="eq-req">Od poziomu: 33</div>
+            <ul>
+              <li>SzybkoĹ›Ä‡ ruchu: +20%</li>
+              <li>Szansa na blok ciosĂłw: +5%</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="eq-item">
+          <img src="https://img.m2icondb.com/15120.png" alt="Buty z BrÄ…zu">
+          <div class="eq-tooltip">
+            <span class="eq-title">Buty z BrÄ…zu +9</span>
+            <div class="eq-req">Od poziomu: 33</div>
+            <ul>
+              <li>SzybkoĹ›Ä‡ ruchu: +20%</li>
+              <li>Szansa na unikniÄ™cie strzaĹ‚: +10%</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <p>đź”¸ Podane wartoĹ›ci dotyczÄ… poziomu ulepszenia <strong>+9</strong>, a wymagany poziom zostaĹ‚ zmieniony na <strong>33</strong>.</p>
+    </div>
+
+    <h1></h1>
+    <h3 class="req-title">Ekwipunek 54</h3>
+    <h1></h1>
+
+    <!-- Bransolety -->
+    <div class="eq-category">
+      <h3 class="req-title">Bransolety</h3>
+      <div class="eq-items">
+        <div class="eq-item">
+          <img src="https://img.m2icondb.com/14140.png" alt="Bransoleta z BiaĹ‚ego ZĹ‚ota">
+          <div class="eq-tooltip">
+            <span class="eq-title">Bransoleta z BiaĹ‚ego ZĹ‚ota +9</span>
+            <div class="eq-req">Od poziomu: 54</div>
+            <ul>
+              <li>SzybkoĹ›Ä‡ ataku: +10%</li>
+              <li>ObraĹĽenia UmiejÄ™tnoĹ›ci: +3%</li>
+              <li>Max. PĹ»: +1800</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="eq-item">
+          <img src="https://img.m2icondb.com/14160.png" alt="KrysztaĹ‚owa Bransoleta">
+          <div class="eq-tooltip">
+            <span class="eq-title">KrysztaĹ‚owa Bransoleta +9</span>
+            <div class="eq-req">Od poziomu: 54</div>
+            <ul>
+              <li>SzybkoĹ›Ä‡ ataku: +10%</li>
+              <li>Obrona: +40</li>
+              <li>Blok ciosĂłw: +5%</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="eq-item">
+          <img src="https://img.m2icondb.com/14180.png" alt="Ametystowa Bransoleta">
+          <div class="eq-tooltip">
+            <span class="eq-title">Ametystowa Bransoleta +9</span>
+            <div class="eq-req">Od poziomu: 54</div>
+            <ul>
+              <li>SzybkoĹ›Ä‡ ataku: +10%</li>
+              <li>Silny przeciwko potworom: +5%</li>
+              <li>Szansa na unikniÄ™cie strzaĹ‚: +5%</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="eq-item">
+          <img src="https://img.m2icondb.com/14200.png" alt="Bransoleta z NiebiaĹ„skich Ĺez">
+          <div class="eq-tooltip">
+            <span class="eq-title">Bransoleta z NiebiaĹ„skich Ĺez +9</span>
+            <div class="eq-req">Od poziomu: 54</div>
+            <ul>
+              <li>SzybkoĹ›Ä‡ ataku: +10%</li>
+              <li>Szansa na cios krytyczny: +10%</li>
+              <li>Szansa na odzyskanie PĹ»: +8%</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <p>đź”¸ Podane wartoĹ›ci dotyczÄ… poziomu ulepszenia <strong>+9</strong>, a wymagany poziom zostaĹ‚ zmieniony na <strong>54</strong>.</p>
+    </div>
+
+    <!-- Naszyjniki -->
+    <div class="eq-category">
+      <h3 class="req-title">Naszyjniki</h3>
+      <div class="eq-items">
+        <div class="eq-item">
+          <img src="https://img.m2icondb.com/16140.png" alt="Naszyjnik z BiaĹ‚ego ZĹ‚ota">
+          <div class="eq-tooltip">
+            <span class="eq-title">Naszyjnik z BiaĹ‚ego ZĹ‚ota +9</span>
+            <div class="eq-req">Od poziomu: 54</div>
+            <ul>
+              <li>SzybkoĹ›Ä‡ zaklÄ™cia: +24%</li>
+              <li>SiĹ‚a: +6</li>
+              <li>Szansa na przeszywajÄ…cy cios: +15%</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="eq-item">
+          <img src="https://img.m2icondb.com/16160.png" alt="KrysztaĹ‚owy Naszyjnik">
+          <div class="eq-tooltip">
+            <span class="eq-title">KrysztaĹ‚owy Naszyjnik +9</span>
+            <div class="eq-req">Od poziomu: 54</div>
+            <ul>
+              <li>SzybkoĹ›Ä‡ zaklÄ™cia: +24%</li>
+              <li>ZrÄ™cznoĹ›Ä‡: +6</li>
+              <li>Szansa na przeszywajÄ…cy cios: +15%</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="eq-item">
+          <img src="https://img.m2icondb.com/16180.png" alt="Ametystowy Naszyjnik">
+          <div class="eq-tooltip">
+            <span class="eq-title">Ametystowy Naszyjnik +9</span>
+            <div class="eq-req">Od poziomu: 54</div>
+            <ul>
+              <li>SzybkoĹ›Ä‡ zaklÄ™cia: +24%</li>
+              <li>Inteligencja: +6</li>
+              <li>Szansa na przeszywajÄ…cy cios: +15%</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="eq-item">
+          <img src="https://img.m2icondb.com/16200.png" alt="Naszyjnik z NiebiaĹ„skich Ĺez">
+          <div class="eq-tooltip">
+            <span class="eq-title">Naszyjnik z NiebiaĹ„skich Ĺez +9</span>
+            <div class="eq-req">Od poziomu: 54</div>
+            <ul>
+              <li>SzybkoĹ›Ä‡ zaklÄ™cia: +24%</li>
+              <li>WitalnoĹ›Ä‡: +12</li>
+              <li>Szansa na przeszywajÄ…cy cios: +15%</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <p>đź”¸ Podane wartoĹ›ci dotyczÄ… poziomu ulepszenia <strong>+9</strong>, a wymagany poziom zostaĹ‚ zmieniony na <strong>54</strong>.</p>
+    </div>
+
+    <!-- Kolczyki -->
+    <div class="eq-category">
+      <h3 class="req-title">Kolczyki</h3>
+      <div class="eq-items">
+        <div class="eq-item">
+          <img src="https://img.m2icondb.com/17200.png" alt="Kolczyki z NiebiaĹ„skich Ĺez">
+          <div class="eq-tooltip">
+            <span class="eq-title">Kolczyki z NiebiaĹ„skich Ĺez +9</span>
+            <div class="eq-req">Od poziomu: 54</div>
+            <ul>
+              <li>Inteligencja: +14</li>
+              <li>Max. PĹ»: +1650</li>
+              <li>Szansa na cios krytyczny: +5%</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="eq-item">
+          <img src="https://img.m2icondb.com/17180.png" alt="Ametystowe Kolczyki">
+          <div class="eq-tooltip">
+            <span class="eq-title">Ametystowe Kolczyki +9</span>
+            <div class="eq-req">Od poziomu: 54</div>
+            <ul>
+              <li>WartoĹ›Ä‡ Ataku: +35</li>
+              <li>Max. PĹ»: +1650</li>
+              <li>Szansa na cios krytyczny: +5%</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="eq-item">
+          <img src="https://img.m2icondb.com/17160.png" alt="KrysztaĹ‚owe Kolczyki">
+          <div class="eq-tooltip">
+            <span class="eq-title">KrysztaĹ‚owe Kolczyki +9</span>
+            <div class="eq-req">Od poziomu: 54</div>
+            <ul>
+              <li>ZrÄ™cznoĹ›Ä‡: +14</li>
+              <li>Max. PĹ»: +1650</li>
+              <li>Szansa na cios krytyczny: +5%</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="eq-item">
+          <img src="https://img.m2icondb.com/17140.png" alt="Kolczyki z BiaĹ‚ego ZĹ‚ota">
+          <div class="eq-tooltip">
+            <span class="eq-title">Kolczyki z BiaĹ‚ego ZĹ‚ota +9</span>
+            <div class="eq-req">Od poziomu: 54</div>
+            <ul>
+              <li>SiĹ‚a: +14</li>
+              <li>Max. PĹ»: +1650</li>
+              <li>Szansa na cios krytyczny: +5%</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <p>đź”¸ Podane wartoĹ›ci dotyczÄ… poziomu ulepszenia <strong>+9</strong>, a wymagany poziom zostaĹ‚ zmieniony na <strong>54</strong>.</p>
+    </div>
+
+    <!-- Buty -->
+    <div class="eq-category">
+      <h3 class="req-title">Buty</h3>
+      <div class="eq-items">
+        <div class="eq-item">
+          <img src="https://img.m2icondb.com/15140.png" alt="Jadeitowe Buty">
+          <div class="eq-tooltip">
+            <span class="eq-title">Jadeitowe Buty +9</span>
+            <div class="eq-req">Od poziomu: 54</div>
+            <ul>
+              <li>SzybkoĹ›Ä‡ ruchu: +25%</li>
+              <li>Szansa na bonus doĹ›w.: +20%</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="eq-item">
+          <img src="https://img.m2icondb.com/15220.png" alt="Buty Ognistego Ptaka">
+          <div class="eq-tooltip">
+            <span class="eq-title">Buty Ognistego Ptaka +9</span>
+            <div class="eq-req">Od poziomu: 54</div>
+            <ul>
+              <li>SzybkoĹ›Ä‡ ruchu: +25%</li>
+              <li>Obrona: +60</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="eq-item">
+          <img src="https://img.m2icondb.com/15160.png" alt="Ekstazyjne Buty">
+          <div class="eq-tooltip">
+            <span class="eq-title">Ekstazyjne Buty +9</span>
+            <div class="eq-req">Od poziomu: 54</div>
+            <ul>
+              <li>SzybkoĹ›Ä‡ ruchu: +25%</li>
+              <li>SzybkoĹ›Ä‡ ZaklÄ™Ä‡: +15%</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="eq-item">
+          <img src="https://img.m2icondb.com/15180.png" alt="Deszczowe Buty">
+          <div class="eq-tooltip">
+            <span class="eq-title">Deszczowe Buty +9</span>
+            <div class="eq-req">Od poziomu: 54</div>
+            <ul>
+              <li>SzybkoĹ›Ä‡ ruchu: +25%</li>
+              <li>Szansa na unikniÄ™cie strzaĹ‚: +20%</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="eq-item">
+          <img src="https://img.m2icondb.com/15200.png" alt="Buty Feniksa">
+          <div class="eq-tooltip">
+            <span class="eq-title">Buty Feniksa +9</span>
+            <div class="eq-req">Od poziomu: 54</div>
+            <ul>
+              <li>SzybkoĹ›Ä‡ ruchu: +25%</li>
+              <li>Szansa na blok ciosĂłw: +10%</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <p>đź”¸ Podane wartoĹ›ci dotyczÄ… poziomu ulepszenia <strong>+9</strong>, a wymagany poziom zostaĹ‚ zmieniony na <strong>54</strong>.</p>
+    </div>
+  <!-- Aktualizacje koniec sekcji -->
+  </div>
+
+  <!-- Sekcja 44 - Item-Shop -->
+  <div class="section" id="section_44">
+    <h1><img src="prez/item-shop-header.png" alt="Item-Shop"></h1>
+
+    <div class="section-box">
+      <p>
+        W tej sekcji znajdziecie <strong>opisy oraz peĹ‚ny Item-Shop</strong>, a takĹĽe
+        szczegĂłĹ‚y wszystkich <strong>pakietĂłw</strong> dostÄ™pnych na serwerze.
+      </p>
+      <p>
+        Opisy sÄ… interaktywne - naleĹĽy klikaÄ‡ na ikonki w celu wyĹ›wietlenia opisĂłw.
+      </p>
+    </div>
+    <h1></h1>
+    <h3 class="req-title">Pakiety</h3>
+
+    <!-- Ikony pakietĂłw -->
+    <div class="packages-grid">
+      <button class="package-card" data-target="pakiet-150" aria-controls="pakiet-150" aria-expanded="false">
+        <img src="https://img.m2icondb.com/50285.png" alt="Pakiet 150 zĹ‚">
+        <span>PAKIET 100 ZĹ [PVE]</span>
+      </button>
+
+      <button class="package-card" data-target="pakiet-150-pvp" aria-controls="pakiet-150-pvp" aria-expanded="false">
+        <img src="https://img.m2icondb.com/50285.png" alt="Pakiet 150 zĹ‚">
+        <span>PAKIET 100 ZĹ [PVP]</span>
+      </button>
+
+      <button class="package-card" data-target="pakiet-250" aria-controls="pakiet-250" aria-expanded="false">
+        <img src="https://img.m2icondb.com/50286.png" alt="Pakiet 250 zĹ‚">
+        <span>PAKIET 200 ZĹ</span>
+      </button>
+    </div>
+
+    <!-- Opisy pakietĂłw (domyĹ›lnie ukryte, pokazujÄ… siÄ™ po klikniÄ™ciu) -->
+    <div id="pakiet-150" class="package-detail" hidden>
+      <div class="section-box">
+        <img src="prez/pakiet-pve.png">
+        <h3 class="req-title">Pakiet 100 zĹ‚</h3>
+        <p>PoniĹĽej dokĹ‚adna zwartoĹ›Ä‡ pakietu 100zĹ‚.</p>
+        <div class="package-items">
+          <div class="p-item">
+            <img src="https://img.m2icondb.com/45003.png" alt="Przedmiot 1">
+            <div class="p-desc">
+              <strong>Fryzura [30d]</strong><br>
+              Silny Przeciwko Potworom +10%<br>
+              Max. PĹ». +1000
+            </div>
+          </div>
+          <div class="p-item">
+            <img src="https://img.m2icondb.com/41311.png" alt="Przedmiot 2">
+            <div class="p-desc">
+              <strong>Kostium [30d]</strong><br>
+              Silny Przeciwko Potworom +10%<br>
+              Max. PĹ». +1000
+            </div>
+          </div>
+          <div class="p-item">
+            <img src="https://img.m2icondb.com/00320.png" alt="Przedmiot 3">
+            <div class="p-desc">
+              <strong>NakĹ‚adka [30d]</strong><br>
+              Silny Przeciwko Potworom +10%<br>
+              Silny Przeciwko Ludziom +10%<br>
+            </div>
+          </div>
+          <div class="p-item">
+            <img src="https://img.m2icondb.com/71130.png" alt="Przedmiot 4">
+            <div class="p-desc">
+              <strong>PierĹ›cieĹ„ PĂłĹ‚ksiÄ™ĹĽyca [7d]</strong><br>
+              Silny Przeciwko Potworom +10%<br>
+              PrzeszywajÄ…ce Uderzenie +10%
+            </div>
+          </div>
+          <div class="p-item">
+            <img src="https://img.m2icondb.com/53001.png" alt="Przedmiot 5">
+            <div class="p-desc">
+              <strong>Zwierzak [30d]</strong><br>
+              Silny Przeciwko Potworom +10%<br>
+              Max. PĹ». +1000
+            </div>
+          </div>
+          <img src="prez/pakiet-vip.png" alt="Pakiet VIP">
+          <div class="p-item">
+            <div class="p-desc-vip">
+              <span>Pakiet Vip</span> nie jest zawarty w pakiecie 100 zĹ‚, jest on moĹĽliwy do kupienia osobno za kwotÄ™ <strong>50zĹ‚</strong>.<br>
+              W jego skĹ‚ad wchodzÄ… : <br><br>
+
+              RÄ™kawica ZĹ‚odzieja +100% [30d]<br>
+              PierĹ›cieĹ„ DoĹ›wiadczenia +50% [30d]<br>
+              Moneta SzczÄ™Ĺ›cia +100% [30d]<br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="pakiet-150-pvp" class="package-detail" hidden>
+      <div class="section-box">
+        <img src="prez/pakiet-pvp.png">
+        <h3 class="req-title">Pakiet 100 zĹ‚</h3>
+        <p>PoniĹĽej dokĹ‚adna zwartoĹ›Ä‡ pakietu 100zĹ‚.</p>
+        <div class="package-items">
+          <div class="p-item">
+            <img src="https://img.m2icondb.com/45003.png" alt="Przedmiot 1">
+            <div class="p-desc">
+              <strong>Fryzura [30d]</strong><br>
+              Silny Przeciwko Ludziom +10%<br>
+              Max. PĹ». +1000
+            </div>
+          </div>
+          <div class="p-item">
+            <img src="https://img.m2icondb.com/41311.png" alt="Przedmiot 2">
+            <div class="p-desc">
+              <strong>Kostium [30d]</strong><br>
+              Silny Przeciwko Ludziom +10%<br>
+              Max. PĹ». +1000
+            </div>
+          </div>
+          <div class="p-item">
+            <img src="https://img.m2icondb.com/00320.png" alt="Przedmiot 3">
+            <div class="p-desc">
+              <strong>NakĹ‚adka [30d]</strong><br>
+              Silny Przeciwko Potworom +10%<br>
+              Silny Przeciwko Ludziom +10%<br>
+            </div>
+          </div>
+          <div class="p-item">
+            <img src="https://img.m2icondb.com/71136.png" alt="Przedmiot 4">
+            <div class="p-desc">
+              <strong>Lizak PotÄ™gi [7d]</strong><br>
+              Silny Przeciwko Ludziom +10%<br>
+              SzybkoĹ›Ä‡ ZaklÄ™Ä‡ +15%
+            </div>
+          </div>
+          <div class="p-item">
+            <img src="https://img.m2icondb.com/53001.png" alt="Przedmiot 5">
+            <div class="p-desc">
+              <strong>Zwierzak [30d]</strong><br>
+              Silny Przeciwko Ludziom +10%<br>
+              Max. PĹ». +1000
+            </div>
+          </div>
+          <img src="prez/pakiet-vip.png" alt="Pakiet VIP">
+          <div class="p-item">
+            <div class="p-desc-vip">
+              <span>Pakiet Vip</span> nie jest zawarty w pakiecie 100 zĹ‚, jest on moĹĽliwy do kupienia osobno za kwotÄ™ <strong>50zĹ‚</strong>.<br>
+              W jego skĹ‚ad wchodzÄ… : <br><br>
+
+              RÄ™kawica ZĹ‚odzieja +100% [30d]<br>
+              PierĹ›cieĹ„ DoĹ›wiadczenia +50% [30d]<br>
+              Moneta SzczÄ™Ĺ›cia +100% [30d]<br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="pakiet-250" class="package-detail" hidden>
+      <div class="section-box">
+        <img src="prez/pakiet-pve-pvp.png">
+        <h3 class="req-title">Pakiet 200 zĹ‚</h3>
+        <p>PoniĹĽej dokĹ‚adna zwartoĹ›Ä‡ pakietu 200zĹ‚.</p>
+        <div class="package-items">
+          <div class="p-item">
+            <img src="https://img.m2icondb.com/45003.png" alt="Przedmiot 1">
+            <div class="p-desc">
+              <strong>Fryzura [30d]</strong><br>
+              Silny Przeciwko Potworom +10%<br>
+              Silny Przeciwko Ludziom +10%<br>
+              Max. PĹ». +1000
+            </div>
+          </div>
+          <div class="p-item">
+            <img src="https://img.m2icondb.com/41311.png" alt="Przedmiot 2">
+            <div class="p-desc">
+              <strong>Kostium [30d]</strong><br>
+              Silny Przeciwko Potworom +10%<br>
+              Silny Przeciwko Ludziom +10%<br>
+              Max. PĹ». +1000
+            </div>
+          </div>
+          <div class="p-item">
+            <img src="https://img.m2icondb.com/00320.png" alt="Przedmiot 3">
+            <div class="p-desc">
+              <strong>NakĹ‚adka [30d]</strong><br>
+              Silny Przeciwko Potworom +10%<br>
+              Silny Przeciwko Ludziom +10%<br>
+            </div>
+          </div>
+          <div class="p-item">
+            <img src="https://img.m2icondb.com/53001.png" alt="Przedmiot 5">
+            <div class="p-desc">
+              <strong>Zwierzak [30d]</strong><br>
+              Silny Przeciwko Potworom +10%<br>
+              Silny Przeciwko Ludziom +10%<br>
+              Max. PĹ». +1000
+            </div>
+          </div>
+          <div class="p-item">
+            <img src="https://img.m2icondb.com/71130.png" alt="Przedmiot 4">
+            <div class="p-desc">
+              <strong>PierĹ›cieĹ„ PĂłĹ‚ksiÄ™ĹĽyca [7d]</strong><br>
+              Silny Przeciwko Potworom +10%<br>
+              PrzeszywajÄ…ce Uderzenie +10%
+            </div>
+          </div>
+          <div class="p-item">
+            <img src="https://img.m2icondb.com/71136.png" alt="Przedmiot 4">
+            <div class="p-desc">
+              <strong>Lizak PotÄ™gi [7d]</strong><br>
+              Silny Przeciwko Ludziom +10%<br>
+              SzybkoĹ›Ä‡ ZaklÄ™Ä‡ +15%
+            </div>
+          </div>
+          <img src="prez/pakiet-vip.png" alt="Pakiet VIP">
+          <div class="p-item">
+            <div class="p-desc-vip">
+              <span>Pakiet Vip</span> nie jest zawarty w pakiecie 200 zĹ‚, jest on moĹĽliwy do kupienia osobno za kwotÄ™ <strong>50zĹ‚</strong>.<br>
+              W jego skĹ‚ad wchodzÄ… : <br><br>
+
+              RÄ™kawica ZĹ‚odzieja +100% [30d]<br>
+              PierĹ›cieĹ„ DoĹ›wiadczenia +50% [30d]<br>
+              Moneta SzczÄ™Ĺ›cia +100% [30d]<br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h1></h1>
+    <h3 class="req-title">JeĹşdziectwo i Towarzysze</h3>
+    <p>
+      W <strong>Item-Shopie</strong> dostÄ™pne bÄ™dÄ… rĂłĹĽne wersje stylistyczne wierzchowcĂłw oraz towarzyszy. Ich bonusy oraz cena rĂłĹĽniÄ… siÄ™ wzglÄ™dem siebie.<br>
+      SzczegĂłĹ‚y przedstawiamy poniĹĽej:
+    </p>
+    <!-- Ikony pakietĂłw -->
+    <div class="packages-grid">
+      <button class="package-card" data-target="wierzchowiec-slabszy" aria-controls="wierzchowiec-slabszy" aria-expanded="false">
+        <img src="https://img.m2icondb.com/50285.png" alt="Pakiet 150 zĹ‚">
+        <span>Wersja Standardowa</span>
+      </button>
+
+      <button class="package-card" data-target="wierzchowiec-lepszy" aria-controls="wierzchowiec-lepszy" aria-expanded="false">
+        <img src="https://img.m2icondb.com/50286.png" alt="Pakiet 250 zĹ‚">
+        <span>Wersja Premium</span>
+      </button>
+    </div>
+
+    <!-- Opisy pakietĂłw (domyĹ›lnie ukryte, pokazujÄ… siÄ™ po klikniÄ™ciu) -->
+    <div id="wierzchowiec-slabszy" class="package-detail" hidden>
+      <div class="section-box">
+        <h3 class="req-title">Wierzchowce ZwykĹ‚e</h3>
+        <p>PoniĹĽej przykĹ‚adowe wierzchowce: </p>
+        <div class="package-items">
+          <div class="p-item">
+            <img src="https://img.m2icondb.com/71125.png" alt="Przedmiot 1">
+            <div class="p-desc">
+              <strong>Dzik Wojenny</strong><br>
+              Silny Przeciwko Potworom +15%<br>
+            </div>
+          </div>
+          <img class="wierzchowce" src="prez/Dzik_Wojenny.png">
+        </div>
+        <div class="package-items">
+          <div class="p-item">
+            <img src="https://img.m2icondb.com/71126.png" alt="Przedmiot 1">
+            <div class="p-desc">
+              <strong>Wilk Wojenny</strong><br>
+              Silny Przeciwko Potworom +15%<br>
+            </div>
+          </div>
+          <img class="wierzchowce" src="prez/wilk.png">
+        </div>
+        <div class="package-items">
+          <div class="p-item">
+            <img src="https://img.m2icondb.com/71126.png" alt="Przedmiot 1">
+            <div class="p-desc">
+              <strong>Lew</strong><br>
+              Zdobywane doĹ›wiadczenie +25%<br>
+            </div>
+          </div>
+          <img class="wierzchowce" src="prez/lew.png">
+        </div>
+        <h1></h1>
+        <h3 class="req-title">Zwierzaki ZwykĹ‚e</h3>
+        <p>PoniĹĽej przykĹ‚adowe zwierzaki: </p>
+        <div class="package-items">
+          <div class="p-item">
+            <img src="https://img.m2icondb.com/53008.png" alt="Przedmiot 1">
+            <div class="p-desc">
+              <strong>Knuud</strong><br> 
+              Silny na Potwory lub Ludzi +10%<br>
+              Max. PĹ». +1000<br>
+              </div>
+          </div>
+          <img class="zwierzaki" src="prez/knuud.png">
+        </div>
+        <div class="package-items">
+          <div class="p-item">
+            <img src="https://img.m2icondb.com/53008.png" alt="Przedmiot 1">
+            <div class="p-desc">
+              <strong>BoczuĹ›</strong><br>
+              Silny na Potwory lub Ludzi +10%<br>
+              Max. PĹ». +1000<br>
+            </div>
+          </div>
+          <img class="zwierzaki" src="prez/150px-Polarny_BoczuĹ›_1.png">
+        </div>
+        <div class="package-items">
+          <div class="p-item">
+            <img src="https://img.m2icondb.com/53008.png" alt="Przedmiot 1">
+            <div class="p-desc">
+              <strong>Rufus</strong><br>
+              Silny na Potwory lub Ludzi +10%<br>
+              Max. PĹ». +1000<br>
+            </div>
+          </div>
+          <img class="zwierzaki" src="prez/Rufus.png">
+        </div>
+      </div>
+    </div>
+
+    <div id="wierzchowiec-lepszy" class="package-detail" hidden>
+      <div class="section-box">
+        <h3 class="req-title">Wierzchowce Premium</h3>
+        <p>PoniĹĽej przykĹ‚adowe wierzchowce: </p>
+        <div class="package-items">
+          <div class="p-item">
+            <img src="https://img.m2icondb.com/71224.png" alt="Przedmiot 1">
+            <div class="p-desc">
+              <strong>Manu</strong><br>
+              Silny Przeciwko Potworom +15%<br>
+              DoĹ›wiadczenie +25%<br>
+            </div>
+          </div>
+          <img class="wierzchowce" src="prez/Manni.png">
+        </div>
+        <h1></h1>
+        <h3 class="req-title">Zwierzaki Premium</h3>
+        <p>PoniĹĽej przykĹ‚adowe zwierzaki: </p>
+        <div class="package-items">
+          <div class="p-item">
+            <img src="https://img.m2icondb.com/53017.png" alt="Przedmiot 1">
+            <div class="p-desc">
+              <strong>Feniks</strong><br>
+              Silny Przeciwko Potworom +10%<br>
+              Silny Przeciwko Ludziom +10%<br>
+              Max. PĹ». +1000<br>
+            </div>
+          </div>
+          <img class="zwierzaki" src="prez/feniks-jadeit.png">
+        </div>
+        <div class="package-items">
+          <div class="p-item">
+            <img src="https://img.m2icondb.com/53008.png" alt="Przedmiot 1">
+            <div class="p-desc">
+              <strong>Khan</strong><br>
+              Silny Przeciwko Potworom +10%<br>
+              Silny Przeciwko Ludziom +10%<br>
+              Max. PĹ». +1000<br>
+            </div>
+          </div>
+          <img class="zwierzaki" src="prez/Khan.png">
+        </div>
+        <div class="package-items">
+          <div class="p-item">
+            <img src="https://img.m2icondb.com/53016.png" alt="Przedmiot 1">
+            <div class="p-desc">
+              <strong>Kostek</strong><br>
+              Silny Przeciwko Potworom +10%<br>
+              Silny Przeciwko Ludziom +10%<br>
+              Max. PĹ». +1000<br>
+            </div>
+          </div>
+          <img class="zwierzaki" src="prez/kostek.png">
+        </div>
+      </div>
+    </div>
+    <h1></h1>
+    <p>
+      Dodatkowo w <strong>Item-Shopie</strong> znajdziemy: 
+    </p>
+    <div class="item-row">
+      <img class="item-row__icon" src="https://img.m2icondb.com/50040.png" alt="ZĹ‚oty Certyfikat">
+      <div class="item-row__content">
+        <div class="item-row__title">ZĹ‚oty Certyfikat</div>
+        <div class="item-row__desc">
+          Certyfikat ten umoĹĽliwi ci natychmiastowy awans Twojego poziomu konia na 11.
+        </div>
+      </div>
+    </div>
+    <div class="item-row">
+      <img class="item-row__icon" src="https://img.m2icondb.com/71110.png" alt="Cukier dla Konia">
+      <div class="item-row__content">
+        <div class="item-row__title">Cukier dla Konia</div>
+        <div class="item-row__desc">
+          Ulubiony przysmak Twojego konia, pozwoli Ci nadaÄ‡ imiÄ™ oraz zwiÄ™kszy jego obronÄ™ o 20pkt.
+        </div>
+      </div>
+    </div>
+
+    <h1></h1>
+    <h3 class="req-title">Przedmioty Specjalne</h3>
+    <p>
+      W <strong>Item-Shopie</strong> dostÄ™pnych bÄ™dzie kilka przedmiotĂłw specjalnych.<br><br>
+      SzczegĂłĹ‚y przedstawiamy poniĹĽej:
+    </p>
+
+    <div class="item-row">
+      <img class="item-row__icon" src="https://img.m2icondb.com/31033.png" alt="Peleryna Nieagresji">
+      <div class="item-row__content">
+        <div class="item-row__title">Peleryna Nieagresji</div>
+        <div class="item-row__desc">
+          Peleryna dziÄ™ki ktĂłrej staniesz siÄ™ niewidzialny dla potworĂłw i nie bÄ™dÄ… w staniÄ™ ciÄ™ atakowaÄ‡.
+          Czas trwania 7 dni.
+        </div>
+      </div>
+    </div>
+    <div class="item-row">
+      <img class="item-row__icon" src="https://img.m2icondb.com/71130.png" alt="PierĹ›cieĹ„ PĂłĹ‚ksiÄ™ĹĽyca">
+      <div class="item-row__content">
+        <div class="item-row__title">PierĹ›cieĹ„ PĂłĹ‚ksiÄ™ĹĽyca</div>
+        <div class="item-row__desc">
+          Na 7 dni Twoja postaÄ‡ zostanie wzmocniona o bonusy wymienione poniĹĽej:
+          <p>
+            Silny Przeciwko Potworom +10%<br>
+            Szansa na cios przeszywajÄ…cy +10%
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="item-row">
+      <img class="item-row__icon" src="https://img.m2icondb.com/71136.png" alt="Lizak PotÄ™gi">
+      <div class="item-row__content">
+        <div class="item-row__title">Lizak PotÄ™gi</div>
+        <div class="item-row__desc">
+          Na 7 dni Twoja postaÄ‡ zostanie wzmocniona o bonusy wymienione poniĹĽej:
+          <p>
+            Silny Przeciwko Ludziom +10%<br>
+            SzybkoĹ›Ä‡ ZaklÄ™Ä‡ +15%
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+    <h1></h1>
+    <h3 class="req-title">Wspomagacze</h3>
+    <p>
+      W <strong>Item-Shopie</strong> dostÄ™pne bÄ™dÄ… rĂłĹĽnego rodzaju dopalacze, sÄ… one moĹĽliwe do zdobycia bezpoĹ›rednio z rozgrywki.<br><br>
+      SzczegĂłĹ‚y przedstawiamy poniĹĽej:
+    </p>
+    <div class="item-row">
+      <img class="item-row__icon" src="https://img.m2icondb.com/71001.png" alt="ZwĂłj Egzorcyzmu">
+      <div class="item-row__content">
+        <div class="item-row__title">ZwĂłj Egzorcyzmu - Pakiet x10</div>
+        <div class="item-row__desc">
+          UmoĹĽliwia przeczytanie nastÄ™pnej KsiÄ™gi UmiejÄ™tnoĹ›ci, Kamienia Duchowego bez koniecznoĹ›ci czekania.
+        </div>
+      </div>
+    </div>
+    <div class="item-row">
+      <img class="item-row__icon" src="https://img.m2icondb.com/71094.png" alt="Rada Pustelnika">
+      <div class="item-row__content">
+        <div class="item-row__title">Rada Pustelnika - Pakiet x10</div>
+        <div class="item-row__desc">
+          ZwiÄ™ksza szansÄ™ na pomyĹ›lne przeczytanie KsiÄ™gi UmiejÄ™tnoĹ›ci, Kamienia Duchowego.
+        </div>
+      </div>
+    </div>
+    <div class="item-row">
+      <img class="item-row__icon" src="https://img.m2icondb.com/71028.png" alt="Atak Boga SmokĂłw">
+      <div class="item-row__content">
+        <div class="item-row__title">Atak Boga SmokĂłw - Pakiet x10</div>
+        <div class="item-row__desc">
+          ZwiÄ™ksza obraĹĽenie jakie zadajesz podczas walki o 12-20% przez 30 minut.
+        </div>
+      </div>
+    </div>
+    <div class="item-row">
+      <img class="item-row__icon" src="https://img.m2icondb.com/71027.png" alt="Ĺ»ycie Boga SmokĂłw">
+      <div class="item-row__content">
+        <div class="item-row__title">Ĺ»ycie Boga SmokĂłw - Pakiet x10</div>
+        <div class="item-row__desc">
+          ZwiÄ™ksza iloĹ›Ä‡ PunktĂłw Ĺ»ycia Twojej postaci o 20% na czas trwania 30 minut.
+        </div>
+      </div>
+    </div>
+    <div class="item-row">
+      <img class="item-row__icon" src="https://img.m2icondb.com/71030.png" alt="Obrona Boga SmokĂłw">
+      <div class="item-row__content">
+        <div class="item-row__title">Obrona Boga SmokĂłw - Pakiet x10</div>
+        <div class="item-row__desc">
+          Zmniejsza obraĹĽenia jakie otrzymujesz podczas walki o 12-15% przez 30 minut.
+        </div>
+      </div>
+    </div>
+    <div class="item-row">
+      <img class="item-row__icon" src="https://img.m2icondb.com/71035.png" alt="Eliksir Poszukiwacza">
+      <div class="item-row__content">
+        <div class="item-row__title">Eliksir Poszukiwacza - Pakiet x10</div>
+        <div class="item-row__desc">
+          Poprawia jakoĹ›Ä‡ przedmiotĂłw do badaĹ„ od Biologa Chaegiraba oraz Seona-Pyeonga.
+        </div>
+      </div>
+    </div>
+    <div class="item-row">
+      <img class="item-row__icon" src="https://img.m2icondb.com/71109.png" alt="ZwĂłj Korekcji">
+      <div class="item-row__content">
+        <div class="item-row__title">ZwĂłj Korekcji x1</div>
+        <div class="item-row__desc">
+          ZwĂłj ten umoĹĽliwia usuniÄ™cie ostatnio pomyĹ›lnie dodanego Kamienia Duszy ze wskazanego przedmiotu.
+        </div>
+      </div>
+    </div>
+    <div class="item-row">
+      <img class="item-row__icon" src="https://img.m2icondb.com/71002.png" alt="ZwĂłj Powrotu Statusu">
+      <div class="item-row__content">
+        <div class="item-row__title">ZwĂłj Powrotu Statusu x1</div>
+        <div class="item-row__desc">
+          Zastosowanie tego przedmiotu umoĹĽliwia Ci ponowne wydanie twoich PunktĂłw Statystyk. Tak wiÄ™c moĹĽesz rozwijaÄ‡ postaÄ‡ w inny sposĂłb.
+        </div>
+      </div>
+    </div>
+    <div class="item-row">
+      <img class="item-row__icon" src="https://img.m2icondb.com/71048.png" alt="ZaklÄ™cie Modyfikacji">
+      <div class="item-row__content">
+        <div class="item-row__title">ZaklÄ™cie Modyfikacji x1</div>
+        <div class="item-row__desc">
+          ZaklÄ™cie pozwala zmieniÄ‡ pĹ‚eÄ‡ twojej postaci. DostÄ™pny od poziomu postaci: 50.
+        </div>
+      </div>
+    </div>
+    <div class="item-row">
+      <img class="item-row__icon" src="https://img.m2icondb.com/71054.png" alt="Olejek Wygnania">
+      <div class="item-row__content">
+        <div class="item-row__title">Olejek Wygnania x1</div>
+        <div class="item-row__desc">
+          Przedmiot ten umoĹĽliwia jednorazowe przeniesienie postaci do innego KrĂłlestwa.
+        </div>
+      </div>
+    </div>
+    <div class="item-row">
+      <img class="item-row__icon" src="https://img.m2icondb.com/80009.png" alt="PierĹ›cieĹ„ ZastÄ™pstwa">
+      <div class="item-row__content">
+        <div class="item-row__title">PierĹ›cieĹ„ ZastÄ™pstwa x1</div>
+        <div class="item-row__desc">
+          Pozwala liderowi gildii wyznaczyÄ‡ swojego zastÄ™pce. Jest to przedmiot jednorazowy.
+        </div>
+      </div>
+    </div>
+    <div class="item-row">
+      <img class="item-row__icon" src="https://img.m2icondb.com/71100.png" alt="ZwĂłj Zmiany Profesji">
+      <div class="item-row__content">
+        <div class="item-row__title">ZwĂłj Zmiany Profesji x1</div>
+        <div class="item-row__desc">
+          Przedmiot ten umoĹĽliwia wybranie innej profesji postaci. Aby mĂłc skorzystaÄ‡ z tego przedmiotu, twoja postaÄ‡ moĹĽe mieÄ‡ maksymalnie 89. poziom.
+        </div>
+      </div>
+    </div>
+    <div class="item-row">
+      <img class="item-row__icon" src="https://img.m2icondb.com/71055.png" alt="Zmiana nazwy">
+      <div class="item-row__content">
+        <div class="item-row__title">Zmiana nazwy x1</div>
+        <div class="item-row__desc">
+          Za pomocÄ… zwoju Zmiany Nazwy moĹĽesz zmieniÄ‡ nazwÄ™ swojej postaci na innÄ….
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- Sekcja 44 - Item-Shop - Koniec -->
+
+  <!-- Sekcja 35 - FAQ -->
+  <div class="section" id="section_36">
+    <h1><img src="prez/faq.png" alt="FAQ"></h1>
+
+    <div class="faq">
+      <div class="faq-item">
+        <h3 class="faq-question">Czy gra dziaĹ‚a pĹ‚ynnie na sĹ‚abszych komputerach?</h3>
+        <p>
+          Tak, dziÄ™ki klientowi 64-bitowemu oraz licznym optymalizacjom gra dziaĹ‚a stabilnie nawet na starszym sprzÄ™cie.
+        </p>
+      </div>
+
+    <div class="faq">
+      <div class="faq-item">
+        <h3 class="faq-question">Czy wĹ‚Ä…czÄ™ klienta na systemie operacyjnym takim jak mac?</h3>
+        <p>
+          Nie, nasz klient nie bÄ™dzie obsĹ‚ugiwaĹ‚ Ĺ›rodowiska macOS.
+        </p>
+      </div>
+
+      <div class="faq">
+      <div class="faq-item">
+        <h3 class="faq-question">Czy ĹĽywioĹ‚y dziaĹ‚ajÄ…?</h3>
+        <p>
+          Nie, zarĂłwno odpornoĹ›ci jak i silny przeciwko ĹĽywioĹ‚om.
+          Dodatkowo w ekwipunku usuneliĹ›my moĹĽliwoĹ›Ä‡ ich mixowania - nie ma ich w liĹ›cie dostÄ™pnych bonusĂłw.
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <h3 class="faq-question">Czy w jakikolwiek sposĂłb byĹ‚ modyfikowany exp?</h3>
+        <p>
+          Tak, zwiÄ™kszyliĹ›my doĹ›wiadczenie z potworĂłw do czerwonego lasu o 20%.
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <h3 class="faq-question">W jaki sposĂłb mogÄ™ zablokowaÄ‡ zdobywanie doĹ›wiadcznia?</h3>
+          <p>
+            <strong>Zdobywanie doĹ›wiadczenia</strong> moĹĽna zablokowaÄ‡ przy pomocy 
+            <strong>PierĹ›cienia Anty-Expa</strong>, dostÄ™pnego u 
+            <span>Handlarki RĂłĹĽnoĹ›ci</span>.
+          </p>
+          <p>
+            Nie ma moĹĽliwoĹ›ci <strong>bezpoĹ›redniego oddawania doĹ›wiadczenia</strong> â€” tak jak dawniej przy pomocy gildii.  
+            Obecnie <span>jedynÄ… formÄ… blokady</span> jest wĹ‚aĹ›nie <strong>PierĹ›cieĹ„ Anty-Expa</strong>.
+          </p>
+      </div>
+
+      <div class="faq-item">
+        <h3 class="faq-question">Co z yangami, czy byĹ‚o to jakoĹ› zmieniane?</h3>
+        <p>
+          ZdecydowaliĹ›my siÄ™ na zmniejszenie upuszczanego zĹ‚ota z potworĂłw o 50% <br>
+          Dodatkowo zmniejszyliĹ›my wartoĹ›Ä‡ przedmiotĂłw (broni,zbroi,tarczy etc.)
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <h3 class="faq-question">Czy czas respawnu potworĂłw zostaĹ‚ skrĂłcony?</h3>
+        <p>
+          Tak.<br>
+          W kaĹĽdej lokacji zdecydowaliĹ›my siÄ™ zredukowaÄ‡ czas respawnu potworĂłw o 100 - 200%
+          <br>
+          Teraz znaczna wiÄ™kszoĹ›Ä‡ posiada zbliĹĽony czas respawnu.
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <h3 class="faq-question">Czy na ziemiÄ™ dalej bÄ™dzie wypadaĹ‚a masa przedmiotĂłw?</h3>
+        <p>
+          Nie, na naszym serwerze postaraliĹ›my siÄ™ ograniczyÄ‡ drop "syfu" do minimum. <br>
+          Dotyczy to zarĂłwno bosĂłw, metinĂłw jak i potworĂłw.
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <h3 class="faq-question">A co z ksuciem?<br> Czy dalej jak ktoĹ› podbiegnie i uderzy metina dostanie czÄ™Ĺ›Ä‡ dropu?</h3>
+        <p>
+          Na serwerze wprowadziliĹ›my system podziaĹ‚u dropu w zaleĹĽnoĹ›ci od zadanych obraĹĽeĹ„.
+          Aby otrzymaÄ‡ swojÄ… czÄ™Ĺ›Ä‡ Ĺ‚upĂłw z metina lub bossa, naleĹĽy zadaÄ‡ co najmniej 20% caĹ‚kowitych obraĹĽeĹ„.
+          JeĹĽeli prĂłg nie zostanie osiÄ…gniÄ™ty â€” nie otrzymamy ĹĽadnego dropu.
+        </p>
+      </div>
+      
+      <div class="faq-item">
+        <h3 class="faq-question">SkÄ…d na serwerze wezmÄ™ ksiÄ…ĹĽki typu polimorfia, dowodzenie?</h3>
+        <p>
+          UsuwajÄ…c zbÄ™dne przedmioty z wiÄ™kszoĹ›ci instancji, usuneliĹ›my z nich takĹĽe ksiÄ…ĹĽki. <br>
+          StworzyliĹ›my <strong>Skrzynie Mocy</strong>, skrzynkÄ™ pochodzÄ…cÄ… z MetinĂłw, w ktĂłrej bÄ™dÄ… zawarte<br> wszystkie ksiÄ…ĹĽki pasywne:<br><br>
+          <strong>Skrzynia Mocy</strong> <img src="https://img.m2icondb.com/38050.png"> <br>
+          <img src="prez/ksiazki.png"> <br>
+
+        </p>
+      </div>
+      <div class="faq-item">
+        <h3 class="faq-question">SkÄ…d zdobyÄ‡ bronie na 55 poziom?</h3>
+        <p>
+          Bronie na 55 poziom otrzymujemy z:  <br>
+          <strong>Wodza OrkĂłw</strong>, <br>
+          <strong>Reinkar. Ezot. Przyw.</strong> <br><br>
+          <img src="https://img.m2icondb.com/00120.png">
+          <img src="https://img.m2icondb.com/03110.png">
+          <img src="https://img.m2icondb.com/02110.png">
+          <img src="https://img.m2icondb.com/05070.png">
+          <img src="https://img.m2icondb.com/07110.png">
+          <img src="https://img.m2icondb.com/01080.png">
+          <br>
+          Bronie te posiadajÄ… wbudowane Ĺ›rednie.
+        </p>
+      </div>
+      <div class="faq-item">
+        <h3 class="faq-question">Preferuje bardziej klasyczny styl gry, czy mogÄ™ wyĹ‚Ä…czyÄ‡ kostiumy?</h3>
+        <p>
+          DokĹ‚adnie. Z myĹ›lÄ… o graczach preferujÄ…cych "klasyka" dodaliĹ›my takÄ… funkcjÄ™
+          w okienku z kostiumami. Dodatkowo funkcja ta nie bÄ™dzie obejmowaĹ‚a tylko Waszej postaci,
+          ale wszystkie postacie na serwerze. JeĹĽeli zdecydujecie siÄ™ wĹ‚Ä…czyÄ‡ tÄ… opcjÄ™ to kostiumy zostanÄ…
+          wyĹ‚Ä…czone caĹ‚kowicie i bÄ™dziecie mogli doĹ›wiadczyÄ‡ gry tylko w oryginalnych setach â€” u kaĹĽdej osoby na serwerze.
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <h3 class="faq-question">Jak dziaĹ‚a rozproszenie?</h3>
+        <p>
+          PostaÄ‡ musi mieÄ‡ <strong>maksymalnie 15 poziomĂłw rĂłĹĽnicy</strong> od przeciwnika,
+          aby rozproszenie dziaĹ‚aĹ‚o <strong>w obie strony</strong>.
+        </p>
+        <p>
+          JeĹ›li rĂłĹĽnica poziomĂłw jest <strong>wiÄ™ksza niĹĽ 15</strong>, rozproszyÄ‡ moĹĽe
+          <strong>tylko postaÄ‡ o wyĹĽszym poziomie</strong>.
+        </p>
+
+        
+        <ul class="faq-rozpro list-reset">
+          <h3 class="req-title">PrzykĹ‚ad: </h3>
+          <li>
+            <span>20 vs 105</span> ( rĂłĹĽnica <strong>85 lv</strong> ) â†’
+            <strong>20 nie rozproszy 105</strong>, ale <strong>105 rozproszy 20</strong>.
+          </li>
+          <li>
+            <span>75 vs 90</span> ( rĂłĹĽnica <strong>15 lv</strong> ) â†’
+            <strong>obie strony</strong> mogÄ… siÄ™ rozpraszaÄ‡.
+          </li>
+          <li>
+            <span>74 vs 90</span> ( rĂłĹĽnica <strong>16 lv</strong> ) â†’
+            <strong>74 nie rozproszy 90</strong>, ale <strong>90 rozproszy 74</strong>.
+          </li>
+        </ul>
+      </div>
+
+      <div class="faq-item">
+        <h3 class="faq-question">Czy zostanÄ… wprowadzone skrzynie postaci?</h3>
+        <p>
+          Tak - w przyszĹ‚oĹ›ci.
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <h3 class="faq-question">Czy Medal Bohatera Ĺ‚Ä…czy siÄ™ z innymi przedmiotami?</h3>
+        <p>
+          Tak, <strong>Medal Bohatera</strong> Ĺ‚Ä…czy siÄ™ z :<br><br>
+          <img src="https://img.m2icondb.com/30341.png">
+          <img src="https://img.m2icondb.com/71130.png">
+          <img src="https://img.m2icondb.com/71136.png">
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+			</div>
+
+
+
+  <div class="section" id="section_1">
+    <img src="prez/logo2.png" alt="Logo Monastyr2" >
+  </div>
+
+  <!-- SĹ‚owa koĹ„cowe -->
+  <div class="section" id="section_37">
+    <img src="prez/h-slowa-koncowe.png">
+  <p>
+    Na koniec chcemy podkreĹ›liÄ‡ jednÄ… rzecz â€“ <strong>Monastyr2 to klasyczny przebieg rozgrywki</strong>.
+    Nie bÄ™dzie tutaj miliona dziwnych systemĂłw, ktĂłre sprawiÄ…, ĹĽe czĹ‚owiek dostaje oczoplÄ…su i po godzinie ma doĹ›Ä‡.
+    U nas ma byÄ‡ po prostu <strong>przyjemnie i wynagradzajÄ…co</strong> â€“ coĹ› do czego wiÄ™kszoĹ›Ä‡ z nas juĹĽ przywykĹ‚a.
+  </p>
+  <br>
+  <p>
+    Ale teĹĽ nie ma co siÄ™ oszukiwaÄ‡, tworzÄ…c klasyka â€“ nie moĹĽemy cofnÄ…Ä‡ siÄ™ caĹ‚kiem do 2008 roku.
+    MinÄ™Ĺ‚o prawie 20 lat, a gracze przyzwyczaili siÄ™ do pewnych udogodnieĹ„.
+    Dlatego to, co byĹ‚o potrzebne i co staĹ‚o siÄ™ dziĹ› czÄ™Ĺ›ciÄ… Metina, staraliĹ›my siÄ™ zaaplikowaÄ‡ u nas.
+    WiÄ™kszoĹ›Ä‡ graczy przyzwyczaiĹ‚a siÄ™ juĹĽ do systemĂłw takich jak <strong>alchemia</strong>
+    â€“ i jest to pewnego rodzaju niezbÄ™dnik w dzisiejszym Metinie.
+  </p>
+  <br>
+  <p>
+    Wiemy, ĹĽe czÄ™Ĺ›Ä‡ osĂłb moĹĽe krytykowaÄ‡ nas za wprowadzone zmiany. 
+    Nasze doĹ›wiadczenia z Metina pozwoliĹ‚y nam wybraÄ‡ rozwiÄ…zania, ktĂłre naszym zdaniem najlepiej sprawdzajÄ… siÄ™ w praktyce 
+    i dajÄ… graczom frajdÄ™ â€“ ale to wĹ‚aĹ›nie Wasze opinie i feedback bÄ™dÄ… dalej ksztaĹ‚towaÄ‡ kierunek serwera. 
+    StaraliĹ›my siÄ™ zachowaÄ‡ klimat klasyka, ale jednoczeĹ›nie przygotowaÄ‡ dla Was <strong>serwer medium/hard</strong>, 
+    gdzie poczÄ…tek nie bÄ™dzie przesadnie wymagajÄ…cy, a po przejĹ›ciu tego â€žluĹşniejszegoâ€ť etapu 
+    dalej bÄ™dzie czekaĹ‚a na Was masa rzeczy, w ktĂłre moĹĽecie inwestowaÄ‡ swĂłj czas i w dalszym ciÄ…gu cieszyÄ‡ siÄ™ rozgrywkÄ….
+  </p>
+  <br>
+  <p>
+    PodsumowujÄ…c â€“ <strong>stawiamy na klimat, prostotÄ™ i frajdÄ™ z gry</strong>.
+    To nie jest serwer, ktĂłry ma przytĹ‚aczaÄ‡ â€“ tylko taki, na ktĂłrym moĹĽesz spokojnie usiÄ…Ĺ›Ä‡ i pograÄ‡ w Ĺ›wieĹĽszÄ…, dostosowanÄ… do dzisiejszych realiĂłw wersjÄ™.
+  </p>
+  <br>
+  <p>
+    Do zobaczenia w grze â€“<br>
+    <strong>Ekipa Monastyr2</strong>
+  </p>
+
+      <div class="socials">
+				<a href="https://discord.gg/KfDWEKQe86" class="btn-discord" target="_blank"></a>
+				<a href="https://www.facebook.com/profile.php?id=61575980351665" class="btn-fb" target="_blank"></a>
+				<a href="https://monastyr2.pl" class="btn-web" target="_blank"></a>
+			</div>
+  </div>
+      
+
+
+</div>
+</div>
+
+			
+		</div>
+<!-- </div> -->
+ <div class="main__photo">
+<img src="https://pub-05243780335c463c92941126f1c5e19d.r2.dev/Bez_nazwy-5.png" alt="Banner" class="main__photo--background el_section_1 el_section_2 el_section_3 el_section_4 el_section_5 el_section_6 el_section_1 el_section_30 el_section_7 el_section_8 el_section_31 el_section_33 el_section_32 el_section_37 el_section_38 el_section_40 el_section_41 el_section_44">
+<img src="https://pub-05243780335c463c92941126f1c5e19d.r2.dev/b5.png" alt="Banner" class="main__photo--background el_section_19 el_section_9">
+<img src="https://pub-05243780335c463c92941126f1c5e19d.r2.dev/b10.png" alt="Banner" class="main__photo--background el_section_10 el_section_11">
+<img src="https://pub-05243780335c463c92941126f1c5e19d.r2.dev/b6.png" alt="Banner" class="main__photo--background el_section_12 el_section_13 el_section_14">
+<img src="https://pub-05243780335c463c92941126f1c5e19d.r2.dev/b4.png" alt="Banner" class="main__photo--background el_section_15">
+<img src="https://pub-05243780335c463c92941126f1c5e19d.r2.dev/b3.png" alt="Banner" class="main__photo--background el_section_34">
+<img src="https://pub-05243780335c463c92941126f1c5e19d.r2.dev/b2.png" alt="Banner" class="main__photo--background el_section_16">
+<img src="https://pub-05243780335c463c92941126f1c5e19d.r2.dev/b5.png" alt="Banner" class="main__photo--background el_section_17 el_section_18">
+<img src="https://pub-05243780335c463c92941126f1c5e19d.r2.dev/b8.png" alt="Banner" class="main__photo--background el_section_20 el_section_22 el_section_24">
+<img src="https://pub-05243780335c463c92941126f1c5e19d.r2.dev/b9.png" alt="Banner" class="main__photo--background el_section_35">
+<img src="https://pub-05243780335c463c92941126f1c5e19d.r2.dev/b1.png" alt="Banner" class="main__photo--background el_section_21">
+<img src="https://pub-05243780335c463c92941126f1c5e19d.r2.dev/b7.png" alt="Banner" class="main__photo--background el_section_36 el_section_39 el_section_42 el_section_43">
+</div>
+</main>
+<script src="global.js"></script>
+<script src="reszta.js"></script>
+</body>
+</html>
+
+
+
