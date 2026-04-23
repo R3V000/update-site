@@ -83,7 +83,6 @@ document.addEventListener("DOMContentLoaded", () => {
         );
         introMessageShown = true;
       }
-      input.focus();
     } catch (error) {
       console.error(error);
       setStatus("Baza wiedzy niedostępna.", "error");
