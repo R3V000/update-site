@@ -58,11 +58,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <li class='section_5'><a href="#section_5" class='item-content'><span>Administracja</span></a></li>
 <li class='section_30'><a href="#section_30" class='item-content'><span>System Farm-Block</span></a></li>
 <li class='section_7'><a href="#section_7" class='item-content'><span>Panel Boczny</span></a></li>
-<li class='section_31'><a href="#section_31" class='item-content'><span>Mapa Teleportacji</span></a></li>
-<li class='section_32'><a href="#section_32" class='item-content'><span>Bonus Switcher</span></a></li>
-<li class='section_33'><a href="#section_33" class='item-content'><span>Podgląd dropu</span></a></li>
 <li class='section_41'><a href="#section_41" class='item-content'><span>Shopy Offline</span></a></li>
 <li class='section_8'><a href="#section_8" class='item-content'><span>Wikipedia</span></a></li>
+<li class='section_32'><a href="#section_32" class='item-content'><span>Bonus Switcher</span></a></li>
+<li class='section_31'><a href="#section_31" class='item-content'><span>Mapa Teleportacji</span></a></li>
+<li class='section_38'><a href="#section_38" class='item-content'><span>Zapis Pozycji</span></a></li>
+<li class='section_33'><a href="#section_33" class='item-content'><span>Podgląd dropu</span></a></li>
 <li class='section_40'><a href="#section_40" class='item-content'><span>Quality Of Life</span></a></li>
 <li class='section_19'><a href="#section_19" class='item-content'><span>System Gildii</span></a></li>
 <li class='section_9'><a href="#section_9" class='item-content'><span>System Rang</span></a></li>
@@ -84,7 +85,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <li class='section_43'><a href="#section_43" class='item-content'><span>Aktualizacje</span></a></li>
 <li class='section_44'><a href="#section_44" class='item-content'><span>Item-Shop</span></a></li>
 <li class='section_36'><a href="#section_36" class='item-content'><span>FAQ</span></a></li>
-<li class='section_39'><a href="#section_39" class='item-content'><span>Asystent AI</span></a></li>
 <li class='section_37'><a href="#section_37" class='item-content'><span>Słowa Końcowe</span></a></li>
 
 
@@ -194,11 +194,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   </div>
 
+  <div class="section section-break client-entry-section">
+    <h1><img src="prez/klient.png" alt="klient-header"></h1>
+    <figure class="client-entry-showcase">
+      <button class="client-entry-showcase__button" type="button" aria-label="Powiększ zdjęcie klienta gry" data-shop-preview="img/klient-entry.png" data-shop-preview-alt="Okno klienta gry" data-shop-preview-size="xxlarge">
+        <img class="client-entry-showcase__image" src="img/klient-entry.png" alt="Okno klienta gry">
+      </button>
+    </figure>
+  </div>
+
   <div class="section section-break">
     <h1><img src="prez/udogodnienia.png" alt="udogodnienia"></h1>
   </div>
-
-
   <!--  Farmblock -->
   <div class="section" id="section_30">
     <img src="prez/h-sysfarm.png">
@@ -802,12 +809,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </details>
 
     <h1></h1>
-    <h3 class="req-title">Poziomy gildii – wymagane butelki</h3>
-    <img src="prez/66.png">
-    
-    <h1></h1>
-    <h3 class="req-title">Bonusy pasywne gildii</h3>
-    <img src="prez/39.png">
+    <h3 class="req-title">Rozwój gildii</h3>
+    <div class="guild-progress" data-guild-progress>
+      <div class="guild-progress__stage">
+        <article class="guild-progress__card">
+          <div class="guild-progress__summary">
+            <div class="guild-progress__summary-block">
+              <p class="guild-progress__summary-line"><span class="guild-progress__eyebrow">Poziom gildii</span> <strong id="guildProgressLevel">1</strong></p>
+            </div>
+
+            <div class="guild-progress__bottle-box">
+              <span class="guild-progress__eyebrow">Wymagane butelki</span>
+              <p class="guild-progress__bottle-value"><span>0</span> / <strong id="guildProgressBottles">12</strong></p>
+            </div>
+          </div>
+
+          <div class="guild-progress__bonuses">
+            <span class="guild-progress__eyebrow">Bonusy na tym poziomie</span>
+            <ul class="guild-progress__bonus-list" id="guildProgressBonusList"></ul>
+            <p class="guild-progress__empty" id="guildProgressEmpty" hidden>Uzupełnij bonusy dla tego poziomu w `guildProgressData` w pliku `reszta.js`.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="guild-progress__jump">
+        <label class="guild-progress__label" for="guildProgressSelect">Przejdź do poziomu</label>
+        <div class="guild-progress__level-buttons" id="guildProgressButtons" aria-label="Szybki wybór poziomu gildii"></div>
+      </div>
+    </div>
   </div>
 
   <!-- System rang -->
@@ -824,187 +853,105 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     W ten sposób chcemy zachęcić graczy do wyboru poszczególnych aktywności
   </p>
 
-  <h1 class="section-title">Negatywne Rangi</h1>
-  <table class="drop-table">
-    <thead>
-      <tr>
-        <th>Przedział</th>
-        <th>Nazwa</th>
-        <th>Bonusy</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>-1 do -10 000</td>
-        <td class="rank-tone-yellow">Agresywny</td>
-        <td>Silny przeciwko ludziom +2%</td>
-      </tr>
-      <tr>
-        <td>-10 001 do -25 000</td>
-        <td class="rank-tone-orange">Nieuczciwy</td>
-        <td>Silny przeciwko ludziom +4%</td>
-      </tr>
-      <tr>
-        <td>-25 001 do -45 000</td>
-        <td class="rank-tone-orangered">Złośliwy</td>
-        <td>Silny przeciwko ludziom +8%</td>
-      </tr>
-      <tr>
-        <td>-45 001 do -99 999</td>
-        <td class="rank-tone-red-soft">Okrutny</td>
-        <td>Silny przeciwko ludziom +13%</td>
-      </tr>
-      <tr>
-        <td>-100 000</td>
-        <td class="rank--krwawy rank-tone-red">Krwawy</td>
-        <td>
-          Silny przeciwko ludziom +18%<br> Maks. PŻ +1500<br>
-          Szansa na cios krytyczny 10%<br> Szybkość zaklęć +10%
-        </td>
-      </tr>
-    </tbody>
-  </table>
-
-  <h1 class="section-title">Pozytywne Rangi</h1>
-  <table class="drop-table">
-    <thead>
-      <tr>
-        <th>Przedział</th>
-        <th>Nazwa</th>
-        <th>Bonusy</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>+1 do +10 000</td>
-        <td class="rank-tone-blue-light">Przyjazny</td>
-        <td>Silny przeciwko potworom +1%</td>
-      </tr>
-      <tr>
-        <td>+10 001 do +25 000</td>
-        <td class="rank-tone-blue">Dobry</td>
-        <td>Silny przeciwko potworom +3%</td>
-      </tr>
-      <tr>
-        <td>+25 001 do +45 000</td>
-        <td class="rank-tone-blue-dark" >Szlachetny</td>
-        <td>Silny przeciwko potworom +6%</td>
-      </tr>
-      <tr>
-        <td>+45 001 do +99 999</td>
-        <td class="rank-tone-cyan" >Rycerski</td>
-        <td>Silny przeciwko potworom +10%</td>
-      </tr>
-      <tr>
-        <td>+100 000</td>
-        <td class="rank--wladca rank-tone-orange">Władca</td>
-        <td>
-          Silny przeciwko potworom +15%<br> Szansa na przeszywający cios 10%<br>
-          Szansa na bonus DOŚ +15%<br> Podwójny drop yang +15%
-        </td>
-      </tr>
-    </tbody>
-  </table>
-  <h1></h1>
-  <h3 class="req-title">Punkty dodatnie (RANGA POZYTYWNA)</h3>
-  <p>
-    Punkty dodatnie otrzymujemy używając:
-  </p>
-
-  <div class="ranks-container">
-    <div class="rank-icon">
-      <img src="https://img.m2icondb.com/70102.png" alt="Ranga Szlachetna">
-      <div class="rank-tooltip">
-        <strong>Fasolka Zen</strong><br>
-        <p>
-          Zwiększa Punkty Rangi o <strong>100</strong> punktów.<br>
-          <em>(Czas regeneracji: brak)</em>
-        </p>
+  <div class="rank-paths" aria-label="Progi systemu rang">
+    <section class="rank-path rank-path--negative" aria-labelledby="negativeRanksTitle">
+      <div class="rank-path__header">
+        <h1 class="section-title" id="negativeRanksTitle">Negatywne Rangi</h1>
+        <p>Premiują agresywny styl gry i walkę z innymi graczami.</p>
       </div>
-    </div>
-    <div class="rank-icon">
-      <img src="https://img.m2icondb.com/71107.png" alt="Ranga Krwawa">
-      <div class="rank-tooltip">
-        <strong>Owoc Życia</strong><br>
-        <p>
-          Zwiększa Punkty Rangi o <strong>250</strong> punktów.<br>
-          <em>(Czas regeneracji: brak)</em>
-        </p>
+
+      <div class="rank-path__list">
+        <article class="rank-card">
+          <h3 class="rank-card__name rank-tone-yellow">Agresywny</h3>
+          <span class="rank-card__range">-1 do -10 000</span>
+          <p class="rank-card__bonus">Silny przeciwko ludziom <strong>+2%</strong></p>
+        </article>
+
+        <article class="rank-card">
+          <h3 class="rank-card__name rank-tone-orange">Nieuczciwy</h3>
+          <span class="rank-card__range">-10 001 do -25 000</span>
+          <p class="rank-card__bonus">Silny przeciwko ludziom <strong>+4%</strong></p>
+        </article>
+
+        <article class="rank-card">
+          <h3 class="rank-card__name rank-tone-orangered">Złośliwy</h3>
+          <span class="rank-card__range">-25 001 do -45 000</span>
+          <p class="rank-card__bonus">Silny przeciwko ludziom <strong>+8%</strong></p>
+        </article>
+
+        <article class="rank-card">
+          <h3 class="rank-card__name rank-tone-red-soft">Okrutny</h3>
+          <span class="rank-card__range">-45 001 do -99 999</span>
+          <p class="rank-card__bonus">Silny przeciwko ludziom <strong>+13%</strong></p>
+        </article>
+
+        <article class="rank-card rank-card--legendary">
+          <h3 class="rank-card__name rank--krwawy rank-tone-red">Krwawy</h3>
+          <span class="rank-card__range">-100 000</span>
+          <ul class="rank-card__bonuses">
+            <li>Silny przeciwko ludziom <strong>+18%</strong></li>
+            <li>Maks. PŻ <strong>+1500</strong></li>
+            <li>Szansa na cios krytyczny <strong>10%</strong></li>
+            <li>Szybkość zaklęć <strong>+10%</strong></li>
+          </ul>
+        </article>
       </div>
-    </div>
+    </section>
+
+    <section class="rank-path rank-path--positive" aria-labelledby="positiveRanksTitle">
+      <div class="rank-path__header">
+        <h1 class="section-title" id="positiveRanksTitle">Pozytywne Rangi</h1>
+        <p>Wspierają spokojniejszy rozwój i progres przeciwko potworom.</p>
+      </div>
+
+      <div class="rank-path__list">
+        <article class="rank-card">
+          <h3 class="rank-card__name rank-tone-blue-light">Przyjazny</h3>
+          <span class="rank-card__range">+1 do +10 000</span>
+          <p class="rank-card__bonus">Silny przeciwko potworom <strong>+1%</strong></p>
+        </article>
+
+        <article class="rank-card">
+          <h3 class="rank-card__name rank-tone-blue">Dobry</h3>
+          <span class="rank-card__range">+10 001 do +25 000</span>
+          <p class="rank-card__bonus">Silny przeciwko potworom <strong>+3%</strong></p>
+        </article>
+
+        <article class="rank-card">
+          <h3 class="rank-card__name rank-tone-blue-dark">Szlachetny</h3>
+          <span class="rank-card__range">+25 001 do +45 000</span>
+          <p class="rank-card__bonus">Silny przeciwko potworom <strong>+6%</strong></p>
+        </article>
+
+        <article class="rank-card">
+          <h3 class="rank-card__name rank-tone-cyan">Rycerski</h3>
+          <span class="rank-card__range">+45 001 do +99 999</span>
+          <p class="rank-card__bonus">Silny przeciwko potworom <strong>+10%</strong></p>
+        </article>
+
+        <article class="rank-card rank-card--legendary">
+          <h3 class="rank-card__name rank--wladca rank-tone-orange">Władca</h3>
+          <span class="rank-card__range">+100 000</span>
+          <ul class="rank-card__bonuses">
+            <li>Silny przeciwko potworom <strong>+15%</strong></li>
+            <li>Szansa na przeszywający cios <strong>10%</strong></li>
+            <li>Szansa na bonus DOŚ <strong>+15%</strong></li>
+            <li>Podwójny drop yang <strong>+15%</strong></li>
+          </ul>
+        </article>
+      </div>
+    </section>
   </div>
-  <details class="rank-source-details">
-    <summary>Sposób pozyskania</summary>
-    <div class="rank-source-grid">
-      <article class="rank-source-card">
-        <div class="belt-frame rank-source-card__media item-slot rank-icon">
-          <img src="https://img.m2icondb.com/70102.png" alt="Fasolka Zen">
-          <div class="rank-tooltip">
-            <strong>Fasolka Zen</strong><br>
-            <p>
-              Zwiększa Punkty Rangi o <strong>100</strong> punktów.<br>
-              <em>(Czas regeneracji: brak)</em>
-            </p>
-          </div>
-        </div>
-        <div class="rank-source-card__body">
-          <h4>Fasolka Zen</h4>
-          <p>Pozyskasz ją z <strong>dungeonów</strong>.</p>
-        </div>
-      </article>
-      <article class="rank-source-card">
-        <div class="belt-frame rank-source-card__media item-slot rank-icon">
-          <img src="https://img.m2icondb.com/71107.png" alt="Owoc Życia">
-          <div class="rank-tooltip">
-            <strong>Owoc Życia</strong><br>
-            <p>
-              Zwiększa Punkty Rangi o <strong>250</strong> punktów.<br>
-              <em>(Czas regeneracji: brak)</em>
-            </p>
-          </div>
-        </div>
-        <div class="rank-source-card__body">
-          <h4>Owoc Życia</h4>
-          <p>Pozyskasz go z <strong>bossów mapowych</strong>.</p>
-        </div>
-      </article>
-    </div>
-  </details>
-  <h1></h1>
-  <h3 class="req-title">Punkty ujemne (RANGA NEGATYWNA)</h3>
-  <p>
-    Punkty ujemne otrzymujemy używając:
-  </p>
 
-    <div class="ranks-container">
-    <div class="rank-icon">
-      <img src="img/zenminus.png" alt="Ranga Szlachetna">
-      <div class="rank-tooltip">
-        <strong>Smocza Fasolka</strong><br>
-        <p>
-          Zmniejsza Punkty Rangi o <strong>100</strong> punktów.<br>
-          <em>(Czas regeneracji: brak)</em>
-        </p>
-      </div>
-    </div>
-    <div class="rank-icon">
-      <img src="img/owocminus.png" alt="Ranga Krwawa">
-      <div class="rank-tooltip">
-        <strong>Smoczy Owoc</strong><br>
-        <p>
-          Zmniejsza Punkty Rangi o <strong>250</strong> punktów.<br>
-          <em>(Czas regeneracji: brak)</em>
-        </p>
-      </div>
-    </div>
-  </div>
-  <details class="rank-source-details rank-source-details--negative">
-    <summary>Sposób pozyskania</summary>
-    <div class="rank-craft-grid">
-      <article class="rank-craft-card">
-        <div class="rank-craft-card__top">
-          <div class="rank-craft-card__source">
-            <p class="soulforge__eyebrow">Materiał</p>
+  <details class="rank-source-details rank-acquisition-details">
+    <summary>Sposób pozyskania punktów rangi</summary>
+    <div class="rank-acquisition-grid">
+      <section class="rank-acquisition-column">
+        <h3 class="req-title">Punkty dodatnie</h3>
+        <p>Punkty dodatnie otrzymujemy używając:</p>
+
+        <div class="rank-source-grid rank-source-grid--stacked">
+          <article class="rank-source-card">
             <div class="belt-frame rank-source-card__media item-slot rank-icon">
               <img src="https://img.m2icondb.com/70102.png" alt="Fasolka Zen">
               <div class="rank-tooltip">
@@ -1015,33 +962,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </p>
               </div>
             </div>
-          </div>
-          <div class="rank-craft-card__arrow" aria-hidden="true">&rarr;</div>
-          <div class="rank-craft-card__result">
-            <p class="soulforge__eyebrow">Efekt craftingu</p>
-            <div class="belt-frame rank-source-card__media item-slot rank-icon">
-              <img src="img/zenminus.png" alt="Smocza Fasolka">
-              <div class="rank-tooltip">
-                <strong>Smocza Fasolka</strong><br>
-                <p>
-                  Zmniejsza Punkty Rangi o <strong>100</strong> punktów.<br>
-                  <em>(Czas regeneracji: brak)</em>
-                </p>
-              </div>
+            <div class="rank-source-card__body">
+              <h4>Fasolka Zen</h4>
+              <p>Pozyskasz ją z <strong>dungeonów</strong>.</p>
             </div>
-          </div>
-        </div>
-        <div class="rank-craft-card__body">
-          <h4>Smocza Fasolka</h4>
-          <p>Crafting wymaga <strong>Fasolki Zen</strong> oraz <strong>100.000 Yang</strong>.</p>
-          <p>Szansa na crafting: <strong>100%</strong></p>
-        </div>
-      </article>
+          </article>
 
-      <article class="rank-craft-card">
-        <div class="rank-craft-card__top">
-          <div class="rank-craft-card__source">
-            <p class="soulforge__eyebrow">Materiał</p>
+          <article class="rank-source-card">
             <div class="belt-frame rank-source-card__media item-slot rank-icon">
               <img src="https://img.m2icondb.com/71107.png" alt="Owoc Życia">
               <div class="rank-tooltip">
@@ -1052,10 +979,62 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </p>
               </div>
             </div>
-          </div>
-          <div class="rank-craft-card__arrow" aria-hidden="true">&rarr;</div>
-          <div class="rank-craft-card__result">
-            <p class="soulforge__eyebrow">Efekt craftingu</p>
+            <div class="rank-source-card__body">
+              <h4>Owoc Życia</h4>
+              <p>Pozyskasz go z <strong>bossów mapowych</strong>.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="rank-acquisition-column">
+        <h3 class="req-title">Punkty ujemne</h3>
+        <p>Punkty ujemne otrzymujemy używając:</p>
+
+        <div class="rank-craft-grid rank-craft-grid--stacked">
+          <article class="rank-source-card rank-craft-card">
+            <div class="belt-frame rank-source-card__media item-slot rank-icon">
+              <img src="img/zenminus.png" alt="Smocza Fasolka">
+              <div class="rank-tooltip">
+                <strong>Smocza Fasolka</strong><br>
+                <p>
+                  Zmniejsza Punkty Rangi o <strong>100</strong> punktów.<br>
+                  <em>(Czas regeneracji: brak)</em>
+                </p>
+              </div>
+            </div>
+            <div class="rank-source-card__body">
+              <h4>Smocza Fasolka</h4>
+              <p>Do wytworzenia u <strong>Uriela</strong>.</p>
+              <span class="rank-craft-card__trigger" tabindex="0">
+                Zobacz crafting
+                <span class="rank-craft-card__preview" aria-hidden="true">
+                  <span class="rank-craft-card__top">
+                    <span class="rank-craft-card__source">
+                      <span class="belt-frame rank-source-card__media item-slot rank-icon">
+                        <img src="https://img.m2icondb.com/70102.png" alt="Fasolka Zen">
+                      </span>
+                    </span>
+                    <span class="rank-craft-card__plus" aria-hidden="true">+</span>
+                    <span class="rank-craft-card__source">
+                      <span class="belt-frame rank-source-card__media item-slot rank-yang-material" aria-label="100k Yang">
+                        <img src="https://img.m2icondb.com/money.png" alt="Yang">
+                        <span class="rank-yang-material__amount">100k</span>
+                      </span>
+                    </span>
+                    <span class="rank-craft-card__arrow" aria-hidden="true">&rarr;</span>
+                    <span class="rank-craft-card__result">
+                      <span class="belt-frame rank-source-card__media item-slot rank-icon">
+                        <img src="img/zenminus.png" alt="Smocza Fasolka">
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              </span>
+            </div>
+          </article>
+
+          <article class="rank-source-card rank-craft-card">
             <div class="belt-frame rank-source-card__media item-slot rank-icon">
               <img src="img/owocminus.png" alt="Smoczy Owoc">
               <div class="rank-tooltip">
@@ -1066,16 +1045,39 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </p>
               </div>
             </div>
-          </div>
+            <div class="rank-source-card__body">
+              <h4>Smoczy Owoc</h4>
+              <p>Do wytworzenia u <strong>Uriela</strong>.</p>
+              <span class="rank-craft-card__trigger" tabindex="0">
+                Zobacz crafting
+                <span class="rank-craft-card__preview" aria-hidden="true">
+                  <span class="rank-craft-card__top">
+                    <span class="rank-craft-card__source">
+                      <span class="belt-frame rank-source-card__media item-slot rank-icon">
+                        <img src="https://img.m2icondb.com/71107.png" alt="Owoc Życia">
+                      </span>
+                    </span>
+                    <span class="rank-craft-card__plus" aria-hidden="true">+</span>
+                    <span class="rank-craft-card__source">
+                      <span class="belt-frame rank-source-card__media item-slot rank-yang-material" aria-label="250k Yang">
+                        <img src="https://img.m2icondb.com/money.png" alt="Yang">
+                        <span class="rank-yang-material__amount">250k</span>
+                      </span>
+                    </span>
+                    <span class="rank-craft-card__arrow" aria-hidden="true">&rarr;</span>
+                    <span class="rank-craft-card__result">
+                      <span class="belt-frame rank-source-card__media item-slot rank-icon">
+                        <img src="img/owocminus.png" alt="Smoczy Owoc">
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              </span>
+            </div>
+          </article>
         </div>
-        <div class="rank-craft-card__body">
-          <h4>Smoczy Owoc</h4>
-          <p>Crafting wymaga <strong>Owocu Życia</strong> oraz <strong>250.000 Yang</strong>.</p>
-          <p>Szansa na crafting: <strong>100%</strong></p>
-        </div>
-      </article>
+      </section>
     </div>
-    <p class="rank-craft-note">Wytwarzanie jest dostępne u <strong>Uriela</strong>.</p>
   </details>
   
 
@@ -3922,9 +3924,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- Sekcja 35 - FAQ -->
   <div class="section" id="section_36">
     <h1><img src="prez/faq.png" alt="FAQ"></h1>
-    <p class="server-chatbot__intro">
-      Zamiast statycznej listy pytań możesz od razu zapytać asystenta serwera. Odpowiada wyłącznie z lokalnej bazy wiedzy.
-    </p>
     <p class="server-chatbot__note">
       Asystent działa obecnie w wersji alfa. Informacje w bazie wiedzy będą aktualizowane na bieżąco wraz z rozwojem prezentacji i serwera.
     </p>

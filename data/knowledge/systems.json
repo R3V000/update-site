@@ -129,6 +129,220 @@
         "rada"
       ],
       "answer": "System konny rozwinięto do 40 poziomu jeździectwa. Zamiast klasycznych misji konnych rozwój odbywa się przez używanie odpowiednich przedmiotów, głównie Medalu Konnego i Rady Konnej."
+    },
+    {
+      "id": "system-ranks-overview",
+      "title": "System rang",
+      "questions": [
+        "Jak dziala system rang?",
+        "Jak zdobywa sie punkty rangi?",
+        "Czy rangi sa pozytywne i negatywne?"
+      ],
+      "keywords": [
+        "rangi",
+        "ranga",
+        "punkty",
+        "pozytywna",
+        "pozytywne",
+        "negatywna",
+        "negatywne",
+        "system"
+      ],
+      "answer": "System rang zostal podzielony na pozytywne i negatywne rangi. Forma pozyskiwania punktow rangi zostala zmieniona: punkty zdobywa sie tylko przez uzywanie wskazanych przedmiotow. Poza Fasolka Zen, Owocem Zycia, Smoczym Owocem i Smocza Fasolka nie ma innej formy zdobywania punktow rangi."
+    },
+    {
+      "id": "system-ranks-positive",
+      "title": "Pozytywna ranga",
+      "questions": [
+        "Jak zdobyc pozytywna range?",
+        "Czym wbic dodatnia range?",
+        "Co daje punkty pozytywnej rangi?"
+      ],
+      "keywords": [
+        "pozytywna",
+        "dodatnia",
+        "ranga",
+        "punkty",
+        "fasolka",
+        "zen",
+        "owoc",
+        "zycia"
+      ],
+      "answer": "Pozytywna range zdobywa sie uzywajac Owocu Zycia oraz Fasolki Zen. Fasolka Zen jest do zdobycia z dungeonow, a Owoc Zycia z bossow mapowych."
+    },
+    {
+      "id": "system-ranks-bonuses",
+      "title": "Bonusy rangi",
+      "questions": [
+        "Ranga",
+        "Co daje ranga?",
+        "Jakie bonusy daje ranga?",
+        "Czy ranga daje bonusy?"
+      ],
+      "keywords": [
+        "ranga",
+        "rangi",
+        "bonus",
+        "bonusy",
+        "daje",
+        "postac",
+        "pozytywna",
+        "negatywna"
+      ],
+      "answer": "Ranga nadaje bonusy dla Twojej postaci. W zaleznosci od tego, czy wybierzesz range negatywna czy pozytywna, bonusy beda sie roznily."
+    },
+    {
+      "id": "system-ranks-positive-bonuses",
+      "title": "Bonusy pozytywnej rangi",
+      "questions": [
+        "Co daje ranga pozytywna?",
+        "Co daje pozytywna ranga?",
+        "Jakie bonusy daje pozytywna ranga?",
+        "Co daje dodatnia ranga?"
+      ],
+      "keywords": [
+        "pozytywna",
+        "dodatnia",
+        "ranga",
+        "bonus",
+        "bonusy",
+        "przyjazny",
+        "dobry",
+        "szlachetny",
+        "rycerski",
+        "wladca",
+        "potworom"
+      ],
+      "answer": "Pozytywna ranga daje bonusy pod PvE. Przyjazny: Silny przeciwko Potworom +1%. Dobry: +3%. Szlachetny: +6%. Rycerski: +10%. Wladca: Silny przeciwko Potworom +15%, szansa na przeszywajacy cios 10%, szansa na bonus DOS +15% i podwojny drop Yang +15%."
+    },
+    {
+      "id": "system-rank-wladca",
+      "title": "Ranga Wladca",
+      "questions": [
+        "Co daje Wladca?",
+        "Co daje ranga Wladca?",
+        "Jakie bonusy ma Wladca?"
+      ],
+      "keywords": [
+        "wladca",
+        "ranga",
+        "bonus",
+        "bonusy",
+        "potworom",
+        "przeszywajacy",
+        "dos",
+        "yang"
+      ],
+      "answer": "Wladca to maksymalna pozytywna ranga za +100 000 punktow. Daje: Silny przeciwko Potworom +15%, szansa na przeszywajacy cios 10%, szansa na bonus DOS +15% i podwojny drop Yang +15%."
+    },
+    {
+      "id": "system-ranks-negative-bonuses",
+      "title": "Bonusy negatywnej rangi",
+      "questions": [
+        "Co daje ranga negatywna?",
+        "Co daje negatywna ranga?",
+        "Jakie bonusy daje negatywna ranga?",
+        "Co daje ujemna ranga?"
+      ],
+      "keywords": [
+        "negatywna",
+        "ujemna",
+        "ranga",
+        "bonus",
+        "bonusy",
+        "agresywny",
+        "nieuczciwy",
+        "zlosliwy",
+        "okrutny",
+        "krwawy",
+        "ludziom"
+      ],
+      "answer": "Negatywna ranga daje bonusy pod PvP. Agresywny: Silny przeciwko Ludziom +2%. Nieuczciwy: +4%. Zlosliwy: +8%. Okrutny: +13%. Krwawy: Silny przeciwko Ludziom +18%, Maks. PZ +1500, szansa na cios krytyczny 10% i szybkosc zaklec +10%."
+    },
+    {
+      "id": "system-rank-krwawy",
+      "title": "Ranga Krwawy",
+      "questions": [
+        "Co daje Krwawy?",
+        "Co daje ranga Krwawy?",
+        "Jakie bonusy ma Krwawy?"
+      ],
+      "keywords": [
+        "krwawy",
+        "ranga",
+        "bonus",
+        "bonusy",
+        "ludziom",
+        "pz",
+        "krytyczny",
+        "zaklec"
+      ],
+      "answer": "Krwawy to maksymalna negatywna ranga za -100 000 punktow. Daje: Silny przeciwko Ludziom +18%, Maks. PZ +1500, szansa na cios krytyczny 10% i szybkosc zaklec +10%."
+    },
+    {
+      "id": "system-ranks-negative",
+      "title": "Negatywna ranga",
+      "questions": [
+        "Jak zdobyc negatywna range?",
+        "Czym wbic ujemna range?",
+        "Co odejmuje punkty rangi?"
+      ],
+      "keywords": [
+        "negatywna",
+        "ujemna",
+        "ranga",
+        "punkty",
+        "smocza",
+        "fasolka",
+        "smoczy",
+        "owoc",
+        "odejmuje"
+      ],
+      "answer": "Negatywna range zdobywa sie uzywajac Smoczej Fasolki oraz Smoczego Owocu. Smoczy Owoc odejmuje 250 punktow rangi, a Smocza Fasolka odejmuje 100 punktow rangi."
+    },
+    {
+      "id": "system-ranks-uriel-craft",
+      "title": "Craft przedmiotow rangi",
+      "questions": [
+        "Jak wycraftowac Smoczy Owoc?",
+        "Jak wycraftowac Smocza Fasolke?",
+        "Gdzie robi sie itemy na range?"
+      ],
+      "keywords": [
+        "craft",
+        "crafting",
+        "uriel",
+        "smoczy",
+        "owoc",
+        "smocza",
+        "fasolka",
+        "zen",
+        "zycia",
+        "yang"
+      ],
+      "answer": "Przedmioty zwiazane z ranga craftuje sie u Uriela. Smoczy Owoc odejmuje 250 punktow rangi i kosztuje 250k Yang oraz 1x Owoc Zycia. Smocza Fasolka odejmuje 100 punktow rangi i kosztuje 100k Yang oraz 1x Fasolka Zen."
+    },
+    {
+      "id": "system-ranks-items-sources",
+      "title": "Zrodla przedmiotow rangi",
+      "questions": [
+        "Skad zdobyc Fasolke Zen?",
+        "Skad zdobyc Owoc Zycia?",
+        "Gdzie dropia itemy na range?"
+      ],
+      "keywords": [
+        "fasolka",
+        "zen",
+        "owoc",
+        "zycia",
+        "drop",
+        "dungeon",
+        "dungeony",
+        "boss",
+        "bossy",
+        "mapowe"
+      ],
+      "answer": "Fasolke Zen mozna zdobyc z dungeonow. Owoc Zycia mozna zdobyc z bossow mapowych. Wedlug obecnej bazy wiedzy sa to zrodla przedmiotow potrzebnych do systemu rang."
     }
   ]
 }

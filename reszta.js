@@ -641,6 +641,329 @@ function initAdminSlider() {
 
 initAdminSlider();
 
+const guildProgressData = [
+  {
+    level: 1,
+    bottles: 12,
+    bonuses: [
+      "Max PŻ +100",
+      "Silny przeciwko Ludziom +1%",
+      "Odporność na Ludzi 1%",
+      "Silny przeciwko Potworom +1%",
+      "Punkty Doświadczenia +1%",
+      "Szansa na podwójną ilość Yang +1%"
+    ]
+  },
+  {
+    level: 2,
+    bottles: 15,
+    bonuses: [
+      "Max PŻ +200",
+      "Silny przeciwko Ludziom +1%",
+      "Odporność na Ludzi 1%",
+      "Silny przeciwko Potworom +1%",
+      "Punkty Doświadczenia +1%",
+      "Szansa na podwójną ilość Yang +1%"
+    ]
+  },
+  {
+    level: 3,
+    bottles: 19,
+    bonuses: [
+      "Max PŻ +300",
+      "Silny przeciwko Ludziom +2%",
+      "Odporność na Ludzi 1%",
+      "Silny przeciwko Potworom +1%",
+      "Punkty Doświadczenia +1%",
+      "Szansa na podwójną ilość Yang +2%"
+    ]
+  },
+  {
+    level: 4,
+    bottles: 25,
+    bonuses: [
+      "Max PŻ +400",
+      "Silny przeciwko Ludziom +2%",
+      "Odporność na Ludzi 1%",
+      "Silny przeciwko Potworom +2%",
+      "Punkty Doświadczenia +1%",
+      "Szansa na podwójną ilość Yang +2%"
+    ]
+  },
+  {
+    level: 5,
+    bottles: 32,
+    bonuses: [
+      "Max PŻ +500",
+      "Silny przeciwko Ludziom +3%",
+      "Odporność na Ludzi 1%",
+      "Silny przeciwko Potworom +2%",
+      "Punkty Doświadczenia +2%",
+      "Szansa na podwójną ilość Yang +3%"
+    ]
+  },
+  {
+    level: 6,
+    bottles: 40,
+    bonuses: [
+      "Max PŻ +600",
+      "Silny przeciwko Ludziom +3%",
+      "Odporność na Ludzi 1%",
+      "Silny przeciwko Potworom +3%",
+      "Punkty Doświadczenia +2%",
+      "Szansa na podwójną ilość Yang +3%"
+    ]
+  },
+  {
+    level: 7,
+    bottles: 51,
+    bonuses: [
+      "Max PŻ +700",
+      "Silny przeciwko Ludziom +4%",
+      "Odporność na Ludzi 1%",
+      "Silny przeciwko Potworom +3%",
+      "Punkty Doświadczenia +2%",
+      "Szansa na podwójną ilość Yang +4%"
+    ]
+  },
+  {
+    level: 8,
+    bottles: 65,
+    bonuses: [
+      "Max PŻ +800",
+      "Silny przeciwko Ludziom +5%",
+      "Odporność na Ludzi 1%",
+      "Silny przeciwko Potworom +4%",
+      "Punkty Doświadczenia +3%",
+      "Szansa na podwójną ilość Yang +4%"
+    ]
+  },
+  {
+    level: 9,
+    bottles: 82,
+    bonuses: [
+      "Max PŻ +900",
+      "Silny przeciwko Ludziom +6%",
+      "Odporność na Ludzi 1%",
+      "Silny przeciwko Potworom +4%",
+      "Punkty Doświadczenia +3%",
+      "Szansa na podwójną ilość Yang +5%"
+    ]
+  },
+  {
+    level: 10,
+    bottles: 103,
+    bonuses: [
+      "Max PŻ +1000",
+      "Silny przeciwko Ludziom +7%",
+      "Odporność na Ludzi 2%",
+      "Silny przeciwko Potworom +5%",
+      "Punkty Doświadczenia +3%",
+      "Szansa na podwójną ilość Yang +5%"
+    ]
+  },
+  {
+    level: 11,
+    bottles: 130,
+    bonuses: [
+      "Max PŻ +1100",
+      "Silny przeciwko Ludziom +8%",
+      "Odporność na Ludzi 2%",
+      "Silny przeciwko Potworom +5%",
+      "Punkty Doświadczenia +4%",
+      "Szansa na podwójną ilość Yang +6%"
+    ]
+  },
+  {
+    level: 12,
+    bottles: 163,
+    bonuses: [
+      "Max PŻ +1200",
+      "Silny przeciwko Ludziom +9%",
+      "Odporność na Ludzi 2%",
+      "Silny przeciwko Potworom +6%",
+      "Punkty Doświadczenia +4%",
+      "Szansa na podwójną ilość Yang +6%"
+    ]
+  },
+  {
+    level: 13,
+    bottles: 204,
+    bonuses: [
+      "Max PŻ +1300",
+      "Silny przeciwko Ludziom +10%",
+      "Odporność na Ludzi 2%",
+      "Silny przeciwko Potworom +6%",
+      "Punkty Doświadczenia +5%",
+      "Szansa na podwójną ilość Yang +7%"
+    ]
+  },
+  {
+    level: 14,
+    bottles: 254,
+    bonuses: [
+      "Max PŻ +1400",
+      "Silny przeciwko Ludziom +11%",
+      "Odporność na Ludzi 2%",
+      "Silny przeciwko Potworom +7%",
+      "Punkty Doświadczenia +7%",
+      "Szansa na podwójną ilość Yang +7%"
+    ]
+  },
+  {
+    level: 15,
+    bottles: 317,
+    bonuses: [
+      "Max PŻ +1500",
+      "Silny przeciwko Ludziom +12%",
+      "Odporność na Ludzi 3%",
+      "Silny przeciwko Potworom +7%",
+      "Punkty Doświadczenia +9%",
+      "Szansa na podwójną ilość Yang +8%"
+    ]
+  },
+  {
+    level: 16,
+    bottles: 396,
+    bonuses: [
+      "Max PŻ +1600",
+      "Silny przeciwko Ludziom +13%",
+      "Odporność na Ludzi 3%",
+      "Silny przeciwko Potworom +8%",
+      "Punkty Doświadczenia +11%",
+      "Szansa na podwójną ilość Yang +8%"
+    ]
+  },
+  {
+    level: 17,
+    bottles: 494,
+    bonuses: [
+      "Max PŻ +1700",
+      "Silny przeciwko Ludziom +14%",
+      "Odporność na Ludzi 3%",
+      "Silny przeciwko Potworom +8%",
+      "Punkty Doświadczenia +13%",
+      "Szansa na podwójną ilość Yang +9%"
+    ]
+  },
+  {
+    level: 18,
+    bottles: 616,
+    bonuses: [
+      "Max PŻ +1800",
+      "Silny przeciwko Ludziom +15%",
+      "Odporność na Ludzi 4%",
+      "Silny przeciwko Potworom +8%",
+      "Punkty Doświadczenia +15%",
+      "Szansa na podwójną ilość Yang +9%"
+    ]
+  },
+  {
+    level: 19,
+    bottles: 768,
+    bonuses: [
+      "Max PŻ +1900",
+      "Silny przeciwko Ludziom +16%",
+      "Odporność na Ludzi 4%",
+      "Silny przeciwko Potworom +9%",
+      "Punkty Doświadczenia +17%",
+      "Szansa na podwójną ilość Yang +10%"
+    ]
+  },
+  {
+    level: 20,
+    bottles: 1200,
+    bonuses: [
+      "Max PŻ +2000",
+      "Silny przeciwko Ludziom +20%",
+      "Odporność na Ludzi 5%",
+      "Silny przeciwko Potworom +10%",
+      "Punkty Doświadczenia +20%",
+      "Szansa na podwójną ilość Yang +10%"
+    ]
+  }
+];
+
+function initGuildProgress() {
+  const root = document.querySelector("[data-guild-progress]");
+
+  if (!root) {
+    return;
+  }
+
+  const prevButton = root.querySelector(".guild-progress__arrow--prev");
+  const nextButton = root.querySelector(".guild-progress__arrow--next");
+  const level = root.querySelector("#guildProgressLevel");
+  const bottles = root.querySelector("#guildProgressBottles");
+  const bonusList = root.querySelector("#guildProgressBonusList");
+  const empty = root.querySelector("#guildProgressEmpty");
+  const buttonsContainer = root.querySelector("#guildProgressButtons");
+
+  if (!level || !bottles || !bonusList || !empty || !buttonsContainer || !guildProgressData.length) {
+    return;
+  }
+
+  const levelButtons = guildProgressData.map((entry) => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "guild-progress__level-button";
+    button.textContent = String(entry.level);
+    button.addEventListener("click", () => {
+      render(guildProgressData.findIndex((item) => item.level === entry.level));
+    });
+    buttonsContainer.appendChild(button);
+    return button;
+  });
+
+  let currentIndex = 0;
+
+  function render(index) {
+    const entry = guildProgressData[index];
+    if (!entry) {
+      return;
+    }
+
+    currentIndex = index;
+    level.textContent = String(entry.level);
+    bottles.textContent = String(entry.bottles);
+    levelButtons.forEach((button, buttonIndex) => {
+      button.classList.toggle("is-active", buttonIndex === index);
+    });
+
+    bonusList.innerHTML = "";
+    const bonuses = Array.isArray(entry.bonuses) ? entry.bonuses.filter(Boolean) : [];
+
+    if (!bonuses.length) {
+      empty.hidden = false;
+      bonusList.hidden = true;
+    } else {
+      empty.hidden = true;
+      bonusList.hidden = false;
+      bonuses.forEach((bonus) => {
+        const item = document.createElement("li");
+        item.textContent = bonus;
+        bonusList.appendChild(item);
+      });
+    }
+  }
+
+  if (prevButton) {
+    prevButton.addEventListener("click", () => {
+      render((currentIndex - 1 + guildProgressData.length) % guildProgressData.length);
+    });
+  }
+
+  if (nextButton) {
+    nextButton.addEventListener("click", () => {
+      render((currentIndex + 1) % guildProgressData.length);
+    });
+  }
+
+  render(0);
+}
+
+initGuildProgress();
+
 function initOptiShowcase() {
   const showcase = document.querySelector("[data-opti-showcase]");
 
@@ -708,6 +1031,7 @@ function initShopOfflinePreview() {
     popup.classList.remove("shop-preview-popup--large");
     popup.classList.remove("shop-preview-popup--small");
     popup.classList.remove("shop-preview-popup--xlarge");
+    popup.classList.remove("shop-preview-popup--xxlarge");
     popup.classList.remove("shop-preview-popup--centered");
     activeTrigger = null;
   }
@@ -721,6 +1045,7 @@ function initShopOfflinePreview() {
     popup.classList.toggle("shop-preview-popup--large", previewSize === "large");
     popup.classList.toggle("shop-preview-popup--small", previewSize === "small");
     popup.classList.toggle("shop-preview-popup--xlarge", previewSize === "xlarge");
+    popup.classList.toggle("shop-preview-popup--xxlarge", previewSize === "xxlarge");
     popup.classList.add("shop-preview-popup--centered");
     popup.hidden = false;
     activeTrigger = trigger;
@@ -794,6 +1119,7 @@ function initSidepanelPreview() {
     popup.classList.remove("shop-preview-popup--large");
     popup.classList.remove("shop-preview-popup--small");
     popup.classList.remove("shop-preview-popup--xlarge");
+    popup.classList.remove("shop-preview-popup--xxlarge");
     popup.classList.remove("shop-preview-popup--centered");
     activeTrigger = null;
   }
@@ -807,6 +1133,7 @@ function initSidepanelPreview() {
     popup.classList.toggle("shop-preview-popup--large", previewSize === "large");
     popup.classList.toggle("shop-preview-popup--small", previewSize === "small");
     popup.classList.toggle("shop-preview-popup--xlarge", previewSize === "xlarge");
+    popup.classList.toggle("shop-preview-popup--xxlarge", previewSize === "xxlarge");
     popup.classList.add("shop-preview-popup--centered");
     popup.hidden = false;
     activeTrigger = trigger;
@@ -875,6 +1202,7 @@ function initQolPreview() {
     popup.classList.remove("shop-preview-popup--large");
     popup.classList.remove("shop-preview-popup--small");
     popup.classList.remove("shop-preview-popup--xlarge");
+    popup.classList.remove("shop-preview-popup--xxlarge");
     popup.classList.remove("shop-preview-popup--centered");
     activeTrigger = null;
   }
@@ -908,6 +1236,7 @@ function initQolPreview() {
     popup.classList.toggle("shop-preview-popup--large", previewSize === "large");
     popup.classList.toggle("shop-preview-popup--small", previewSize === "small");
     popup.classList.toggle("shop-preview-popup--xlarge", previewSize === "xlarge");
+    popup.classList.toggle("shop-preview-popup--xxlarge", previewSize === "xxlarge");
     popup.classList.add("shop-preview-popup--centered");
     popup.hidden = false;
     activeTrigger = trigger;

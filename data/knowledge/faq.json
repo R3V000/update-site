@@ -557,6 +557,457 @@
       "answer": "W bazie prezentacji sa badania Biologa i Seon-Pyeonga. Badania daja stale bonusy i sa jedna z pozostawionych linii misji."
     },
     {
+      "id": "faq-biolog-30",
+      "title": "Biolog 30",
+      "questions": [
+        "Biolog 30",
+        "Co trzeba oddac na biologa 30?",
+        "Zeby orka"
+      ],
+      "keywords": [
+        "biolog",
+        "badania",
+        "30",
+        "zab",
+        "zeby",
+        "orka",
+        "jinno"
+      ],
+      "answer": "Biolog 30: Badania Biologa 1. Oddajesz Zab Orka x10 oraz Kamien Duchowy Jinno. Czas badania: 30 minut. Nagroda: Szybkosc Ruchu +10%."
+    },
+    {
+      "id": "faq-biolog-40",
+      "title": "Biolog 40",
+      "questions": [
+        "Biolog 40",
+        "Co trzeba oddac na biologa 40?",
+        "Ksiegi klatw"
+      ],
+      "keywords": [
+        "biolog",
+        "badania",
+        "40",
+        "ksiega",
+        "ksiegi",
+        "klatw",
+        "klatwe",
+        "swiatynny"
+      ],
+      "answer": "Biolog 40: Badania Biologa 2. Oddajesz Ksiega Klatw x15 oraz Swiatynny Kamien Duchowy. Czas badania: 1 godzina. Nagroda: Szybkosc Ataku +5%."
+    },
+    {
+      "id": "faq-biolog-50",
+      "title": "Biolog 50",
+      "questions": [
+        "Biolog 50",
+        "Co trzeba oddac na biologa 50?",
+        "Pamiatki po demonie"
+      ],
+      "keywords": [
+        "biolog",
+        "badania",
+        "50",
+        "pamiatka",
+        "pamiatki",
+        "demonie",
+        "sagyi"
+      ],
+      "answer": "Biolog 50: Badania Biologa 3. Oddajesz Pamiatka po Demonie x15 oraz Kamien Duchowy Sagyi. Czas badania: 3 godziny. Nagroda: Obrona +60."
+    },
+    {
+      "id": "faq-biolog-60",
+      "title": "Biolog 60",
+      "questions": [
+        "Biolog 60",
+        "Co trzeba oddac na biologa 60?",
+        "Matowe lody"
+      ],
+      "keywords": [
+        "biolog",
+        "badania",
+        "60",
+        "matowy",
+        "matowe",
+        "lod",
+        "lody",
+        "aurtumryu"
+      ],
+      "answer": "Biolog 60: Badania Biologa 4. Oddajesz Matowy Lod x20 oraz Kamien Duchowy Aurtumryu. Czas badania: 6 godzin. Nagroda: Wartosc Ataku +50 i Magiczny Atak +50."
+    },
+    {
+      "id": "faq-biolog-70",
+      "title": "Biolog 70",
+      "questions": [
+        "Biolog 70",
+        "Co trzeba oddac na biologa 70?",
+        "Konary zelkova"
+      ],
+      "keywords": [
+        "biolog",
+        "badania",
+        "70",
+        "konar",
+        "zelkova",
+        "gyimok"
+      ],
+      "answer": "Biolog 70: Badania Biologa 5. Oddajesz Konar Zelkova x25 oraz Kamien Duchowy Gyimok. Czas badania: 12 godzin. Nagroda: Odpornosc na ataki fizyczne +10%."
+    },
+    {
+      "id": "faq-biolog-80",
+      "title": "Biolog 80",
+      "questions": [
+        "Biolog 80",
+        "Co trzeba oddac na biologa 80?",
+        "Certyfikaty tugyisa"
+      ],
+      "keywords": [
+        "biolog",
+        "badania",
+        "80",
+        "certyfikat",
+        "tugyisa",
+        "tugyi"
+      ],
+      "answer": "Biolog 80: Badania Biologa 6. Oddajesz Certyfikat Tugyisa x30 oraz Kamien Duchowy Tugyi. Czas badania: 24 godziny. Nagroda: Atak fizyczny +10%."
+    },
+    {
+      "id": "faq-biolog-85",
+      "title": "Biolog 85",
+      "questions": [
+        "Biolog 85",
+        "Co trzeba oddac na biologa 85?",
+        "Czerwone konary"
+      ],
+      "keywords": [
+        "biolog",
+        "badania",
+        "85",
+        "czerw",
+        "czerwony",
+        "konar",
+        "lasu"
+      ],
+      "answer": "Biolog 85: Badania Biologa 7. Oddajesz Czerw. Konar x40 oraz Kamien Duchowy Lasu. Czas badania: 24 godziny. Nagroda: Odpornosc na klasy +10%."
+    },
+    {
+      "id": "faq-biolog-90",
+      "title": "Biolog 90",
+      "questions": [
+        "Biolog 90",
+        "Co trzeba oddac na biologa 90?",
+        "Notatki przywodcy"
+      ],
+      "keywords": [
+        "biolog",
+        "badania",
+        "90",
+        "notatka",
+        "notatki",
+        "przywodcy",
+        "liderow"
+      ],
+      "answer": "Biolog 90: Badania Biologa 8. Oddajesz Notatka Przywodcy x50 oraz Kamien Duchowy Liderow. Czas badania: 24 godziny. Nagroda: Atak przeciwko klasom +12%."
+    },
+    {
+      "id": "faq-seon-92",
+      "title": "Seon-Pyeong 92",
+      "questions": [
+        "Seon 92",
+        "Seon-Pyeong 92",
+        "Co trzeba oddac na seona 92?"
+      ],
+      "keywords": [
+        "seon",
+        "pyeong",
+        "92",
+        "klejnot",
+        "zawisci"
+      ],
+      "answer": "Seon-Pyeong 92: Badanie Seona-Pyeonga. Oddajesz Klejnot Zawisci x10. Czas badania: 24 godziny. Nagroda do wyboru: +80 Wartosc Ataku, +80 Magiczny Atak albo +1400 PZ."
+    },
+    {
+      "id": "faq-seon-94",
+      "title": "Seon-Pyeong 94",
+      "questions": [
+        "Seon 94",
+        "Seon-Pyeong 94",
+        "Co trzeba oddac na seona 94?"
+      ],
+      "keywords": [
+        "seon",
+        "pyeong",
+        "94",
+        "klejnot",
+        "madrosci",
+        "berana"
+      ],
+      "answer": "Seon-Pyeong 94: Klejnoty Seona-Pyeonga. Oddajesz Klejnot Madrosci x20 oraz Kamien Duchowy Berana. Czas badania: 24 godziny. Nagroda do wyboru: +100 Wartosc Ataku, +100 Magiczny Atak albo +1600 PZ."
+    },
+    {
+      "id": "faq-seon-100",
+      "title": "Seon-Pyeong 100",
+      "questions": [
+        "Seon 100",
+        "Seon-Pyeong 100",
+        "Co trzeba oddac na seona 100?"
+      ],
+      "keywords": [
+        "seon",
+        "pyeong",
+        "100",
+        "kwarc",
+        "piekiel",
+        "czerw"
+      ],
+      "answer": "Seon-Pyeong 100: Klejnoty Seona-Pyeonga. Oddajesz Czerw. Kwarc. Piekiel x30. Czas badania: 24 godziny. Nagroda: Odpornosc na obrazenia umiejetnosci +5%."
+    },
+    {
+      "id": "faq-biolog-elixir",
+      "title": "Eliksir Poszukiwacza",
+      "questions": [
+        "Jak dziala Eliksir Poszukiwacza?",
+        "Czy eliksir pomaga przy biologu?",
+        "Co daje eliksir biologa?"
+      ],
+      "keywords": [
+        "eliksir",
+        "poszukiwacza",
+        "biolog",
+        "badania",
+        "20",
+        "czas"
+      ],
+      "answer": "Eliksir Poszukiwacza skraca czas oczekiwania przy badaniach i zwieksza szanse pomyslnego oddania przedmiotu o 20%."
+    },
+    {
+      "id": "faq-story-missions-overview",
+      "title": "Fabularka",
+      "questions": [
+        "Fabularka",
+        "Jak dzialaja misje fabularne?",
+        "Jakie sa misje fabularne?"
+      ],
+      "keywords": [
+        "fabularka",
+        "fabularne",
+        "fabula",
+        "misje",
+        "sciezka",
+        "wojownika"
+      ],
+      "answer": "Misje fabularne to Sciezka Wojownika od I do XI. Sa dostepne na poziomach 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 i 105 oraz daja stale bonusy."
+    },
+    {
+      "id": "faq-story-1-10",
+      "title": "Fabularka 1 / 10 lv",
+      "questions": [
+        "Fabularka 1",
+        "Fabularka 10lv",
+        "Misja fabularna 10"
+      ],
+      "keywords": [
+        "fabularka",
+        "fabularne",
+        "1",
+        "i",
+        "10",
+        "10lv",
+        "wojownika"
+      ],
+      "answer": "Fabularka 1, czyli Sciezka Wojownika I, jest na 10 poziomie. Nagroda: Wartosc Ataku +10 i Wartosc Magicznego Ataku +10."
+    },
+    {
+      "id": "faq-story-2-20",
+      "title": "Fabularka 2 / 20 lv",
+      "questions": [
+        "Fabularka 2",
+        "Fabularka 20lv",
+        "Misja fabularna 20"
+      ],
+      "keywords": [
+        "fabularka",
+        "fabularne",
+        "2",
+        "ii",
+        "20",
+        "20lv",
+        "wojownika"
+      ],
+      "answer": "Fabularka 2, czyli Sciezka Wojownika II, jest na 20 poziomie. Nagroda: Max PZ +150 i Wartosc Magicznego Ataku +15."
+    },
+    {
+      "id": "faq-story-3-30",
+      "title": "Fabularka 3 / 30 lv",
+      "questions": [
+        "Fabularka 3",
+        "Fabularka 30lv",
+        "Misja fabularna 30"
+      ],
+      "keywords": [
+        "fabularka",
+        "fabularne",
+        "3",
+        "iii",
+        "30",
+        "30lv",
+        "potworom"
+      ],
+      "answer": "Fabularka 3, czyli Sciezka Wojownika III, jest na 30 poziomie. Nagroda: Silny przeciwko Potworom +2%."
+    },
+    {
+      "id": "faq-story-4-40",
+      "title": "Fabularka 4 / 40 lv",
+      "questions": [
+        "Fabularka 4",
+        "Fabularka 40lv",
+        "Misja fabularna 40"
+      ],
+      "keywords": [
+        "fabularka",
+        "fabularne",
+        "4",
+        "iv",
+        "40",
+        "40lv",
+        "przeszywajacy"
+      ],
+      "answer": "Fabularka 4, czyli Sciezka Wojownika IV, jest na 40 poziomie. Nagroda: Szansa na przeszywajacy cios +2%."
+    },
+    {
+      "id": "faq-story-5-50",
+      "title": "Fabularka 5 / 50 lv",
+      "questions": [
+        "Fabularka 5",
+        "Fabularka 50lv",
+        "Misja fabularna 50"
+      ],
+      "keywords": [
+        "fabularka",
+        "fabularne",
+        "5",
+        "v",
+        "50",
+        "50lv",
+        "krytyczny"
+      ],
+      "answer": "Fabularka 5, czyli Sciezka Wojownika V, jest na 50 poziomie. Nagroda: Szansa na krytyczny cios +2%."
+    },
+    {
+      "id": "faq-story-6-60",
+      "title": "Fabularka 6 / 60 lv",
+      "questions": [
+        "Fabularka 6",
+        "Fabularka 60lv",
+        "Misja fabularna 60"
+      ],
+      "keywords": [
+        "fabularka",
+        "fabularne",
+        "6",
+        "vi",
+        "60",
+        "60lv",
+        "statystyka"
+      ],
+      "answer": "Fabularka 6, czyli Sciezka Wojownika VI, jest na 60 poziomie. Nagroda: do wyboru dowolna statystyka +5 pkt."
+    },
+    {
+      "id": "faq-story-7-70",
+      "title": "Fabularka 7 / 70 lv",
+      "questions": [
+        "Fabularka 7",
+        "Fabularka 70lv",
+        "Misja fabularna 70"
+      ],
+      "keywords": [
+        "fabularka",
+        "fabularne",
+        "7",
+        "vii",
+        "70",
+        "70lv",
+        "ludziom"
+      ],
+      "answer": "Fabularka 7, czyli Sciezka Wojownika VII, jest na 70 poziomie. Nagroda: Silny przeciwko Ludziom +3%."
+    },
+    {
+      "id": "faq-story-8-80",
+      "title": "Fabularka 8 / 80 lv",
+      "questions": [
+        "Fabularka 8",
+        "Fabularka 80lv",
+        "Misja fabularna 80"
+      ],
+      "keywords": [
+        "fabularka",
+        "fabularne",
+        "8",
+        "viii",
+        "80",
+        "80lv",
+        "diablom"
+      ],
+      "answer": "Fabularka 8, czyli Sciezka Wojownika VIII, jest na 80 poziomie. Nagroda: Silny przeciwko Diablom +5%."
+    },
+    {
+      "id": "faq-story-9-90",
+      "title": "Fabularka 9 / 90 lv",
+      "questions": [
+        "Fabularka 9",
+        "Fabularka 90lv",
+        "Misja fabularna 90"
+      ],
+      "keywords": [
+        "fabularka",
+        "fabularne",
+        "9",
+        "ix",
+        "90",
+        "90lv",
+        "atak"
+      ],
+      "answer": "Fabularka 9, czyli Sciezka Wojownika IX, jest na 90 poziomie. Nagroda: Wartosc Ataku +15 i Max PZ +300."
+    },
+    {
+      "id": "faq-story-10-100",
+      "title": "Fabularka 10 / 100 lv",
+      "questions": [
+        "Fabularka 10",
+        "Fabularka 100lv",
+        "Misja fabularna 100"
+      ],
+      "keywords": [
+        "fabularka",
+        "fabularne",
+        "10",
+        "x",
+        "100",
+        "100lv",
+        "statystyka"
+      ],
+      "answer": "Fabularka 10, czyli Sciezka Wojownika X, jest na 100 poziomie. Nagroda: Max PZ +350 oraz do wyboru dowolna statystyka +8 pkt."
+    },
+    {
+      "id": "faq-story-11-105",
+      "title": "Fabularka 11 / 105 lv",
+      "questions": [
+        "Fabularka 11",
+        "Fabularka 105lv",
+        "Misja fabularna 105"
+      ],
+      "keywords": [
+        "fabularka",
+        "fabularne",
+        "11",
+        "xi",
+        "105",
+        "105lv",
+        "potworom",
+        "ludziom"
+      ],
+      "answer": "Fabularka 11, czyli Sciezka Wojownika XI, jest na 105 poziomie. Nagroda: Silny przeciwko Potworom +5%, krytyczny cios +5%, przeszywajacy cios +5%, Silny przeciwko Ludziom +10% i Max PZ +1500."
+    },
+    {
       "id": "faq-shaman-buffs",
       "title": "Buffy szamanow",
       "questions": [
@@ -602,6 +1053,48 @@
         "rozpruwacza"
       ],
       "answer": "Bronie 75, czyli Stalowy Luk Kruka, Miecz Zalu, Lwi Miecz, Skrzydla Demona Chakram, Bambusowy Dzwon i Zatruty Miecz, sa do zdobycia w Wiezy Demonow ze Szkatulki Umarlego Rozpruwacza."
+    },
+    {
+      "id": "faq-level-55-weapons",
+      "title": "Bronie 55",
+      "questions": [
+        "Skad zdobyc bronie 55?",
+        "Gdzie dropia bronie na 55 poziom?",
+        "Skad Ostrze Zbawienia?",
+        "Skad Miecz Lat Maga?",
+        "Skad Luk Jednorozca?",
+        "Skad Zebrowy Noz?",
+        "Skad Zloty Robaczy Dzwon?",
+        "Skad Brwisty Wachlarz?"
+      ],
+      "keywords": [
+        "bronie",
+        "55",
+        "ostrze",
+        "zbawienia",
+        "miecz",
+        "lat",
+        "maga",
+        "luk",
+        "jednorozca",
+        "zebrowy",
+        "noz",
+        "zloty",
+        "robaczy",
+        "dzwon",
+        "brwisty",
+        "wachlarz",
+        "wodz",
+        "orkow",
+        "dolina",
+        "reinkar",
+        "ezot",
+        "przyw",
+        "swiatynia",
+        "hwang",
+        "srednie"
+      ],
+      "answer": "Bronie 55, czyli Ostrze Zbawienia, Miecz Lat Maga, Luk Jednorozca, Zebrowy Noz, Zloty Robaczy Dzwon i Brwisty Wachlarz, sa do zdobycia z Wodza Orkow w Dolinie Orkow oraz z Reinkar. Ezot. Przyw. w Swiatyni Hwang. Bronie te posiadaja wbudowane srednie obrazenia."
     },
     {
       "id": "faq-level-30-weapons",
@@ -681,9 +1174,13 @@
         "ranga",
         "pozytywne",
         "negatywne",
-        "system"
+        "system",
+        "fasolka",
+        "smoczy",
+        "owoc",
+        "zycia"
       ],
-      "answer": "System rang dzieli sie na rangi pozytywne i negatywne. Pozytywne wspieraja aktywnosci PvE, a negatywne daja bonusy bardziej pod walke z graczami."
+      "answer": "System rang jest podzielony na pozytywne i negatywne rangi. Punkty rangi zdobywa sie tylko przez uzywanie wskazanych przedmiotow: Fasolka Zen, Owoc Zycia, Smoczy Owoc i Smocza Fasolka. Poza tymi formami nie ma innej metody zdobywania punktow rangi."
     },
     {
       "id": "faq-alchemy-overview",
@@ -701,6 +1198,169 @@
         "alchemik"
       ],
       "answer": "Alchemia jest jednym z glownych systemow progresji. Uszlachetnianie Smoczych Kamieni odbywa sie u Alchemika, maksymalna klasa to Legendarny, a maksymalna jakosc to Wyborny."
+    },
+    {
+      "id": "faq-alchemy-cor-types",
+      "title": "Cor Draconis",
+      "questions": [
+        "Jakie sa rodzaje Cor Draconis?",
+        "Jakie cory sa na serwerze?",
+        "Z czego zdobywa sie alchemie?"
+      ],
+      "keywords": [
+        "cor",
+        "draconis",
+        "surowy",
+        "rzadki",
+        "szlifowany",
+        "alchemia"
+      ],
+      "answer": "W prezentacji pokazano Cor Draconis w wariantach: surowy, rzadki i szlifowany. Sluzacy do progresji alchemii system opiera sie na Smoczych Kamieniach."
+    },
+    {
+      "id": "faq-alchemy-upgrade-items",
+      "title": "Ulepszanie alchemii",
+      "questions": [
+        "Czym ulepsza sie alchemie?",
+        "Jak podniesc poziom alchemii?",
+        "Do czego sluza smocze fasole?"
+      ],
+      "keywords": [
+        "alchemia",
+        "ulepszanie",
+        "poziom",
+        "zielona",
+        "rozowa",
+        "fasola"
+      ],
+      "answer": "Poziom Smoczych Kamieni zwieksza sie Smoczymi Fasolami. Prezentacja pokazuje Zielona Smocza Fasole oraz Rozowa Smocza Fasole, ktora dodaje +10% szansy."
+    },
+    {
+      "id": "faq-alchemy-full-wheel",
+      "title": "Bonus pelnego kola alchemii",
+      "questions": [
+        "Jaki jest bonus za pelne kolo alchemii?",
+        "Czy pelna alchemia daje dodatkowy bonus?",
+        "Co daje komplet wybornej alchemii?"
+      ],
+      "keywords": [
+        "alchemia",
+        "pelne",
+        "kolo",
+        "wyborny",
+        "+6",
+        "bonus"
+      ],
+      "answer": "Pelne kolo Smoczych Kamieni w jakosci Wyborny +6 daje dodatkowy bonus: +10% do bonusow alchemii."
+    },
+    {
+      "id": "faq-alchemy-diamond",
+      "title": "Bonusy Diamentu",
+      "questions": [
+        "Jakie bonusy ma Diament?",
+        "Co daje Diament w alchemii?",
+        "Bonusy diamentu alchemia"
+      ],
+      "keywords": [
+        "diament",
+        "alchemia",
+        "inteligencja",
+        "magicznego",
+        "umiejetnosci",
+        "blok"
+      ],
+      "answer": "Diament moze dawac: Inteligencja +12, Niwelacja Bloku +6%, Obrazenia Umiejetnosci +18%, Wartosc Magicznego Ataku +360 oraz Odpornosc na Obrazenia Umiejetnosci +18%."
+    },
+    {
+      "id": "faq-alchemy-ruby",
+      "title": "Bonusy Rubinu",
+      "questions": [
+        "Jakie bonusy ma Rubin?",
+        "Co daje Rubin w alchemii?",
+        "Bonusy rubinu alchemia"
+      ],
+      "keywords": [
+        "rubin",
+        "alchemia",
+        "sila",
+        "obrona",
+        "atak",
+        "srednie"
+      ],
+      "answer": "Rubin moze dawac: Sila +12, Obrona +240, Wartosc Ataku +360, Srednie Obrazenia +18% oraz Odpornosc na Obrazenia +18%."
+    },
+    {
+      "id": "faq-alchemy-jade",
+      "title": "Bonusy Jadeitu",
+      "questions": [
+        "Jakie bonusy ma Jadeit?",
+        "Co daje Jadeit w alchemii?",
+        "Bonusy jadeitu alchemia"
+      ],
+      "keywords": [
+        "jadeit",
+        "alchemia",
+        "pz",
+        "pe",
+        "regeneracja",
+        "hp"
+      ],
+      "answer": "Jadeit moze dawac: MAX PE +600, Max PZ +3600, Maks. PZ +24%, Regeneracja PZ +12%, Szansa na odzyskanie PZ +6% oraz Obrazenia dodawane do PZ +12%."
+    },
+    {
+      "id": "faq-alchemy-onyx",
+      "title": "Bonusy Onyksu",
+      "questions": [
+        "Jakie bonusy ma Onyks?",
+        "Co daje Onyks w alchemii?",
+        "Bonusy onyksu alchemia"
+      ],
+      "keywords": [
+        "onyks",
+        "alchemia",
+        "witalnosc",
+        "blok",
+        "odbicie",
+        "unik"
+      ],
+      "answer": "Onyks moze dawac: Witalnosc +12, Szansa na blok ciosow +12%, Szansa na odbicie ciosu +12%, Szansa na unikniecie strzaly +12%, Odpornosc na cios krytyczny +12% oraz Odpornosc na przeszywajacy cios +12%."
+    },
+    {
+      "id": "faq-alchemy-garnet",
+      "title": "Bonusy Granatu",
+      "questions": [
+        "Jakie bonusy ma Granat?",
+        "Co daje Granat w alchemii?",
+        "Bonusy granatu alchemia"
+      ],
+      "keywords": [
+        "granat",
+        "alchemia",
+        "pe",
+        "pz",
+        "krytyczny",
+        "potworom"
+      ],
+      "answer": "Granat moze dawac: MAX PE +1800, Max PZ +1800, Szansa na odzyskanie PE +6%, Szansa na cios krytyczny +12%, Silny przeciwko Potworom +12% oraz Obrazenia dodawane do PE +12%."
+    },
+    {
+      "id": "faq-alchemy-sapphire",
+      "title": "Bonusy Szafiru",
+      "questions": [
+        "Jakie bonusy ma Szafir?",
+        "Co daje Szafir w alchemii?",
+        "Bonusy szafiru alchemia"
+      ],
+      "keywords": [
+        "szafir",
+        "alchemia",
+        "zrecznosc",
+        "wojownik",
+        "ninja",
+        "sura",
+        "szaman"
+      ],
+      "answer": "Szafir moze dawac: Zrecznosc +12, Silny przeciwko Wojownikom/Ninja/Sura/Szamanom +18% oraz Odpornosc na Wojownikow/Ninja/Sura/Szamanow +18%."
     },
     {
       "id": "faq-passive-skills",
@@ -752,7 +1412,8 @@
         "01:00",
         "09:00",
         "17:00",
-        "zbroje"
+        "zbroje",
+        "wrozka"
       ],
       "answer": "Silna Lodowa Wiedzma pojawia sie w Grocie Wygnancow V1 na wszystkich kanalach co 8 godzin: 01:00, 09:00 i 17:00. Jej unikatowy drop to Zbroje Tytanow."
     },
@@ -865,9 +1526,29 @@
         "jae",
         "seon",
         "kim",
-        "ruda"
+        "ruda",
+        "perla"
       ],
-      "answer": "Przetopy wytwarza sie u Jae-Seon Kim. Prezentacja pokazuje rozne warianty przetopow z rud."
+      "answer": "Przetopy wytwarza sie u Jae-Seon Kim. Standardowa receptura wymaga 100 sztuk odpowiedniej rudy lub materialu, 2 Rad Pustelnika, 2 Zwojow Egzorcyzmu, 5 Kamieni Duchowych i 5 Zwojow Blogoslawienstwa. Granat wedlug prezentacji wymaga 5 Rad i 5 Egzorcyzmow."
+    },
+    {
+      "id": "faq-przetop-list",
+      "title": "Lista przetopow",
+      "questions": [
+        "Jakie przetopy sa dostepne?",
+        "Jakie rudy mozna przetopic?",
+        "Lista przetopow"
+      ],
+      "keywords": [
+        "przetopy",
+        "rudy",
+        "ebonit",
+        "perla",
+        "jadeit",
+        "granat",
+        "diament"
+      ],
+      "answer": "Dostepne przetopy z prezentacji: Ebonit, Perla, Biale Zloto, Krysztal, Jadeit, Zloto, Srebro, Miedz, Skamieniale Drewno, Diament, Ametyst, Niebianskie Lzy, Krysztal Duszy i Granat."
     },
     {
       "id": "faq-essence-smelt",
@@ -927,6 +1608,25 @@
       "answer": "Kazdy Kamien Duszy +5 wymaga 20 Odlamkow Kamienia, 5 odpowiednich Kamieni Duszy +4, 5 Egzorcyzmow, 5 Rad Pustelnika i 5 Kamieni Duchowych."
     },
     {
+      "id": "faq-soulstones-plus5-bonuses",
+      "title": "Bonusy Kamieni Duszy +5",
+      "questions": [
+        "Jakie bonusy maja KD +5?",
+        "Co daja Kamienie Duszy +5?",
+        "Bonusy kamieni duszy plus 5"
+      ],
+      "keywords": [
+        "kd",
+        "+5",
+        "bonusy",
+        "wojownika",
+        "ninji",
+        "potwora",
+        "witalnosci"
+      ],
+      "answer": "KD +5 z prezentacji: Wojownika/Ninji/Sury/Szamana daja +40% przeciwko danej klasie, Potwora +15% przeciwko Potworom, Uchylenia +12% bloku, Uniku +12% uniku strzal, Magii +10 Inteligencji, Powtorki +35% szybkosci zaklec, Witalnosci +2000 HP, Smierci +15% kryta, Penetracji +15% przeszywki, Obrony +80 obrony, Przyspieszenia +45% szybkosci ruchu."
+    },
+    {
       "id": "faq-uriel-crafting",
       "title": "Crafting u Uriela",
       "questions": [
@@ -946,6 +1646,96 @@
       "answer": "U Uriela pokazano crafting miedzy innymi Mikstury Ducha, Zlotej Perly, Peleryny Mestwa+, Wzmocnienia Przedmiotu, Zaczarowania Przedmiotu, Zielonego Czaru i Zielonej Sily."
     },
     {
+      "id": "faq-uriel-spirit-potion",
+      "title": "Mikstura Ducha u Uriela",
+      "questions": [
+        "Jak zrobic Miksture Ducha?",
+        "Co potrzeba na Miksture Ducha u Uriela?",
+        "Craft Mikstury Ducha"
+      ],
+      "keywords": [
+        "uriel",
+        "mikstura",
+        "ducha",
+        "pierscien",
+        "doswiadczenia",
+        "exp"
+      ],
+      "answer": "Mikstura Ducha daje dodatkowe 30% EXP przez 30 minut. U Uriela mozna ja zrobic z 15 Pierscieni Doswiadczenia 1h i 750.000 Yang albo z 20 Pierscieni Doswiadczenia 30min i 750.000 Yang."
+    },
+    {
+      "id": "faq-uriel-golden-pearl",
+      "title": "Zlota Perla u Uriela",
+      "questions": [
+        "Jak zrobic Zlota Perle?",
+        "Co potrzeba na Zlota Perle?",
+        "Craft Zlotej Perly"
+      ],
+      "keywords": [
+        "uriel",
+        "zlota",
+        "perla",
+        "biala",
+        "niebieska",
+        "czerwona"
+      ],
+      "answer": "Zlota Perla u Uriela wymaga: 1 Biala Perla, 1 Niebieska Perla, 1 Czerwona Perla oraz 750.000 Yang."
+    },
+    {
+      "id": "faq-uriel-peleryna",
+      "title": "Peleryna Mestwa+ u Uriela",
+      "questions": [
+        "Jak zrobic Peleryne Mestwa+?",
+        "Co potrzeba na Peleryne Mestwa plus?",
+        "Czy Peleryna Mestwa+ dziala na bossy?"
+      ],
+      "keywords": [
+        "uriel",
+        "peleryna",
+        "mestwa",
+        "boss",
+        "zasieg",
+        "200"
+      ],
+      "answer": "Peleryna Mestwa+ ma zwiekszony zasieg, ale nie dziala na bossy. Craft u Uriela daje 100 sztuk i wymaga 200 Peleryn Mestwa oraz 750.000 Yang."
+    },
+    {
+      "id": "faq-uriel-bonus-items",
+      "title": "Wzmocnienie i Zaczarowanie u Uriela",
+      "questions": [
+        "Jak wymienic zmianki i dodania u Uriela?",
+        "Jak zrobic Wzmocnienie Przedmiotu?",
+        "Jak zrobic Zaczarowanie Przedmiotu?"
+      ],
+      "keywords": [
+        "uriel",
+        "wzmocnienie",
+        "zaczarowanie",
+        "marmur",
+        "bonus",
+        "przedmiotu"
+      ],
+      "answer": "U Uriela mozna wymieniac bonusowe przedmioty: 4 Zaczarowania Przedmiotu daja 1 Wzmocnienie Przedmiotu, 2 Wzmocnienia daja 1 Zaczarowanie, a 1 Marmur Blogoslawienstwa daje 3 Zaczarowania Przedmiotu."
+    },
+    {
+      "id": "faq-uriel-green-items",
+      "title": "Zielony Czar i Zielona Sila",
+      "questions": [
+        "Jak zrobic Zielony Czar?",
+        "Jak zrobic Zielona Sile?",
+        "Czy Uriel wymienia zielone itemy?"
+      ],
+      "keywords": [
+        "uriel",
+        "zielony",
+        "czar",
+        "zielona",
+        "sila",
+        "wymiana"
+      ],
+      "answer": "U Uriela dziala wymiana zielonych przedmiotow: 2 Zielone Sily daja 1 Zielony Czar, a 2 Zielone Czary daja 1 Zielona Sile."
+    },
+    {
       "id": "faq-yonah-exchange",
       "title": "Wymiana u Yonah",
       "questions": [
@@ -958,9 +1748,12 @@
         "wymiana",
         "zlomu",
         "peleryna",
-        "ulepszanie"
+        "ulepszanie",
+        "kd",
+        "ksiega",
+        "kwiaty"
       ],
-      "answer": "U Yonah dziala Wymiana Zlomu. Kamienie Duszy +0 daja 1 Peleryne za sztuke, +1 daja 2, a +2 i +3 daja po 3 Peleryny. Losowe 20 ulepszaczy daje 1 Pozwolenie na ulepszanie."
+      "answer": "U Yonah dziala Wymiana Zlomu. KD +0 daje 1 Peleryne za sztuke, KD +1 daje 2 Peleryny, KD +2 i +3 daja po 3 Peleryny. Ksiazki i Kwiaty sa liczone wedlug mnoznika 1-3, a losowe 20 ulepszaczy daje 1 Pozwolenie na ulepszanie."
     },
     {
       "id": "faq-belts-overview",
