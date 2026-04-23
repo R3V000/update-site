@@ -3622,6 +3622,401 @@ h1:not(.section-title):not(.new-title)::after {
   line-height: 1.55;
 }
 
+.side-system-note {
+  display: grid;
+  grid-template-columns: minmax(180px, 240px) minmax(0, 1fr);
+  align-items: center;
+  gap: 28px;
+}
+
+.side-system-note__media {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.side-system-note__media img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.side-system-note__content p {
+  margin: 0;
+}
+
+.side-system-note__content p + p {
+  margin-top: 14px;
+}
+
+.side-system-note__details {
+  margin-top: 18px;
+}
+
+.side-system-note__details summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  color: #e5d5ad;
+  font-weight: 700;
+  list-style: none;
+  transition: color .2s ease;
+}
+
+.side-system-note__details summary::-webkit-details-marker {
+  display: none;
+}
+
+.side-system-note__details summary::after {
+  content: "▾";
+  font-size: 14px;
+  transform: translateY(-1px);
+  transition: transform .2s ease;
+}
+
+.side-system-note__details[open] summary::after {
+  transform: rotate(180deg) translateY(1px);
+}
+
+.side-system-note__details summary:hover,
+.side-system-note__details[open] summary {
+  color: #f3e7c2;
+}
+
+.side-system-note__quest-box {
+  margin-top: 14px;
+  padding: 16px 18px;
+  border: 1px solid rgba(230, 194, 0, 0.18);
+  border-radius: 12px;
+  background: rgba(0,0,0,0.22);
+}
+
+.side-system-note__quest-name,
+.side-system-note__reward-label {
+  margin: 0;
+  color: #f3e7c2;
+  font-weight: 700;
+}
+
+.side-system-note__quest-list {
+  margin: 12px 0 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.side-system-note__quest-list li {
+  margin: 0;
+}
+
+.side-system-note__quest-list li + li {
+  margin-top: 8px;
+}
+
+.side-system-note__reward {
+  margin-top: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+}
+
+.side-system-note__reward-label {
+  display: block;
+}
+
+.side-system-note__reward-item {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 0;
+}
+
+.side-system-note__reward-image {
+  width: 34px;
+  height: 34px;
+  object-fit: contain;
+  display: block;
+}
+
+.side-system-note__reward-name {
+  color: #f3e7c2;
+  font-weight: 600;
+  text-align: center;
+}
+
+.fishing-rods {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.fishing-rods__table {
+  display: inline-grid;
+  grid-template-columns: repeat(9, max-content);
+  gap: 0;
+}
+
+.fishing-rods__cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 72px;
+  padding: 8px 6px;
+  text-align: center;
+}
+
+.fishing-rods__cell:nth-child(odd),
+.fishing-rods__cell:nth-child(even) {
+  background: transparent;
+}
+
+.fishing-rods__icon {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 132px;
+  cursor: default;
+}
+
+.fishing-rods__stack {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+}
+
+.fishing-rods__icon img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 40px;
+  height: 132px;
+  max-width: none;
+  max-height: none;
+  transform: translate(-50%, -50%);
+  object-fit: contain;
+  display: block;
+  transition: filter .2s ease, transform .2s ease;
+}
+
+.fishing-rods__tooltip {
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 12px);
+  width: 230px;
+  padding: 14px 16px;
+  border: 1px solid rgba(179, 141, 74, 0.42);
+  border-radius: 3px;
+  background: rgba(8, 8, 8, 0.96);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.58);
+  color: #d9d1c1;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  line-height: 1.45;
+  text-align: center;
+  text-shadow: 0 0 3px rgba(0,0,0,.65);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateX(-50%) translateY(8px) scale(0.97);
+  transform-origin: 50% 100%;
+  transition: opacity .28s ease, transform .32s cubic-bezier(.22, 1, .36, 1), visibility .28s ease;
+  z-index: 8;
+  pointer-events: none;
+}
+
+.fishing-rods__tooltip-title {
+  margin: 0 0 6px;
+  color: #f1e2b0;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.fishing-rods__tooltip-line {
+  display: block;
+  margin: 0;
+  color: #e0d8c8;
+}
+
+.fishing-rods__tooltip-line + .fishing-rods__tooltip-line {
+  margin-top: 3px;
+}
+
+.fishing-rods__tooltip-line--chance {
+  color: #8fcf9f;
+}
+
+.fishing-rods__icon:hover .fishing-rods__tooltip,
+.fishing-rods__icon:focus-visible .fishing-rods__tooltip {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(-2px) scale(1);
+}
+
+.fishing-rods__icon:hover img,
+.fishing-rods__icon:focus-visible img {
+  filter: brightness(1.12) drop-shadow(0 0 10px rgba(230,194,0,.3));
+  transform: translate(-50%, -50%) scale(1.03);
+}
+
+.mining-pickaxes {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.mining-pickaxes__table {
+  display: inline-grid;
+  grid-template-columns: repeat(10, max-content);
+  gap: 0;
+}
+
+.mining-pickaxes__cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 72px;
+  padding: 8px 6px;
+  text-align: center;
+}
+
+.mining-pickaxes__icon {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 88px;
+  cursor: default;
+}
+
+.mining-pickaxes__stack {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+}
+
+.mining-pickaxes__icon img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 38px;
+  height: 92px;
+  max-width: none;
+  max-height: none;
+  transform: translate(-50%, -50%);
+  object-fit: contain;
+  display: block;
+  transition: filter .2s ease, transform .2s ease;
+}
+
+.mining-pickaxes__tooltip {
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 12px);
+  width: 230px;
+  padding: 14px 16px;
+  border: 1px solid rgba(179, 141, 74, 0.42);
+  border-radius: 3px;
+  background: rgba(8, 8, 8, 0.96);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.58);
+  color: #d9d1c1;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  line-height: 1.45;
+  text-align: center;
+  text-shadow: 0 0 3px rgba(0,0,0,.65);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateX(-50%) translateY(8px) scale(0.97);
+  transform-origin: 50% 100%;
+  transition: opacity .28s ease, transform .32s cubic-bezier(.22, 1, .36, 1), visibility .28s ease;
+  z-index: 8;
+  pointer-events: none;
+}
+
+.mining-pickaxes__tooltip-title {
+  margin: 0 0 6px;
+  color: #f1e2b0;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.mining-pickaxes__tooltip-line {
+  display: block;
+  margin: 0;
+  color: #e0d8c8;
+}
+
+.mining-pickaxes__tooltip-line + .mining-pickaxes__tooltip-line {
+  margin-top: 3px;
+}
+
+.mining-pickaxes__tooltip-line--chance {
+  color: #8fcf9f;
+}
+
+.mining-pickaxes__icon:hover .mining-pickaxes__tooltip,
+.mining-pickaxes__icon:focus-visible .mining-pickaxes__tooltip {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(-2px) scale(1);
+}
+
+.mining-pickaxes__icon:hover img,
+.mining-pickaxes__icon:focus-visible img {
+  filter: brightness(1.12) drop-shadow(0 0 10px rgba(230,194,0,.3));
+  transform: translate(-50%, -50%) scale(1.03);
+}
+
+.side-system-note__details summary {
+  transition: color .2s ease, opacity .2s ease;
+}
+
+.side-system-note__details summary::after {
+  content: "+";
+  font-size: 18px;
+  line-height: 1;
+  transform: translateY(-1px);
+  transition: none;
+}
+
+.side-system-note__details[open] summary::after {
+  content: "-";
+  transform: translateY(-1px);
+}
+
+.side-system-note__details summary:hover,
+.side-system-note__details[open] summary {
+  opacity: 1;
+}
+
+.side-system-note__quest-box {
+  margin-top: 14px;
+  padding: 16px 18px;
+  border: 1px solid rgba(230, 194, 0, 0.18);
+  border-radius: 12px;
+  background: rgba(0,0,0,0.22);
+}
+
+.side-system-note__quest-list li {
+  color: #ddd2b3;
+}
+
+.side-system-note__reward-item {
+  padding: 8px 10px;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.03);
+}
+
 @media (max-width: 900px){
   .guild-craft{
     grid-template-columns:1fr;
@@ -3639,11 +4034,51 @@ h1:not(.section-title):not(.new-title)::after {
       "summary"
       "bonuses";
   }
+
+  .side-system-note {
+    grid-template-columns: 1fr;
+    gap: 18px;
+    text-align: center;
+  }
+
+  .fishing-rods__table {
+    grid-template-columns: repeat(5, max-content);
+  }
+
+  .mining-pickaxes__table {
+    grid-template-columns: repeat(5, max-content);
+  }
+
+  .side-system-note__quest-list {
+    text-align: left;
+  }
 }
 
 @media (max-width: 640px) {
   .guild-progress__jump {
     flex-direction: column;
+  }
+
+  .fishing-rods {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    display: block;
+  }
+
+  .mining-pickaxes {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    display: block;
+  }
+
+  .fishing-rods__table {
+    min-width: 0;
+    grid-template-columns: repeat(3, max-content);
+  }
+
+  .mining-pickaxes__table {
+    min-width: 0;
+    grid-template-columns: repeat(4, max-content);
   }
 }
 

@@ -378,6 +378,19 @@ const weaponSoulStoneKeywords = [
   "Penetracji"
 ];
 
+const miningPickaxeData = [
+  { name: "Kilof +0", img: "https://img.m2icondb.com/29101.png", levelReq: 30, toolLevel: 1, points: 1000, chance: "15%" },
+  { name: "Kilof +1", img: "https://img.m2icondb.com/29101.png", levelReq: 30, toolLevel: 2, points: 2000, chance: "18%" },
+  { name: "Kilof +2", img: "https://img.m2icondb.com/29101.png", levelReq: 30, toolLevel: 3, points: 4000, chance: "21%" },
+  { name: "Kilof +3", img: "https://img.m2icondb.com/29101.png", levelReq: 30, toolLevel: 4, points: 8000, chance: "24%" },
+  { name: "Kilof +4", img: "https://img.m2icondb.com/29101.png", levelReq: 30, toolLevel: 5, points: 16000, chance: "27%" },
+  { name: "Kilof +5", img: "https://img.m2icondb.com/29101.png", levelReq: 30, toolLevel: 6, points: 32000, chance: "30%" },
+  { name: "Kilof +6", img: "https://img.m2icondb.com/29101.png", levelReq: 30, toolLevel: 7, points: 64000, chance: "33%" },
+  { name: "Kilof +7", img: "https://img.m2icondb.com/29101.png", levelReq: 30, toolLevel: 8, points: 128000, chance: "38%" },
+  { name: "Kilof +8", img: "https://img.m2icondb.com/29101.png", levelReq: 30, toolLevel: 9, points: 256000, chance: "43%" },
+  { name: "Kilof +9", img: "https://img.m2icondb.com/29101.png", levelReq: 30, toolLevel: 9, points: 512000, chance: "50%" }
+];
+
 const blocks = Array.from({ length: items.length / 6 }, (_, index) => {
   const blockItems = items.slice(index * 6, index * 6 + 6);
   const resultItem = blockItems[0];
@@ -3186,6 +3199,157 @@ function initMoneyRain() {
 }
 
 initMoneyRain();
+
+function initMissionDetailsToggle() {
+  const detailsElements = document.querySelectorAll("[data-mission-details]");
+
+  detailsElements.forEach((details) => {
+    const summary = details.querySelector("summary");
+    if (!summary) {
+      return;
+    }
+
+    const closedLabel = summary.dataset.summaryClosed || summary.textContent.trim();
+    const openLabel = summary.dataset.summaryOpen || closedLabel;
+
+    const syncLabel = () => {
+      summary.textContent = details.open ? openLabel : closedLabel;
+    };
+
+    details.addEventListener("toggle", syncLabel);
+    syncLabel();
+  });
+}
+
+initMissionDetailsToggle();
+
+const fishingRodData = [
+  { name: "Wędka +1", img: "https://img.m2icondb.com/27400.png", levelReq: 30, rodLevel: 2, points: 2000, chance: "20%" },
+  { name: "Wędka +2", img: "https://img.m2icondb.com/27400.png", levelReq: 30, rodLevel: 2, points: 4000, chance: "23%" },
+  { name: "Wędka +3", img: "https://img.m2icondb.com/27400.png", levelReq: 30, rodLevel: 2, points: 8000, chance: "26%" },
+  { name: "Wędka +4", img: "https://img.m2icondb.com/27400.png", levelReq: 30, rodLevel: 2, points: 16000, chance: "29%" },
+  { name: "Wędka +5", img: "https://img.m2icondb.com/27400.png", levelReq: 30, rodLevel: 3, points: 32000, chance: "32%" },
+  { name: "Wędka +6", img: "https://img.m2icondb.com/27400.png", levelReq: 30, rodLevel: 3, points: 64000, chance: "35%" },
+  { name: "Wędka +7", img: "https://img.m2icondb.com/27400.png", levelReq: 30, rodLevel: 3, points: 12800, chance: "39%" },
+  { name: "Wędka +8", img: "https://img.m2icondb.com/27400.png", levelReq: 30, rodLevel: 4, points: 256000, chance: "45%" },
+  { name: "Wędka +9", img: "https://img.m2icondb.com/27400.png", levelReq: 30, rodLevel: 5, points: 512000, chance: "50%" }
+];
+
+function initFishingRodsTable() {
+  const root = document.querySelector("[data-fishing-rods]");
+
+  if (!root || !fishingRodData.length) {
+    return;
+  }
+
+  const headers = ["Wędka", "Od poziomu", "Poziom", "Punkty", "Szansa"];
+  const formatValue = (value) => (value === "" || value === null || value === undefined ? "-" : String(value));
+
+  const headMarkup = `
+    <div class="fishing-rods__row fishing-rods__row--head">
+      ${headers.map((label) => `<div class="fishing-rods__cell">${label}</div>`).join("")}
+    </div>
+  `;
+
+  const rowsMarkup = fishingRodData.map((rod) => `
+    <div class="fishing-rods__row">
+      <div class="fishing-rods__cell">
+        <div class="fishing-rods__item">
+          <span class="fishing-rods__icon" tabindex="0" aria-label="${rod.name}">
+            <img src="${rod.img}" alt="${rod.name}">
+            <span class="fishing-rods__tooltip">
+              <strong class="fishing-rods__tooltip-title">${rod.name}</strong>
+              <span class="fishing-rods__tooltip-line">Od Poziomu: ${formatValue(rod.levelReq)}</span>
+              <span class="fishing-rods__tooltip-line">Poziom: ${formatValue(rod.rodLevel)}</span>
+              <span class="fishing-rods__tooltip-line">Punkty: 0 / ${formatValue(rod.points)}</span>
+              <span class="fishing-rods__tooltip-line fishing-rods__tooltip-line--chance">Szansa na wyłowienie: ${formatValue(rod.chance)}</span>
+            </span>
+          </span>
+          <span class="fishing-rods__item-name">${rod.name}</span>
+        </div>
+      </div>
+      <div class="fishing-rods__cell"><span class="fishing-rods__value">${formatValue(rod.levelReq)}</span></div>
+      <div class="fishing-rods__cell"><span class="fishing-rods__value">${formatValue(rod.rodLevel)}</span></div>
+      <div class="fishing-rods__cell"><span class="fishing-rods__value">${formatValue(rod.points)}</span></div>
+      <div class="fishing-rods__cell"><span class="fishing-rods__value">${formatValue(rod.chance)}</span></div>
+    </div>
+  `).join("");
+
+  root.innerHTML = `<div class="fishing-rods__table">${headMarkup}${rowsMarkup}</div>`;
+}
+
+initFishingRodsTable();
+
+function initFishingRodsTable() {
+  const root = document.querySelector("[data-fishing-rods]");
+
+  if (!root || !fishingRodData.length) {
+    return;
+  }
+
+  const formatValue = (value) => (value === "" || value === null || value === undefined ? "-" : String(value));
+
+  root.innerHTML = `
+    <div class="fishing-rods__table">
+      ${fishingRodData.map((rod) => `
+        <div class="fishing-rods__cell">
+          <span class="fishing-rods__icon" tabindex="0" aria-label="${rod.name}">
+            <span class="fishing-rods__stack" aria-hidden="true">
+              <span class="belt-frame"></span>
+              <span class="belt-frame"></span>
+              <span class="belt-frame"></span>
+            </span>
+            <img src="${rod.img}" alt="${rod.name}">
+            <span class="fishing-rods__tooltip">
+              <strong class="fishing-rods__tooltip-title">${rod.name}</strong>
+              <span class="fishing-rods__tooltip-line">Od Poziomu: ${formatValue(rod.levelReq)}</span>
+              <span class="fishing-rods__tooltip-line">Poziom: ${formatValue(rod.rodLevel)}</span>
+              <span class="fishing-rods__tooltip-line">Punkty: 0 / ${formatValue(rod.points)}</span>
+              <span class="fishing-rods__tooltip-line fishing-rods__tooltip-line--chance">Szansa na wyłowienie: ${formatValue(rod.chance)}</span>
+            </span>
+          </span>
+        </div>
+      `).join("")}
+    </div>
+  `;
+}
+
+initFishingRodsTable();
+
+function initMiningPickaxesTable() {
+  const root = document.querySelector("[data-mining-pickaxes]");
+
+  if (!root || !miningPickaxeData.length) {
+    return;
+  }
+
+  const formatValue = (value) => (value === "" || value === null || value === undefined ? "-" : String(value));
+
+  root.innerHTML = `
+    <div class="mining-pickaxes__table">
+      ${miningPickaxeData.map((pickaxe) => `
+        <div class="mining-pickaxes__cell">
+          <span class="mining-pickaxes__icon" tabindex="0" aria-label="${pickaxe.name}">
+            <span class="mining-pickaxes__stack" aria-hidden="true">
+              <span class="belt-frame"></span>
+              <span class="belt-frame"></span>
+            </span>
+            <img src="${pickaxe.img}" alt="${pickaxe.name}">
+            <span class="mining-pickaxes__tooltip">
+              <strong class="mining-pickaxes__tooltip-title">${pickaxe.name}</strong>
+              <span class="mining-pickaxes__tooltip-line">Od Poziomu: ${formatValue(pickaxe.levelReq)}</span>
+              <span class="mining-pickaxes__tooltip-line">Poziom: ${formatValue(pickaxe.toolLevel)}</span>
+              <span class="mining-pickaxes__tooltip-line">Punkty: 0 / ${formatValue(pickaxe.points)}</span>
+              <span class="mining-pickaxes__tooltip-line mining-pickaxes__tooltip-line--chance">Szansa na wydobycie: ${formatValue(pickaxe.chance)}</span>
+            </span>
+          </span>
+        </div>
+      `).join("")}
+    </div>
+  `;
+}
+
+initMiningPickaxesTable();
 
   (function(){
     const buttons = document.querySelectorAll('.package-card');
