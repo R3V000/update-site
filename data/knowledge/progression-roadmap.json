@@ -33,6 +33,41 @@
         "plan"
       ],
       "answer": "Tak, ale tylko jako plan na przyszłość. Obecna baza wiedzy nie zawiera jeszcze terminu wdrożenia."
+    },
+    {
+      "id": "roadmap-community-updates",
+      "title": "Aktualizacje od społeczności",
+      "questions": [
+        "Skąd biorą się aktualizacje?",
+        "Czy opinie graczy mają wpływ na zmiany?",
+        "Czy aktualizacje powstają z ankiet?"
+      ],
+      "keywords": [
+        "aktualizacje",
+        "ankiety",
+        "opinie",
+        "spolecznosc",
+        "discord",
+        "zmiany"
+      ],
+      "answer": "Według prezentacji aktualizacje Monastyr2 powstają także dzięki ankietom i opiniom społeczności. Zespół podkreśla, że głos graczy ma realny wpływ na kierunek rozwoju serwera."
+    },
+    {
+      "id": "roadmap-live-presentation",
+      "title": "Aktualizowana prezentacja",
+      "questions": [
+        "Czy prezentacja będzie aktualizowana?",
+        "Czy informacje będą dodawane na bieżąco?",
+        "Czy prezentacja się rozwinie?"
+      ],
+      "keywords": [
+        "prezentacja",
+        "aktualizowana",
+        "na biezaco",
+        "segmenty",
+        "rozwoj"
+      ],
+      "answer": "Tak. Prezentacja ma być aktualizowana na bieżąco o kolejne segmenty, a część dalszych zmian zależy od opinii graczy i ankiet."
     }
   ]
 }

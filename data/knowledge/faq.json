@@ -3,29 +3,29 @@
   "entries": [
     {
       "id": "faq-low-end-pc",
-      "title": "Wydajność na słabszym sprzęcie",
+      "title": "Wydajnosc na slabszym sprzecie",
       "questions": [
-        "Czy gra działa na słabszym komputerze?",
-        "Czy klient działa płynnie na starszym sprzęcie?",
-        "Czy gra działa płynnie na słabszych komputerach?"
+        "Czy gra dziala na slabszym komputerze?",
+        "Czy klient dziala plynnie na starszym sprzecie?",
+        "Czy gra dziala plynnie na slabszych komputerach?"
       ],
       "keywords": [
-        "wydajność",
+        "wydajnosc",
         "sprzet",
         "komputer",
         "slabszy",
         "klient",
         "optymalizacja"
       ],
-      "answer": "Tak. Według obecnej bazy wiedzy klient 64-bitowy i optymalizacje mają zapewnić stabilną grę także na starszym sprzęcie."
+      "answer": "Tak. Wedlug obecnej bazy wiedzy klient 64-bitowy i optymalizacje maja zapewnic stabilna gre takze na starszym sprzecie."
     },
     {
       "id": "faq-macos",
-      "title": "Obsługa macOS",
+      "title": "Obsluga macOS",
       "questions": [
-        "Czy klient działa na macu?",
-        "Czy odpalę grę na macOS?",
-        "Czy włączę klienta na systemie mac?"
+        "Czy klient dziala na macu?",
+        "Czy odpale gre na macOS?",
+        "Czy wlacze klienta na systemie mac?"
       ],
       "keywords": [
         "mac",
@@ -33,15 +33,15 @@
         "apple",
         "system"
       ],
-      "answer": "Nie. Obecna baza wiedzy podaje, że klient nie obsługuje środowiska macOS."
+      "answer": "Nie. Obecna baza wiedzy podaje, ze klient nie obsluguje srodowiska macOS."
     },
     {
       "id": "faq-exp-block",
-      "title": "Blokada doświadczenia",
+      "title": "Blokada doswiadczenia",
       "questions": [
-        "Jak zablokować exp?",
-        "Jak zablokować zdobywanie doświadczenia?",
-        "Czy mogę zatrzymać exp?"
+        "Jak zablokowac exp?",
+        "Jak zablokowac zdobywanie doswiadczenia?",
+        "Czy moge zatrzymac exp?"
       ],
       "keywords": [
         "exp",
@@ -50,15 +50,15 @@
         "pierscien",
         "anty"
       ],
-      "answer": "Zdobywanie doświadczenia można zablokować Pierścieniem Anty-Expa dostępnym u Handlarki Różności. Obecna baza wiedzy nie wskazuje innej metody blokady."
+      "answer": "Blokada doswiadczenia jest dostepna przy grafice z kulkami doswiadczenia. Nalezy kliknac Pierscien Doswiadczenia, ktory pozwala zablokowac lub odblokowac EXP."
     },
     {
       "id": "faq-drop-share",
-      "title": "Podział dropu",
+      "title": "Podzial dropu",
       "questions": [
-        "Jak działa podział dropu?",
-        "Ile obrażeń trzeba zadać na metina?",
-        "Czy ksucie daje część dropu?"
+        "Jak dziala podzial dropu?",
+        "Ile obrazen trzeba zadac na metina?",
+        "Czy ksucie daje czesc dropu?"
       ],
       "keywords": [
         "drop",
@@ -68,27 +68,934 @@
         "20",
         "procent"
       ],
-      "answer": "Aby dostać swoją część łupów z metina lub bossa, trzeba zadać co najmniej 20% całkowitych obrażeń. Jeśli ten próg nie zostanie osiągnięty, drop nie przysługuje."
+      "answer": "Aby dostac swoja czesc lupow z metina lub bossa, trzeba zadac co najmniej 20% calkowitych obrazen. Jesli ten prog nie zostanie osiagniety, drop nie przysluguje."
     },
     {
-      "id": "faq-server-technician",
-      "title": "Technik serwera",
+      "id": "faq-unlimited-clients",
+      "title": "Liczba klientow",
       "questions": [
-        "Kto jest technikiem serwera?",
-        "Kto jest technikiem?",
-        "Kto odpowiada za technikę serwera?",
-        "Kto ogarnia technikę serwera?"
+        "Czy liczba klientow jest ograniczona?",
+        "Ile moge miec otwartych klientow?",
+        "Czy mozna miec wiele okien gry?"
       ],
       "keywords": [
-        "technik",
-        "technikiem",
-        "technika",
-        "techniczny",
-        "developer",
-        "dev",
-        "muchomor"
+        "klienty",
+        "okna",
+        "limit",
+        "nieograniczone",
+        "multiklient"
       ],
-      "answer": "Technikiem serwera jest Muchomor."
+      "answer": "Wedlug prezentacji liczba otwartych klientow pozostaje nieograniczona. Ograniczenie Farm-Block dotyczy tylko aktywnosci PvE na maksymalnie 2 kontach."
+    },
+    {
+      "id": "faq-quality-of-life",
+      "title": "Quality of Life",
+      "questions": [
+        "Jakie sa udogodnienia quality of life?",
+        "Jakie QoL ma serwer?",
+        "Czy sa funkcje poprawiajace komfort gry?"
+      ],
+      "keywords": [
+        "qol",
+        "quality",
+        "life",
+        "udogodnienia",
+        "komfort",
+        "funkcje"
+      ],
+      "answer": "Prezentacja pokazuje miedzy innymi filtr dropu, szybka zmiane kanalu, rozszerzony zoom kamery, sledzenie grupy na mini-mapie, masowa sprzedaz, stackowanie przedmiotow, okna bonusow oraz ukrywanie kostiumow, nakladek i petow."
+    },
+    {
+      "id": "faq-guild-basics",
+      "title": "Podstawy gildii",
+      "questions": [
+        "Jak dziala gildia?",
+        "Jakie sa wymagania gildii?",
+        "Ile osob moze miec gildia?"
+      ],
+      "keywords": [
+        "gildia",
+        "gildii",
+        "50",
+        "20",
+        "25",
+        "czlonkow"
+      ],
+      "answer": "Zalozenie gildii wymaga 50 poziomu. Maksymalny poziom gildii to 20, a maksymalna liczba czlonkow wynosi 25."
+    },
+    {
+      "id": "faq-guild-elixirs",
+      "title": "Eliksiry gildii",
+      "questions": [
+        "Skad zdobyc eliksiry gildii?",
+        "Jak rozwija sie gildie?",
+        "Czy eliksiry gildii maja crafting?"
+      ],
+      "keywords": [
+        "eliksir",
+        "gildii",
+        "crafting",
+        "legendy",
+        "bossy",
+        "eventy",
+        "dungeony"
+      ],
+      "answer": "Awans gildii wymaga eliksirow gildii. Wedlug prezentacji mozna je zdobyc z legend, bossow mapowych, eventow oraz z mala szansa z dungeonow. Dostepny jest tez crafting eliksiru gildii."
+    },
+    {
+      "id": "faq-horse-system",
+      "title": "Jezdziectwo",
+      "questions": [
+        "Jak dziala system konny?",
+        "Do ktorego poziomu jest kon?",
+        "Czy klasyczne misje konne zostaly usuniete?"
+      ],
+      "keywords": [
+        "kon",
+        "konny",
+        "jezdziectwo",
+        "40",
+        "misje",
+        "medal",
+        "rada"
+      ],
+      "answer": "Jezdziectwo rozwinieto do 40 poziomu. Klasyczne misje konne zostaly usuniete, a poziom rozwija sie klikajac PPM na odpowiednie przedmioty."
+    },
+    {
+      "id": "faq-horse-crafts",
+      "title": "Crafting jezdziectwa",
+      "questions": [
+        "Jak zrobic Rade Konna?",
+        "Jak zrobic Cukier dla Konia?",
+        "Jaki jest crafting konnych itemow?"
+      ],
+      "keywords": [
+        "rada",
+        "konna",
+        "cukier",
+        "konia",
+        "medal",
+        "egzo",
+        "pustelnika"
+      ],
+      "answer": "Rada Konna powstaje z 10 Medali Konnych, 5 Zwojow Blogoslawienstwa, 5 Egzorcyzmow, 5 Rad Pustelnika i 5 Kamieni Duchowych. Koszt to 500.000 Yang, a szansa 75%. Cukier dla Konia kosztuje 2.000.000 Yang i ma 100% szansy."
+    },
+    {
+      "id": "faq-horse-max-bonus",
+      "title": "Bonusy maksymalnego jezdziectwa",
+      "questions": [
+        "Co daje max kon?",
+        "Jakie bonusy daje max jezdziectwo?",
+        "Co daje kon 40?"
+      ],
+      "keywords": [
+        "max",
+        "kon",
+        "jezdziectwo",
+        "40",
+        "bonusy",
+        "potworom"
+      ],
+      "answer": "Na maksymalnym poziomie jezdziectwa prezentacja pokazuje: +1000 PZ, Silny przeciwko Potworom +25, Wartosc Ataku +200 oraz Obrona +50."
+    },
+    {
+      "id": "faq-max-level-reward",
+      "title": "Nagroda za maksymalny poziom",
+      "questions": [
+        "Jaka jest nagroda za maksymalny poziom?",
+        "Co dostaje pierwszy gracz z max poziomem?",
+        "Czy jest nagroda za 105 poziom?"
+      ],
+      "keywords": [
+        "max",
+        "105",
+        "nagroda",
+        "hwang",
+        "5000",
+        "pln"
+      ],
+      "answer": "Pierwsi gracze, ktorzy osiagna maksymalny poziom, maja otrzymac unikatowe Zbroje Hwang po jednej dla kazdej klasy. Dodatkowo pierwszy gracz spelniajacy wymagania z prezentacji ma otrzymac 5000 PLN."
+    },
+    {
+      "id": "faq-cash-reward-conditions",
+      "title": "Warunki nagrody 5000 PLN",
+      "questions": [
+        "Jakie sa warunki nagrody 5000 PLN?",
+        "Co trzeba zrobic po nagrode finansowa?",
+        "Jak zdobyc 5000 PLN z prezentacji?"
+      ],
+      "keywords": [
+        "5000",
+        "pln",
+        "nagroda",
+        "warunki",
+        "105",
+        "hwang",
+        "tytanow",
+        "alchemii"
+      ],
+      "answer": "Warunki obejmuja miedzy innymi 105 poziom, skille klasowe i pasywne na P, maksymalne jezdziectwo, komplet biologa i Seon-Pyeonga, Tarcze Tytanow +9, rozwiniety ekwipunek 105, pelne wyborne kolo alchemii i Kamienie Duszy +5 w broni oraz zbroi."
+    },
+    {
+      "id": "faq-marriage",
+      "title": "Malzenstwo",
+      "questions": [
+        "Jak dziala malzenstwo?",
+        "Jak zawrzec malzenstwo?",
+        "Jakie sa wymagania do slubu?"
+      ],
+      "keywords": [
+        "malzenstwo",
+        "slub",
+        "starsza",
+        "pani",
+        "pierscionek",
+        "zareczynowy",
+        "stroj",
+        "weselny"
+      ],
+      "answer": "Malzenstwo zawiera sie u Starszej Pani. Wymagany jest 25 poziom, Pierscionek Zareczynowy u obu postaci i zalozony stroj weselny na kazdej postaci. Malzenstwo umozliwia teleport Pierscionkiem Zareczynowym."
+    },
+    {
+      "id": "faq-marriage-items",
+      "title": "Pierscionek i stroj weselny",
+      "questions": [
+        "Skad wziac Pierscionek Zareczynowy?",
+        "Skad wziac stroj weselny?",
+        "Gdzie zdobyc rzeczy do slubu?"
+      ],
+      "keywords": [
+        "pierscionek",
+        "zareczynowy",
+        "stroj",
+        "weselny",
+        "domokrazcy",
+        "misji"
+      ],
+      "answer": "Pierscionek Zareczynowy zdobywa sie z misji, a stroje weselne kupuje sie u Domokrazcy."
+    },
+    {
+      "id": "faq-missions",
+      "title": "Misje",
+      "questions": [
+        "Jakie misje zostaly na serwerze?",
+        "Czy misje zostaly usuniete?",
+        "Jakie misje pozostaly?"
+      ],
+      "keywords": [
+        "misje",
+        "biolog",
+        "seon",
+        "pyeong",
+        "fabularne",
+        "bonusy"
+      ],
+      "answer": "Wiekszosc misji zostala usunieta. Pozostaly badania Biologa i Seon-Pyeonga oraz misje fabularne, ktore gwarantuja stale bonusy."
+    },
+    {
+      "id": "faq-wikipedia",
+      "title": "Wikipedia serwera",
+      "questions": [
+        "Czy jest wikipedia na serwerze?",
+        "Czy serwer ma wiki?",
+        "Czy jest wbudowana wikipedia?"
+      ],
+      "keywords": [
+        "wikipedia",
+        "wiki",
+        "wbudowana",
+        "panel"
+      ],
+      "answer": "Tak. Prezentacja zawiera sekcje Wikipedia oraz skrot do niej w panelu bocznym."
+    },
+    {
+      "id": "faq-teleport-map",
+      "title": "Mapa teleportacji",
+      "questions": [
+        "Czy jest mapa teleportacji?",
+        "Jak dziala mapa teleportacji?",
+        "Czy serwer ma teleport map?"
+      ],
+      "keywords": [
+        "mapa",
+        "teleportacji",
+        "teleport",
+        "mtp"
+      ],
+      "answer": "Tak. Prezentacja pokazuje Mape Teleportacji jako jedna z funkcji serwera."
+    },
+    {
+      "id": "faq-bonus-switcher",
+      "title": "Bonus Switcher",
+      "questions": [
+        "Czy jest bonus switcher?",
+        "Czy serwer ma bonus switcher?",
+        "Czy mozna zmieniac bonusy w osobnym oknie?"
+      ],
+      "keywords": [
+        "bonus",
+        "switcher",
+        "zmiana",
+        "bonusow",
+        "okno"
+      ],
+      "answer": "Tak. Prezentacja pokazuje Bonus Switcher oraz funkcje zwiazane ze zmiana i podsumowaniem bonusow."
+    },
+    {
+      "id": "faq-drop-preview",
+      "title": "Podglad dropu",
+      "questions": [
+        "Czy jest podglad dropu?",
+        "Czy mozna zobaczyc drop przeciwnika?",
+        "Czy serwer ma preview dropu?"
+      ],
+      "keywords": [
+        "podglad",
+        "dropu",
+        "drop",
+        "preview"
+      ],
+      "answer": "Tak. Prezentacja zawiera sekcje Podgladu Dropu jako jedna z funkcji serwera."
+    },
+    {
+      "id": "faq-offline-shops",
+      "title": "Sklepy offline",
+      "questions": [
+        "Czy sa shopy offline?",
+        "Czy sa sklepy offline?",
+        "Jak dziala sklep offline?"
+      ],
+      "keywords": [
+        "shopy",
+        "sklep",
+        "offline",
+        "shop"
+      ],
+      "answer": "Tak. Prezentacja pokazuje sklepy offline z osobnym panelem zarzadzania i podgladem funkcji."
+    },
+    {
+      "id": "faq-offline-shop-features",
+      "title": "Funkcje sklepu offline",
+      "questions": [
+        "Jakie funkcje ma sklep offline?",
+        "Co mozna zrobic w sklepie offline?",
+        "Czy sklep offline ma wyszukiwarke?"
+      ],
+      "keywords": [
+        "sklep",
+        "offline",
+        "funkcje",
+        "wyszukiwarka",
+        "historia",
+        "bank",
+        "magazyn",
+        "edycja"
+      ],
+      "answer": "Sklep offline ma miedzy innymi zmiane tytulu, przedluzanie czasu, zamkniecie sklepu, edycje oferty, bank i magazyn, historie sklepu, wyszukiwarke ofert oraz przenoszenie sklepu."
+    },
+    {
+      "id": "faq-dungeons",
+      "title": "Dungeony",
+      "questions": [
+        "Jakie sa dungeony?",
+        "Czy sa prywatne dungeony?",
+        "Jak dziala wejscie do dungeonow?"
+      ],
+      "keywords": [
+        "dungeony",
+        "dungeon",
+        "przepustki",
+        "wejscie",
+        "limit"
+      ],
+      "answer": "Prezentacja opisuje dungeony z osobnymi przepustkami, limitami dziennych wejsc, wymaganiami poziomowymi i bonusami na konkretne typy przeciwnikow."
+    },
+    {
+      "id": "faq-dt-entry",
+      "title": "Wejscie do Wiezy Demonow",
+      "questions": [
+        "Jak wejsc do DT?",
+        "Jak wejsc do Wiezy Demonow?",
+        "Jaka przepustka jest do DT?"
+      ],
+      "keywords": [
+        "dt",
+        "wieza",
+        "demonow",
+        "demoniczny",
+        "klucz",
+        "przepustka"
+      ],
+      "answer": "Do Wiezy Demonow potrzebny jest Demoniczny Klucz. Prywatne DT ma limit 25 wejsc dziennie, wymaga minimum 2 osob i bonusu Silny przeciwko Nieumarlym."
+    },
+    {
+      "id": "faq-dungeon-passes",
+      "title": "Przepustki do dungeonow",
+      "questions": [
+        "Skad zdobyc przepustki do dungeonow?",
+        "Jakie sa przepustki na dungeony?",
+        "Gdzie dropia przepustki?"
+      ],
+      "keywords": [
+        "przepustki",
+        "pieczec",
+        "klucz",
+        "glowa",
+        "kompas",
+        "hydry"
+      ],
+      "answer": "Przepustki z prezentacji to miedzy innymi Pieczec Orkow, Demoniczny Klucz, Pajeczy Klucz, Zasuszona Glowa, Krety Klucz, Ognista Pieczec i Kompas Hydry."
+    },
+    {
+      "id": "faq-dungeon-orc-tower",
+      "title": "Wieza Orkow",
+      "questions": [
+        "Jak dziala Wieza Orkow?",
+        "Jaki poziom na Wieze Orkow?",
+        "Ile wejsc ma Wieza Orkow?"
+      ],
+      "keywords": [
+        "wieza",
+        "orkow",
+        "35",
+        "55",
+        "40",
+        "orkom"
+      ],
+      "answer": "Wieza Orkow jest dla poziomow 35-55, wymaga minimum 2 osob i Pieczeci Orkow x1. Limit dzienny wejsc to 40, a zalecany bonus to Silny przeciwko Orkom."
+    },
+    {
+      "id": "faq-dungeon-azrael",
+      "title": "Azrael",
+      "questions": [
+        "Jak dziala Azrael?",
+        "Jaki poziom na Azraela?",
+        "Ile wejsc ma Azrael?"
+      ],
+      "keywords": [
+        "azrael",
+        "75",
+        "94",
+        "zasuszona",
+        "glowa",
+        "15",
+        "nieumarlym"
+      ],
+      "answer": "Azrael jest dla poziomow 75-94, wymaga minimum 2 osob i Zaszuszonej Glowy x1. Limit dzienny wejsc wynosi 15, a zalecany bonus to Silny przeciwko Nieumarlym."
+    },
+    {
+      "id": "faq-dungeon-beran",
+      "title": "Beran-Setao",
+      "questions": [
+        "Jak dziala Beran?",
+        "Jaki poziom na Berana?",
+        "Ile wejsc ma Beran?"
+      ],
+      "keywords": [
+        "beran",
+        "setao",
+        "90",
+        "104",
+        "krety",
+        "klucz",
+        "10"
+      ],
+      "answer": "Beran-Setao jest dla poziomow 90-104, wymaga minimum 2 osob i Kretego Klucza x1 na postac. Limit dzienny wejsc wynosi 10, a zalecany bonus to Silny przeciwko Potworom."
+    },
+    {
+      "id": "faq-dungeon-razador",
+      "title": "Razador",
+      "questions": [
+        "Jak dziala Razador?",
+        "Jaki poziom na Razadora?",
+        "Ile wejsc ma Razador?"
+      ],
+      "keywords": [
+        "razador",
+        "95",
+        "105",
+        "ognista",
+        "pieczec",
+        "6",
+        "diablom"
+      ],
+      "answer": "Razador jest dla poziomow 95-105, wymaga minimum 2 osob i Ognistej Pieczeci x1 na postac. Limit dzienny wejsc wynosi 6, a zalecany bonus to Silny przeciwko Potworom i Diablom."
+    },
+    {
+      "id": "faq-dungeon-hydra",
+      "title": "Hydra",
+      "questions": [
+        "Jak dziala Hydra?",
+        "Jaki poziom na Hydre?",
+        "Ile wejsc ma Hydra?"
+      ],
+      "keywords": [
+        "hydra",
+        "105",
+        "kompas",
+        "3",
+        "tytanow",
+        "diablom"
+      ],
+      "answer": "Hydra jest od 105 poziomu, wymaga minimum 2 osob i Kompasu Hydry x1 na postac. Limit dzienny wejsc wynosi 3, a bez Tarczy Tytanow pokonanie Hydry jest niemozliwe."
+    },
+    {
+      "id": "faq-biolog-overview",
+      "title": "Biolog",
+      "questions": [
+        "Jak dziala biolog?",
+        "Jakie sa badania biologa?",
+        "Czy jest biolog na serwerze?"
+      ],
+      "keywords": [
+        "biolog",
+        "badania",
+        "seon",
+        "pyeong",
+        "misje"
+      ],
+      "answer": "W bazie prezentacji sa badania Biologa i Seon-Pyeonga. Badania daja stale bonusy i sa jedna z pozostawionych linii misji."
+    },
+    {
+      "id": "faq-shaman-buffs",
+      "title": "Buffy szamanow",
+      "questions": [
+        "Jak dzialaja buffy szamanow?",
+        "Czy buffy szamana na grupe sa slabsze?",
+        "Czy buff na inna postac jest redukowany?"
+      ],
+      "keywords": [
+        "buff",
+        "buffy",
+        "szaman",
+        "grupa",
+        "redukcja",
+        "25",
+        "postacie"
+      ],
+      "answer": "Buffy szamanow nakladane na czlonkow grupy lub inne postacie sa zredukowane o 25% oryginalnej wartosci. Redukcja dotyczy buffa nalozonego na postac inna niz wlasna."
+    },
+    {
+      "id": "faq-level-75-weapons",
+      "title": "Bronie 75",
+      "questions": [
+        "Skad zdobyc bronie 75?",
+        "Gdzie dropia bronie na 75 poziom?",
+        "Skad truta?",
+        "Skad kruk?",
+        "Skad bambus?",
+        "Skad chakry?",
+        "Skad zal?",
+        "Skad lwi?"
+      ],
+      "keywords": [
+        "bronie",
+        "75",
+        "zatruty",
+        "truta",
+        "kruk",
+        "bambus",
+        "chakry",
+        "zal",
+        "lwi",
+        "wieza",
+        "rozpruwacza"
+      ],
+      "answer": "Bronie 75, czyli Stalowy Luk Kruka, Miecz Zalu, Lwi Miecz, Skrzydla Demona Chakram, Bambusowy Dzwon i Zatruty Miecz, sa do zdobycia w Wiezy Demonow ze Szkatulki Umarlego Rozpruwacza."
+    },
+    {
+      "id": "faq-level-30-weapons",
+      "title": "Bronie 30",
+      "questions": [
+        "Skad zdobyc bronie 30?",
+        "Gdzie dropia bronie 30?",
+        "Skad FMS?",
+        "Skad RIB?",
+        "Skad antyk?",
+        "Skad jesionek?",
+        "Skad koziki?",
+        "Skad jelonek?"
+      ],
+      "keywords": [
+        "bronie",
+        "30",
+        "fms",
+        "rib",
+        "antyk",
+        "jesionek",
+        "koziki",
+        "jelonek",
+        "best",
+        "specjalisci"
+      ],
+      "answer": "Bronie 30, czyli Miecz Pelni Ksiezyca (FMS), Ostrze z Czerwonej Stali (RIB), Antyczny Dzwon, Wachlarz Jesiennego Wiatru, Koziki Czarnego Wiatru i Luk z Rogu Jelenia, dropia z best specjalistow. Best specjalistow znajdziesz w miastach drugich oraz na Dolinie Orkow."
+    },
+    {
+      "id": "faq-class-changes",
+      "title": "Zmiany w klasach",
+      "questions": [
+        "Jakie sa zmiany w klasach?",
+        "Czy klasy zostaly zmienione?",
+        "Zmiany w klasach"
+      ],
+      "keywords": [
+        "zmiany",
+        "klasy",
+        "balans",
+        "postaci",
+        "buffy",
+        "szaman"
+      ],
+      "answer": "Klasy na Monastyr2 nie przeszly wiekszych zmian. Jedyna potwierdzona zmiana dotyczy wartosci buffow szamanow nakladanych na inne postacie niz wlasna. Jesli chcesz, zapytaj: jak dzialaja buffy szamanow?"
+    },
+    {
+      "id": "faq-equipment-changes",
+      "title": "Zmiany w ekwipunku",
+      "questions": [
+        "Czy zaszly zmiany w ekwipunku?",
+        "Czy ekwipunek zostal zmieniony?",
+        "Jakie sa zmiany w przedmiotach?"
+      ],
+      "keywords": [
+        "zmiany",
+        "ekwipunek",
+        "eq",
+        "itemy",
+        "przedmioty",
+        "33",
+        "54",
+        "rework"
+      ],
+      "answer": "Tak. Zmiana dotyczy przedmiotow 33 i 54 poziomu i zostala wymieniona w prezentacji. Szczegoly sa w sekcji Rework Ekwipunku."
+    },
+    {
+      "id": "faq-ranks-overview",
+      "title": "System rang",
+      "questions": [
+        "Jak dzialaja rangi?",
+        "Czy sa rangi pozytywne i negatywne?",
+        "Jak dziala system rang?"
+      ],
+      "keywords": [
+        "rangi",
+        "ranga",
+        "pozytywne",
+        "negatywne",
+        "system"
+      ],
+      "answer": "System rang dzieli sie na rangi pozytywne i negatywne. Pozytywne wspieraja aktywnosci PvE, a negatywne daja bonusy bardziej pod walke z graczami."
+    },
+    {
+      "id": "faq-alchemy-overview",
+      "title": "Alchemia",
+      "questions": [
+        "Jak dziala alchemia?",
+        "Jaka jest maksymalna klasa alchemii?",
+        "Czy alchemia jest wazna?"
+      ],
+      "keywords": [
+        "alchemia",
+        "alchemii",
+        "legendarny",
+        "wyborny",
+        "alchemik"
+      ],
+      "answer": "Alchemia jest jednym z glownych systemow progresji. Uszlachetnianie Smoczych Kamieni odbywa sie u Alchemika, maksymalna klasa to Legendarny, a maksymalna jakosc to Wyborny."
+    },
+    {
+      "id": "faq-passive-skills",
+      "title": "Umiejetnosci pasywne",
+      "questions": [
+        "Jakie sa umiejetnosci pasywne?",
+        "Czy sa pasywki na serwerze?",
+        "Jakie pasywne skille dodano?"
+      ],
+      "keywords": [
+        "pasywne",
+        "pasywki",
+        "dominacja",
+        "potworologia",
+        "metinologia"
+      ],
+      "answer": "Dodano trzy umiejetnosci pasywne: Dominacja, Potworologia i Metinologia. Maksymalny poziom umiejetnosci pasywnych to P."
+    },
+    {
+      "id": "faq-legends-overview",
+      "title": "Legendarni bossowie",
+      "questions": [
+        "Jak dzialaja legendy?",
+        "Jakie sa legendy?",
+        "Czy sa legendarni bossowie?"
+      ],
+      "keywords": [
+        "legendy",
+        "legendarni",
+        "bossowie",
+        "malassy",
+        "golem",
+        "wiedzma"
+      ],
+      "answer": "Na Monastyr2 sa trzy legendarne bossy, z czego jedna wystepuje jako mini-legenda. To jeden z glownych filarow rywalizacji graczy i gildii."
+    },
+    {
+      "id": "faq-legend-witch",
+      "title": "Silna Lodowa Wiedzma",
+      "questions": [
+        "Gdzie jest Silna Lodowa Wiedzma?",
+        "Kiedy respi sie Lodowa Wiedzma?",
+        "Co dropi Lodowa Wiedzma?"
+      ],
+      "keywords": [
+        "lodowa",
+        "wiedza",
+        "grota",
+        "01:00",
+        "09:00",
+        "17:00",
+        "zbroje"
+      ],
+      "answer": "Silna Lodowa Wiedzma pojawia sie w Grocie Wygnancow V1 na wszystkich kanalach co 8 godzin: 01:00, 09:00 i 17:00. Jej unikatowy drop to Zbroje Tytanow."
+    },
+    {
+      "id": "faq-legend-malassy",
+      "title": "Malassy",
+      "questions": [
+        "Gdzie jest Malassy?",
+        "Kiedy respi sie Malassy?",
+        "Co dropi Malassy?"
+      ],
+      "keywords": [
+        "malassy",
+        "kraina",
+        "gigantow",
+        "20:00",
+        "ch5",
+        "kupony"
+      ],
+      "answer": "Malassy pojawia sie codziennie o 20:00 na kanale 5 w Krainie Gigantow. Wejscie jest do 89 poziomu, a unikatowym dropem sa Kupony SM."
+    },
+    {
+      "id": "faq-legend-golem",
+      "title": "Skalisty Golem",
+      "questions": [
+        "Gdzie jest Skalisty Golem?",
+        "Kiedy respi sie Skalisty Golem?",
+        "Co dropi Skalisty Golem?"
+      ],
+      "keywords": [
+        "skalisty",
+        "golem",
+        "wawoz",
+        "smierci",
+        "20:00",
+        "tytanow"
+      ],
+      "answer": "Skalisty Golem pojawia sie codziennie o 20:00 na kanale 5 w Wawozie Smierci. Wejscie jest od 90 poziomu, a unikatowy drop to Tarcza Tytanow i Kupony SM."
+    },
+    {
+      "id": "faq-oselki-overview",
+      "title": "Oselki do broni",
+      "questions": [
+        "Jak dzialaja oselki?",
+        "Do czego sa oselki?",
+        "Czy sa oselki do broni 55 i 75?"
+      ],
+      "keywords": [
+        "oselki",
+        "oselka",
+        "broni",
+        "55",
+        "75",
+        "potworom"
+      ],
+      "answer": "System oselek obejmuje wariant do broni 55 i 75 poziomu. Oselka pozwala dodac bonus Silny przeciwko Potworom do odpowiedniej broni."
+    },
+    {
+      "id": "faq-oselka-75",
+      "title": "Oselka do broni 75",
+      "questions": [
+        "Jak zrobic oselke 75?",
+        "Co trzeba na oselke do broni 75?",
+        "Ile kosztuje oselka 75?"
+      ],
+      "keywords": [
+        "oselka",
+        "75",
+        "broni",
+        "1kk",
+        "yang",
+        "zatruty",
+        "kruk",
+        "bambus",
+        "lwi",
+        "zalu"
+      ],
+      "answer": "Oselka do broni 75 powstaje z jednej broni 75 poziomu na +6 oraz 1kk Yang."
+    },
+    {
+      "id": "faq-oselka-55",
+      "title": "Oselka do broni 55",
+      "questions": [
+        "Jak zrobic oselke 55?",
+        "Co trzeba na oselke do broni 55?",
+        "Ile kosztuje oselka 55?"
+      ],
+      "keywords": [
+        "oselka",
+        "55",
+        "broni",
+        "500k",
+        "yang",
+        "kiel",
+        "wodza"
+      ],
+      "answer": "Oselka do broni 55 wymaga broni 55 poziomu na +6, Kiela Wodza oraz 500k Yang."
+    },
+    {
+      "id": "faq-przetopy",
+      "title": "Przetopy",
+      "questions": [
+        "Jak dzialaja przetopy?",
+        "Gdzie robi sie przetopy?",
+        "Jak zrobic przetop?"
+      ],
+      "keywords": [
+        "przetopy",
+        "przetop",
+        "jae",
+        "seon",
+        "kim",
+        "ruda"
+      ],
+      "answer": "Przetopy wytwarza sie u Jae-Seon Kim. Prezentacja pokazuje rozne warianty przetopow z rud."
+    },
+    {
+      "id": "faq-essence-smelt",
+      "title": "Esencja Przetopu",
+      "questions": [
+        "Jak zrobic Esencje Przetopu?",
+        "Do czego sluzy Esencja Przetopu?",
+        "Co trzeba na esencje do pasa?"
+      ],
+      "keywords": [
+        "esencja",
+        "przetopu",
+        "pasow",
+        "deokbae",
+        "200",
+        "500000"
+      ],
+      "answer": "Esencja Przetopu sluzy do rozwijania pasow. Powstaje z 200 sztuk wybranej rudy, ma 100% szansy craftingu i koszt 500.000 Yang."
+    },
+    {
+      "id": "faq-soulstones-plus5",
+      "title": "Kamienie Duszy +5",
+      "questions": [
+        "Jak zrobic Kamienie Duszy +5?",
+        "Jaki jest crafting KD +5?",
+        "Ile kosztuje Kamien Duszy +5?"
+      ],
+      "keywords": [
+        "kamien",
+        "duszy",
+        "kd",
+        "+5",
+        "odlamek",
+        "egzo",
+        "rada",
+        "duchowy"
+      ],
+      "answer": "Kamienie Duszy +5 wytwarza sie u Jae-Seon Kim. Koszt proby to 2.000.000 Yang, szansa powodzenia 25%, a szansa na umieszczenie 40%."
+    },
+    {
+      "id": "faq-soulstones-plus5-materials",
+      "title": "Materialy na Kamien Duszy +5",
+      "questions": [
+        "Co trzeba na KD +5?",
+        "Jakie materialy sa na Kamien Duszy +5?",
+        "Co potrzeba na kamien duszy plus 5?"
+      ],
+      "keywords": [
+        "kd",
+        "kamien",
+        "duszy",
+        "+5",
+        "materialy",
+        "odlamek",
+        "+4"
+      ],
+      "answer": "Kazdy Kamien Duszy +5 wymaga 20 Odlamkow Kamienia, 5 odpowiednich Kamieni Duszy +4, 5 Egzorcyzmow, 5 Rad Pustelnika i 5 Kamieni Duchowych."
+    },
+    {
+      "id": "faq-uriel-crafting",
+      "title": "Crafting u Uriela",
+      "questions": [
+        "Co mozna zrobic u Uriela?",
+        "Jak dziala crafting u Uriela?",
+        "Jakie rzeczy crafti Uriel?"
+      ],
+      "keywords": [
+        "uriel",
+        "crafting",
+        "mikstura",
+        "perla",
+        "peleryna",
+        "zaczarowanie",
+        "wzmocnienie"
+      ],
+      "answer": "U Uriela pokazano crafting miedzy innymi Mikstury Ducha, Zlotej Perly, Peleryny Mestwa+, Wzmocnienia Przedmiotu, Zaczarowania Przedmiotu, Zielonego Czaru i Zielonej Sily."
+    },
+    {
+      "id": "faq-yonah-exchange",
+      "title": "Wymiana u Yonah",
+      "questions": [
+        "Jak dziala wymiana u Yonah?",
+        "Co mozna wymienic u Yonah?",
+        "Na czym polega wymiana zlomu?"
+      ],
+      "keywords": [
+        "yonah",
+        "wymiana",
+        "zlomu",
+        "peleryna",
+        "ulepszanie"
+      ],
+      "answer": "U Yonah dziala Wymiana Zlomu. Kamienie Duszy +0 daja 1 Peleryne za sztuke, +1 daja 2, a +2 i +3 daja po 3 Peleryny. Losowe 20 ulepszaczy daje 1 Pozwolenie na ulepszanie."
+    },
+    {
+      "id": "faq-belts-overview",
+      "title": "Pasy",
+      "questions": [
+        "Jak dzialaja pasy?",
+        "Jakie pasy sa na serwerze?",
+        "Czy pasy sa craftowalne?"
+      ],
+      "keywords": [
+        "pasy",
+        "pas",
+        "lniany",
+        "skorzany",
+        "crafting"
+      ],
+      "answer": "Pasy wystepuja w dwoch podstawowych wariantach: Lnianym i Skorzanym. Mozna je zdobyc z craftingu albo ze szkatulki odpowiedniego bossa."
+    },
+    {
+      "id": "faq-belt-upgrades",
+      "title": "Ulepszanie pasow",
+      "questions": [
+        "Jak ulepsza sie pasy?",
+        "Do czego dochodzi pas lniany?",
+        "Do czego dochodzi pas skorzany?"
+      ],
+      "keywords": [
+        "ulepszanie",
+        "pasow",
+        "runiczny",
+        "dusz",
+        "gornictwa",
+        "105"
+      ],
+      "answer": "Pasy ulepsza sie dalej przy pomocy rud z Gornictwa. Linia PvM rozwija sie od Pasa Lnianego do Pasa Runicznego +9, a linia PvP od Pasa Skorzanego do Pasa Dusz +9."
     }
   ]
 }

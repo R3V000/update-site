@@ -40,6 +40,27 @@
         "max"
       ],
       "answer": "Maksymalny poziom to 105. Serwer ma 5 kanałów, 3 królestwa, 4 klasy postaci, 90 punktów statusu, aktywną alchemię, brak bonusu 6/7 i brak szarf."
+    },
+    {
+      "id": "overview-project-philosophy",
+      "title": "Filozofia projektu",
+      "questions": [
+        "Jaki jest cel serwera?",
+        "Na czym opiera się Monastyr2?",
+        "Jaką wizję ma serwer?",
+        "Czy serwer jest tworzony pod społeczność?"
+      ],
+      "keywords": [
+        "cel",
+        "wizja",
+        "spolecznosc",
+        "gracze",
+        "klimat",
+        "stary",
+        "metin",
+        "udogodnienia"
+      ],
+      "answer": "Monastyr2 ma zachować klimat starego Metina, ale z wybranymi udogodnieniami dopasowanymi do współczesnych oczekiwań graczy. Projekt jest rozwijany blisko społeczności i w oparciu o realne opinie graczy."
     }
   ]
 }

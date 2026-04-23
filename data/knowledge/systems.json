@@ -19,6 +19,27 @@
       "answer": "Farm-Block ogranicza aktywność PvE do maksymalnie 2 kont. W obecnej bazie wiedzy do PvE zalicza się zadawanie obrażeń potworom, metinom i bossom, zdobywanie expa, wydobywanie rud oraz łowienie ryb."
     },
     {
+      "id": "system-farmblock-over-limit",
+      "title": "Konta ponad limit Farm-Block",
+      "questions": [
+        "Co mogą robić konta ponad limit?",
+        "Czy konta ponad limit mogą buffować?",
+        "Czy konta ponad limit mogą handlować?",
+        "Czy liczba klientów jest ograniczona?"
+      ],
+      "keywords": [
+        "limit",
+        "konta",
+        "buff",
+        "handel",
+        "pvp",
+        "klienty",
+        "okna",
+        "nieograniczone"
+      ],
+      "answer": "Konta ponad limit aktywności PvE nadal mogą służyć do buffowania, handlu i PvP. Prezentacja podaje też, że liczba otwartych klientów pozostaje nieograniczona."
+    },
+    {
       "id": "system-offline-shop",
       "title": "Sklepy offline",
       "questions": [
@@ -33,6 +54,81 @@
         "czas"
       ],
       "answer": "Tak, w prezentacji znajduje się sekcja sklepów offline z panelem zarządzania. Szczegółowe zasady działania i pełna lista funkcji nie są jeszcze opisane w obecnej bazie wiedzy."
+    },
+    {
+      "id": "system-sidepanel-shortcuts",
+      "title": "Panel boczny",
+      "questions": [
+        "Co jest w panelu bocznym?",
+        "Jakie funkcje ma panel boczny?",
+        "Czy panel boczny ma skróty?"
+      ],
+      "keywords": [
+        "panel",
+        "boczny",
+        "skroty",
+        "wikipedia",
+        "bonus",
+        "switcher",
+        "magazyn",
+        "shopy",
+        "offline"
+      ],
+      "answer": "Panel boczny w prezentacji pokazuje skróty i funkcje takie jak Shopy Offline, Wikipedia, Bonus Switcher i Magazyn. Jest też interaktywny podgląd elementów panelu i ekwipunku."
+    },
+    {
+      "id": "system-qol-overview",
+      "title": "Quality of Life",
+      "questions": [
+        "Co zawiera quality of life?",
+        "Jakie są funkcje quality of life?",
+        "Jakie udogodnienia poprawiają komfort gry?"
+      ],
+      "keywords": [
+        "qol",
+        "quality",
+        "life",
+        "udogodnienia",
+        "komfort",
+        "filter",
+        "drop"
+      ],
+      "answer": "Quality of Life w prezentacji obejmuje wiele funkcji poprawiających komfort gry, między innymi filtr dropu, szybkie przełączanie kanału, rozszerzony zoom kamery, śledzenie grupy na mini-mapie, masową sprzedaż, stackowanie przedmiotów, okna bonusów i możliwość ukrywania kostiumów, nakładek oraz petów."
+    },
+    {
+      "id": "system-guild-overview",
+      "title": "System gildii",
+      "questions": [
+        "Jak działa system gildii?",
+        "Co daje gildia?",
+        "Czy gildia daje bonusy?"
+      ],
+      "keywords": [
+        "gildia",
+        "gildii",
+        "bonusy",
+        "eliksir",
+        "poziom"
+      ],
+      "answer": "System gildii ma wzmacniać postacie przez dodatkowe bonusy. Rozwój gildii wymaga współpracy członków, eliksirów gildii i dalszego rozwijania poziomu gildii."
+    },
+    {
+      "id": "system-horse-overview",
+      "title": "System konny",
+      "questions": [
+        "Jak działa system konny?",
+        "Jak wygląda rozwój konia?",
+        "Czy koń ma 40 poziomów?"
+      ],
+      "keywords": [
+        "kon",
+        "konny",
+        "jezdziectwo",
+        "40",
+        "medal",
+        "rada"
+      ],
+      "answer": "System konny rozwinięto do 40 poziomu jeździectwa. Zamiast klasycznych misji konnych rozwój odbywa się przez używanie odpowiednich przedmiotów, głównie Medalu Konnego i Rady Konnej."
     }
   ]
 }
