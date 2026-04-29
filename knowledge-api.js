@@ -48,8 +48,32 @@
     "za"
   ]);
 
+  const NORMALIZE_CHAR_MAP = {
+    Ą: "A",
+    Ć: "C",
+    Ę: "E",
+    Ł: "L",
+    Ń: "N",
+    Ó: "O",
+    Ś: "S",
+    Ż: "Z",
+    Ź: "Z",
+    ą: "a",
+    ć: "c",
+    ę: "e",
+    ł: "l",
+    ń: "n",
+    ó: "o",
+    ś: "s",
+    ż: "z",
+    ź: "z",
+    "—": " ",
+    "–": " "
+  };
+
   function normalizeText(value) {
     return String(value ?? "")
+      .replace(/[ĄĆĘŁŃÓŚŻŹąćęłńóśżź—–]/g, (char) => NORMALIZE_CHAR_MAP[char] ?? char)
       .toLowerCase()
       .normalize("NFD")
       .replace(/[\u0300-\u036f]/g, "")
@@ -66,6 +90,115 @@
 
   function toSet(values) {
     return new Set(values.filter(Boolean));
+  }
+
+  function formatCountLabel(countValue) {
+    const count = Number.parseInt(String(countValue ?? "").replace(/[^\d]/g, ""), 10);
+
+    if (!Number.isFinite(count)) {
+      return `${countValue} sztuk`;
+    }
+
+    if (count === 1) {
+      return "1 sztuka";
+    }
+
+    const mod10 = count % 10;
+    const mod100 = count % 100;
+    const useFewForm = mod10 >= 2 && mod10 <= 4 && (mod100 < 12 || mod100 > 14);
+
+    return useFewForm ? `${count} sztuki` : `${count} sztuk`;
+  }
+
+  function buildLocationKnowledgeEntries(locationCardsData) {
+    if (!locationCardsData || typeof locationCardsData !== "object") {
+      return [];
+    }
+
+    const entityMap = new Map();
+
+    Object.values(locationCardsData).forEach((location) => {
+      const title = location?.title ?? "";
+      const requiredLevel = String(location?.requiredLevel ?? "").trim();
+
+      [
+        { key: "metins", type: "metin" },
+        { key: "bosses", type: "boss" }
+      ].forEach(({ key, type }) => {
+        const entries = Array.isArray(location?.[key]) ? location[key] : [];
+
+        entries.forEach((entity) => {
+          const displayName = String(entity?.name ?? "").trim();
+
+          if (!displayName) {
+            return;
+          }
+
+          const normalizedName = normalizeText(displayName);
+
+          if (!entityMap.has(normalizedName)) {
+            entityMap.set(normalizedName, {
+              displayName,
+              type,
+              occurrences: []
+            });
+          }
+
+          entityMap.get(normalizedName).occurrences.push({
+            locationTitle: title,
+            requiredLevel,
+            count: entity?.count ?? "",
+            respawn: entity?.respawn ?? ""
+          });
+        });
+      });
+    });
+
+    return [...entityMap.values()]
+      .sort((left, right) => left.displayName.localeCompare(right.displayName, "pl"))
+      .map((entity) => {
+        const typeLabel = entity.type === "metin" ? "Metin" : "Boss";
+        const normalizedDisplayName = normalizeText(entity.displayName);
+        const subject = normalizedDisplayName.startsWith("metin ")
+          ? entity.displayName
+          : `${typeLabel} ${entity.displayName}`;
+
+        const questions = [
+          entity.displayName,
+          `Gdzie respi sie ${entity.displayName}?`,
+          `Gdzie jest ${entity.displayName}?`,
+          `Ile jest ${entity.displayName}?`,
+          `Co ile respawn ${entity.displayName}?`
+        ];
+
+        const keywordSet = new Set([
+          ...tokenize(entity.displayName),
+          entity.type,
+          "respawn",
+          "lokacja",
+          "mapa"
+        ]);
+
+        const details = entity.occurrences.map((occurrence) => {
+          tokenize(occurrence.locationTitle).forEach((token) => keywordSet.add(token));
+
+          const levelText = /\d/.test(occurrence.requiredLevel)
+            ? `wymagany poziom ${occurrence.requiredLevel}`
+            : "bez wymaganego poziomu wejscia";
+
+          return `${occurrence.locationTitle} (${levelText}, ${formatCountLabel(
+            occurrence.count
+          )}, respawn ${occurrence.respawn})`;
+        });
+
+        return {
+          id: `location-entity-${normalizedDisplayName.replace(/\s+/g, "-")}`,
+          title: entity.displayName,
+          questions,
+          keywords: [...keywordSet],
+          answer: `${subject} wystepuje w ${details.join("; ")}.`
+        };
+      });
   }
 
   function enrichEntry(entry, source) {
@@ -121,10 +254,19 @@
       })
     );
 
+    const dynamicEntries = buildLocationKnowledgeEntries(
+      window.ServerLocationCardsData
+    ).map((entry) =>
+      enrichEntry(entry, {
+        id: "locations",
+        title: "Lokacje"
+      })
+    );
+
     return {
       locale: manifest.locale ?? "pl",
       fallbackMessage: manifest.fallbackMessage ?? DEFAULT_FALLBACK,
-      entries: sourcePayloads.flat()
+      entries: [...sourcePayloads.flat(), ...dynamicEntries]
     };
   }
 

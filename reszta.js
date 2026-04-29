@@ -379,16 +379,16 @@ const weaponSoulStoneKeywords = [
 ];
 
 const miningPickaxeData = [
-  { name: "Kilof +0", img: "https://img.m2icondb.com/29101.png", levelReq: 30, toolLevel: 1, points: 1000, chance: "15%" },
-  { name: "Kilof +1", img: "https://img.m2icondb.com/29101.png", levelReq: 30, toolLevel: 2, points: 2000, chance: "18%" },
-  { name: "Kilof +2", img: "https://img.m2icondb.com/29101.png", levelReq: 30, toolLevel: 3, points: 4000, chance: "21%" },
-  { name: "Kilof +3", img: "https://img.m2icondb.com/29101.png", levelReq: 30, toolLevel: 4, points: 8000, chance: "24%" },
-  { name: "Kilof +4", img: "https://img.m2icondb.com/29101.png", levelReq: 30, toolLevel: 5, points: 16000, chance: "27%" },
-  { name: "Kilof +5", img: "https://img.m2icondb.com/29101.png", levelReq: 30, toolLevel: 6, points: 32000, chance: "30%" },
-  { name: "Kilof +6", img: "https://img.m2icondb.com/29101.png", levelReq: 30, toolLevel: 7, points: 64000, chance: "33%" },
-  { name: "Kilof +7", img: "https://img.m2icondb.com/29101.png", levelReq: 30, toolLevel: 8, points: 128000, chance: "38%" },
-  { name: "Kilof +8", img: "https://img.m2icondb.com/29101.png", levelReq: 30, toolLevel: 9, points: 256000, chance: "43%" },
-  { name: "Kilof +9", img: "https://img.m2icondb.com/29101.png", levelReq: 30, toolLevel: 9, points: 512000, chance: "50%" }
+  { name: "Kilof +0", img: "https://img.m2icondb.com/29101.png", levelReq: 30, toolLevel: 1, points: 150, chance: "15%" },
+  { name: "Kilof +1", img: "https://img.m2icondb.com/29101.png", levelReq: 30, toolLevel: 2, points: 300, chance: "18%" },
+  { name: "Kilof +2", img: "https://img.m2icondb.com/29101.png", levelReq: 30, toolLevel: 3, points: 600, chance: "21%" },
+  { name: "Kilof +3", img: "https://img.m2icondb.com/29101.png", levelReq: 30, toolLevel: 4, points: 1200, chance: "24%" },
+  { name: "Kilof +4", img: "https://img.m2icondb.com/29101.png", levelReq: 30, toolLevel: 5, points: 2400, chance: "27%" },
+  { name: "Kilof +5", img: "https://img.m2icondb.com/29101.png", levelReq: 30, toolLevel: 6, points: 3600, chance: "30%" },
+  { name: "Kilof +6", img: "https://img.m2icondb.com/29101.png", levelReq: 30, toolLevel: 7, points: 7200, chance: "33%" },
+  { name: "Kilof +7", img: "https://img.m2icondb.com/29101.png", levelReq: 30, toolLevel: 8, points: 14500, chance: "38%" },
+  { name: "Kilof +8", img: "https://img.m2icondb.com/29101.png", levelReq: 30, toolLevel: 9, points: 30000, chance: "43%" },
+  { name: "Kilof +9", img: "https://img.m2icondb.com/29101.png", levelReq: 30, toolLevel: 9, points: 0, chance: "50%" }
 ];
 
 const blocks = Array.from({ length: items.length / 6 }, (_, index) => {
@@ -3224,15 +3224,15 @@ function initMissionDetailsToggle() {
 initMissionDetailsToggle();
 
 const fishingRodData = [
-  { name: "Wędka +1", img: "https://img.m2icondb.com/27400.png", levelReq: 30, rodLevel: 2, points: 2000, chance: "20%" },
-  { name: "Wędka +2", img: "https://img.m2icondb.com/27400.png", levelReq: 30, rodLevel: 2, points: 4000, chance: "23%" },
-  { name: "Wędka +3", img: "https://img.m2icondb.com/27400.png", levelReq: 30, rodLevel: 2, points: 8000, chance: "26%" },
-  { name: "Wędka +4", img: "https://img.m2icondb.com/27400.png", levelReq: 30, rodLevel: 2, points: 16000, chance: "29%" },
-  { name: "Wędka +5", img: "https://img.m2icondb.com/27400.png", levelReq: 30, rodLevel: 3, points: 32000, chance: "32%" },
-  { name: "Wędka +6", img: "https://img.m2icondb.com/27400.png", levelReq: 30, rodLevel: 3, points: 64000, chance: "35%" },
-  { name: "Wędka +7", img: "https://img.m2icondb.com/27400.png", levelReq: 30, rodLevel: 3, points: 12800, chance: "39%" },
-  { name: "Wędka +8", img: "https://img.m2icondb.com/27400.png", levelReq: 30, rodLevel: 4, points: 256000, chance: "45%" },
-  { name: "Wędka +9", img: "https://img.m2icondb.com/27400.png", levelReq: 30, rodLevel: 5, points: 512000, chance: "50%" }
+  { name: "Wędka +1", img: "https://img.m2icondb.com/27400.png", levelReq: 30, rodLevel: 2, points: 100, chance: "20%" },
+  { name: "Wędka +2", img: "https://img.m2icondb.com/27400.png", levelReq: 30, rodLevel: 2, points: 250, chance: "23%" },
+  { name: "Wędka +3", img: "https://img.m2icondb.com/27400.png", levelReq: 30, rodLevel: 2, points: 500, chance: "26%" },
+  { name: "Wędka +4", img: "https://img.m2icondb.com/27400.png", levelReq: 30, rodLevel: 2, points: 1000, chance: "29%" },
+  { name: "Wędka +5", img: "https://img.m2icondb.com/27400.png", levelReq: 30, rodLevel: 3, points: 2000, chance: "32%" },
+  { name: "Wędka +6", img: "https://img.m2icondb.com/27400.png", levelReq: 30, rodLevel: 3, points: 4000, chance: "35%" },
+  { name: "Wędka +7", img: "https://img.m2icondb.com/27400.png", levelReq: 30, rodLevel: 3, points: 8000, chance: "39%" },
+  { name: "Wędka +8", img: "https://img.m2icondb.com/27400.png", levelReq: 30, rodLevel: 4, points: 16000, chance: "45%" },
+  { name: "Wędka +9", img: "https://img.m2icondb.com/27400.png", levelReq: 30, rodLevel: 5, points: 0, chance: "50%" }
 ];
 
 function initFishingRodsTable() {
@@ -3350,6 +3350,749 @@ function initMiningPickaxesTable() {
 }
 
 initMiningPickaxesTable();
+
+const locationEntitiesData = {
+  "second-cities": {
+    title: "Miasta Drugie",
+    metins: [
+      {
+        icon: "test/zazdrosci.png",
+        name: "Metin Zazdrości",
+        count: "4",
+        respawn: "20 minut"
+      }
+    ],
+    bosses: [
+      {
+        icon: "test/zazdrosci.png",
+        name: "Boss przykładowy",
+        count: "1",
+        respawn: "30 minut"
+      }
+    ]
+  }
+};
+
+const locationCardsData = {
+  "first-cities": {
+    requiredLevel: "—",
+    triggerLabel: "Wyświetl informacje o metinach i bossach",
+    title: "Miasta Pierwsze",
+    metins: [
+      {
+        icon: "lokacje/cierpienia.png",
+        name: "Metin Cierpienia",
+        count: "4",
+        respawn: "5 minut"
+      },
+      {
+        icon: "lokacje/walki.png",
+        name: "Metin Walki",
+        count: "4",
+        respawn: "5 minut"
+      },
+      {
+        icon: "lokacje/bitwy.png",
+        name: "Metin Bitwy",
+        count: "4",
+        respawn: "5 minut"
+      },
+      {
+        icon: "lokacje/chciwosci.png",
+        name: "Metin Chciwości",
+        count: "3",
+        respawn: "10 minut"
+      },
+      {
+        icon: "lokacje/czerni.png",
+        name: "Metin Czerni",
+        count: "2",
+        respawn: "10 minut"
+      }
+    ],
+    bosses: [
+      {
+        icon: "lokacje/lykos.png",
+        name: "Lykos",
+        count: "1",
+        respawn: "15 minut"
+      },
+      {
+        icon: "lokacje/tigris.png",
+        name: "Tigris",
+        count: "1",
+        respawn: "10 minut"
+      },
+      {
+        icon: "lokacje/bera.png",
+        name: "Bera",
+        count: "1",
+        respawn: "10 minut"
+      },
+      {
+        icon: "lokacje/scrofa.png",
+        name: "Scrofa",
+        count: "1",
+        respawn: "10 minut"
+      }
+    ]
+  },
+  "second-cities": {
+    requiredLevel: "—",
+    triggerLabel: "Wyświetl informacje o metinach i bossach",
+    title: "Miasta Drugie",
+    metins: [
+      {
+        icon: "lokacje/czerni.png",
+        name: "Metin Czerni",
+        count: "4",
+        respawn: "10 minut"
+      },
+      {
+        icon: "lokacje/ciemnosci.png",
+        name: "Metin Ciemności",
+        count: "4",
+        respawn: "10 minut"
+      },
+      {
+        icon: "lokacje/zazdrosci.png",
+        name: "Metin Zazdrości",
+        count: "4",
+        respawn: "15 minut"
+      }
+    ],
+    bosses: [
+      {
+        icon: "lokacje/kapitan.png",
+        name: "Best. Kapitan",
+        count: "1",
+        respawn: "30 minut"
+      },
+      {
+        icon: "lokacje/specjalista.png",
+        name: "Best. Specjalista",
+        count: "1",
+        respawn: "15 minut"
+      },
+      {
+        icon: "lokacje/lucznik.png",
+        name: "Best. Łucznik",
+        count: "1",
+        respawn: "15 minut"
+      },
+      {
+        icon: "lokacje/maniak.png",
+        name: "Best. Maniak",
+        count: "1",
+        respawn: "15 minut"
+      },
+      {
+        icon: "lokacje/zolnierz.png",
+        name: "Best. Żołnierz",
+        count: "1",
+        respawn: "15 minut"
+      }
+    ]
+  },
+  "seungryong": {
+    requiredLevel: "15",
+    triggerLabel: "Wyświetl informacje o metinach i bossach",
+    title: "Dolina Seungryong",
+    metins: [
+      {
+        icon: "lokacje/duszy.png",
+        name: "Metin Duszy",
+        count: "5",
+        respawn: "15 minut"
+      },
+      {
+        icon: "lokacje/cienia.png",
+        name: "Metin Cienia",
+        count: "6",
+        respawn: "15 minut"
+      }
+    ],
+    bosses: [
+      {
+        icon: "lokacje/wodz-orkow.png",
+        name: "Wódz Orków",
+        count: "2",
+        respawn: "45 minut"
+      },
+      {
+        icon: "lokacje/specjalista.png",
+        name: "Best. Specjalista",
+        count: "2",
+        respawn: "15 minut"
+      },
+      {
+        icon: "lokacje/lucznik.png",
+        name: "Best. Łucznik",
+        count: "1",
+        respawn: "15 minut"
+      },
+      {
+        icon: "lokacje/maniak.png",
+        name: "Best. Maniak",
+        count: "1",
+        respawn: "15 minut"
+      },
+      {
+        icon: "lokacje/zolnierz.png",
+        name: "Best. Żołnierz",
+        count: "1",
+        respawn: "15 minut"
+      }
+    ]
+  },
+  "yongbi": {
+    requiredLevel: "15",
+    triggerLabel: "Wyświetl informacje o metinach i bossach",
+    title: "Pustynia Yongbi",
+    metins: [
+      {
+        icon: "lokacje/duszy.png",
+        name: "Metin Duszy",
+        count: "4",
+        respawn: "15 minut"
+      },
+      {
+        icon: "lokacje/cienia.png",
+        name: "Metin Cienia",
+        count: "4",
+        respawn: "15 minut"
+      },
+      {
+        icon: "lokacje/twardosci.png",
+        name: "Metin Twardości",
+        count: "4",
+        respawn: "15 minut"
+      }
+    ],
+    bosses: [
+      {
+        icon: "lokacje/zolw.png",
+        name: "Olbrzymi Żółw",
+        count: "1",
+        respawn: "45 minut"
+      }
+    ]
+  },
+  "hwang": {
+    requiredLevel: "40",
+    triggerLabel: "Wyświetl informacje o metinach i bossach",
+    title: "Świątynia Hwang",
+    metins: [
+      {
+        icon: "lokacje/upadku.png",
+        name: "Metin Upadku",
+        count: "10",
+        respawn: "20 minut"
+      }
+    ],
+    bosses: [
+      {
+        icon: "lokacje/elit-zjawa.png",
+        name: "Elit. Zjawa Żółtego Tygrysa",
+        count: "1",
+        respawn: "120 minut"
+      },
+      {
+        icon: "lokacje/zjawa.png",
+        name: "Zjawa Żółtego Tygrysa",
+        count: "1",
+        respawn: "90 minut"
+      },
+      {
+        icon: "lokacje/reinkar.png",
+        name: "Reinkar. Ezot. Przyw.",
+        count: "1",
+        respawn: "45 minut"
+      }
+    ]
+  },
+  "ognista": {
+    requiredLevel: "40",
+    triggerLabel: "Wyświetl informacje o metinach i bossach",
+    title: "Ognista Ziemia",
+    metins: [
+      {
+        icon: "lokacje/morderstwa.png",
+        name: "Metin Morderstwa",
+        count: "10",
+        respawn: "20 minut"
+      }
+    ],
+    bosses: [
+      {
+        icon: "lokacje/ognisty-krol.png",
+        name: "Elit. Ognisty Król",
+        count: "1",
+        respawn: "120 minut"
+      },
+      {
+        icon: "lokacje/ognisty-krol.png",
+        name: "Ognisty Król",
+        count: "1",
+        respawn: "90 minut"
+      },
+      {
+        icon: "lokacje/plomienny-rozbijacz.png",
+        name: "Płomienny Rozbijacz",
+        count: "2",
+        respawn: "60 minut"
+      }
+    ]
+  },
+  "sohan": {
+    requiredLevel: "30",
+    triggerLabel: "Wyświetl informacje o metinach i bossach",
+    title: "Góra Sohan",
+    metins: [
+      {
+        icon: "lokacje/diabla.png",
+        name: "Metin Diabła",
+        count: "4",
+        respawn: "20 minut"
+      },
+      {
+        icon: "lokacje/smierci.png",
+        name: "Metin Smierci",
+        count: "6",
+        respawn: "20 minut"
+      }
+    ],
+    bosses: [
+      {
+        icon: "lokacje/dziewiec.png",
+        name: "Dziewięć Ogonów",
+        count: "1",
+        respawn: "60 minut"
+      },
+      {
+        icon: "lokacje/tropiciel.png",
+        name: "Mroźny Tropiciel",
+        count: "2",
+        respawn: "45 minut"
+      }
+    ]
+  },
+  "loch": {
+    requiredLevel: "30",
+    triggerLabel: "Wyświetl informacje o metinach i bossach",
+    title: "Lochy Pająków",
+    metins: [
+      
+    ],
+    bosses: [
+      {
+        icon: "lokacje/krolowa.png",
+        name: "Królowa Pająków",
+        count: "1",
+        respawn: "60 minut"
+      },
+      {
+        icon: "lokacje/elit-krolowa.png",
+        name: "Elit. Królowa Pająków",
+        count: "1",
+        respawn: "60 minut"
+      }
+    ]
+  },
+  "wezowe": {
+    requiredLevel: "45",
+    triggerLabel: "Wyświetl informacje o metinach i bossach",
+    title: "Wężowe Pole",
+    metins: [
+      {
+        icon: "lokacje/pungma.png",
+        name: "Metin Pung-Ma",
+        count: "4",
+        respawn: "20 minut"
+      },
+      {
+        icon: "lokacje/maan.png",
+        name: "Metin Ma-An",
+        count: "4",
+        respawn: "20 minut"
+      },
+    ],
+    bosses: [
+      {
+        icon: "lokacje/kamienny-egzekutor.png",
+        name: "Kamienny Egzekutor",
+        count: "2",
+        respawn: "60 minut"
+      }
+    ]
+  },
+  "kraina": {
+    requiredLevel: "45 - 89",
+    triggerLabel: "Wyświetl informacje o metinach i bossach",
+    title: "Kraina Gigantów",
+    metins: [
+      {
+        icon: "lokacje/pungma.png",
+        name: "Metin Pung-Ma",
+        count: "3",
+        respawn: "20 minut"
+      },
+      {
+        icon: "lokacje/maan.png",
+        name: "Metin Ma-An",
+        count: "3",
+        respawn: "20 minut"
+      },
+    ],
+    bosses: [
+      
+    ]
+  },
+  "las": {
+    requiredLevel: "45",
+    triggerLabel: "Wyświetl informacje o metinach i bossach",
+    title: "Las Duchów",
+    metins: [
+      {
+        icon: "lokacje/pungma.png",
+        name: "Metin Pung-Ma",
+        count: "5",
+        respawn: "20 minut"
+      },
+      {
+        icon: "lokacje/maan.png",
+        name: "Metin Ma-An",
+        count: "5",
+        respawn: "20 minut"
+      },
+    ],
+    bosses: [
+      {
+        icon: "lokacje/straznik-obozu.png",
+        name: "Strażnik Obozu",
+        count: "2",
+        respawn: "60 minut"
+      }
+    ]
+  },
+  "czerwony-las": {
+    requiredLevel: "55",
+    triggerLabel: "Wyświetl informacje o metinach i bossach",
+    title: "Czerwony Las",
+    metins: [
+      {
+        icon: "lokacje/tuyoung.png",
+        name: "Metin Tu-Young",
+        count: "5",
+        respawn: "25 minut"
+      },
+      {
+        icon: "lokacje/jeonun.png",
+        name: "Metin Jeon-Un",
+        count: "5",
+        respawn: "25 minut"
+      },
+    ],
+    bosses: [
+      {
+        icon: "lokacje/drzewo.png",
+        name: "Duch Drzewa",
+        count: "2",
+        respawn: "60 minut"
+      }
+    ]
+  },
+  "grota": {
+    requiredLevel: "75",
+    triggerLabel: "Wyświetl informacje o metinach i bossach",
+    title: "Grota Wygnańców",
+    metins: [
+      {
+        icon: "lokacje/grotav1.png",
+        name: "Metin Próżności (Grota V1)",
+        count: "6",
+        respawn: "30 minut"
+      },
+      {
+        icon: "lokacje/grotav2.png",
+        name: "Metin Ignatora (Grota V2)",
+        count: "6",
+        respawn: "30 minut"
+      },
+    ],
+    bosses: [
+      {
+        icon: "lokacje/lodowa.png",
+        name: "Silna Lodowa Wiedźma (V1)",
+        count: "1",
+        respawn: "480 minut"
+      },
+      {
+        icon: "lokacje/general.png",
+        name: "Generał Yonghan (V2)",
+        count: "2",
+        respawn: "180 minut"
+      }
+    ]
+  },
+  "wawoz": {
+    requiredLevel: "90",
+    triggerLabel: "Wyświetl informacje o metinach i bossach",
+    title: "Wąwóz Śmierci",
+    metins: [
+      {
+        icon: "lokacje/wawoz.png",
+        name: "Metin Mroku",
+        count: "6",
+        respawn: "40 minut"
+      }
+    ],
+    bosses: [
+      {
+        icon: "lokacje/polifem.png",
+        name: "Polifem",
+        count: "1",
+        respawn: "360 minut"
+      },
+      {
+        icon: "lokacje/rakszas.png",
+        name: "Rakszas",
+        count: "2",
+        respawn: "240 minut"
+      }
+    ]
+  }
+};
+
+window.ServerLocationCardsData = locationCardsData;
+
+function initLocationCards() {
+  const cards = Array.from(document.querySelectorAll("[data-location-card]"));
+
+  cards.forEach((card) => {
+    const locationId = card.dataset.locationCard;
+    const data = locationCardsData[locationId];
+
+    if (!data) {
+      return;
+    }
+
+    const level = card.querySelector("[data-location-level]");
+    const triggerLabel = card.querySelector("[data-location-trigger-label]");
+
+    if (level) {
+      level.textContent = data.requiredLevel ?? "—";
+    }
+
+    if (triggerLabel) {
+      triggerLabel.textContent = data.triggerLabel || "Wyświetl informacje o metinach i bossach";
+    }
+  });
+}
+
+function initLocationEntitiesModal() {
+  const modal = document.getElementById("locationEntitiesModal");
+  const title = document.getElementById("locationEntitiesTitle");
+  const metinsList = document.getElementById("locationMetinsList");
+  const bossesList = document.getElementById("locationBossesList");
+  const triggers = Array.from(document.querySelectorAll("[data-location-entities-open]"));
+
+  if (!modal || !title || !metinsList || !bossesList || !triggers.length) {
+    return;
+  }
+
+  const closeButton = modal.querySelector(".location-entities-modal__close");
+  const backdrop = modal.querySelector(".location-entities-modal__backdrop");
+
+  const renderEntries = (entries, emptyText) => {
+    if (!Array.isArray(entries) || !entries.length) {
+      return `<p class="location-entities-modal__empty">${emptyText}</p>`;
+    }
+
+    return entries.map((entry) => `
+      <article class="location-entities-modal__card">
+        <div class="location-entities-modal__media">
+          <img src="${entry.icon}" alt="${entry.name}">
+        </div>
+        <div class="location-entities-modal__meta">
+          <div class="location-entities-modal__meta-row"><strong>Nazwa:</strong><span>${entry.name}</span></div>
+          <div class="location-entities-modal__meta-row"><strong>Ilość:</strong><span>${entry.count}</span></div>
+          <div class="location-entities-modal__meta-row"><strong>Czas respawnu:</strong><span>${entry.respawn}</span></div>
+        </div>
+      </article>
+    `).join("");
+  };
+
+  const closeModal = () => {
+    modal.hidden = true;
+  };
+
+  triggers.forEach((trigger) => {
+    trigger.addEventListener("click", () => {
+      const locationId = trigger.dataset.locationEntitiesOpen;
+      const data = locationCardsData[locationId];
+
+      if (!data) {
+        return;
+      }
+
+      title.textContent = data.title;
+      metinsList.innerHTML = renderEntries(data.metins, "");
+      bossesList.innerHTML = renderEntries(data.bosses, "");
+      metinsList.innerHTML = renderEntries(data.metins, "");
+      bossesList.innerHTML = renderEntries(data.bosses, "");
+      modal.hidden = false;
+    });
+  });
+
+  closeButton?.addEventListener("click", closeModal);
+  backdrop?.addEventListener("click", closeModal);
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && !modal.hidden) {
+      closeModal();
+    }
+  });
+}
+
+initLocationCards();
+initLocationEntitiesModal();
+
+
+const utilityItemsDataV2 = [
+  {
+    id: "exp-ring-30m",
+    icon: "https://img.m2icondb.com/72049.png",
+    name: "Pierścień Doświadczenia (30 min)",
+    bonus: "30% doświadczenia",
+    sources: [
+      { icon: "lokacje/upadku.png", name: "Metin Upadku" },
+      { icon: "lokacje/smierci.png", name: "Metin Smierci" },
+      { icon: "lokacje/morderstwa.png", name: "Metin Morderstwa" },
+      { icon: "lokacje/pungma.png", name: "Metin Pung-Ma" },
+      { icon: "lokacje/maan.png", name: "Metin Ma-An" }
+    ]
+  },
+  {
+    id: "exp-ring-1h",
+    icon: "https://img.m2icondb.com/72049.png",
+    name: "Pierścień Doświadczenia (1 h)",
+    bonus: "50% doświadczenia",
+    sources: [
+      { icon: "lokacje/tuyoung.png", name: "Metin Tu-Young" },
+      { icon: "lokacje/jeonun.png", name: "Metin Jeon-Un" },
+      { icon: "lokacje/grotav1.png", name: "Metin Próżności (Grota V1)" },
+      { icon: "lokacje/grotav2.png", name: "Metin Ignatora (Grota V2)" },
+      { icon: "lokacje/wawoz.png", name: "Metin Mroku" }
+    ]
+  },
+  {
+    id: "exp-ring-3h",
+    icon: "https://img.m2icondb.com/72049.png",
+    name: "Pierścień Doświadczenia (3 h)",
+    bonus: "50% doświadczenia",
+    sources: [
+      { icon: "https://img.m2icondb.com/boss_box.png", name: "Szkatułka Wodza Orków" },
+      { icon: "https://img.m2icondb.com/boss_box.png", name: "Szkatułka Pustynnego Żółwia" },
+      { icon: "https://img.m2icondb.com/boss_box.png", name: "Szkatułka Ezot Władcy" },
+      { icon: "https://img.m2icondb.com/boss_box.png", name: "Szkatułka Dziewięciu Ogonów" },
+      { icon: "https://img.m2icondb.com/boss_box.png", name: "Szkatułka Ognistego Króla" },
+      { icon: "https://img.m2icondb.com/boss_box.png", name: "Szkatułka Żółtego Tygrysa" }
+    ]
+  },
+  {
+    id: "thief-glove-2h",
+    icon: "https://img.m2icondb.com/70043.png",
+    name: "Rękawica Złodzieja (2h)",
+    bonus: "Szansa na drop 1.5x",
+    sources: [
+      { icon: "lokacje/pungma.png", name: "Metin Pung-Ma" },
+      { icon: "lokacje/maan.png", name: "Metin Ma-An" },
+      { icon: "lokacje/tuyoung.png", name: "Metin Tu-Young" },
+      { icon: "lokacje/jeonun.png", name: "Metin Jeon-Un" },
+      { icon: "lokacje/grotav1.png", name: "Metin Próżności (Grota V1)" },
+      { icon: "lokacje/grotav2.png", name: "Metin Ignatora (Grota V2)" },
+      { icon: "lokacje/wawoz.png", name: "Metin Mroku" },
+      { icon: "https://img.m2icondb.com/boss_box.png", name: "Szkatułka Wodza Orków" },
+      { icon: "https://img.m2icondb.com/boss_box.png", name: "Szkatułka Pustynnego Żółwia" },
+      { icon: "https://img.m2icondb.com/boss_box.png", name: "Szkatułka Ezot Władcy" },
+      { icon: "https://img.m2icondb.com/boss_box.png", name: "Szkatułka Dziewięciu Ogonów" },
+      { icon: "https://img.m2icondb.com/boss_box.png", name: "Szkatułka Ognistego Króla" },
+      { icon: "https://img.m2icondb.com/boss_box.png", name: "Szkatułka Żółtego Tygrysa" }
+    ]
+  }
+];
+
+function initUtilityItemsV2() {
+  const root = document.querySelector("[data-utility-items]");
+  const modal = document.getElementById("utilitySourcesModal");
+  const title = document.getElementById("utilitySourcesTitle");
+  const list = document.getElementById("utilitySourcesList");
+
+  if (!root || !modal || !title || !list || !utilityItemsDataV2.length) {
+    return;
+  }
+
+  const formatUtilityName = (name) => {
+    const firstSpaceIndex = name.indexOf(" ");
+    if (firstSpaceIndex === -1) {
+      return name;
+    }
+
+    return `${name.slice(0, firstSpaceIndex)}<br>${name.slice(firstSpaceIndex + 1)}`;
+  };
+
+  root.innerHTML = `
+    <div class="utility-items__table">
+      ${utilityItemsDataV2.map((item) => `
+        <div class="utility-items__row">
+          <div class="utility-items__cell utility-items__icon">
+            <img src="${item.icon}" alt="${item.name}">
+          </div>
+          <div class="utility-items__cell utility-items__name">${formatUtilityName(item.name)}</div>
+          <div class="utility-items__cell utility-items__bonus">${item.bonus}</div>
+          <div class="utility-items__cell utility-items__action">
+            <button class="utility-items__button" type="button" data-utility-sources-open-v2="${item.id}">Skąd zdobyć</button>
+          </div>
+        </div>
+      `).join("")}
+    </div>
+  `;
+
+  const closeButton = modal.querySelector(".utility-sources-modal__close");
+  const backdrop = modal.querySelector(".utility-sources-modal__backdrop");
+
+  const closeModal = () => {
+    modal.hidden = true;
+  };
+
+  root.querySelectorAll("[data-utility-sources-open-v2]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const item = utilityItemsDataV2.find((entry) => entry.id === button.dataset.utilitySourcesOpenV2);
+      if (!item) {
+        return;
+      }
+
+      title.textContent = `${item.name} — Skąd zdobyć`;
+      list.innerHTML = (item.sources && item.sources.length)
+        ? item.sources.map((source) => `
+            <div class="utility-sources-modal__item">
+              <div class="utility-sources-modal__item-media">
+                <img src="${source.icon}" alt="${source.name}">
+              </div>
+              <div class="utility-sources-modal__item-name">${source.name}</div>
+            </div>
+          `).join("")
+        : `<p class="utility-sources-modal__empty">Uzupełnij źródła zdobycia w \`utilityItemsDataV2\`.</p>`;
+      modal.hidden = false;
+    });
+  });
+
+  closeButton?.addEventListener("click", closeModal);
+  backdrop?.addEventListener("click", closeModal);
+}
+
+initUtilityItemsV2();
 
   (function(){
     const buttons = document.querySelectorAll('.package-card');

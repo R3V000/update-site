@@ -81,6 +81,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <li class='section_24'><a href="#section_24" class='item-content'><span>Wytwarzanie</span></a></li>
 <li class='section_35'><a href="#section_35" class='item-content'><span>Misje</span></a></li>
 <li class='section_21'><a href="#section_21" class='item-content'><span>Sety Itemów</span></a></li>
+<li class='section_46'><a href="#section_46" class='item-content'><span>Przedmioty Użytkowe</span></a></li>
 <li class='section_45'><a href="#section_45" class='item-content'><span>Systemy Poboczne</span></a></li>
 <li class='section_42'><a href="#section_42" class='item-content'><span>Ankiety</span></a></li>
 <li class='section_43'><a href="#section_43" class='item-content'><span>Aktualizacje</span></a></li>
@@ -171,17 +172,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
           <article class="admin-member admin-member--slide">
             <h3>[DEV]PanTechnik</h3>
-            <p>Główny technik serwera odpowiedzialny za wdrażanie systemów i dopracowywanie Monastyr2 od strony technicznej. Czuwa nad tym, aby rozwiązania wdrażane na serwerze działały sprawnie i zgodnie z założeniami projektu.</p>
+            <p>Główny technik serwera odpowiedzialny za wdrażanie systemów i dopracowywanie Monastyr2 od strony technicznej.</p>
           </article>
 
           <article class="admin-member admin-member--slide">
             <h3>[CM]Revo</h3>
-            <p>Odpowiada za bezpośredni kontakt z graczami oraz administracją. Śledzi sytuację na serwerze, przebieg rozgrywki i nastroje społeczności, a zebrane od graczy uwagi pomaga przekładać na rozwiązania możliwe do wdrożenia w grze, wspierając dalszy rozwój projektu.</p>
+            <p>Odpowiada za bezpośredni kontakt z graczami oraz administracją. Śledzi sytuację na serwerze, przebieg rozgrywki i nastroje społeczności, a zebrane od graczy uwagi pomaga przekładać na rozwiązania możliwe do wdrożenia w grze.</p>
           </article>
 
           <article class="admin-member admin-member--slide">
             <h3>[SGM]Setops</h3>
-            <p>Wspiera graczy bezpośrednio w grze, pomaga w bieżących sprawach i dba o porządek na serwerze. To osoba, która czuwa nad codziennym komfortem rozgrywki od strony administracyjnej.</p>
+            <p>Wspiera graczy bezpośrednio w grze, pomaga w bieżących sprawach i dba o porządek na serwerze.</p>
           </article>
         </div>
       </div>
@@ -200,6 +201,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <figure class="client-entry-showcase">
       <button class="client-entry-showcase__button" type="button" aria-label="Powiększ zdjęcie klienta gry" data-shop-preview="img/klient-entry.png" data-shop-preview-alt="Okno klienta gry" data-shop-preview-size="xxlarge">
         <img class="client-entry-showcase__image" src="img/klient-entry.png" alt="Okno klienta gry">
+      </button>
+      <button class="client-entry-showcase__button" type="button" aria-label="Powiększ ekran wyboru klienta gry" data-shop-preview="img/klient-choose.png" data-shop-preview-alt="Ekran wyboru klienta gry" data-shop-preview-size="xxlarge">
+        <img class="client-entry-showcase__image" src="img/klient-choose.png" alt="Ekran wyboru klienta gry">
+      </button>
+      <button class="client-entry-showcase__button" type="button" aria-label="Powiększ ekran wyboru postaci klienta gry" data-shop-preview="img/klient-character.png" data-shop-preview-alt="Ekran wyboru postaci klienta gry" data-shop-preview-size="xxlarge">
+        <img class="client-entry-showcase__image" src="img/klient-character.png" alt="Ekran wyboru postaci klienta gry">
       </button>
     </figure>
   </div>
@@ -1729,153 +1736,187 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- 1 -->
     <img src="prez/h-pierwsze.png">
     <img src="prez/4.png" alt="Miasta Pierwsze">
-    <ul class="dungeon-info">
-      <li><strong>Wymagany Poziom:</strong> —</li>
-      <li><strong>Ilość Metinów:</strong> 17</li>
-      <li><strong>Czas Respu Metinów:</strong> 5 - 10 minut</li>
-      <!--<li><strong>Ilość Bosów:</strong> —</li> -->
-      <!--<li><strong>Czas Respu Bosów:</strong> —</li> -->
+    <ul class="dungeon-info" data-location-card="first-cities">
+      <li><strong>Wymagany Poziom:</strong> <span data-location-level>—</span></li>
+      <li class="dungeon-info__trigger-item">
+        <button class="location-entities-trigger" type="button" data-location-entities-open="first-cities">
+          <span data-location-trigger-label>Wyświetl informacje o metinach i bossach</span>
+        </button>
+      </li>
     </ul>
 
     <!-- 2 -->
     <img src="prez/h-drugie.png">
     <img src="prez/5.png" alt="Miasta Drugie">
-    <ul class="dungeon-info">
-      <li><strong>Wymagany Poziom:</strong> —</li>
-      <li><strong>Ilość Metinów:</strong> 12</li>
-      <li><strong>Czas Respu Metinów:</strong> 10 - 15 minut</li>
-      <li><strong>Ilość Bosów:</strong> 1</li>
-      <li><strong>Czas Respu Bosów:</strong> 30 minut</li>
+    <ul class="dungeon-info" data-location-card="second-cities">
+      <li><strong>Wymagany Poziom:</strong> <span data-location-level>—</span></li>
+      <li class="dungeon-info__trigger-item">
+        <button class="location-entities-trigger" type="button" data-location-entities-open="second-cities">
+          <span data-location-trigger-label>Wyświetl informacje o metinach i bossach</span>
+        </button>
+      </li>
     </ul>
 
     <!-- 3 -->
     <img src="prez/h-dolina.png">
     <img src="prez/1.png" alt="Dolina Orków">
-    <ul class="dungeon-info">
-      <li><strong>Wymagany Poziom:</strong> 15 — 105</li>
-      <li><strong>Ilość Metinów:</strong> 11</li>
-      <li><strong>Czas Respu Metinów:</strong> 15 minut</li>
-      <li><strong>Ilość Bosów:</strong> 2</li>
-      <li><strong>Czas Respu Bosów:</strong> 45 minut</li>
+    <ul class="dungeon-info" data-location-card="seungryong">
+      <li><strong>Wymagany Poziom:</strong> <span data-location-level>—</span></li>
+      <li class="dungeon-info__trigger-item">
+        <button class="location-entities-trigger" type="button" data-location-entities-open="seungryong">
+          <span data-location-trigger-label>Wyświetl informacje o metinach i bossach</span>
+        </button>
+      </li>
     </ul>
 
     <!-- 4 -->
     <img src="prez/h-pustynia.png">
     <img src="prez/7.png" alt="Pustynia Yongbi">
-    <ul class="dungeon-info">
-      <li><strong>Wymagany Poziom:</strong> 15 — 105</li>
-      <li><strong>Ilość Metinów:</strong> 12</li>
-      <li><strong>Czas Respu Metinów:</strong> 15 minut</li>
-      <li><strong>Ilość Bosów:</strong> 1</li>
-      <li><strong>Czas Respu Bosów:</strong> 45 minut</li>
+    <ul class="dungeon-info" data-location-card="yongbi">
+      <li><strong>Wymagany Poziom:</strong> <span data-location-level>—</span></li>
+      <li class="dungeon-info__trigger-item">
+        <button class="location-entities-trigger" type="button" data-location-entities-open="yongbi">
+          <span data-location-trigger-label>Wyświetl informacje o metinach i bossach</span>
+        </button>
+      </li>
     </ul>
 
     <!-- 5 -->
     <img src="prez/h-hwang.png">
     <img src="prez/2.png" alt="Świątynia Hwang">
-    <ul class="dungeon-info">
-      <li><strong>Wymagany Poziom:</strong> 15 — 105</li>
-      <li><strong>Ilość Metinów:</strong> 10</li>
-      <li><strong>Czas Respu Metinów:</strong> 20 minut</li>
-      <li><strong>Ilość Bosów:</strong><br>Reinkar. Ezot. Przyw — x1<br> Zjawa — x1 <br> Elit. Zjawa — x1</li>
-      <li><strong>Czas Respu Bosów:</strong><br>Reinkar. Ezot. Przyw — 45 minut<br> Zjawa — 90 minut<br> Elit. Zjawa — 120 minut</li>
+    <ul class="dungeon-info" data-location-card="hwang">
+      <li><strong>Wymagany Poziom:</strong> <span data-location-level>—</span></li>
+      <li class="dungeon-info__trigger-item">
+        <button class="location-entities-trigger" type="button" data-location-entities-open="hwang">
+          <span data-location-trigger-label>Wyświetl informacje o metinach i bossach</span>
+        </button>
+      </li>
     </ul>
 
     <!-- 6 -->
     <img src="prez/h-ognista.png">
     <img src="prez/6.png" alt="Ognista Ziemia">
-    <ul class="dungeon-info">
-      <li><strong>Wymagany Poziom:</strong> 40 — 105</li>
-      <li><strong>Ilość Metinów:</strong> 10</li>
-      <li><strong>Czas Respu Metinów:</strong> 20 minut</li>
-      <li><strong>Ilość Bosów:</strong><br>Ognisty Król — x1<br> Elit. Ognisty Król — x1</li>
-      <li><strong>Czas Respu Bosów:</strong><br>Ognisty Król — 90 minut<br> Elit. Ognisty Król — 120 minut</li>
+    <ul class="dungeon-info" data-location-card="ognista">
+      <li><strong>Wymagany Poziom:</strong> <span data-location-level>—</span></li>
+      <li class="dungeon-info__trigger-item">
+        <button class="location-entities-trigger" type="button" data-location-entities-open="ognista">
+          <span data-location-trigger-label>Wyświetl informacje o metinach i bossach</span>
+        </button>
+      </li>
     </ul>
 
     <!-- 7 -->
     <img src="prez/h-sohan.png">
     <img src="prez/9.png" alt="Góra Sohan">
-    <ul class="dungeon-info">
-      <li><strong>Wymagany Poziom:</strong> 30 — 105</li>
-      <li><strong>Ilość Metinów:</strong> 10</li>
-      <li><strong>Czas Respu Metinów:</strong> 20 minut</li>
-      <li><strong>Ilość Bosów:</strong> 1</li>
-      <li><strong>Czas Respu Bosów:</strong> 60 minut</li>
+    <ul class="dungeon-info" data-location-card="sohan">
+      <li><strong>Wymagany Poziom:</strong> <span data-location-level>—</span></li>
+      <li class="dungeon-info__trigger-item">
+        <button class="location-entities-trigger" type="button" data-location-entities-open="sohan">
+          <span data-location-trigger-label>Wyświetl informacje o metinach i bossach</span>
+        </button>
+      </li>
     </ul>
-
     <!-- Loch -->
     <img src="prez/h-loch.png">
     <img src="prez/pajakiv2.png" alt="Loch">
-    <ul class="dungeon-info">
-      <li><strong>Wymagany Poziom:</strong> 30 — 105</li>
-      <li><strong>Ilość Bosów:</strong><br>Loch Pająków V1 — 1<br>Loch Pająków V2 — 1</li>
-      <li><strong>Czas Respu Bosów:</strong><br> Królowa Pająków ( V1 ) — 60 minut <br>Elit. Królowa Pająków ( V2 ) — 60 minut</li>
+    <ul class="dungeon-info" data-location-card="loch">
+      <li><strong>Wymagany Poziom:</strong> <span data-location-level>—</span></li>
+      <li class="dungeon-info__trigger-item">
+        <button class="location-entities-trigger" type="button" data-location-entities-open="loch">
+          <span data-location-trigger-label>Wyświetl informacje o metinach i bossach</span>
+        </button>
+      </li>
     </ul>
 
     <!-- Wezowe -->
     <img src="prez/h-wezowe.png">
     <img src="prez/10.png" alt="Wężowe Pole">
-    <ul class="dungeon-info">
-      <li><strong>Wymagany Poziom:</strong> 45 — 105</li>
-      <li><strong>Ilość Metinów:</strong> 8</li>
-      <li><strong>Czas Respu Metinów:</strong> 20 minut</li>
-      <!-- <li><strong>Ilość Bosów:</strong> —</li> -->
-      <!-- <li><strong>Czas Respu Bosów:</strong> —</li> -->
+    <ul class="dungeon-info" data-location-card="wezowe">
+      <li><strong>Wymagany Poziom:</strong> <span data-location-level>—</span></li>
+      <li class="dungeon-info__trigger-item">
+        <button class="location-entities-trigger" type="button" data-location-entities-open="wezowe">
+          <span data-location-trigger-label>Wyświetl informacje o metinach i bossach</span>
+        </button>
+      </li>
     </ul>
 
     <!-- 8 -->
     <img src="prez/h-kraina.png">
     <img src="prez/kraina.png" alt="Kraina Gigantów">
-    <ul class="dungeon-info">
-      <li><strong>Wymagany Poziom:</strong> 45 — 89</li>
-      <li><strong>Ilość Metinów:</strong> 6</li>
-      <li><strong>Czas Respu Metinów:</strong> 20 minut</li>
-      <!-- <li><strong>Ilość Bosów:</strong> —</li> -->
-      <!-- <li><strong>Czas Respu Bosów:</strong> —</li> -->
+    <ul class="dungeon-info" data-location-card="kraina">
+      <li><strong>Wymagany Poziom:</strong> <span data-location-level>—</span></li>
+      <li class="dungeon-info__trigger-item">
+        <button class="location-entities-trigger" type="button" data-location-entities-open="kraina">
+          <span data-location-trigger-label>Wyświetl informacje o metinach i bossach</span>
+        </button>
+      </li>
     </ul>
 
     <!-- 9 -->
     <img src="prez/h-las.png">
     <img src="prez/3.png" alt="Las Duchów">
-    <ul class="dungeon-info">
-      <li><strong>Wymagany Poziom:</strong> 45 — 105</li>
-      <li><strong>Ilość Metinów:</strong> 10</li>
-      <li><strong>Czas Respu Metinów:</strong> 20 minut</li>
-      <!-- <li><strong>Ilość Bosów:</strong> —</li> -->
-      <!-- <li><strong>Czas Respu Bosów:</strong> —</li> -->
+    <ul class="dungeon-info" data-location-card="las">
+      <li><strong>Wymagany Poziom:</strong> <span data-location-level>—</span></li>
+      <li class="dungeon-info__trigger-item">
+        <button class="location-entities-trigger" type="button" data-location-entities-open="las">
+          <span data-location-trigger-label>Wyświetl informacje o metinach i bossach</span>
+        </button>
+      </li>
     </ul>
 
     <!-- 10 -->
     <img src="prez/h-redlas.png">
     <img src="prez/8.png" alt="Czerwony Las">
-    <ul class="dungeon-info">
-      <li><strong>Wymagany Poziom:</strong> 55 — 105</li>
-      <li><strong>Ilość Metinów:</strong> 10</li>
-      <li><strong>Czas Respu Metinów:</strong> 25 minut</li>
-      <li><strong>Ilość Bosów:</strong> 2</li>
-      <li><strong>Czas Respu Bosów:</strong> 60 minut</li>
+    <ul class="dungeon-info" data-location-card="czerwony-las">
+      <li><strong>Wymagany Poziom:</strong> <span data-location-level>—</span></li>
+      <li class="dungeon-info__trigger-item">
+        <button class="location-entities-trigger" type="button" data-location-entities-open="czerwony-las">
+          <span data-location-trigger-label>Wyświetl informacje o metinach i bossach</span>
+        </button>
+      </li>
     </ul>
 
     <img src="prez/h-grota.png">
     <img src="prez/av.png" alt="Grota">
-    <ul class="dungeon-info">
-      <li><strong>Wymagany Poziom:</strong> 75 - 105</li>
-      <li><strong>Ilość Metinów:</strong><br>AV1 — 10<br>AV2 — 10 </li>
-      <li><strong>Czas Respu Metinów:</strong> 30 minut</li>
-      <li><strong>Ilość Bosów:</strong><br>AV1 — 1<br>AV2 — 2 </li>
-      <li><strong>Czas Respu Bosów:</strong><br>Silna Lodowa Wiedźma ( AV1 ) — 8 godzin<br>Generał Yonghan ( AV2 ) — 3 godzin </li>
-      <li>Drop małży został usunięty z Groty Wygnańców</li>
+    <ul class="dungeon-info" data-location-card="grota">
+      <li><strong>Wymagany Poziom:</strong> <span data-location-level>—</span></li>
+      <li class="dungeon-info__trigger-item">
+        <button class="location-entities-trigger" type="button" data-location-entities-open="grota">
+          <span data-location-trigger-label>Wyświetl informacje o metinach i bossach</span>
+        </button>
+      </li>
     </ul>
     <!-- 11 -->
     <img src="prez/h-wawoz.png">
     <img src="prez/12.png" alt="Wąwóz Śmierci">
-    <ul class="dungeon-info">
-      <li><strong>Wymagany Poziom:</strong> 90 - 105</li>
-      <li><strong>Ilość Metinów:</strong> 8</li>
-      <li><strong>Czas Respu Metinów:</strong> 45 minut</li>
-      <li><strong>Ilość Bosów:</strong> 3</li>
-      <li><strong>Czas Respu Bosów:</strong><br> Polifem — 6 godzin <br>Rakszas (2 respy) — 4 godziny</li>
+    <ul class="dungeon-info" data-location-card="wawoz">
+      <li><strong>Wymagany Poziom:</strong> <span data-location-level>—</span></li>
+      <li class="dungeon-info__trigger-item">
+        <button class="location-entities-trigger" type="button" data-location-entities-open="wawoz">
+          <span data-location-trigger-label>Wyświetl informacje o metinach i bossach</span>
+        </button>
+      </li>
     </ul>
+
+    <div class="location-entities-modal" id="locationEntitiesModal" hidden>
+      <button class="location-entities-modal__backdrop" type="button" aria-label="Zamknij informacje o lokacji"></button>
+      <div class="location-entities-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="locationEntitiesTitle">
+        <button class="location-entities-modal__close" type="button" aria-label="Zamknij informacje o lokacji">&times;</button>
+        <div class="location-entities-modal__header">
+          <h3 class="req-title location-entities-modal__title" id="locationEntitiesTitle">Miasta Drugie</h3>
+        </div>
+        <div class="location-entities-modal__grid">
+          <section class="location-entities-modal__column">
+            <h4 class="location-entities-modal__column-title">Kamienie Metin</h4>
+            <div class="location-entities-modal__list" id="locationMetinsList"></div>
+          </section>
+          <section class="location-entities-modal__column">
+            <h4 class="location-entities-modal__column-title">Bossy</h4>
+            <div class="location-entities-modal__list" id="locationBossesList"></div>
+          </section>
+        </div>
+      </div>
+    </div>
 
   </div>
 
@@ -3418,6 +3459,28 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
     </div>
   </div>
+  <!-- Przedmioty użytkowe -->
+  <div class="section" id="section_46">
+    <h1><img src="prez/uzytkowe.png" alt="Przedmioty użytkowe"></h1>
+    <div class="utility-items" data-utility-items></div>
+    <div class="utility-items__notes">
+      <p class="utility-items__notes-title">Dodatkowe informacje:</p>
+      <p>Możemy łączyć Pierścienie Doświadczenia z różnym czasem.</p>
+      <p>Pierścień Doświadczenia łączy się z Miksturą Ducha.</p>
+    </div>
+
+    <div class="utility-sources-modal" id="utilitySourcesModal" hidden>
+      <button class="utility-sources-modal__backdrop" type="button" aria-label="Zamknij źródła przedmiotu"></button>
+      <div class="utility-sources-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="utilitySourcesTitle">
+        <button class="utility-sources-modal__close" type="button" aria-label="Zamknij źródła przedmiotu">&times;</button>
+        <div class="utility-sources-modal__header">
+          <h3 class="req-title utility-sources-modal__title" id="utilitySourcesTitle">Skąd zdobyć</h3>
+        </div>
+        <div class="utility-sources-modal__list" id="utilitySourcesList"></div>
+      </div>
+    </div>
+  </div>
+
   <!-- Systemy poboczne -->
   <div class="section" id="section_45">
     <h1><img src="prez/poboczne.png" alt="Systemy poboczne"></h1>
@@ -4068,7 +4131,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <img src="https://pub-05243780335c463c92941126f1c5e19d.r2.dev/b8.png" alt="Banner" class="main__photo--background el_section_22 el_section_24">
 <img src="https://pub-05243780335c463c92941126f1c5e19d.r2.dev/b9.png" alt="Banner" class="main__photo--background el_section_35">
 <img src="https://pub-05243780335c463c92941126f1c5e19d.r2.dev/b1.png" alt="Banner" class="main__photo--background el_section_21">
-<img src="https://pub-05243780335c463c92941126f1c5e19d.r2.dev/b7.png" alt="Banner" class="main__photo--background el_section_36 el_section_39 el_section_42 el_section_43 el_section_45">
+<img src="https://pub-05243780335c463c92941126f1c5e19d.r2.dev/b7.png" alt="Banner" class="main__photo--background el_section_36 el_section_39 el_section_42 el_section_43 el_section_45 el_section_46">
 </div>
 </main>
 <script src="global.js"></script>

@@ -17,7 +17,7 @@
         "klient",
         "optymalizacja"
       ],
-      "answer": "Tak. Wedlug obecnej bazy wiedzy klient 64-bitowy i optymalizacje maja zapewnic stabilna gre takze na starszym sprzecie."
+      "answer": "Tak. Wedlug obecnej bazy wiedzy klient ma zapewnic stabilna gre takze na starszym sprzecie."
     },
     {
       "id": "faq-macos",
@@ -204,7 +204,10 @@
       "questions": [
         "Jaka jest nagroda za maksymalny poziom?",
         "Co dostaje pierwszy gracz z max poziomem?",
-        "Czy jest nagroda za 105 poziom?"
+        "Czy jest nagroda za 105 poziom?",
+        "Co jest za wbicie maxa?",
+        "Co za wbicie maxa",
+        "Co za wbicie maksymalnego poziomu"
       ],
       "keywords": [
         "max",

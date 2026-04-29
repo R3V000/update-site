@@ -25,7 +25,11 @@
       "questions": [
         "Jakie są podstawowe informacje o serwerze?",
         "Jaki jest maksymalny poziom?",
-        "Ile jest kanałów?"
+        "Ile jest kanałów?",
+        "Jaki max poziom?",
+        "Jaki max lvl?",
+        "Max lvl",
+        "Max poziom"
       ],
       "keywords": [
         "maksymalny",
