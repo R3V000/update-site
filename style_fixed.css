@@ -9122,3 +9122,98 @@ a {
   max-width: 150px;
   max-height: 132px;
 }
+
+.gameplay-changes-details{
+  margin: 20px auto 0;
+  max-width: 960px;
+}
+
+.gameplay-changes-details summary{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:16px;
+  padding: 14px 18px;
+  border: 1px solid rgba(230, 194, 0, 0.18);
+  border-radius: 14px;
+  background: rgba(255,255,255,0.03);
+  color: #e8dab4;
+  font-family: "Lora", serif;
+  font-size: 19px;
+  font-weight: 600;
+  cursor: pointer;
+  list-style: none;
+  transition: border-color .2s ease, background .2s ease;
+}
+
+.gameplay-changes-details summary::-webkit-details-marker{
+  display:none;
+}
+
+.gameplay-changes-details summary::after{
+  content:"+";
+  flex: 0 0 auto;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgba(240, 223, 179, 0.9);
+}
+
+.gameplay-changes-details[open] summary::after{
+  content:"-";
+}
+
+.gameplay-changes-details summary:hover,
+.gameplay-changes-details[open] summary{
+  border-color: rgba(230, 194, 0, 0.3);
+  background: rgba(255,255,255,0.045);
+}
+
+.gameplay-changes-table-wrap{
+  margin-top: 14px;
+  overflow-x: auto;
+}
+
+.gameplay-changes-table__note{
+  margin: 0 0 14px;
+  color: #d8ccb0;
+  line-height: 1.65;
+}
+
+.gameplay-changes-table{
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.gameplay-changes-table th,
+.gameplay-changes-table td{
+  padding: 12px 14px;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  text-align: left;
+}
+
+.gameplay-changes-table th{
+  color: #f0dfb3;
+  font-family: "Roboto Slab", serif;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.gameplay-changes-table td{
+  color: #ddd2b3;
+  line-height: 1.45;
+}
+
+.gameplay-changes-table tbody tr:nth-child(odd){
+  background: rgba(255,255,255,0.025);
+}
+
+.gameplay-changes-table tbody tr:nth-child(even){
+  background: rgba(255,255,255,0.05);
+}
+
+.gameplay-changes-table td:last-child{
+  color: #f0dfb3;
+  font-weight: 700;
+}

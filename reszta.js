@@ -3815,7 +3815,7 @@ const locationCardsData = {
       },
       {
         icon: "lokacje/grotav2.png",
-        name: "Metin Ignatora (Grota V2)",
+        name: "Metin Gniewu (Grota V2)",
         count: "6",
         respawn: "30 minut"
       },
