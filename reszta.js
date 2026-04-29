@@ -379,15 +379,15 @@ const weaponSoulStoneKeywords = [
 ];
 
 const miningPickaxeData = [
-  { name: "Kilof +0", img: "https://img.m2icondb.com/29101.png", levelReq: 30, toolLevel: 1, points: 150, chance: "15%" },
-  { name: "Kilof +1", img: "https://img.m2icondb.com/29101.png", levelReq: 30, toolLevel: 2, points: 300, chance: "18%" },
-  { name: "Kilof +2", img: "https://img.m2icondb.com/29101.png", levelReq: 30, toolLevel: 3, points: 600, chance: "21%" },
-  { name: "Kilof +3", img: "https://img.m2icondb.com/29101.png", levelReq: 30, toolLevel: 4, points: 1200, chance: "24%" },
-  { name: "Kilof +4", img: "https://img.m2icondb.com/29101.png", levelReq: 30, toolLevel: 5, points: 2400, chance: "27%" },
-  { name: "Kilof +5", img: "https://img.m2icondb.com/29101.png", levelReq: 30, toolLevel: 6, points: 3600, chance: "30%" },
-  { name: "Kilof +6", img: "https://img.m2icondb.com/29101.png", levelReq: 30, toolLevel: 7, points: 7200, chance: "33%" },
-  { name: "Kilof +7", img: "https://img.m2icondb.com/29101.png", levelReq: 30, toolLevel: 8, points: 14500, chance: "38%" },
-  { name: "Kilof +8", img: "https://img.m2icondb.com/29101.png", levelReq: 30, toolLevel: 9, points: 30000, chance: "43%" },
+  { name: "Kilof +0", img: "https://img.m2icondb.com/29101.png", levelReq: 30, toolLevel: 1, points: 1000, chance: "15%" },
+  { name: "Kilof +1", img: "https://img.m2icondb.com/29101.png", levelReq: 30, toolLevel: 2, points: 2000, chance: "18%" },
+  { name: "Kilof +2", img: "https://img.m2icondb.com/29101.png", levelReq: 30, toolLevel: 3, points: 4000, chance: "21%" },
+  { name: "Kilof +3", img: "https://img.m2icondb.com/29101.png", levelReq: 30, toolLevel: 4, points: 8000, chance: "24%" },
+  { name: "Kilof +4", img: "https://img.m2icondb.com/29101.png", levelReq: 30, toolLevel: 5, points: 16000, chance: "27%" },
+  { name: "Kilof +5", img: "https://img.m2icondb.com/29101.png", levelReq: 30, toolLevel: 6, points: 32000, chance: "30%" },
+  { name: "Kilof +6", img: "https://img.m2icondb.com/29101.png", levelReq: 30, toolLevel: 7, points: 64000, chance: "33%" },
+  { name: "Kilof +7", img: "https://img.m2icondb.com/29101.png", levelReq: 30, toolLevel: 8, points: 128000, chance: "38%" },
+  { name: "Kilof +8", img: "https://img.m2icondb.com/29101.png", levelReq: 30, toolLevel: 9, points: 256000, chance: "43%" },
   { name: "Kilof +9", img: "https://img.m2icondb.com/29101.png", levelReq: 30, toolLevel: 9, points: 0, chance: "50%" }
 ];
 
@@ -976,6 +976,150 @@ function initGuildProgress() {
 }
 
 initGuildProgress();
+
+const horseProgressBaseData = [
+  [0, 0, 0],
+  [25, 1, 5],
+  [50, 1, 10],
+  [50, 2, 15],
+  [75, 2, 20],
+  [100, 3, 25],
+  [100, 4, 30],
+  [125, 4, 35],
+  [150, 5, 40],
+  [150, 6, 45],
+  [175, 6, 50],
+  [200, 7, 55],
+  [200, 8, 60],
+  [225, 8, 65],
+  [250, 9, 70],
+  [250, 9, 75],
+  [275, 10, 80],
+  [300, 11, 85],
+  [300, 11, 90],
+  [325, 12, 95],
+  [350, 13, 100],
+  [400, 13, 105],
+  [500, 14, 110],
+  [525, 14, 115],
+  [550, 15, 120],
+  [575, 16, 125],
+  [575, 16, 130],
+  [600, 17, 135],
+  [625, 18, 140],
+  [650, 18, 145],
+  [625, 19, 150],
+  [650, 19, 155],
+  [675, 20, 160],
+  [700, 21, 165],
+  [725, 21, 170],
+  [750, 22, 175],
+  [775, 23, 180],
+  [800, 23, 185],
+  [850, 24, 190],
+  [900, 24, 195],
+  [1000, 25, 200]
+];
+
+const horseProgressData = horseProgressBaseData.map((values, index) => {
+  const [maxHp, strongVsMonsters, attackValue] = values;
+  const bonuses = [];
+
+  if (maxHp > 0) {
+    bonuses.push(`Max P\u017b +${maxHp}`);
+  }
+
+  if (strongVsMonsters > 0) {
+    bonuses.push(`Silny przeciwko Potworom +${strongVsMonsters}%`);
+  }
+
+  if (attackValue > 0) {
+    bonuses.push(`Warto\u015b\u0107 Ataku +${attackValue}`);
+  }
+
+  if (index === 40) {
+    bonuses.push("Obrona +50");
+  }
+
+  return {
+    level: index,
+    levelRequirement: index <= 11
+      ? "1-35"
+      : index <= 21
+        ? "36-54"
+        : index <= 31
+          ? "55-70"
+          : "71+",
+    bonuses
+  };
+}).filter((entry) => entry.level > 0);
+
+function initHorseProgress() {
+  const root = document.querySelector("[data-horse-progress]");
+
+  if (!root) {
+    return;
+  }
+
+  const level = root.querySelector("#horseProgressLevel");
+  const levelRequirement = root.querySelector("#horseProgressLevelReq");
+  const bonusList = root.querySelector("#horseProgressBonusList");
+  const empty = root.querySelector("#horseProgressEmpty");
+  const buttonsContainer = root.querySelector("#horseProgressButtons");
+
+  if (!level || !levelRequirement || !bonusList || !empty || !buttonsContainer || !horseProgressData.length) {
+    return;
+  }
+
+  const levelButtons = horseProgressData.map((entry) => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "guild-progress__level-button";
+    button.textContent = String(entry.level);
+    button.addEventListener("click", () => {
+      render(horseProgressData.findIndex((item) => item.level === entry.level));
+    });
+    buttonsContainer.appendChild(button);
+    return button;
+  });
+
+  let currentIndex = 0;
+
+  function render(index) {
+    const entry = horseProgressData[index];
+    if (!entry) {
+      return;
+    }
+
+    currentIndex = index;
+    level.textContent = String(entry.level);
+    levelRequirement.textContent = entry.levelRequirement;
+
+    levelButtons.forEach((button, buttonIndex) => {
+      button.classList.toggle("is-active", buttonIndex === index);
+    });
+
+    bonusList.innerHTML = "";
+    const bonuses = Array.isArray(entry.bonuses) ? entry.bonuses.filter(Boolean) : [];
+
+    if (!bonuses.length) {
+      empty.hidden = false;
+      bonusList.hidden = true;
+    } else {
+      empty.hidden = true;
+      bonusList.hidden = false;
+      bonuses.forEach((bonus) => {
+        const item = document.createElement("li");
+        item.textContent = bonus;
+        bonusList.appendChild(item);
+      });
+    }
+  }
+
+  render(currentIndex);
+}
+
+initHorseProgress();
 
 function initOptiShowcase() {
   const showcase = document.querySelector("[data-opti-showcase]");
@@ -3982,7 +4126,7 @@ const utilityItemsDataV2 = [
       { icon: "lokacje/tuyoung.png", name: "Metin Tu-Young" },
       { icon: "lokacje/jeonun.png", name: "Metin Jeon-Un" },
       { icon: "lokacje/grotav1.png", name: "Metin Próżności (Grota V1)" },
-      { icon: "lokacje/grotav2.png", name: "Metin Ignatora (Grota V2)" },
+      { icon: "lokacje/grotav2.png", name: "Metin Gniewu (Grota V2)" },
       { icon: "lokacje/wawoz.png", name: "Metin Mroku" }
     ]
   },

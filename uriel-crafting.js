@@ -230,18 +230,123 @@ const URIEL_CRAFTING_RECIPES = [
   },
 ];
 
-function initUrielCrafting() {
-  const tabsContainer = document.getElementById("urielForgeTabs");
-  const inventory = document.getElementById("urielForgeInventory");
-  const preview = document.getElementById("urielForgePreview");
-  const nameTooltip = document.getElementById("urielForgeNameTooltip");
-  const descTooltip = document.getElementById("urielForgeDescTooltip");
+const KOWAL_CRAFTING_RECIPES = [
+  {
+    id: "Zwój Boga Smoków",
+    shortTitle: "Zwój Boga Smoków",
+    title: "Zwój Boga Smoków",
+    result: {
+      img: "https://img.m2icondb.com/71032.png",
+      name: "Zwój Boga Smoków",
+      desc: "Pozwala bezpiecznie ulepszać przedmiot bez ryzyka jego zniszczenia przy niepowodzeniu. Dodatkowa szansa na ulepszenie +5%.",
+      count: 1
+    },
+    materials: [
+      {
+        img: "https://img.m2icondb.com/25040.png",
+        count: 6,
+        name: "Zwój Błogoslawieństwa",
+        desc: "Pozwala bezpiecznie ulepszać przedmiot bez ryzyka jego zniszczenia przy niepowodzeniu."
+      },
+      {
+        img: "https://img.m2icondb.com/money.png",
+        count: "200k",
+        name: "Yang",
+        desc: "Koszt potrzebny do wytworzenia przedmiotu."
+      }
+    ]
+  },
+  {
+    id: "Podręcznik Kowala",
+    shortTitle: "Podręcznik Kowala",
+    title: "Podręcznik Kowala",
+    result: {
+      img: "https://img.m2icondb.com/70039.png",
+      name: "Podręcznik Kowala",
+      desc: "Pozwala bezpiecznie ulepszać przedmiot bez ryzyka jego zniszczenia przy niepowodzeniu. Dodatkowa szansa na ulepszenie +10%.",
+      count: 1
+    },
+    materials: [
+      {
+        img: "https://img.m2icondb.com/71032.png",
+        count: 5,
+        name: "Zwój Boga Smoków",
+        desc: "Pozwala bezpiecznie ulepszać przedmiot bez ryzyka jego zniszczenia przy niepowodzeniu. Dodatkowa szansa na ulepszenie +5%."
+      },
+      {
+        img: "https://img.m2icondb.com/money.png",
+        count: "500k",
+        name: "Yang",
+        desc: "Koszt potrzebny do wytworzenia przedmiotu."
+      }
+    ]
+  },
+  {
+    id: "Kamień Księżycowy",
+    shortTitle: "Kamień Księżycowy",
+    title: "Kamień Księżycowy",
+    result: {
+      img: "https://img.m2icondb.com/30618.png",
+      name: "Kamień Księżycowy",
+      desc: "Magiczny Kamień zwiększający szansę na ulepszenie przedmiotu. Niepowedzenie nie cofa ulepszenia! Dodatkowa szansa na ulepszenie +5%.",
+      count: 1
+    },
+    materials: [
+      {
+        img: "https://img.m2icondb.com/25040.png",
+        count: 20,
+        name: "Zwój Błogoslawieństwa",
+        desc: "Pozwala bezpiecznie ulepszać przedmiot bez ryzyka jego zniszczenia przy niepowodzeniu."
+      },
+      {
+        img: "https://img.m2icondb.com/71032.png",
+        count: 10,
+        name: "Zwój Boga Smoków",
+        desc: "Pozwala bezpiecznie ulepszać przedmiot bez ryzyka jego zniszczenia przy niepowodzeniu. Dodatkowa szansa na ulepszenie +5%."
+      },
+      {
+        img: "https://img.m2icondb.com/70039.png",
+        count: 5,
+        name: "Podręcznik Kowala",
+        desc: "Pozwala bezpiecznie ulepszać przedmiot bez ryzyka jego zniszczenia przy niepowodzeniu. Dodatkowa szansa na ulepszenie +10%."
+      },
+      {
+        img: "https://img.m2icondb.com/30064.png",
+        count: 2,
+        name: "Magiczny Kamień",
+        desc: "Magiczny Kamień dzięki któremu możesz ulepszać przedmioty. Niepowodzenie nie cofa ulepszenia!"
+      },
+      {
+        img: "https://img.m2icondb.com/money.png",
+        count: "2kk",
+        name: "Yang",
+        desc: "Koszt potrzebny do wytworzenia przedmiotu."
+      }
+    ]
+  }
+];
+
+function initCraftingSection(config) {
+  const {
+    recipes,
+    tabsId,
+    inventoryId,
+    previewId,
+    nameTooltipId,
+    descTooltipId
+  } = config;
+
+  const tabsContainer = document.getElementById(tabsId);
+  const inventory = document.getElementById(inventoryId);
+  const preview = document.getElementById(previewId);
+  const nameTooltip = document.getElementById(nameTooltipId);
+  const descTooltip = document.getElementById(descTooltipId);
 
   if (!tabsContainer || !inventory || !preview || !nameTooltip || !descTooltip) {
     return;
   }
 
-  if (!URIEL_CRAFTING_RECIPES.length) {
+  if (!recipes.length) {
     tabsContainer.innerHTML = "";
     inventory.innerHTML = "";
     return;
@@ -293,7 +398,7 @@ function initUrielCrafting() {
   }
 
   function setActiveRecipe(recipeId) {
-    const activeRecipe = URIEL_CRAFTING_RECIPES.find((recipe) => recipe.id === recipeId) ?? URIEL_CRAFTING_RECIPES[0];
+    const activeRecipe = recipes.find((recipe) => recipe.id === recipeId) ?? recipes[0];
 
     tabsContainer.querySelectorAll(".soulforge__tab").forEach((button) => {
       const isActive = button.dataset.recipeId === activeRecipe.id;
@@ -306,7 +411,7 @@ function initUrielCrafting() {
 
   tabsContainer.innerHTML = "";
 
-  URIEL_CRAFTING_RECIPES.forEach((recipe, index) => {
+  recipes.forEach((recipe, index) => {
     const button = document.createElement("button");
     button.type = "button";
     button.className = "soulforge__tab";
@@ -324,7 +429,23 @@ function initUrielCrafting() {
     tabsContainer.appendChild(button);
   });
 
-  setActiveRecipe(URIEL_CRAFTING_RECIPES[0].id);
+  setActiveRecipe(recipes[0].id);
 }
 
-initUrielCrafting();
+initCraftingSection({
+  recipes: URIEL_CRAFTING_RECIPES,
+  tabsId: "urielForgeTabs",
+  inventoryId: "urielForgeInventory",
+  previewId: "urielForgePreview",
+  nameTooltipId: "urielForgeNameTooltip",
+  descTooltipId: "urielForgeDescTooltip"
+});
+
+initCraftingSection({
+  recipes: KOWAL_CRAFTING_RECIPES,
+  tabsId: "kowalForgeTabs",
+  inventoryId: "kowalForgeInventory",
+  previewId: "kowalForgePreview",
+  nameTooltipId: "kowalForgeNameTooltip",
+  descTooltipId: "kowalForgeDescTooltip"
+});

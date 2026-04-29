@@ -78,6 +78,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <li class='section_17'><a href="#section_17" class='item-content'><span>Maksymalny Poziom</span></a></li>
 <li class='section_18'><a href="#section_18" class='item-content'><span>Małżeństwo</span></a></li>
 <li class='section_22'><a href="#section_22" class='item-content'><span>Wzmocnienia - Osełki</span></a></li>
+<li class='section_48'><a href="#section_48" class='item-content'><span>Zielarstwo</span></a></li>
 <li class='section_24'><a href="#section_24" class='item-content'><span>Wytwarzanie</span></a></li>
 <li class='section_35'><a href="#section_35" class='item-content'><span>Misje</span></a></li>
 <li class='section_21'><a href="#section_21" class='item-content'><span>Sety Itemów</span></a></li>
@@ -86,7 +87,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <li class='section_47'><a href="#section_47" class='item-content'><span>Zmiany Gameplayowe</span></a></li>
 <li class='section_42'><a href="#section_42" class='item-content'><span>Ankiety</span></a></li>
 <li class='section_43'><a href="#section_43" class='item-content'><span>Aktualizacje</span></a></li>
-<li class='section_44'><a href="#section_44" class='item-content'><span>Item-Shop</span></a></li>
 <li class='section_36'><a href="#section_36" class='item-content'><span>FAQ</span></a></li>
 <li class='section_37'><a href="#section_37" class='item-content'><span>Słowa Końcowe</span></a></li>
 
@@ -1286,6 +1286,35 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </tbody>
     </table>
     </div>
+    <h1></h1>
+    <h3 class="req-title">Szczegóły rozwoju jeździectwa</h3>
+    <div class="guild-progress horse-progress" data-horse-progress>
+      <div class="guild-progress__stage">
+        <article class="guild-progress__card">
+          <div class="guild-progress__summary">
+            <div class="guild-progress__summary-block">
+              <p class="guild-progress__summary-line"><span class="guild-progress__eyebrow">Poziom jeździectwa</span> <strong id="horseProgressLevel">1</strong></p>
+            </div>
+
+            <div class="guild-progress__bottle-box horse-progress__material-box">
+              <span class="guild-progress__eyebrow">Wymagany poziom postaci</span>
+              <p class="horse-progress__material-value" id="horseProgressLevelReq">1-35</p>
+            </div>
+          </div>
+
+          <div class="guild-progress__bonuses">
+            <span class="guild-progress__eyebrow">Bonusy na tym poziomie</span>
+            <ul class="guild-progress__bonus-list" id="horseProgressBonusList"></ul>
+            <p class="guild-progress__empty" id="horseProgressEmpty" hidden>Brak dodatkowych bonusów na tym poziomie.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="guild-progress__jump">
+        <label class="guild-progress__label" for="horseProgressButtons">Przejdź do poziomu</label>
+        <div class="guild-progress__level-buttons" id="horseProgressButtons" aria-label="Szybki wybór poziomu jeździectwa"></div>
+      </div>
+    </div>
 
     <h1></h1>
     <h3 class="req-title">
@@ -1382,14 +1411,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       Koszt wytworzenia: <span>2 000 000 Yang</span><br>
       Szansa na pomyślne wytworzenie: <span>100%</span>
     </p>
-    <h1></h1>
-    <h3 class="req-title">Bonusy na maksymalnym poziomie</h3>
-    <ul class="list-reset">
-      <li>+1000 PŻ</li>
-      <li>Silny przeciwko Potworom +25</li>
-      <li>Wartość Ataku +200</li>
-      <li>Obrona +50</li>
-    </ul>
   </div>
 
   <!--  Umiejętności pasywne -->
@@ -2448,6 +2469,91 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
   </div>
 
+  <div class="section" id="section_48">
+    <h1><img src="prez/zielarstwo.png" alt="Zielarstwo"></h1>
+
+    <div class="herbalism-section">
+      <h3 class="req-title">Soki</h3>
+      <div class="table-scroll herbalism-table-wrap">
+        <table class="drop-table herbalism-table">
+          <thead>
+            <tr>
+              <th>Ikona</th>
+              <th>Przedmiot</th>
+              <th>Wymagane przedmioty</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><div class="belt-frame item-slot herbalism-slot"><img src="zielarstwo/Sok_Z_Kwiatu_Brzoskwini.png" alt="Sok Z Kwiatu Brzoskwini"></div></td>
+              <td>Sok Z Kwiatu Brzoskwini (x1)</td>
+              <td><div class="herbalism-req-list"><div class="herbalism-req-item"><span class="herbalism-req-count">x1</span><div class="belt-frame item-slot herbalism-slot"><img src="zielarstwo/Kwiat_Brzoskwini.png" alt="Kwiat Brzoskwini"></div><span>Kwiat Brzoskwini</span></div></div></td>
+            </tr>
+            <tr>
+              <td><div class="belt-frame item-slot herbalism-slot"><img src="zielarstwo/Sok_Z_Pokrzywy.png" alt="Sok Z Pokrzywy"></div></td>
+              <td>Sok Z Pokrzywy (x1)</td>
+              <td><div class="herbalism-req-list"><div class="herbalism-req-item"><span class="herbalism-req-count">x1</span><div class="belt-frame item-slot herbalism-slot"><img src="zielarstwo/Pokrzywa.png" alt="Pokrzywa"></div><span>Pokrzywa</span></div></div></td>
+            </tr>
+            <tr>
+              <td><div class="belt-frame item-slot herbalism-slot"><img src="zielarstwo/Sok_Z_Kwiatu_Kaki.png" alt="Sok Z Kwiatu Kaki"></div></td>
+              <td>Sok Z Kwiatu Kaki (x100)</td>
+              <td><div class="herbalism-req-list"><div class="herbalism-req-item"><span class="herbalism-req-count">x1</span><div class="belt-frame item-slot herbalism-slot"><img src="zielarstwo/Kwiat_Kaki.png" alt="Kwiat Kaki"></div><span>Kwiat Kaki</span></div></div></td>
+            </tr>
+            <tr>
+              <td><div class="belt-frame item-slot herbalism-slot"><img src="zielarstwo/Sok_Z_Korzenia_Gango.png" alt="Sok Z Korzenia Gango"></div></td>
+              <td>Sok Z Korzenia Gango (x100)</td>
+              <td><div class="herbalism-req-list"><div class="herbalism-req-item"><span class="herbalism-req-count">x1</span><div class="belt-frame item-slot herbalism-slot"><img src="zielarstwo/Korzeń_Gango.png" alt="Korzeń Gango"></div><span>Korzeń Gango</span></div></div></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3 class="req-title">Wody</h3>
+      <div class="table-scroll herbalism-table-wrap">
+        <table class="drop-table herbalism-table">
+          <thead>
+            <tr>
+              <th>Ikona</th>
+              <th>Przedmiot</th>
+              <th>Wymagane przedmioty</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td><div class="belt-frame item-slot herbalism-slot"><img src="zielarstwo/Woda_Bo.png" alt="Woda Bo"></div></td><td>Woda Bo (x100)</td><td><div class="herbalism-req-list"><div class="herbalism-req-item"><span class="herbalism-req-count">x100</span><div class="belt-frame item-slot herbalism-slot"><img src="zielarstwo/Sok_Z_Kwiatu_Kaki.png" alt="Sok Z Kwiatu Kaki"></div><span>Sok Z Kwiatu Kaki</span></div><div class="herbalism-req-item"><span class="herbalism-req-count">x1</span><div class="belt-frame item-slot herbalism-slot"><img src="zielarstwo/Grzyb_Tue.png" alt="Grzyb Tue"></div><span>Grzyb Tue</span></div></div></td></tr>
+            <tr><td><div class="belt-frame item-slot herbalism-slot"><img src="zielarstwo/Woda_Dok.png" alt="Woda Dok"></div></td><td>Woda Dok (x1)</td><td><div class="herbalism-req-list"><div class="herbalism-req-item"><span class="herbalism-req-count">x1</span><div class="belt-frame item-slot herbalism-slot"><img src="zielarstwo/Sok_Z_Pokrzywy.png" alt="Sok Z Pokrzywy"></div><span>Sok Z Pokrzywy</span></div><div class="herbalism-req-item"><span class="herbalism-req-count">x1</span><div class="belt-frame item-slot herbalism-slot"><img src="zielarstwo/Bez.png" alt="Bez"></div><span>Bez</span></div></div></td></tr>
+            <tr><td><div class="belt-frame item-slot herbalism-slot"><img src="zielarstwo/Woda_Hwal.png" alt="Woda Hwal"></div></td><td>Woda Hwal (x1)</td><td><div class="herbalism-req-list"><div class="herbalism-req-item"><span class="herbalism-req-count">x100</span><div class="belt-frame item-slot herbalism-slot"><img src="zielarstwo/Woda_Young.png" alt="Woda Young"></div><span>Woda Young</span></div><div class="herbalism-req-item"><span class="herbalism-req-count">x1</span><div class="belt-frame item-slot herbalism-slot"><img src="zielarstwo/Morwa.png" alt="Morwa"></div><span>Morwa</span></div></div></td></tr>
+            <tr><td><div class="belt-frame item-slot herbalism-slot"><img src="zielarstwo/Woda_Mong.png" alt="Woda Mong"></div></td><td>Woda Mong (x1)</td><td><div class="herbalism-req-list"><div class="herbalism-req-item"><span class="herbalism-req-count">x100</span><div class="belt-frame item-slot herbalism-slot"><img src="zielarstwo/Woda_Bo.png" alt="Woda Bo"></div><span>Woda Bo</span></div><div class="herbalism-req-item"><span class="herbalism-req-count">x1</span><div class="belt-frame item-slot herbalism-slot"><img src="zielarstwo/Morwa.png" alt="Morwa"></div><span>Morwa</span></div></div></td></tr>
+            <tr><td><div class="belt-frame item-slot herbalism-slot"><img src="zielarstwo/Woda_Sam-Bo.png" alt="Woda Sam-Bo"></div></td><td>Woda Sam-Bo (x1)</td><td><div class="herbalism-req-list"><div class="herbalism-req-item"><span class="herbalism-req-count">x1</span><div class="belt-frame item-slot herbalism-slot"><img src="zielarstwo/Woda_Dok.png" alt="Woda Dok"></div><span>Woda Dok</span></div><div class="herbalism-req-item"><span class="herbalism-req-count">x1</span><div class="belt-frame item-slot herbalism-slot"><img src="zielarstwo/Róża_Alpejska.png" alt="Róża Alpejska"></div><span>Róża Alpejska</span></div></div></td></tr>
+            <tr><td><div class="belt-frame item-slot herbalism-slot"><img src="zielarstwo/Woda_Sim.png" alt="Woda Sim"></div></td><td>Woda Sim (x1)</td><td><div class="herbalism-req-list"><div class="herbalism-req-item"><span class="herbalism-req-count">x1</span><div class="belt-frame item-slot herbalism-slot"><img src="zielarstwo/Sok_Z_Kwiatu_Brzoskwini.png" alt="Sok Z Kwiatu Brzoskwini"></div><span>Sok Z Kwiatu Brzoskwini</span></div><div class="herbalism-req-item"><span class="herbalism-req-count">x1</span><div class="belt-frame item-slot herbalism-slot"><img src="zielarstwo/Bez.png" alt="Bez"></div><span>Bez</span></div></div></td></tr>
+            <tr><td><div class="belt-frame item-slot herbalism-slot"><img src="zielarstwo/Woda_Young.png" alt="Woda Young"></div></td><td>Woda Young (x100)</td><td><div class="herbalism-req-list"><div class="herbalism-req-item"><span class="herbalism-req-count">x100</span><div class="belt-frame item-slot herbalism-slot"><img src="zielarstwo/Sok_Z_Korzenia_Gango.png" alt="Sok Z Korzenia Gango"></div><span>Sok Z Korzenia Gango</span></div><div class="herbalism-req-item"><span class="herbalism-req-count">x1</span><div class="belt-frame item-slot herbalism-slot"><img src="zielarstwo/Grzyb_Tue.png" alt="Grzyb Tue"></div><span>Grzyb Tue</span></div></div></td></tr>
+            <tr><td><div class="belt-frame item-slot herbalism-slot"><img src="zielarstwo/Woda_Zin.png" alt="Woda Zin"></div></td><td>Woda Zin (x1)</td><td><div class="herbalism-req-list"><div class="herbalism-req-item"><span class="herbalism-req-count">x1</span><div class="belt-frame item-slot herbalism-slot"><img src="zielarstwo/Woda_Sim.png" alt="Woda Sim"></div><span>Woda Sim</span></div><div class="herbalism-req-item"><span class="herbalism-req-count">x1</span><div class="belt-frame item-slot herbalism-slot"><img src="zielarstwo/Róża_Alpejska.png" alt="Róża Alpejska"></div><span>Róża Alpejska</span></div></div></td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3 class="req-title">Rosy</h3>
+      <div class="table-scroll herbalism-table-wrap">
+        <table class="drop-table herbalism-table">
+          <thead>
+            <tr>
+              <th>Ikona</th>
+              <th>Przedmiot</th>
+              <th>Wymagane przedmioty</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td><div class="belt-frame item-slot herbalism-slot"><img src="zielarstwo/Biała_Rosa.png" alt="Biała Rosa"></div></td><td>Biała Rosa (x10)</td><td><div class="herbalism-req-list"><div class="herbalism-req-item"><span class="herbalism-req-count">x20</span><div class="belt-frame item-slot herbalism-slot"><img src="zielarstwo/Woda_Sam-Bo.png" alt="Woda Sam-Bo"></div><span>Woda Sam-Bo</span></div><div class="herbalism-req-item"><span class="herbalism-req-count">x10</span><div class="belt-frame item-slot herbalism-slot"><img src="zielarstwo/Pusta_Butelka.png" alt="Pusta Butelka"></div><span>Pusta Butelka</span></div></div></td></tr>
+            <tr><td><div class="belt-frame item-slot herbalism-slot"><img src="zielarstwo/Czerwona_Rosa.png" alt="Czerwona Rosa"></div></td><td>Czerwona Rosa (x10)</td><td><div class="herbalism-req-list"><div class="herbalism-req-item"><span class="herbalism-req-count">x20</span><div class="belt-frame item-slot herbalism-slot"><img src="zielarstwo/Woda_Dok.png" alt="Woda Dok"></div><span>Woda Dok</span></div><div class="herbalism-req-item"><span class="herbalism-req-count">x10</span><div class="belt-frame item-slot herbalism-slot"><img src="zielarstwo/Pusta_Butelka.png" alt="Pusta Butelka"></div><span>Pusta Butelka</span></div></div></td></tr>
+            <tr><td><div class="belt-frame item-slot herbalism-slot"><img src="zielarstwo/Niebieska_Rosa.png" alt="Niebieska Rosa"></div></td><td>Niebieska Rosa (x10)</td><td><div class="herbalism-req-list"><div class="herbalism-req-item"><span class="herbalism-req-count">x20</span><div class="belt-frame item-slot herbalism-slot"><img src="zielarstwo/Woda_Zin.png" alt="Woda Zin"></div><span>Woda Zin</span></div><div class="herbalism-req-item"><span class="herbalism-req-count">x10</span><div class="belt-frame item-slot herbalism-slot"><img src="zielarstwo/Pusta_Butelka.png" alt="Pusta Butelka"></div><span>Pusta Butelka</span></div></div></td></tr>
+            <tr><td><div class="belt-frame item-slot herbalism-slot"><img src="zielarstwo/Pomarańczowa_Rosa.png" alt="Pomarańczowa Rosa"></div></td><td>Pomarańczowa Rosa (x10)</td><td><div class="herbalism-req-list"><div class="herbalism-req-item"><span class="herbalism-req-count">x20</span><div class="belt-frame item-slot herbalism-slot"><img src="zielarstwo/Woda_Sim.png" alt="Woda Sim"></div><span>Woda Sim</span></div><div class="herbalism-req-item"><span class="herbalism-req-count">x10</span><div class="belt-frame item-slot herbalism-slot"><img src="zielarstwo/Pusta_Butelka.png" alt="Pusta Butelka"></div><span>Pusta Butelka</span></div></div></td></tr>
+            <tr><td><div class="belt-frame item-slot herbalism-slot"><img src="zielarstwo/Zielona_Rosa.png" alt="Zielona Rosa"></div></td><td>Zielona Rosa (x10)</td><td><div class="herbalism-req-list"><div class="herbalism-req-item"><span class="herbalism-req-count">x20</span><div class="belt-frame item-slot herbalism-slot"><img src="zielarstwo/Woda_Mong.png" alt="Woda Mong"></div><span>Woda Mong</span></div><div class="herbalism-req-item"><span class="herbalism-req-count">x10</span><div class="belt-frame item-slot herbalism-slot"><img src="zielarstwo/Pusta_Butelka.png" alt="Pusta Butelka"></div><span>Pusta Butelka</span></div></div></td></tr>
+            <tr><td><div class="belt-frame item-slot herbalism-slot"><img src="zielarstwo/Żółta_Rosa.png" alt="Żółta Rosa"></div></td><td>Żółta Rosa (x10)</td><td><div class="herbalism-req-list"><div class="herbalism-req-item"><span class="herbalism-req-count">x20</span><div class="belt-frame item-slot herbalism-slot"><img src="zielarstwo/Woda_Hwal.png" alt="Woda Hwal"></div><span>Woda Hwal</span></div><div class="herbalism-req-item"><span class="herbalism-req-count">x10</span><div class="belt-frame item-slot herbalism-slot"><img src="zielarstwo/Pusta_Butelka.png" alt="Pusta Butelka"></div><span>Pusta Butelka</span></div></div></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
   <!-- Wytwarzanie -->
   <div class="section" id="section_24">
     <h1><img src="prez/wytwarzanie.png"></h1>
@@ -2518,6 +2624,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </aside>
       </div>
     </div>
+    <div class="spacer-15"></div>
     <h1></h1>
     <h3 class="req-title">KAMIENIE DUSZY +5</h3>
     <h1></h1>
@@ -2569,6 +2676,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
 
     </div>
+    <div class="spacer-15"></div>
     <h1></h1>
     <h3 class="req-title">CRAFTING U URIELA</h3>
     <h1></h1>
@@ -2603,6 +2711,44 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </aside>
       </div>
     </div>
+
+    <div class="spacer-15"></div>
+    <h1></h1>
+    <h3 class="req-title">CRAFTING U KOWALA</h3>
+    <h1></h1>
+    <div class="soulforge urielforge">
+      <div class="soulforge__intro">
+        <p class="essence-panel__lead">
+          Poniższe przedmioty wytwarzamy u <strong>Kowala</strong>. Wybierz interesujący Cię przedmiot z listy,
+          aby sprawdzić wymagane materiały oraz rezultat craftingu.
+        </p>
+      </div>
+
+      <div class="soulforge__tabs" id="kowalForgeTabs" aria-label="Przedmioty craftingu u Kowala"></div>
+
+      <div class="soulforge__craft">
+        <div class="soulforge__formula">
+          <p class="soulforge__eyebrow">Wymagane materiały</p>
+          <div class="soulforge__materials" id="kowalForgeInventory"></div>
+        </div>
+
+        <div class="soulforge__arrow" aria-hidden="true">&rarr;</div>
+
+        <aside class="soulforge__result">
+          <p class="soulforge__eyebrow">Efekt craftingu</p>
+
+          <div class="soulforge__artifact belt-frame item-slot">
+            <img id="kowalForgePreview" src="https://img.m2icondb.com/50200.png" alt="Przykładowy przedmiot Kowala">
+            <div class="item-tooltip soulforge__tooltip">
+              <h4 id="kowalForgeNameTooltip">Przykładowy przedmiot Kowala</h4>
+              <p id="kowalForgeDescTooltip">Tutaj pojawi się opis rezultatu craftingu.</p>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+
+    <div class="spacer-15"></div>
     <h1></h1>
     <h3 class="req-title">WYMIANA U YONAH</h3>
     <h1></h1>
@@ -2629,7 +2775,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
     </div>
     <!-- lniany pas -->
-     <h1></h1>
+
+    <div class="spacer-15"></div>
+      <h1></h1>
       <h3 class="req-title">Pozyskanie pasów</h3>
       <h1></h1>
       <p class="paragraf">
@@ -2757,8 +2905,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </details>
         </div>
       </div>
+      <div class="spacer-15"></div>
       <h1></h1>
       <h3 class="req-title">Ulepszanie pasów</h3>
+      <h1></h1>
       <!-- Ulepszanie pasow -->
       <p class="paragraf">
         Pasy będziemy mogli przerobić na dalszy poziom.<br>
@@ -3608,6 +3758,32 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </table>
       </div>
     </details>
+    <details class="gameplay-changes-details">
+      <summary>Zawężono rozstrzał wartości podczas produkcji Ros</summary>
+      <div class="gameplay-changes-table-wrap">
+        <p class="gameplay-changes-table__note">
+          Wprowadziliśmy bardziej przewidywalne wyniki podczas produkcji Ros, aby ograniczyć skrajne odchylenia i ułatwić ich wytwarzanie.
+        </p>
+        <table class="gameplay-changes-table">
+          <thead>
+            <tr>
+              <th>Zakres zmiany</th>
+              <th>Nowa wartość</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Nowy przedział czasowy</td>
+              <td>3 min, 5 min, 10 min</td>
+            </tr>
+            <tr>
+              <td>Przedział wartości efektów</td>
+              <td>Zawężony z 5 do 4</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </details>
   </div>
 
   <!-- Ankiety -->
@@ -4193,7 +4369,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <img src="https://pub-05243780335c463c92941126f1c5e19d.r2.dev/b3.png" alt="Banner" class="main__photo--background el_section_34">
 <img src="https://pub-05243780335c463c92941126f1c5e19d.r2.dev/b2.png" alt="Banner" class="main__photo--background el_section_16">
 <img src="https://pub-05243780335c463c92941126f1c5e19d.r2.dev/b5.png" alt="Banner" class="main__photo--background el_section_17 el_section_18">
-<img src="https://pub-05243780335c463c92941126f1c5e19d.r2.dev/b8.png" alt="Banner" class="main__photo--background el_section_22 el_section_24">
+<img src="https://pub-05243780335c463c92941126f1c5e19d.r2.dev/b8.png" alt="Banner" class="main__photo--background el_section_22 el_section_24 el_section_48">
 <img src="https://pub-05243780335c463c92941126f1c5e19d.r2.dev/b9.png" alt="Banner" class="main__photo--background el_section_35">
 <img src="https://pub-05243780335c463c92941126f1c5e19d.r2.dev/b1.png" alt="Banner" class="main__photo--background el_section_21">
 <img src="https://pub-05243780335c463c92941126f1c5e19d.r2.dev/b7.png" alt="Banner" class="main__photo--background el_section_36 el_section_39 el_section_42 el_section_43 el_section_45 el_section_46 el_section_47">
