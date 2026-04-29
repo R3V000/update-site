@@ -888,9 +888,9 @@ const guildProgressData = [
     bottles: 1200,
     bonuses: [
       "Max PŻ +2000",
-      "Silny przeciwko Ludziom +20%",
-      "Odporność na Ludzi 5%",
-      "Silny przeciwko Potworom +10%",
+      "Silny przeciwko Ludziom +25%",
+      "Odporność na Ludzi 6%",
+      "Silny przeciwko Potworom +12%",
       "Punkty Doświadczenia +20%",
       "Szansa na podwójną ilość Yang +10%"
     ]
