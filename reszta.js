@@ -654,6 +654,200 @@ function initAdminSlider() {
 
 initAdminSlider();
 
+function initClassChangesTabs() {
+  const root = document.querySelector("[data-class-changes]");
+
+  if (!root) {
+    return;
+  }
+
+  const tabs = Array.from(root.querySelectorAll("[data-class-tab]"));
+  const panels = Array.from(root.querySelectorAll("[data-class-panel]"));
+
+  if (!tabs.length || !panels.length) {
+    return;
+  }
+
+  function setActiveClass(classId) {
+    tabs.forEach((tab) => {
+      const isActive = tab.dataset.classTab === classId;
+      tab.classList.toggle("is-active", isActive);
+      tab.setAttribute("aria-selected", isActive ? "true" : "false");
+      tab.tabIndex = isActive ? 0 : -1;
+    });
+
+    panels.forEach((panel) => {
+      const isActive = panel.dataset.classPanel === classId;
+      panel.classList.toggle("is-active", isActive);
+      panel.hidden = !isActive;
+    });
+  }
+
+  tabs.forEach((tab, index) => {
+    tab.addEventListener("click", () => {
+      setActiveClass(tab.dataset.classTab);
+    });
+
+    tab.addEventListener("keydown", (event) => {
+      if (event.key !== "ArrowLeft" && event.key !== "ArrowRight") {
+        return;
+      }
+
+      event.preventDefault();
+      const direction = event.key === "ArrowRight" ? 1 : -1;
+      const nextIndex = (index + direction + tabs.length) % tabs.length;
+      tabs[nextIndex].focus();
+      setActiveClass(tabs[nextIndex].dataset.classTab);
+    });
+  });
+
+  const modal = document.getElementById("classChangesModal");
+  const modalTitle = document.getElementById("classChangesModalTitle");
+  const modalBody = modal ? modal.querySelector("[data-class-modal-body]") : null;
+  const modalClose = modal ? modal.querySelector(".class-changes-modal__close") : null;
+  const modalBackdrop = modal ? modal.querySelector(".class-changes-modal__backdrop") : null;
+  const modalTriggers = Array.from(root.querySelectorAll("[data-class-modal-trigger]"));
+  let activeModalTrigger = null;
+
+  function renderSkillDescription(description, skill) {
+    description.replaceChildren();
+
+    const title = document.createElement("h4");
+    title.className = "class-skill-description__title";
+    title.textContent = skill.name;
+
+    const grade = document.createElement("p");
+    grade.className = "class-skill-description__grade";
+    grade.textContent = skill.grade || "Opis umiejętności";
+
+    const lines = document.createElement("div");
+    lines.className = "class-skill-description__lines";
+
+    (skill.lines || []).forEach((line) => {
+      const item = document.createElement("p");
+      item.textContent = line;
+      lines.append(item);
+    });
+
+    description.append(title, grade, lines);
+  }
+
+  function buildClassSkillView(classId) {
+    const skills = window.MONASTYR_CLASS_SKILLS ? window.MONASTYR_CLASS_SKILLS[classId] : null;
+
+    if (!skills || !skills.length) {
+      return null;
+    }
+
+    const wrapper = document.createElement("div");
+    wrapper.className = "class-skills";
+
+    const list = document.createElement("div");
+    list.className = "class-skills__grid";
+    list.setAttribute("aria-label", "Umiejętności profesji");
+
+    skills.forEach((skill) => {
+      const card = document.createElement("article");
+      card.className = "class-skill-card";
+
+      const image = document.createElement("img");
+      image.src = skill.icon;
+      image.alt = skill.name;
+      image.loading = "lazy";
+
+      const title = document.createElement("h4");
+      title.className = "class-skill-card__title";
+      title.textContent = skill.name;
+
+      const lines = document.createElement("div");
+      lines.className = "class-skill-card__description";
+
+      (skill.lines || []).forEach((line) => {
+        const item = document.createElement("p");
+        item.textContent = line;
+        lines.append(item);
+      });
+
+      card.append(image, title, lines);
+      list.append(card);
+    });
+
+    wrapper.append(list);
+
+    return wrapper;
+  }
+
+  function closeClassModal() {
+    if (!modal) {
+      return;
+    }
+
+    modal.hidden = true;
+    document.body.classList.remove("scroll_block");
+
+    if (modalBody) {
+      modalBody.replaceChildren();
+    }
+
+    if (activeModalTrigger) {
+      activeModalTrigger.focus();
+      activeModalTrigger = null;
+    }
+  }
+
+  function openClassModal(trigger) {
+    if (!modal || !modalTitle || !modalBody) {
+      return;
+    }
+
+    const classId = trigger.dataset.classModalTrigger;
+    const template = root.querySelector(`[data-class-modal-template="${classId}"]`);
+    const panel = trigger.closest("[data-class-panel]");
+    const title = panel ? panel.querySelector(".req-title") : null;
+
+    activeModalTrigger = trigger;
+    modalTitle.textContent = title ? title.textContent.trim() : "Szczegółowe zmiany";
+    const skillView = buildClassSkillView(classId);
+
+    if (skillView) {
+      modalBody.replaceChildren(skillView);
+    } else if (template) {
+      modalBody.replaceChildren(template.content.cloneNode(true));
+    } else {
+      return;
+    }
+    modal.hidden = false;
+    document.body.classList.add("scroll_block");
+
+    if (modalClose) {
+      modalClose.focus();
+    }
+  }
+
+  modalTriggers.forEach((trigger) => {
+    trigger.addEventListener("click", () => openClassModal(trigger));
+  });
+
+  if (modalClose) {
+    modalClose.addEventListener("click", closeClassModal);
+  }
+
+  if (modalBackdrop) {
+    modalBackdrop.addEventListener("click", closeClassModal);
+  }
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && modal && !modal.hidden) {
+      closeClassModal();
+    }
+  });
+
+  const activeTab = tabs.find((tab) => tab.classList.contains("is-active")) || tabs[0];
+  setActiveClass(activeTab.dataset.classTab);
+}
+
+initClassChangesTabs();
+
 const guildProgressData = [
   {
     level: 1,
@@ -4155,7 +4349,7 @@ const utilityItemsDataV2 = [
       { icon: "lokacje/tuyoung.png", name: "Metin Tu-Young" },
       { icon: "lokacje/jeonun.png", name: "Metin Jeon-Un" },
       { icon: "lokacje/grotav1.png", name: "Metin Próżności (Grota V1)" },
-      { icon: "lokacje/grotav2.png", name: "Metin Ignatora (Grota V2)" },
+      { icon: "lokacje/grotav2.png", name: "Metin Gniewu (Grota V2)" },
       { icon: "lokacje/wawoz.png", name: "Metin Mroku" },
       { icon: "https://img.m2icondb.com/boss_box.png", name: "Szkatułka Wodza Orków" },
       { icon: "https://img.m2icondb.com/boss_box.png", name: "Szkatułka Pustynnego Żółwia" },

@@ -56,6 +56,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <li class='section_3'><a href="#section_3" class='item-content'><span>Start Serwera</span></a></li>
 <li class='section_4'><a href="#section_4" class='item-content'><span>Informacje</span></a></li>
 <li class='section_5'><a href="#section_5" class='item-content'><span>Administracja</span></a></li>
+<li class='section_50'><a href="#section_50" class='item-content'><span>Item_Shop</span></a></li>
+<li class='section_49'><a href="#section_49" class='item-content'><span>Zmiany w klasach</span></a></li>
 <li class='section_30'><a href="#section_30" class='item-content'><span>System Farm-Block</span></a></li>
 <li class='section_7'><a href="#section_7" class='item-content'><span>Panel Boczny</span></a></li>
 <li class='section_41'><a href="#section_41" class='item-content'><span>Shopy Offline</span></a></li>
@@ -129,7 +131,26 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- Start serwera -->
   <div class="section" id="section_3">
     <h1><img src="prez/start.png" alt="start" ></h1>
-    <h3 class="req-title">DATA STARTU ZOSTANIE OGŁOSZONA PO <BR> BETA TESTACH SERWERA</h3>
+    <div class="server-start-info">
+      <h3 class="req-title server-start-info__lead">OFICJALNY START 23.05.2026 - 18:00</h3>
+      <p class="server-start-info__pre-registration">
+        Sprawdź jak wygląda rozgrywka rejestrując się na <strong>OTWARTĄ BETE</strong>
+      </p>
+      <p class="server-start-info__register">
+        Rejestracja:
+        <a href="https://monastyr2.pl/register.html?ref=Prezentacja" class="server-start-info__link" target="_blank" rel="noopener noreferrer">link rejestracyjny</a>.
+      </p>
+
+      <p class="server-start-info__register">
+        Pobierz:
+        <a href="https://monastyr2.pl/download.html" class="server-start-info__link" target="_blank" rel="noopener noreferrer">link do pobrania</a>.
+      </p>
+      
+      <p class="server-start-info__note">
+        Dane logowania utworzone przez ten link zostaną przeniesione na oficjalny start, a przypisane konta otrzymają
+        <strong class="text-gold">Pakiet VIP 3 dni</strong>.
+      </p>
+    </div>
   </div>
 
   <!--  Informacje -->
@@ -210,6 +231,295 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <img class="client-entry-showcase__image" src="img/klient-character.png" alt="Ekran wyboru postaci klienta gry">
       </button>
     </figure>
+  </div>
+
+  <div class="section section-break item-shop-section" id="section_50">
+    <h1><img src="prez/item-shop-header.png" alt="Item-Shop"></h1>
+
+    <p class="item-shop-intro">
+      Item-Shop został przygotowany w formie interaktywnej.
+    </p>
+
+    <div class="item-shop-stage" data-item-shop>
+      <p class="item-shop-loading">Ładowanie Item-Shopu...</p>
+    </div>
+  </div>
+
+  <div class="section section-break class-changes-section" id="section_49">
+    <h1><img src="klasy/zmiany.png" alt="Zmiany w klasach"></h1>
+
+    <p class="class-changes-intro">
+      Na Monastyr2 zaszły zmiany w balansie klas. Główne korekty opierają się na logice przeliczania statystyk na zmianę zadawanych obrażeń oraz wartości ataku u postaci.
+    </p>
+
+    <div class="class-changes" data-class-changes>
+      <div class="class-changes-tabs" id="classChangesMenu" role="tablist" aria-label="Wybór profesji postaci">
+        <button class="class-changes-tab is-active" type="button" role="tab" id="classTabWarriorBody" aria-controls="classPanelWarriorBody" aria-selected="true" data-class-tab="warrior-body">Wojownik Body</button>
+        <button class="class-changes-tab" type="button" role="tab" id="classTabWarriorMental" aria-controls="classPanelWarriorMental" aria-selected="false" data-class-tab="warrior-mental">Wojownik Mental</button>
+        <button class="class-changes-tab" type="button" role="tab" id="classTabNinjaDagger" aria-controls="classPanelNinjaDagger" aria-selected="false" data-class-tab="ninja-dagger">Ninja Dagger</button>
+        <button class="class-changes-tab" type="button" role="tab" id="classTabNinjaArcher" aria-controls="classPanelNinjaArcher" aria-selected="false" data-class-tab="ninja-archer">Ninja Archer</button>
+        <button class="class-changes-tab" type="button" role="tab" id="classTabSuraWeapon" aria-controls="classPanelSuraWeapon" aria-selected="false" data-class-tab="sura-weapon">Sura WP</button>
+        <button class="class-changes-tab" type="button" role="tab" id="classTabSuraMagic" aria-controls="classPanelSuraMagic" aria-selected="false" data-class-tab="sura-magic">Sura BM</button>
+        <button class="class-changes-tab" type="button" role="tab" id="classTabShamanDragon" aria-controls="classPanelShamanDragon" aria-selected="false" data-class-tab="shaman-dragon">Szaman Smok</button>
+        <button class="class-changes-tab" type="button" role="tab" id="classTabShamanHeal" aria-controls="classPanelShamanHeal" aria-selected="false" data-class-tab="shaman-heal">Szaman Healer</button>
+      </div>
+
+      <div class="class-changes-content" data-class-changes-content>
+        <div class="class-changes-panels" id="classChangesPanels">
+          <article class="class-changes-panel is-active" id="classPanelWarriorBody" role="tabpanel" aria-labelledby="classTabWarriorBody" data-class-panel="warrior-body">
+            <h3 class="req-title">Wojownik Body</h3>
+
+            <div class="class-stat-strip">
+              <span>Główna statystyka: <strong>Siła</strong></span>
+              <span>Poboczna statystyka: <strong>Zręczność</strong></span>
+            </div>
+
+            <p class="class-changes-summary">
+              Zmiany w Wojowniku Body zostały wprowadzone w taki sposób, aby utrzymać jego dominację pod względem zadawanych obrażeń względem pozostałych klas.
+            </p>
+
+            <p class="class-changes-summary">
+              Poprawiliśmy przeliczanie statystyk, opierając potencjał postaci głównie na Sile, natomiast Zręczność pełni teraz rolę statystyki pobocznej, której potencjał Wojownik Body najlepiej wykorzystuje podczas walki na wierzchowcu - tam jej skalowanie działa najefektywniej.
+            </p>
+
+            <button class="class-changes-modal-button" type="button" data-class-modal-trigger="warrior-body">Zobacz szczegółowe zmiany umiejętności</button>
+
+            <template data-class-modal-template="warrior-body">
+              <ul class="class-modal-list">
+                <li>Zwiększono skalowanie z <strong>Aury Miecza</strong>.</li>
+              </ul>
+              <div class="class-modal-copy">
+                <p><strong>Aura Miecza</strong> mocniej wpływa na potencjał ofensywny postaci. Zmiana wzmacnia naturalny kierunek rozwoju Body, w którym główną rolę odgrywa Siła.</p>
+                <p><strong>Poboczna statystyka</strong> oznacza statystykę wspierającą skalowanie postaci jako drugi parametr wpływający na jej skuteczność.</p>
+              </div>
+            </template>
+          </article>
+
+          <article class="class-changes-panel" id="classPanelWarriorMental" role="tabpanel" aria-labelledby="classTabWarriorMental" data-class-panel="warrior-mental" hidden>
+            <h3 class="req-title">Wojownik Mental</h3>
+
+            <div class="class-stat-strip">
+              <span>Główna statystyka: <strong>Siła</strong></span>
+              <span>Poboczna statystyka: <strong>Zręczność</strong></span>
+            </div>
+
+            <p class="class-changes-summary">
+              Zmiany w Wojowniku Mental zostały wprowadzone w taki sposób, aby klasa stała się znacznie bardziej grywalna również w PvE, jednocześnie zachowując swoją mocną pozycję w pojedynkach PvP.
+            </p>
+
+            <p class="class-changes-summary">
+              W związku z tym poprawiliśmy przeliczanie wybranych umiejętności oraz statystyk postaci. Wojownik Mental korzysta teraz głównie z Siły jako podstawowej statystyki, natomiast Zręczność pełni rolę statystyki pobocznej, której potencjał najlepiej wykorzystywany jest podczas walki na wierzchowcu - tam skalowanie działa najefektywniej.
+            </p>
+
+            <button class="class-changes-modal-button" type="button" data-class-modal-trigger="warrior-mental">Zobacz szczegółowe zmiany umiejętności</button>
+
+            <template data-class-modal-template="warrior-mental">
+              <ul class="class-modal-list">
+                <li>Dodano bonus <strong>Wartość Ataku PvE</strong> do <strong>Silnego Ciała</strong>.</li>
+                <li>Bonus skaluje się z poziomem umiejętności.</li>
+              </ul>
+              <div class="class-modal-copy">
+                <p><strong>Wartość Ataku PvE</strong> zwiększa skuteczność postaci przeciwko potworom, metinom i bossom bez bezpośredniego wzmacniania jej w starciach PvP.</p>
+                <p>Dodanie tego bonusu do <strong>Silnego Ciała</strong> ma poprawić komfort gry Mentalem w PvE, zachowując jego defensywny charakter.</p>
+              </div>
+            </template>
+          </article>
+
+          <article class="class-changes-panel" id="classPanelNinjaDagger" role="tabpanel" aria-labelledby="classTabNinjaDagger" data-class-panel="ninja-dagger" hidden>
+            <h3 class="req-title">Ninja Dagger</h3>
+
+            <div class="class-stat-strip">
+              <span>Główna statystyka: <strong>Zręczność</strong></span>
+              <span>Poboczna statystyka: <strong>Siła</strong></span>
+            </div>
+
+            <p class="class-changes-summary">
+              Zmiany u Ninjy zostały wprowadzone z myślą o zachowaniu jej wysokich obrażeń w polimorfii z łuku, ale jednocześnie chcieliśmy zwiększyć jej użyteczność podczas walki na wierzchowcu.
+            </p>
+
+            <p class="class-changes-summary">
+              Dlatego poprawiliśmy przeliczanie statystyk w taki sposób, aby Ninja mogła zadawać znacznie bardziej konkurencyjne obrażenia z jeździectwa względem pozostałych klas. Dzięki temu sztylety oraz miecz stały się realną i grywalną alternatywą wykorzystywaną w PvE.
+            </p>
+
+            <button class="class-changes-modal-button" type="button" data-class-modal-trigger="ninja-dagger">Zobacz szczegółowe zmiany umiejętności</button>
+
+            <template data-class-modal-template="ninja-dagger">
+              <ul class="class-modal-list">
+                <li>Nie wprowadzano zmian w umiejętnościach.</li>
+                <li>Poprawiono skalowanie statystyk <strong>Zręczność / Siła</strong>.</li>
+                <li>Zmiana ma pozwolić Ninji rywalizować z innymi klasami.</li>
+              </ul>
+              <div class="class-modal-copy">
+                <p>Ninja nie otrzymała bezpośrednich zmian w umiejętnościach, ponieważ jej siła ma w dużym stopniu wynikać z polimorfii.</p>
+                <p>Korekta skalowania <strong>Zręczność / Siła</strong> poprawia skuteczność postaci w pobocznym przeliczniku statystyk i pomaga utrzymać konkurencyjność względem pozostałych klas.</p>
+              </div>
+            </template>
+          </article>
+
+          <article class="class-changes-panel" id="classPanelNinjaArcher" role="tabpanel" aria-labelledby="classTabNinjaArcher" data-class-panel="ninja-archer" hidden>
+            <h3 class="req-title">Ninja Archer</h3>
+
+            <div class="class-stat-strip">
+              <span>Główna statystyka: <strong>Zręczność</strong></span>
+              <span>Poboczna statystyka: <strong>Siła</strong></span>
+            </div>
+
+            <p class="class-changes-summary">
+              Zmiany u Ninjy zostały wprowadzone z myślą o zachowaniu jej wysokich obrażeń w polimorfii z łuku, ale jednocześnie chcieliśmy zwiększyć jej użyteczność podczas walki na wierzchowcu.
+            </p>
+
+            <p class="class-changes-summary">
+              Dlatego poprawiliśmy przeliczanie statystyk w taki sposób, aby Ninja mogła zadawać znacznie bardziej konkurencyjne obrażenia z jeździectwa względem pozostałych klas. Dzięki temu sztylety oraz miecz stały się realną i grywalną alternatywą wykorzystywaną w PvE.
+            </p>
+
+            <button class="class-changes-modal-button" type="button" data-class-modal-trigger="ninja-archer">Zobacz szczegółowe zmiany umiejętności</button>
+
+            <template data-class-modal-template="ninja-archer">
+              <ul class="class-modal-list">
+                <li>Nie wprowadzano zmian w umiejętnościach.</li>
+                <li>Poprawiono skalowanie statystyk <strong>Zręczność / Siła</strong>.</li>
+                <li>Zmiana ma pozwolić Ninji rywalizować z innymi klasami.</li>
+              </ul>
+              <div class="class-modal-copy">
+                <p>Ninja nie otrzymała bezpośrednich zmian w umiejętnościach, ponieważ jej siła ma w dużym stopniu wynikać z polimorfii.</p>
+                <p>Korekta skalowania <strong>Zręczność / Siła</strong> poprawia skuteczność postaci w pobocznym przeliczniku statystyk i pomaga utrzymać konkurencyjność względem pozostałych klas.</p>
+              </div>
+            </template>
+          </article>
+
+          <article class="class-changes-panel" id="classPanelSuraWeapon" role="tabpanel" aria-labelledby="classTabSuraWeapon" data-class-panel="sura-weapon" hidden>
+            <h3 class="req-title">Sura WP</h3>
+
+            <div class="class-stat-strip">
+              <span>Główna statystyka: <strong>Inteligencja</strong></span>
+              <span>Poboczna statystyka: <strong>Zręczność</strong></span>
+            </div>
+
+            <p class="class-changes-summary">
+              Zmiany u Sury WP miały głównie charakter kosmetyczny. Klasa już wcześniej była bardzo silna, dlatego zamiast jej osłabiania skupiliśmy się przede wszystkim na poprawie pozostałych klas.
+            </p>
+
+            <p class="class-changes-summary">
+              Najważniejszą zmianą jest nowy sposób przeliczania statystyk. Inteligencja wpływa teraz również na Wartość Ataku, natomiast Siła została zastąpiona Zręcznością jako statystyką poboczną - szczególnie efektywną podczas walki na wierzchowcu, gdzie jej skalowanie działa najlepiej.
+            </p>
+
+            <button class="class-changes-modal-button" type="button" data-class-modal-trigger="sura-weapon">Zobacz szczegółowe zmiany umiejętności</button>
+
+            <template data-class-modal-template="sura-weapon">
+              <ul class="class-modal-list">
+                <li>Zmieniono logikę przeliczania <strong>Siły Ataku</strong> z <strong>Czarowanego Ostrza</strong>.</li>
+                <li>Skalowanie zależy od poziomu oraz inteligencji.</li>
+              </ul>
+              <div class="class-modal-copy">
+                <p><strong>Czarowane Ostrze</strong> otrzymało przeliczenie mocniej powiązane z rozwojem postaci, poziomem oraz inteligencją.</p>
+                <p>Dzięki temu Sura WP zachowuje ofensywny charakter, a inwestowanie w główną statystykę ma czytelniejszy wpływ na zadawane obrażenia.</p>
+              </div>
+            </template>
+          </article>
+
+          <article class="class-changes-panel" id="classPanelSuraMagic" role="tabpanel" aria-labelledby="classTabSuraMagic" data-class-panel="sura-magic" hidden>
+            <h3 class="req-title">Sura BM</h3>
+
+            <div class="class-stat-strip">
+              <span>Główna statystyka: <strong>Inteligencja</strong></span>
+              <span>Poboczna statystyka: <strong>Zręczność</strong></span>
+            </div>
+
+            <p class="class-changes-summary">
+              Zmiany u Sury BM zostały wprowadzone w taki sposób, aby klasa stała się znacznie bardziej grywalna również w PvE, jednocześnie zachowując swoją mocną pozycję w pojedynkach PvP.
+            </p>
+
+            <p class="class-changes-summary">
+              W związku z tym poprawiliśmy przeliczanie wybranych umiejętności oraz statystyk postaci. Sura BM korzysta teraz głównie z Inteligencji jako podstawowej statystyki, natomiast Zręczność pełni rolę statystyki pobocznej, której potencjał najlepiej wykorzystywany jest podczas walki na wierzchowcu - tam skalowanie działa najefektywniej.
+            </p>
+
+            <button class="class-changes-modal-button" type="button" data-class-modal-trigger="sura-magic">Zobacz szczegółowe zmiany umiejętności</button>
+
+            <template data-class-modal-template="sura-magic">
+              <ul class="class-modal-list">
+                <li>Dodano bonus <strong>Wartość Ataku PvE</strong> do <strong>Mrocznej Ochrony</strong>.</li>
+                <li>Zwiększono skalowanie <strong>Obrony</strong> w <strong>Mrocznej Ochronie</strong>.</li>
+              </ul>
+              <div class="class-modal-copy">
+                <p><strong>Mroczna Ochrona</strong> została wzmocniona zarówno pod kątem PvE, jak i defensywnego skalowania.</p>
+                <p>Dodanie <strong>Wartości Ataku PvE</strong> pomaga BM-owi w aktywnościach PvE, a zwiększone skalowanie Obrony podkreśla jego ochronny charakter.</p>
+              </div>
+            </template>
+          </article>
+
+          <article class="class-changes-panel" id="classPanelShamanDragon" role="tabpanel" aria-labelledby="classTabShamanDragon" data-class-panel="shaman-dragon" hidden>
+            <h3 class="req-title">Szaman Smok</h3>
+
+            <div class="class-stat-strip">
+              <span>Główna statystyka: <strong>Inteligencja</strong></span>
+              <span>Poboczna statystyka: <strong>Zręczność</strong></span>
+            </div>
+
+            <p class="class-changes-summary">
+              Zmiany u Szamana obejmują przede wszystkim poprawę skalowania statystyk. Inteligencja wpływa teraz również na Wartość Ataku, natomiast Zręczność pełni rolę statystyki pobocznej, której potencjał w PvE najlepiej wykorzystywany jest podczas walki na wierzchowcu — tam skalowanie działa najefektywniej.
+            </p>
+
+            <p class="class-changes-summary">
+              Dzięki wprowadzonym zmianom Szaman stał się klasą, która może bez problemu rywalizować z innymi postaciami w PvE, jednocześnie zachowując swoją silną pozycję w PvP.
+            </p>
+
+            <button class="class-changes-modal-button" type="button" data-class-modal-trigger="shaman-dragon">Zobacz szczegółowe zmiany umiejętności</button>
+
+            <template data-class-modal-template="shaman-dragon">
+              <ul class="class-modal-list">
+                <li>Dodano bonus <strong>Wartość Ataku PvE</strong> do <strong>Odbicia</strong>.</li>
+                <li>Bonus skaluje się z poziomem oraz inteligencją.</li>
+                <li><strong>Odbicie</strong> można teraz nakładać tylko na siebie.</li>
+              </ul>
+              <div class="class-modal-copy">
+                <p><strong>Odbicie</strong> otrzymało bonus PvE skalujący się z poziomem oraz inteligencją, co wzmacnia Smoka w rozgrywce przeciwko potworom.</p>
+                <p>Ograniczenie nakładania Odbicia wyłącznie na siebie porządkuje rolę tej umiejętności i zapobiega przenoszeniu jej pełnego potencjału na inne postacie.</p>
+              </div>
+            </template>
+          </article>
+
+          <article class="class-changes-panel" id="classPanelShamanHeal" role="tabpanel" aria-labelledby="classTabShamanHeal" data-class-panel="shaman-heal" hidden>
+            <h3 class="req-title">Szaman Healer</h3>
+
+            <div class="class-stat-strip">
+              <span>Główna statystyka: <strong>Inteligencja</strong></span>
+              <span>Poboczna statystyka: <strong>Zręczność</strong></span>
+            </div>
+
+            <p class="class-changes-summary">
+              Zmiany u Szamana obejmują przede wszystkim poprawę skalowania statystyk. Inteligencja wpływa teraz również na Wartość Ataku, natomiast Zręczność pełni rolę statystyki pobocznej, której potencjał w PvE najlepiej wykorzystywany jest podczas walki na wierzchowcu — tam skalowanie działa najefektywniej.
+            </p>
+
+            <p class="class-changes-summary">
+              Dzięki wprowadzonym zmianom Szaman stał się klasą, która może bez problemu rywalizować z innymi postaciami w PvE, jednocześnie zachowując swoją silną pozycję w PvP.
+            </p>
+
+
+            <button class="class-changes-modal-button" type="button" data-class-modal-trigger="shaman-heal">Zobacz szczegółowe zmiany umiejętności</button>
+
+            <template data-class-modal-template="shaman-heal">
+              <ul class="class-modal-list">
+                <li>Zmieniono logikę przeliczania <strong>Siły Ataku</strong> ze <strong>Zwiększenia Ataku</strong>.</li>
+                <li>Skalowanie zależy od poziomu oraz inteligencji.</li>
+              </ul>
+              <div class="class-modal-copy">
+                <p><strong>Zwiększenie Ataku</strong> zostało przeliczone tak, aby jego wartość była mocniej powiązana z poziomem oraz inteligencją postaci.</p>
+                <p>Zmiana wzmacnia sens rozwoju Healerem i sprawia, że główna statystyka ma bardziej widoczny wpływ na ofensywne wsparcie.</p>
+              </div>
+            </template>
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="class-changes-modal" id="classChangesModal" data-class-modal hidden>
+      <button class="class-changes-modal__backdrop" type="button" aria-label="Zamknij szczegółowe zmiany"></button>
+      <div class="class-changes-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="classChangesModalTitle">
+        <button class="class-changes-modal__close" type="button" aria-label="Zamknij szczegółowe zmiany">&times;</button>
+        <h3 class="req-title class-changes-modal__title" id="classChangesModalTitle">Szczegółowe zmiany</h3>
+        <div class="class-changes-modal__body" data-class-modal-body></div>
+      </div>
+    </div>
   </div>
 
   <div class="section section-break">
@@ -1270,7 +1580,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <tr>
           <td><p>0–21</p></td>
           <td><p><img src="https://img.m2icondb.com/50050.png"><br>Medal Konny</p></td>
-          <td><p>24 godziny</p></td>
+          <td><p>6 godzin</p></td>
           <td><p>40%</p></td>
           <td><p>Nie działa</p></td>
           <td><p>Tak</p></td>
@@ -2564,7 +2874,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <h3 class="req-title">Przetopy</h3>
     <h1></h1>
     <p class="essence-panel__lead">
-      Przetopy możemy wytwarzać u <strong>Jae-Seon Kim</strong>.
+      Przetopy możemy wytwarzać u <strong>Deokbae</strong>.
     </p>
     <div class="przetop-panel">
         <div class="przetop-menu" id="przetopMenu" aria-label="Lista przetopów"></div>
@@ -3476,7 +3786,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <p class="belt-card__bonus">Obrona <span>173</span></p>
             <p class="belt-card__bonus">Szybkość Ruchu <span>-12%</span></p>
             <p class="belt-card__bonus">Obrażenia Umiejętności <span>8%</span></p>
-            <p class="belt-card__bonus">Odporność na Ludzi <span>10%</span></p>
+            <p class="belt-card__bonus">Odporność na Ludzi <span>12%</span></p>
           </div>
           <p class="belt-card__equip">[Przeznaczona dla]</p>
           <p class="belt-card__classes">Wojownik, Ninja, Sura, Szaman</p>
@@ -3527,7 +3837,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <div class="pve-set-card__bonus-group">
             <p class="belt-card__bonus">Szybkość Zaklęcia <span>+30%</span></p>
             <p class="belt-card__bonus">Szansa na przeszywające Uderzenie <span>25%</span></p>
-            <p class="belt-card__bonus">Odporność na Ludzi <span>8%</span></p>
+            <p class="belt-card__bonus">Odporność na Ludzi <span>12%</span></p>
           </div>
           <p class="belt-card__equip">[Przeznaczona dla]</p>
           <p class="belt-card__classes">Wojownik, Ninja, Sura, Szaman</p>
@@ -3545,7 +3855,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <p class="belt-card__bonus">Obrona <span>10</span></p>
             <p class="belt-card__bonus">Szybkość Ruchu <span>25%</span></p>
             <p class="belt-card__bonus">Szansa na blok ciosów <span>20%</span></p>
-            <p class="belt-card__bonus">Odporność na Ludzi <span>8%</span></p>
+            <p class="belt-card__bonus">Odporność na Ludzi <span>12%</span></p>
           </div>
           <p class="belt-card__equip">[Przeznaczona dla]</p>
           <p class="belt-card__classes">Wojownik, Ninja, Sura, Szaman</p>
@@ -4362,7 +4672,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		</div>
 <!-- </div> -->
  <div class="main__photo">
-<img src="https://pub-05243780335c463c92941126f1c5e19d.r2.dev/Bez_nazwy-5.png" alt="Banner" class="main__photo--background el_section_1 el_section_2 el_section_3 el_section_4 el_section_5 el_section_1 el_section_30 el_section_7 el_section_8 el_section_31 el_section_33 el_section_32 el_section_37 el_section_38 el_section_40 el_section_41 el_section_44">
+<img src="https://pub-05243780335c463c92941126f1c5e19d.r2.dev/Bez_nazwy-5.png" alt="Banner" class="main__photo--background el_section_1 el_section_2 el_section_3 el_section_4 el_section_5 el_section_50 el_section_49 el_section_1 el_section_30 el_section_7 el_section_8 el_section_31 el_section_33 el_section_32 el_section_37 el_section_38 el_section_40 el_section_41 el_section_44">
 <img src="https://pub-05243780335c463c92941126f1c5e19d.r2.dev/b5.png" alt="Banner" class="main__photo--background el_section_19 el_section_9">
 <img src="https://pub-05243780335c463c92941126f1c5e19d.r2.dev/b10.png" alt="Banner" class="main__photo--background el_section_10 el_section_11">
 <img src="https://pub-05243780335c463c92941126f1c5e19d.r2.dev/b6.png" alt="Banner" class="main__photo--background el_section_12 el_section_13 el_section_14">
@@ -4377,6 +4687,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 </main>
 <script src="global.js"></script>
+<script src="klasy/skills.js"></script>
+<script src="itemshop/item-shop.js"></script>
 <script src="reszta.js"></script>
 <script src="uriel-crafting.js"></script>
 <script src="knowledge-api.js"></script>
