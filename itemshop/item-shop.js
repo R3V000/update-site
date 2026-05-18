@@ -144,7 +144,7 @@
       items: [
         {
           name: "Manu Monastyru",
-          price: 799,
+          price: 899,
           icon: "https://img.m2icondb.com/71225.png",
           desc: "Wierzchowiec czasowy. Czas trwania: 30d.",
           tooltip: {
@@ -193,7 +193,7 @@
       items: [
         {
           name: "Wiewiór",
-          price: 799,
+          price: 899,
           icon: "https://img.m2icondb.com/53001.png",
           desc: "Pet czasowy dla graczy lubiących bojowy styl. Czas trwania: 30d.",
           tooltip: {
@@ -208,7 +208,7 @@
         },
         {
           name: "Wiedźma",
-          price: 799,
+          price: 899,
           icon: "https://img.m2icondb.com/53001.png",
           desc: "Pet czasowy dla graczy lubiących bojowy styl. Czas trwania: 30d.",
           tooltip: {
@@ -257,7 +257,7 @@
       items: [
         {
           name: "Przykładowa Nakładka",
-          price: 299,
+          price: 499,
           icon: "itemshop/qs.png",
           desc: "Kosmetyczny wygląd broni. Czas trwania: 30d.",
           tooltip: {
